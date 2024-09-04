@@ -4,19 +4,14 @@
 }
 
 
-/* Centering the image using flexbox */
+/* div for logo */
 #logodiv {
-  display: flex;
-  justify-content: center; /* Centers horizontally */
-  align-items: center;     /* Centers vertically */
-          
-}
-
-#logo {
-  max-width: 100%;         /* Ensures the logo does not overflow the container */
- height: 200px;
- width: 200px;   
- margin-top: 10px;      /* Maintains the aspect ratio */
+  background-image: url('/Logo.jpeg');
+  background-size: cover; /* Ensures the image covers the entire div */
+  background-position: center; /* Centers the image within the div */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  width: 100%;
+  height: 300px;
 }
 
 
