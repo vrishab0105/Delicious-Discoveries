@@ -1,0 +1,162 @@
+*{
+   padding: 0;
+   margin: 0 ; 
+}
+
+
+/* Centering the image using flexbox */
+#logodiv {
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center;     /* Centers vertically */
+          
+}
+
+#logo {
+  max-width: 100%;         /* Ensures the logo does not overflow the container */
+ height: 200px;
+ width: 200px;   
+ margin-top: 10px;      /* Maintains the aspect ratio */
+}
+
+
+/* Navbar Styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 10px 20px;
+  font-family: Arial, sans-serif;
+}
+
+.nav-left,
+.nav-right {
+  display: flex;
+  list-style-type: none;
+}
+
+.nav-left li,
+.nav-right li {
+  margin: 0 15px;
+}
+
+.nav-left li a,
+.nav-right li a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 8px 12px;
+  transition: background-color 0.3s ease;
+}
+
+.nav-left li a:hover,
+.nav-right li a:hover {
+  background-color: #555;
+  border-radius: 4px;
+}
+
+/* Add space for the navbar above the flip-card-container */
+.flip-card-container {
+  margin-top: 20px;
+}
+
+
+
+/* flip card code is below */
+body{
+  background-color: white;
+}
+.flip-card-container {
+  display: flex;
+  justify-content: flex-start; /* Aligns items to the left */
+  align-items: center; /* Centers items vertically within the container */
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 200px;
+  height: 250px;
+  perspective: 1000px;
+  display: inline-block;
+  margin: 10px;
+  
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: white;
+  color: black;
+  font-size: 10vh;
+  line-height: 250px;
+}
+
+.flip-card-back {
+  background-color: #2980b9;
+  color: white;
+  transform: rotateY(180deg);
+  
+}
+
+
+/* Specific Background Colors for Each Card */
+.india-front {
+  background-color: #ff9999; /* Light red for India */
+  border-radius: 10px;
+}
+
+.india-back {
+  background-color: #ff4d4d; /* Darker red for India */
+  border-radius: 10px;
+}
+
+.usa-front {
+  background-color: #99ccff; /* Light blue for USA */
+  border-radius: 10px;
+}
+
+.usa-back {
+  background-color: #3385ff; /* Darker blue for USA */
+  border-radius: 10px;
+}
+
+.italy-front {
+  background-color: #b3ff99; /* Light green for Italy */
+  border-radius: 10px;
+}
+
+.italy-back {
+  background-color: #66cc66; /* Darker green for Italy */
+  border-radius: 10px;
+}
+
+.Spain-front{
+  background-color: #66cc66; /* Darker green for Italy */
+  border-radius: 10px;
+}
+.Spain-back{
+  background: #3385ff;
+}
