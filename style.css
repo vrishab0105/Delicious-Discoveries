@@ -20,6 +20,7 @@
 }
 
 
+
 /* Navbar Styles */
 .navbar {
   display: flex;
@@ -28,30 +29,40 @@
   background-color: #333;
   padding: 10px 20px;
   font-family: Arial, sans-serif;
+  color: white;
 }
 
-.nav-left,
+/* Position the name on the left */
+#name {
+  font-size: 16px;
+}
+
+/* Center the navigation links */
+.nav-center {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+}
+
 .nav-right {
   display: flex;
-  list-style-type: none;
+  align-items: center;
+  justify-content: flex-end;
 }
 
-.nav-left li,
-.nav-right li {
-  margin: 0 15px;
-}
-
-.nav-left li a,
-.nav-right li a {
+/* Style the links in the center and right sections */
+.nav-center a,
+.nav-right a {
   color: white;
   text-decoration: none;
   font-size: 16px;
   padding: 8px 12px;
+  margin: 0 10px;
   transition: background-color 0.3s ease;
 }
 
-.nav-left li a:hover,
-.nav-right li a:hover {
+.nav-center a:hover,
+.nav-right a:hover {
   background-color: #555;
   border-radius: 4px;
 }
@@ -60,7 +71,6 @@
 .flip-card-container {
   margin-top: 20px;
 }
-
 
 
 /* flip card code is below */
