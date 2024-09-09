@@ -36,7 +36,7 @@ body{
 #intro p {
   font-size: 1.3em;
   line-height: 1.8em;
-  color: #333;
+  color: #333333;
   margin-top: 20px;
 }
 
@@ -50,7 +50,21 @@ body{
   font-size: 2em;
   color: #5c6b49; /* Larger and colored first letter for style */
 }
+
+
+/* ------------------------------------------------------------------------ */
 /* Navbar Styles */
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%; /* Ensure the header spans the full width */
+  z-index: 1000; /* Ensures the header stays above other content */
+}
+
+
+
 .navbar {
   position: fixed;
   top: 0;
@@ -127,7 +141,8 @@ body {
 
 /* intro for the countries */
 hr{
-  border: 2px solid black;
+  border: 2px solid #333333;
+  
 }
 .countries{
 border-radius: 10px;
@@ -167,7 +182,15 @@ color: #333;
   display: inline-block;
   margin: 10px;
 }
+ .flip-card h1{
+  padding: 2px;
+ }
 
+ .flip-card p{
+  padding: 5px 20px 5px 20px;
+  text-align: center;
+  color: white;
+ }
 
 .flip-card-inner {
   position: relative;
@@ -194,16 +217,26 @@ color: #333;
 }
 
 .flip-card-front {
-  
+  margin: auto;
   color: black;
   font-size: 10vh;
   line-height: 250px;
+  text-align: center;
 }
 
 .flip-card-back {
   background-color: #2980b9;
  margin: 0;
   transform: rotateY(180deg);
+  
+}
+.flip-card-back p{
+  color: whitesmoke;
+  text-align: justify;
+}
+.flip-card-back h1{
+  font-size: 4vh;
+  padding: 6px 10px 4px 10px;
   
 }
 
@@ -230,10 +263,7 @@ color: #333;
 .india-back h1{
   color: whitesmoke;
 }
-.india-back p{
-  color: whitesmoke;
-  text-align: justify;
-}
+
 
 .usa-front {
   background-color: #99ccff; /* Light blue for USA */
@@ -244,6 +274,8 @@ color: #333;
   background-color: #3385ff; /* Darker blue for USA */
   border-radius: 10px;
 }
+
+
 
 .italy-front {
   background-color: #b3ff99; /* Light green for Italy */
@@ -261,4 +293,5 @@ color: #333;
 }
 .Spain-back{
   background: #3385ff;
+  border-radius: 10px;
 }
