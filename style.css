@@ -50,7 +50,6 @@ body{
   font-size: 2em;
   color: #5c6b49; /* Larger and colored first letter for style */
 }
-
 /* Navbar Styles */
 .navbar {
   position: fixed;
@@ -124,11 +123,37 @@ body {
 }
 
 
+/* ------------------------------------------------------------------------- */
+
+/* intro for the countries */
+hr{
+  border: 2px solid black;
+}
+.countries{
+border-radius: 10px;
+max-width: 100%;
+font-size: 1.3em;
+line-height: 1.8em;
+color: #333;
+
+}
+
+.countries h1{
+  padding: 10px;
+   font-family: 'Pirata One', cursive;
+   color: #e67300;
+}
+.countries p{
+  
+  padding: 10px;
+  padding-top: 0;
+}
+/* ------------------------------------------------------------------------- */
 /* flip card code is below */
 
 .flip-card-container {
   display: flex;
-  justify-content: flex-start; /* Aligns items to the left */
+  justify-content: space-evenly; /* Aligns items to the left */
   align-items: center; /* Centers items vertically within the container */
   
 }
@@ -136,13 +161,13 @@ body {
 
 .flip-card {
   background-color: transparent;
-  width: 200px;
-  height: 250px;
+  width: 240px;
+  height: 290px;
   perspective: 1000px;
   display: inline-block;
   margin: 10px;
-  
 }
+
 
 .flip-card-inner {
   position: relative;
@@ -169,7 +194,7 @@ body {
 }
 
 .flip-card-front {
-  background-color: white;
+  
   color: black;
   font-size: 10vh;
   line-height: 250px;
@@ -177,21 +202,37 @@ body {
 
 .flip-card-back {
   background-color: #2980b9;
-  color: white;
+ margin: 0;
   transform: rotateY(180deg);
   
 }
 
+/* -------------------------------------------------------------------------------- */
 
+.divider {
+  width: 75%; /* Adjust width of the partition */
+  height: 2px; /* Height of the partition */
+  background-color: #ccc; /* Color of the partition */
+  margin: 10px auto; /* Space around the divider */
+}
 /* Specific Background Colors for Each Card */
 .india-front {
-  background-color: #ff9999; /* Light red for India */
+  background-color: rgb(255, 0, 55); /* Light white overlay with opacity */
   border-radius: 10px;
+  color: white;
 }
 
 .india-back {
   background-color: #ff4d4d; /* Darker red for India */
   border-radius: 10px;
+  padding: auto;
+}
+.india-back h1{
+  color: whitesmoke;
+}
+.india-back p{
+  color: whitesmoke;
+  text-align: justify;
 }
 
 .usa-front {
