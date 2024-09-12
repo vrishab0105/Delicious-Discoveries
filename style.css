@@ -29,7 +29,7 @@ body{
 }
 
 #intro h1 span {
-  color: #e67300; /* Highlight the brand name */
+  color: rgb(230, 115, 0); /* Highlight the brand name */
   font-style: italic;
 }
 

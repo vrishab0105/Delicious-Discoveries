@@ -97,22 +97,22 @@ body {
 h3 {
     margin-bottom: 20px;
     text-align: left;
-    color: #663399;
+    color: rgb(230, 115, 0);
     font-size: 24px;
     text-transform: uppercase;
 }
 
-hr {
+#divider {
     border: none;
     border-top: 2px solid #663399;
     margin: 20px 0;
 }
 
 .indiaintro {
-    background-color: #fdf0f7; /* Light pink background */
+    background-color: rgba(230, 115, 0,0.2); /* Light pink background */
     color: #333; /* Darker text for better readability */
     padding: 30px; /* Increased padding for a more spacious layout */
-    border-left: 5px solid #ff4081; /* Pink border to the left */
+    border-left: 5px solid #5c6b49; /* Pink border to the left */
     font-family: 'Arial', sans-serif; /* Clean and readable font */
     font-size: 17px; /* Slightly increased font size for readability */
     line-height: 1.8; /* Increased line height for better readability */
@@ -155,15 +155,13 @@ hr {
 
 
 .div1 {
-    height: 120px;
-    width: 120px;
-    background-color: rgb(102, 51, 153);
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
+    height: 250px;
+    width: 200px;
+    background-color: rgb(230, 115, 0);
+    
+    text-align: center;
     color: white;
     margin: 20px;
-    text-align: center;
     font-size: 18px;
     border-radius: 10px;
     transition: transform 0.5s ease, box-shadow 0.5s ease;
@@ -175,9 +173,17 @@ hr {
     z-index: 1; /* Ensure text stays above any pseudo-element */
 }
 
+.div1 p{
+    text-align: left;
+    display: inline-block;
+    width: 100%;
+    padding: 15px 10px 5px 10px;
+
+}
+
 .div1:hover {
     transform: translateY(-20px) scale(1.1);
-    box-shadow: 0px 15px 25px rgba(102, 51, 153, 0.3);
+    box-shadow: 0px 15px 25px  rgba(230, 115, 0);
 }
 
 .div1::before {
@@ -187,7 +193,7 @@ hr {
     width: 100%;
     top: 0;
     left: 0;
-    background: linear-gradient(45deg, rgba(255, 64, 129, 0.3), rgba(102, 51, 153, 0.5));
+    /* background: linear-gradient(45deg, rgba(255, 64, 129, 0.3), rgba(102, 51, 153, 0.5)); */
     border-radius: 10px;
     transition: opacity 0.5s ease;
     z-index: 0; /* Place background behind the text */
@@ -235,8 +241,17 @@ hr {
 
 .states {
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+    
+    align-items: left;
     margin-top: 20px; /* Add some space between the heading and the cards */
     flex-wrap: wrap; /* Ensures that cards wrap to the next line on smaller screens */
 }
+
+
+.divider {
+     /* Adjust width of the partition */
+    height: 2px; /* Height of the partition */
+    background-color: #ccc; /* Color of the partition */
+    margin-left: 10px;
+    margin-right: 15px; /* Space around the divider */
+  }
