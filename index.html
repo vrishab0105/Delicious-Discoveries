@@ -3,140 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Recipe Manager</title>
+    <title>Recipe App</title>
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins:wght@300;600&display=swap" rel="stylesheet">
 </head>
 <body>
+    <div class="container">
+        <h1>Recipe List</h1>
+        <button id="add-recipe-btn" class="btn">Add Recipe</button>
+        <ul class="recipe-list" id="recipe-list"></ul>
+    </div>
 
-    <header>
-        <div class="container">
-            <h1>Recipe Manager</h1>
-        </div>
-    </header>
-    
-    <main>
-        <div class="container">
-            <!-- Form to Add a New Recipe -->
-            <section class="recipe-form">
-                <h2>Add a Recipe</h2>
-                <form id="recipe-form">
-                    <input type="text" id="recipe-name" placeholder="Recipe Name" required>
-                    <textarea id="recipe-ingredients" placeholder="Ingredients (e.g., Potatoes, Spices)" required></textarea>
-                    <textarea id="recipe-steps" placeholder="Steps (e.g., Boil the potatoes, add spices...)" required></textarea>
-                    <button type="submit" class="btn">Add Recipe</button>
-                </form>
-            </section>
-
-            <!-- Display Recipes -->
-            <section class="recipe-list">
-                <h2>Your Recipes</h2>
-                <ul id="recipes">
-                    <!-- Recipes will be injected here dynamically -->
-                </ul>
-            </section>
-
-            <!-- Modal for viewing recipe details -->
-            <div id="recipe-modal" class="modal">
-                <div class="modal-content">
-                    <span class="close-btn">&times;</span>
-                    <h3 id="modal-recipe-name"></h3>
-                    <p><strong>Ingredients:</strong> <span id="modal-recipe-ingredients"></span></p>
-                    <p><strong>Steps:</strong> <span id="modal-recipe-steps"></span></p>
-                </div>
+    <!-- Full-screen Modal -->
+    <div id="recipe-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="recipe-details">
+                <h2 id="modal-recipe-name"></h2>
+                <h3>Ingredients</h3>
+                <ul id="modal-recipe-ingredients"></ul>
+                <h3>Steps</h3>
+                <ol id="modal-recipe-steps"></ol>
             </div>
         </div>
-    </main>
+    </div>
 
-    <footer>
-        <p>Made with ❤️ by Recipe Manager</p>
-    </footer>
+    <!-- Add Recipe Page -->
+    <div id="add-recipe-page" class="add-recipe-page">
+        <div class="add-recipe-content">
+            <span class="close-add-recipe">&times;</span>
+            <h2>Add New Recipe</h2>
+            <form id="add-recipe-form">
+                <label for="recipe-name">Recipe Name:</label>
+                <input type="text" id="recipe-name" required>
 
-    <!-- Firebase SDK -->
-    <script type="module">
-        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.13.1/firebase-app.js";
-        import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.13.1/firebase-analytics.js";
-        import { getDatabase, ref, set, push, onValue } from "https://www.gstatic.com/firebasejs/10.13.1/firebase-database.js";
+                <label for="ingredients">Ingredients (comma-separated):</label>
+                <textarea id="ingredients" rows="4" required></textarea>
 
-        const firebaseConfig = {
-            apiKey: "AIzaSyDa84aF-8FeNYVuxB1b3ffPNvY1-KspQFk",
-            authDomain: "receipe-e56ae.firebaseapp.com",
-            databaseURL: "https://receipe-e56ae-default-rtdb.asia-southeast1.firebasedatabase.app",
-            projectId: "receipe-e56ae",
-            storageBucket: "receipe-e56ae.appspot.com",
-            messagingSenderId: "513489179455",
-            appId: "1:513489179455:web:7f26b4734f99854704798a",
-            measurementId: "G-C75XCMJKKE"
-        };
+                <label for="steps">Steps (comma-separated):</label>
+                <textarea id="steps" rows="4" required></textarea>
 
-        const app = initializeApp(firebaseConfig);
-        const analytics = getAnalytics(app);
-        const database = getDatabase(app);
+                <button type="submit" class="btn">Add Recipe</button>
+            </form>
+        </div>
+    </div>
 
-        const recipeForm = document.getElementById('recipe-form');
-        const recipesList = document.getElementById('recipes');
-        const modal = document.getElementById('recipe-modal');
-        const closeModalBtn = document.querySelector('.close-btn');
-        const modalRecipeName = document.getElementById('modal-recipe-name');
-        const modalRecipeIngredients = document.getElementById('modal-recipe-ingredients');
-        const modalRecipeSteps = document.getElementById('modal-recipe-steps');
-
-        // Add a new recipe to the Firebase Realtime Database
-        recipeForm.addEventListener('submit', (e) => {
-            e.preventDefault();
-
-            const recipeName = document.getElementById('recipe-name').value;
-            const recipeIngredients = document.getElementById('recipe-ingredients').value;
-            const recipeSteps = document.getElementById('recipe-steps').value;
-
-            const newRecipeRef = push(ref(database, 'recipes'));
-            set(newRecipeRef, {
-                name: recipeName,
-                ingredients: recipeIngredients,
-                steps: recipeSteps
-            });
-
-            recipeForm.reset();
-        });
-
-        // Function to display recipes from Firebase Realtime Database
-        function loadRecipes() {
-            const recipesRef = ref(database, 'recipes');
-            onValue(recipesRef, (snapshot) => {
-                recipesList.innerHTML = '';
-
-                snapshot.forEach((childSnapshot) => {
-                    const recipe = childSnapshot.val();
-                    const li = document.createElement('li');
-                    li.classList.add('recipe-card');
-                    li.textContent = recipe.name;
-
-                    // Add click event to show recipe details in a modal
-                    li.addEventListener('click', () => {
-                        modalRecipeName.textContent = recipe.name;
-                        modalRecipeIngredients.textContent = recipe.ingredients;
-                        modalRecipeSteps.textContent = recipe.steps;
-                        modal.style.display = 'block';
-                    });
-
-                    recipesList.appendChild(li);
-                });
-            });
-        }
-
-        // Close modal when 'x' is clicked
-        closeModalBtn.addEventListener('click', () => {
-            modal.style.display = 'none';
-        });
-
-        // Close modal when clicked outside of modal content
-        window.addEventListener('click', (e) => {
-            if (e.target === modal) {
-                modal.style.display = 'none';
-            }
-        });
-
-        window.onload = loadRecipes;
-    </script>
+    <script src="scripts.js" type="module"></script>
 </body>
 </html>
