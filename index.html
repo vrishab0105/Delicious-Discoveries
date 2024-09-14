@@ -1,193 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="/style.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Pirata+One&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Manager</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  
-<!-- Navbar -->
-<header>
-  <nav class="navbar">
-    <div id="name">
-      <img src="/Logo.jpeg" alt="Logo" id="navbar-logo">
-      Delicious Discoveries
-    </div>
-    <div class="nav-center">
-      <a href="/index.html">Home</a>
-      <a href="#about">About</a>
-      
-        <a href="#categories">Category List</a>
-      
-      </div>
-    </div>
-    <div class="nav-right">
-      <a href="#language">Language</a>
-    </div>
-  </nav>
-</header>
 
-<!-- xcomment -->
-
-
-
-<div id="logodiv">
-  <div id="intro">
-    <h1>Welcome to <span>Delicious Discoveries</span></h1>
-    <p>
-      Your gateway to a culinary adventure like no other! Immerse yourself in a vibrant world of flavors, where each recipe is a celebration of taste, texture, and creativity. Whether you're a kitchen maestro or a budding food enthusiast, our handpicked recipes are designed to ignite your passion for cooking. With simple instructions, bold ingredients, and a dash of inspiration, you’ll transform everyday meals into extraordinary experiences. Get ready to explore, create, and savor—because at <span>Delicious Discoveries</span>, every dish tells a delicious story!
-    </p>
-  </div>
-  
-</div>
-<hr>
-<div class="countries">
-  <h1>Explore Culinary Delights from Around the World</h1>
-  <p>Embark on a flavorful journey across the globe by selecting a country below. Whether you're craving exotic spices or comforting classics, each destination offers a unique taste experience waiting to be discovered. Choose your next culinary adventure!</p>
-</div>
-  <!-- below is the flip card -->
-
-  <div class="flip-card-container">
-    <div class="flip-card">
-      <a href="india.html"> <!-- Link to India's page -->
-        <div class="flip-card-inner">
-          <div class="flip-card-front india-front">
-            India
-          </div>
-       <div class="flip-card-back india-back">
-    <h1>Welcome to India</h1>
-    <div class="divider"></div> <!-- Partition between heading and paragraph -->
-    <p>Indian cuisine is a vibrant blend of spices, flavors, and textures, offering a unique taste experience with every dish. This recipe brings the essence of India's rich culinary tradition straight to your kitchen</p> 
-</div>
-
-        </div>
-      </a>
+    <h1>Recipe Manager</h1>
+    
+    <!-- Form to Add a New Recipe -->
+    <div class="recipe-form">
+        <h2>Add a Recipe</h2>
+        <form id="recipe-form">
+            <input type="text" id="recipe-name" placeholder="Recipe Name" required>
+            <textarea id="recipe-ingredients" placeholder="Ingredients" required></textarea>
+            <textarea id="recipe-steps" placeholder="Steps" required></textarea>
+            <button type="submit">Add Recipe</button>
+        </form>
     </div>
-  
-    <div class="flip-card">
-      <a href="usa.html"> <!-- Link to USA's page -->
-        <div class="flip-card-inner">
-          <div class="flip-card-front usa-front">
-            USA
-          </div>
-          <div class="flip-card-back usa-back">
-            <h1>Welcome to United States of America</h1> 
-            <div class="divider"></div>
-            <p>American cuisine is a melting pot of diverse flavors and influences, blending traditional recipes with modern twists. This recipe showcases the hearty and comforting tastes that make American food a favorite worldwide.</p>   
-          </div>
-        </div>
-      </a>
-    </div>
-  
-    <div class="flip-card">
-      <a href="italy.html"> <!-- Link to Italy's page -->
-        <div class="flip-card-inner">
-          <div class="flip-card-front italy-front">
-            Italy
-          </div>
-          <div class="flip-card-back italy-back">
-            <h1>Welcome to Italy</h1> 
-            <div class="divider"></div>
-            <p>Italian cuisine is renowned for its simplicity, fresh ingredients, and rich flavors, reflecting centuries of culinary tradition. This recipe brings the authentic taste of Italy, from its rustic pastas to its beloved pizzas, right to your table.</p> 
-            
-          </div>
-        </div>
-      </a>
-    </div>
-  
-    <div class="flip-card">
-      <a href="spain.html"> <!-- Link to Spain's page -->
-        <div class="flip-card-inner">
-          <div class="flip-card-front Spain-front">
-            Spain
-          </div>
-          <div class="flip-card-back Spain-back">
-            <h1>Welcome to Spain</h1> 
-            <div class="divider"></div>
-            <p>Spanish cuisine is a celebration of vibrant flavors, fresh ingredients, and regional diversity, from tapas to paella. This recipe captures the essence of Spain's rich culinary tradition, bringing its bold and savory tastes to your kitchen</p> 
-            
-          </div>
-        </div>
-      </a>
-    </div>
-  </div>
-  
 
-  <!-- set 2 of countries -->
+    <!-- Display Recipes -->
+    <div class="recipe-list">
+        <h2>Your Recipes</h2>
+        <ul id="recipes">
+            <!-- Recipes will be injected here dynamically -->
+        </ul>
+    </div>
 
-  
-  <div class="flip-card-container">
-    <div class="flip-card">
-      <a href="india.html"> <!-- Link to India's page -->
-        <div class="flip-card-inner">
-          <div class="flip-card-front india-front">
-            India
-          </div>
-          <div class="flip-card-back india-back">
-            <h1>Welcome to India</h1> 
-            <div class="divider"></div>
-            <p>India is a vast country with many dishes</p> 
-            
-          </div>
-        </div>
-      </a>
-    </div>
-  
-    <div class="flip-card">
-      <a href="usa.html"> <!-- Link to USA's page -->
-        <div class="flip-card-inner">
-          <div class="flip-card-front usa-front">
-            USA
-          </div>
-          <div class="flip-card-back usa-back">
-            <h1>Welcome to USA</h1> 
-            <div class="divider"></div>
-            <p>The USA is known for its diverse cultures and landscapes</p> 
-           
-          </div>
-        </div>
-      </a>
-    </div>
-  
-    <div class="flip-card">
-      <a href="italy.html"> <!-- Link to Italy's page -->
-        <div class="flip-card-inner">
-          <div class="flip-card-front italy-front">
-            Italy
-          </div>
-          <div class="flip-card-back italy-back">
-            <h1>Welcome to Italy</h1> 
-            <div class="divider"></div>
-            <p>Italy is famous for its rich history and cuisine</p> 
-            
-          </div>
-        </div>
-      </a>
-    </div>
-  
-    <div class="flip-card">
-      <a href="spain.html"> <!-- Link to Spain's page -->
-        <div class="flip-card-inner">
-          <div class="flip-card-front Spain-front">
-            Spain
-          </div>
-          <div class="flip-card-back Spain-back">
-            <h1>Welcome to Spain</h1> 
-            <br><br>
-            <p>Spain is famous for its rich history and cuisine</p> 
-            <br><br><br><br>
-            <p>Click to explore Spain</p>
-          </div>
-        </div>
-      </a>
-    </div>
-  </div>
-  
+    <!-- Firebase SDK -->
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.13.1/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.13.1/firebase-analytics.js";
+        import { getDatabase, ref, set, push, onValue } from "https://www.gstatic.com/firebasejs/10.13.1/firebase-database.js";
 
+        // Your web app's Firebase configuration
+        const firebaseConfig = {
+            apiKey: "AIzaSyDa84aF-8FeNYVuxB1b3ffPNvY1-KspQFk",
+            authDomain: "receipe-e56ae.firebaseapp.com",
+            databaseURL: "https://receipe-e56ae-default-rtdb.asia-southeast1.firebasedatabase.app",
+            projectId: "receipe-e56ae",
+            storageBucket: "receipe-e56ae.appspot.com",
+            messagingSenderId: "513489179455",
+            appId: "1:513489179455:web:7f26b4734f99854704798a",
+            measurementId: "G-C75XCMJKKE"
+        };
+
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+        const database = getDatabase(app);
+
+        // Form reference
+        const recipeForm = document.getElementById('recipe-form');
+        const recipesList = document.getElementById('recipes');
+
+        // Add a new recipe to the Firebase Realtime Database
+        recipeForm.addEventListener('submit', (e) => {
+            e.preventDefault();
+
+            // Get form values
+            const recipeName = document.getElementById('recipe-name').value;
+            const recipeIngredients = document.getElementById('recipe-ingredients').value;
+            const recipeSteps = document.getElementById('recipe-steps').value;
+
+            // Create a new recipe entry in Firebase Realtime Database
+            const newRecipeRef = push(ref(database, 'recipes'));
+            set(newRecipeRef, {
+                name: recipeName,
+                ingredients: recipeIngredients,
+                steps: recipeSteps
+            });
+
+            // Clear the form after submission
+            recipeForm.reset();
+        });
+
+        // Function to display recipes from Firebase Realtime Database
+        function loadRecipes() {
+            const recipesRef = ref(database, 'recipes');
+            onValue(recipesRef, (snapshot) => {
+                recipesList.innerHTML = '';  // Clear existing recipes
+
+                snapshot.forEach((childSnapshot) => {
+                    const recipe = childSnapshot.val();
+                    const li = document.createElement('li');
+                    li.innerHTML = `
+                        <h3>${recipe.name}</h3>
+                        <p><strong>Ingredients:</strong> ${recipe.ingredients}</p>
+                        <p><strong>Steps:</strong> ${recipe.steps}</p>
+                    `;
+                    recipesList.appendChild(li);
+                });
+            });
+        }
+
+        // Load recipes when the page loads
+        window.onload = loadRecipes;
+
+    </script>
 </body>
 </html>
