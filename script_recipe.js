@@ -16,38 +16,37 @@ initializeApp(firebaseConfig);
 
 const db = getDatabase();
 
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', async () => {
     const urlParams = new URLSearchParams(window.location.search);
-    const recipeName = urlParams.get('recipe');
-    if (recipeName) {
-        loadRecipeDetail(recipeName);
+    const recipeId = urlParams.get('recipeId');
+
+    if (recipeId) {
+        await loadRecipeDetail(recipeId);
+    } else {
+        document.getElementById('recipe-content').innerHTML = '<p>Recipe not found.</p>';
     }
 });
 
-async function loadRecipeDetail(recipeName) {
-    const recipeDetail = document.getElementById('recipe-detail');
-    const dbRef = ref(db, `recipes/${recipeName}`);
-    
+async function loadRecipeDetail(recipeId) {
+    const recipeContent = document.getElementById('recipe-content');
+
+    const dbRef = ref(db, `recipes/${recipeId}`);
     try {
         const snapshot = await get(dbRef);
         if (snapshot.exists()) {
             const recipe = snapshot.val();
-            recipeDetail.innerHTML = `
+            recipeContent.innerHTML = `
                 <h2>${recipe.name}</h2>
-                <h3>Ingredients:</h3>
-                <ul>
-                    ${recipe.ingredients.map(ingredient => `<li>${ingredient}</li>`).join('')}
-                </ul>
-                <h3>Steps:</h3>
-                <ol>
-                    ${recipe.steps.map(step => `<li>${step}</li>`).join('')}
-                </ol>
+                <p><strong>Ingredients:</strong></p>
+                <ul>${recipe.ingredients.map(ingredient => `<li>${ingredient}</li>`).join('')}</ul>
+                <p><strong>Steps:</strong></p>
+                <ol>${recipe.steps.map(step => `<li>${step}</li>`).join('')}</ol>
             `;
         } else {
-            recipeDetail.innerHTML = '<p>Recipe not found.</p>';
+            recipeContent.innerHTML = '<p>Recipe not found.</p>';
         }
     } catch (error) {
-        console.error('Error loading recipe:', error);
-        recipeDetail.innerHTML = '<p>Error loading recipe. Please try again later.</p>';
+        console.error('Error loading recipe detail:', error);
+        recipeContent.innerHTML = '<p>Error loading recipe. Please try again later.</p>';
     }
 }

@@ -43,7 +43,7 @@ async function loadRecipesByCountry(country) {
                 recipeItem.className = 'recipe-item';
                 recipeItem.innerHTML = `
                     <h2>${recipe.name}</h2>
-                    <a href="recipe-detail.html?recipe=${encodeURIComponent(recipe.name)}">View Recipe</a>
+                    <a href="recipe-detail.html?recipeId=${encodeURIComponent(key)}">View Recipe</a>
                 `;
                 recipeList.appendChild(recipeItem);
             }
