@@ -27,7 +27,7 @@ document.getElementById('searchButton').addEventListener('click', async () => {
                     messages: [
                         { role: "system", content: "You are a helpful assistant that describes images in detail." },
                         { role: "user", content: [
-                            { type: "text", text: "Give the name of this dish in this image?" },
+                            { type: "text", text: "Only give the name of this dish in this image." },
                             { type: "image_url", image_url: { url: imageDataUrl, details: "low" } }
                         ]}
                     ],
