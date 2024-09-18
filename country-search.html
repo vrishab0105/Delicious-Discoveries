@@ -3,18 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Search Recipes by Country</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Country Recipe Search</title>
+    <link rel="stylesheet" href="style_country.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Search Recipes by Country</h1>
-        <ul>
-            <li>Country 1</li>
-            <li>Country 2</li>
-            <li>Country 3</li>
-            <!-- More countries will go here -->
-        </ul>
-    </div>
+    <header>
+        <h1>Recipe Finder by Country</h1>
+    </header>
+    <main>
+        <section class="country-buttons">
+            <button data-country="United States">USA</button>
+            <button data-country="India">India</button>
+            <button data-country="Italy">Italy</button>
+            <button data-country="Mexico">Mexico</button>
+            <button data-country="Greece">Greece</button>
+            <button data-country="Spain">Spain</button>
+            <button data-country="France">France</button>
+            <button data-country="Vietnam">Vietnam</button>
+        </section>
+        <section id="recipe-list">
+            <!-- Recipe list will be populated here -->
+        </section>
+    </main>
+    <script type="module" src="script_country.js"></script>
 </body>
 </html>
