@@ -18,7 +18,7 @@ const firebaseConfig = {
 const app = initializeApp(firebaseConfig);
 const database = getDatabase(app);
 
-// Function to fetch and display recipe names
+// Function to fetch and display recipe names in alphabetical order
 document.addEventListener('DOMContentLoaded', function () {
     const recipeList = document.getElementById('recipe-list');
     
@@ -29,16 +29,25 @@ document.addEventListener('DOMContentLoaded', function () {
     onValue(recipeRef, (snapshot) => {
         const recipes = snapshot.val();
 
+        // Get an array of recipe objects with keys
+        const recipeArray = Object.keys(recipes).map(key => ({
+            key: key,
+            name: recipes[key].name
+        }));
+
+        // Sort the recipe array alphabetically by name
+        recipeArray.sort((a, b) => a.name.localeCompare(b.name));
+
         // Clear the existing list
         recipeList.innerHTML = '';
 
-        // Loop through the recipes and create list items for each
-        for (const key in recipes) {
+        // Loop through the sorted recipes and create list items for each
+        recipeArray.forEach(recipe => {
             const recipeItem = document.createElement('li');
-            recipeItem.textContent = recipes[key].name;
-            recipeItem.addEventListener('click', () => openRecipeModal(key));
+            recipeItem.textContent = recipe.name;
+            recipeItem.addEventListener('click', () => openRecipeModal(recipe.key));
             recipeList.appendChild(recipeItem);
-        }
+        });
     });
 
     // Open the add recipe page when the button is clicked
@@ -73,19 +82,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
             // Close the add recipe page
             document.getElementById('add-recipe-page').style.display = 'none';
-
-            // Optionally refresh the recipe list
-            const recipeList = document.getElementById('recipe-list');
-            recipeList.innerHTML = '';
-            onValue(recipeRef, (snapshot) => {
-                const recipes = snapshot.val();
-                for (const key in recipes) {
-                    const recipeItem = document.createElement('li');
-                    recipeItem.textContent = recipes[key].name;
-                    recipeItem.addEventListener('click', () => openRecipeModal(key));
-                    recipeList.appendChild(recipeItem);
-                }
-            });
         }).catch(error => {
             console.error('Error adding recipe:', error);
         });
