@@ -45,7 +45,12 @@ document.addEventListener('DOMContentLoaded', function () {
         recipeArray.forEach(recipe => {
             const recipeItem = document.createElement('li');
             recipeItem.textContent = recipe.name;
-            recipeItem.addEventListener('click', () => openRecipeModal(recipe.key));
+
+            // When a recipe is clicked, redirect to recipe-detail.html with the recipe key
+            recipeItem.addEventListener('click', () => {
+                window.location.href = `recipe-detail.html?recipeId=${recipe.key}`;
+            });
+
             recipeList.appendChild(recipeItem);
         });
     });
@@ -86,49 +91,4 @@ document.addEventListener('DOMContentLoaded', function () {
             console.error('Error adding recipe:', error);
         });
     });
-});
-
-// Open modal and display recipe details when clicked
-function openRecipeModal(recipeKey) {
-    const recipeRef = ref(database, `recipes/${recipeKey}`);
-
-    // Fetch the specific recipe from Firebase
-    onValue(recipeRef, (snapshot) => {
-        const recipe = snapshot.val();
-
-        // Populate modal with recipe data
-        document.getElementById('modal-recipe-name').textContent = recipe.name;
-
-        const ingredientsList = document.getElementById('modal-recipe-ingredients');
-        ingredientsList.innerHTML = '';
-        recipe.ingredients.forEach(ingredient => {
-            const li = document.createElement('li');
-            li.textContent = ingredient;
-            ingredientsList.appendChild(li);
-        });
-
-        const stepsList = document.getElementById('modal-recipe-steps');
-        stepsList.innerHTML = '';
-        recipe.steps.forEach(step => {
-            const li = document.createElement('li');
-            li.textContent = step;
-            stepsList.appendChild(li);
-        });
-
-        // Show the modal
-        document.getElementById('recipe-modal').style.display = 'block';
-    });
-}
-
-// Close the modal when the close button is clicked
-document.querySelector('.close').addEventListener('click', () => {
-    document.getElementById('recipe-modal').style.display = 'none';
-});
-
-// Close the modal when clicking outside the modal content
-window.addEventListener('click', function (event) {
-    const modal = document.getElementById('recipe-modal');
-    if (event.target === modal) {
-        modal.style.display = 'none';
-    }
 });
