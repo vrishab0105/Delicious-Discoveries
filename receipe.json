@@ -10,6 +10,8 @@
         "fry the potatoes in the oil\nseason it with the seasoning"
       ]
     },
+
+
     "batataVada": {
       "name": "Batata Vada",
       "country": "India",
@@ -36,6 +38,8 @@
         "Serve hot with chutney or fried green chilies."
       ]
     },
+
+    
     "biryani": {
       "name": "Chicken Biryani",
       "country": "India",
