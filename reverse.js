@@ -1,7 +1,7 @@
 // Replace this with the actual endpoint for client-side usage
 const endpoint = "https://models.inference.ai.azure.com";
 const modelName = "gpt-4o";
-const token = "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"; // Avoid exposing sensitive tokens in client-side code
+const token = "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"; // Avoid exposing sensitive tokens in client-side code
 
 document.getElementById('searchButton').addEventListener('click', async () => {
     const imageInput = document.getElementById('imageInput');
