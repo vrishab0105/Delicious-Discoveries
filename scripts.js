@@ -28,34 +28,42 @@
       const recipeRef = ref(database, 'recipes');
 
       // Fetch the recipe names from Firebase
-      onValue(recipeRef, (snapshot) => {
-          const recipes = snapshot.val();
+      // Fetch the recipe names from Firebase
+onValue(recipeRef, (snapshot) => {
+    const recipes = snapshot.val();
 
-          // Get an array of recipe objects with keys
-          const recipeArray = Object.keys(recipes).map(key => ({
-              key: key,
-              name: recipes[key].name
-          }));
+    // Get an array of recipe objects with keys and country attribute
+    const recipeArray = Object.keys(recipes).map(key => ({
+        key: key,
+        name: recipes[key].name,
+        country: recipes[key].country // Add this line to include the country attribute
+    }));
 
-          // Sort the recipe array alphabetically by name
-          recipeArray.sort((a, b) => a.name.localeCompare(b.name));
+    // Log the country attribute of each recipe to the console
+    recipeArray.forEach(recipe => {
+        console.log(`Recipe Name: ${recipe.name}, Country: ${recipe.country}`);
+    });
 
-          // Clear the existing list
-          recipeList.innerHTML = '';
+    // Sort the recipe array alphabetically by name
+    recipeArray.sort((a, b) => a.name.localeCompare(b.name));
 
-          // Loop through the sorted recipes and create list items for each
-          recipeArray.forEach(recipe => {
-              const recipeItem = document.createElement('li');
-              recipeItem.textContent = recipe.name;
+    // Clear the existing list
+    recipeList.innerHTML = '';
 
-              // When a recipe is clicked, redirect to recipe-detail.html with the recipe key
-              recipeItem.addEventListener('click', () => {
-                  window.location.href = `recipe-detail.html?recipeId=${recipe.key}`;
-              });
+    // Loop through the sorted recipes and create list items for each
+    recipeArray.forEach(recipe => {
+        const recipeItem = document.createElement('li');
+        recipeItem.textContent = recipe.name;
 
-              recipeList.appendChild(recipeItem);
-          });
-      });
+        // When a recipe is clicked, redirect to recipe-detail.html with the recipe key
+        recipeItem.addEventListener('click', () => {
+            window.location.href = `recipe-detail.html?recipeId=${recipe.key}`;
+        });
+
+        recipeList.appendChild(recipeItem);
+    });
+});
+
 
       // Open the add recipe page when the button is clicked
       document.getElementById('add-recipe-btn').addEventListener('click', () => {
