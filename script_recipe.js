@@ -1,16 +1,17 @@
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.13.1/firebase-app.js";
 import { getDatabase, ref, get } from "https://www.gstatic.com/firebasejs/10.13.1/firebase-database.js";
 
-const firebaseConfig = {
-    apiKey: "AIzaSyDa84aF-8FeNYVuxB1b3ffPNvY1-KspQFk",
-    authDomain: "receipe-e56ae.firebaseapp.com",
-    databaseURL: "https://receipe-e56ae-default-rtdb.asia-southeast1.firebasedatabase.app",
-    projectId: "receipe-e56ae",
-    storageBucket: "receipe-e56ae.appspot.com",
-    messagingSenderId: "513489179455",
-    appId: "1:513489179455:web:7f26b4734f99854704798a",
-    measurementId: "G-C75XCMJKKE"
-};
+ // Your web app's Firebase configuration
+ const firebaseConfig = {
+   apiKey: "AIzaSyASQtEDg7g5koc-H-d6W1kGcW0k-vE-TSY",
+   authDomain: "deliciousdiscoveries04.firebaseapp.com",
+   projectId: "deliciousdiscoveries04",
+   storageBucket: "deliciousdiscoveries04.appspot.com",
+   messagingSenderId: "699923003257",
+   appId: "1:699923003257:web:e2800b973a35db246ee1a8",
+   measurementId: "G-BDWV430X2H",
+   databaseURL: "https://deliciousdiscoveries04.firebaseio.com" // Add correct database URL
+ };
 
 initializeApp(firebaseConfig);
 
