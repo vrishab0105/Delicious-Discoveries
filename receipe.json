@@ -1,0 +1,840 @@
+{
+  "recipes": {
+    "Fries": {
+      "name": "Fries",
+      "country": "United States",
+      "ingredients": [
+        "potato\noil\nseasoning"
+      ],
+      "steps": [
+        "fry the potatoes in the oil\nseason it with the seasoning"
+      ]
+    },
+    "batataVada": {
+      "name": "Batata Vada",
+      "country": "India",
+      "ingredients": [
+        "4 medium-sized Potatoes (boiled and mashed)",
+        "2 Green chilies (finely chopped)",
+        "1 tsp Ginger-garlic paste",
+        "1/2 tsp Turmeric powder",
+        "1/2 tsp Mustard seeds",
+        "8-10 Curry leaves",
+        "1 cup Gram flour (Besan)",
+        "A pinch of Baking soda",
+        "Salt to taste",
+        "Oil for frying",
+        "1/2 tsp Red chili powder (for batter)"
+      ],
+      "steps": [
+        "Heat a pan with 1 tbsp oil, add mustard seeds, curry leaves, and green chilies.",
+        "Add ginger-garlic paste and sauté for a minute. Then add turmeric powder and mashed potatoes.",
+        "Mix well, season with salt, and cook for 2-3 minutes. Remove from heat and let it cool.",
+        "Make small balls from the potato mixture and set aside.",
+        "For the batter, mix gram flour, red chili powder, a pinch of baking soda, and salt with water to make a thick batter.",
+        "Heat oil in a deep pan. Dip the potato balls in the batter and deep fry until golden and crispy.",
+        "Serve hot with chutney or fried green chilies."
+      ]
+    },
+    "biryani": {
+      "name": "Chicken Biryani",
+      "country": "India",
+      "ingredients": [
+        "500g Chicken",
+        "2 cups Basmati rice",
+        "2 medium Onions (sliced)",
+        "2 medium Tomatoes (chopped)",
+        "2 tbsp Biryani masala",
+        "1/2 cup Yogurt",
+        "2 Bay leaves",
+        "4 Cloves",
+        "4 Green cardamom",
+        "1 Cinnamon stick",
+        "2 tbsp Ghee",
+        "Fresh coriander and mint leaves (for garnish)"
+      ],
+      "steps": [
+        "Marinate the chicken with yogurt, biryani masala, and salt for 1 hour.",
+        "Cook the rice with whole spices until 80% done and set aside.",
+        "Heat ghee and fry onions until golden brown. Set aside half for garnish.",
+        "Add tomatoes and cook until soft, then add the marinated chicken and cook for 10 minutes.",
+        "Layer half the rice in a pot, add the chicken mixture, and top with the remaining rice.",
+        "Garnish with fried onions, coriander, and mint. Cover and cook on low heat for 20 minutes.",
+        "Serve hot with raita."
+      ]
+    },
+    "butterChicken": {
+      "name": "Butter Chicken",
+      "country": "India",
+      "ingredients": [
+        "500g Chicken (boneless)",
+        "1 cup Yogurt",
+        "2 tbsp Lemon juice",
+        "2 tbsp Butter",
+        "2 medium Onions (finely chopped)",
+        "3 medium Tomatoes (pureed)",
+        "1 tsp Ginger-garlic paste",
+        "1 tsp Garam masala",
+        "1 tsp Red chili powder",
+        "1/2 cup Fresh cream",
+        "Salt to taste",
+        "Fresh coriander leaves (for garnish)"
+      ],
+      "steps": [
+        "Marinate the chicken in yogurt, lemon juice, and spices for 1 hour.",
+        "Heat butter in a pan and sauté onions until golden. Add ginger-garlic paste and cook for 2 minutes.",
+        "Add tomato puree, garam masala, and red chili powder. Cook until oil separates.",
+        "Add the marinated chicken and cook for 15-20 minutes until fully done.",
+        "Stir in the cream and simmer for 5 minutes.",
+        "Garnish with coriander and serve with naan or rice."
+      ]
+    },
+    "dalTadka": {
+      "name": "Dal Tadka",
+      "country": "India",
+      "ingredients": [
+        "1 cup Toor dal (split pigeon peas)",
+        "2 medium Tomatoes (chopped)",
+        "1 medium Onion (chopped)",
+        "1 tsp Cumin seeds",
+        "2-3 Garlic cloves (chopped)",
+        "1 tsp Red chili powder",
+        "1 tsp Turmeric powder",
+        "1 tsp Garam masala",
+        "Fresh coriander leaves (for garnish)",
+        "Ghee or oil for tempering"
+      ],
+      "steps": [
+        "Pressure cook toor dal with turmeric powder and salt until soft.",
+        "Heat ghee and sauté cumin seeds, garlic, and onions until golden brown.",
+        "Add tomatoes and spices, and cook until the oil separates.",
+        "Pour the tempering over the cooked dal and mix well.",
+        "Garnish with coriander leaves and serve with rice or chapati."
+      ]
+    },
+    "dosa": {
+      "name": "Dosa",
+      "country": "India",
+      "ingredients": [
+        "2 cups Rice",
+        "1 cup Urad dal (split black gram)",
+        "1/2 tsp Fenugreek seeds",
+        "Salt to taste",
+        "Oil for cooking"
+      ],
+      "steps": [
+        "Soak rice, urad dal, and fenugreek seeds separately for 6-8 hours.",
+        "Grind rice and dal to a smooth batter. Mix and ferment overnight.",
+        "Add salt to the fermented batter and stir well.",
+        "Heat a tawa, pour a ladleful of batter, and spread in a circular motion.",
+        "Cook until crispy and serve hot with chutney and sambar."
+      ]
+    },
+    "gobiManchurian": {
+      "name": "Gobi Manchurian",
+      "country": "India",
+      "ingredients": [
+        "1 medium Cauliflower (cut into florets)",
+        "1/2 cup Corn flour",
+        "1/2 cup All-purpose flour",
+        "1 tbsp Soy sauce",
+        "2 tbsp Tomato ketchup",
+        "1 tsp Red chili sauce",
+        "1 tsp Vinegar",
+        "2 Green chilies (chopped)",
+        "1 tbsp Ginger-garlic paste",
+        "Salt to taste",
+        "Oil for frying"
+      ],
+      "steps": [
+        "Make a batter with corn flour, all-purpose flour, salt, and water. Dip the cauliflower florets in the batter and deep fry until golden.",
+        "In a separate pan, heat oil and sauté green chilies and ginger-garlic paste.",
+        "Add soy sauce, ketchup, red chili sauce, and vinegar. Cook for 2 minutes.",
+        "Toss the fried cauliflower florets in the sauce and mix well.",
+        "Serve hot, garnished with spring onions."
+      ]
+    },
+    "idli": {
+      "name": "Idli",
+      "country": "India",
+      "ingredients": [
+        "2 cups Rice",
+        "1 cup Urad dal (split black gram)",
+        "1/2 tsp Fenugreek seeds",
+        "Salt to taste",
+        "Water for steaming"
+      ],
+      "steps": [
+        "Soak rice, urad dal, and fenugreek seeds for 6-8 hours.",
+        "Grind the rice and dal to a smooth batter. Ferment overnight.",
+        "Add salt to the batter and pour into greased idli molds.",
+        "Steam for 10-12 minutes until soft and fluffy.",
+        "Serve hot with chutney and sambar."
+      ]
+    },
+    "jalebi": {
+      "name": "Jalebi",
+      "country": "India",
+      "ingredients": [
+        "1 cup All-purpose flour",
+        "1 tbsp Corn flour",
+        "1/2 tsp Baking powder",
+        "1 cup Sugar",
+        "1/2 cup Water",
+        "1/2 tsp Saffron strands",
+        "Ghee for frying"
+      ],
+      "steps": [
+        "Prepare the batter by mixing flour, corn flour, baking powder, and water. Let it ferment for 6 hours.",
+        "Make sugar syrup by boiling sugar, water, and saffron.",
+        "Heat ghee in a pan and pour the batter in a spiral shape using a piping bag.",
+        "Fry until golden and dip in sugar syrup for a few seconds.",
+        "Serve hot."
+      ]
+    },
+    "kheer": {
+      "name": "Kheer",
+      "country": "India",
+      "ingredients": [
+        "1 liter Milk",
+        "1/4 cup Rice",
+        "1/4 cup Sugar",
+        "1/4 cup Cashews (chopped)",
+        "1/4 cup Almonds (chopped)",
+        "1/4 tsp Cardamom powder"
+      ],
+      "steps": [
+        "Boil milk in a large pot. Add washed rice and cook on low heat for 30 minutes.",
+        "Add sugar and stir until it dissolves.",
+        "Add chopped cashews, almonds, and cardamom powder.",
+        "Cook for another 10 minutes, stirring frequently.",
+        "Serve hot or chilled."
+      ]
+    },
+    "carbonara": {
+      "name": "Spaghetti Carbonara",
+      "country": "Italy",
+      "ingredients": [
+        "200g Spaghetti",
+        "100g Pancetta or bacon (diced)",
+        "2 Eggs",
+        "50g Parmesan cheese (grated)",
+        "2 Garlic cloves (minced)",
+        "Salt and black pepper to taste",
+        "Parsley for garnish"
+      ],
+      "steps": [
+        "Cook spaghetti according to package instructions. Drain and set aside.",
+        "In a pan, cook the pancetta or bacon until crispy. Remove from heat.",
+        "In a bowl, whisk together eggs and Parmesan cheese.",
+        "Add garlic to the pan and sauté for 1 minute.",
+        "Add cooked spaghetti to the pan, then mix in the egg and cheese mixture quickly. The heat from the pasta will cook the eggs.",
+        "Stir in the crispy pancetta and season with salt and black pepper.",
+        "Garnish with parsley and serve immediately."
+      ]
+    },
+
+
+        "samosa": {
+          "name": "Samosa",
+          "country": "India",
+          "ingredients": [
+            "2 cups All-purpose flour",
+            "1/4 cup Ghee or oil",
+            "1 tsp Cumin seeds",
+            "1/2 cup Boiled potatoes (mashed)",
+            "1/2 cup Green peas",
+            "1 tsp Garam masala",
+            "1/2 tsp Turmeric powder",
+            "1/2 tsp Red chili powder",
+            "Salt to taste",
+            "Oil for frying"
+          ],
+          "steps": [
+            "Mix flour, ghee, and a pinch of salt. Knead into a smooth dough and let it rest.",
+            "Heat oil in a pan, add cumin seeds, and then mix in potatoes and peas.",
+            "Add spices and cook for a few minutes. Allow the filling to cool.",
+            "Roll out dough, cut into circles, fill with the mixture, and fold into a triangle.",
+            "Deep fry until golden brown.",
+            "Serve hot with chutney."
+          ]
+        },
+        "paella": {
+          "name": "Paella",
+          "country": "Spain",
+          "ingredients": [
+            "1 cup Bomba rice",
+            "200g Chicken (cut into pieces)",
+            "150g Chorizo (sliced)",
+            "200g Shrimp (peeled and deveined)",
+            "1 Red bell pepper (diced)",
+            "1 Onion (chopped)",
+            "2 Garlic cloves (minced)",
+            "1 can Diced tomatoes",
+            "1/2 tsp Saffron threads",
+            "2 cups Chicken broth",
+            "1 cup Frozen peas",
+            "1/4 cup Olive oil",
+            "Salt and black pepper to taste",
+            "Lemon wedges for garnish"
+          ],
+          "steps": [
+            "Heat olive oil in a large pan or paella pan. Cook chicken and chorizo until browned.",
+            "Add onion, garlic, and bell pepper. Sauté until softened.",
+            "Stir in diced tomatoes and cook for 5 minutes.",
+            "Add rice, saffron, and chicken broth. Bring to a boil, then reduce heat and simmer for 15 minutes.",
+            "Add shrimp and peas, and cook until the rice is tender and the shrimp is cooked through.",
+            "Season with salt and black pepper.",
+            "Garnish with lemon wedges and serve."
+          ]
+        },
+        "croissant": {
+          "name": "Croissant",
+          "country": "France",
+          "ingredients": [
+            "2 1/4 cups All-purpose flour",
+            "1/2 cup Warm milk",
+            "1/4 cup Sugar",
+            "1/4 cup Butter",
+            "1 tbsp Yeast",
+            "1 tsp Salt",
+            "1 Egg (for egg wash)",
+            "1/2 cup Butter (for laminating)"
+          ],
+          "steps": [
+            "Mix flour, sugar, and yeast. Add warm milk and melted butter, then knead into a dough.",
+            "Let the dough rise until doubled in size.",
+            "Roll out dough and fold in chilled butter. Roll and fold several times to create layers.",
+            "Cut into triangles, roll up, and shape into croissants.",
+            "Let rise again and brush with egg wash.",
+            "Bake at 375°F (190°C) for 15-20 minutes until golden brown.",
+            "Cool before serving."
+          ]
+        },
+        "ceviche": {
+          "name": "Ceviche",
+          "country": "Peru",
+          "ingredients": [
+            "500g Fresh fish (cubed)",
+            "1/2 cup Lime juice",
+            "1/4 cup Red onion (thinly sliced)",
+            "1 Tomato (diced)",
+            "1 Avocado (diced)",
+            "1/4 cup Cilantro (chopped)",
+            "1 Jalapeño (finely chopped)",
+            "Salt and pepper to taste"
+          ],
+          "steps": [
+            "Marinate fish in lime juice for 2 hours until opaque.",
+            "Mix with red onion, tomato, avocado, cilantro, and jalapeño.",
+            "Season with salt and pepper.",
+            "Serve chilled with tortilla chips."
+          ]
+        },
+        "dumplings": {
+          "name": "Chinese Dumplings",
+          "country": "China",
+          "ingredients": [
+            "2 cups All-purpose flour",
+            "1/2 cup Water",
+            "200g Ground pork",
+            "1 cup Cabbage (shredded)",
+            "1 tbsp Soy sauce",
+            "1 tbsp Ginger (minced)",
+            "2 Garlic cloves (minced)",
+            "Salt and pepper to taste",
+            "Oil for frying"
+          ],
+          "steps": [
+            "Mix flour and water to make dough. Let it rest.",
+            "Combine pork, cabbage, soy sauce, ginger, garlic, salt, and pepper.",
+            "Roll out dough and cut into circles. Fill with pork mixture and fold.",
+            "Steam or pan-fry dumplings until cooked through.",
+            "Serve with dipping sauce."
+          ]
+        },
+        "gnocchi": {
+          "name": "Potato Gnocchi",
+          "country": "Italy",
+          "ingredients": [
+            "1 kg Potatoes",
+            "1 1/2 cups All-purpose flour",
+            "1 Egg",
+            "1/2 tsp Salt",
+            "1/4 tsp Nutmeg",
+            "Butter and sage for serving"
+          ],
+          "steps": [
+            "Boil potatoes until tender, then mash.",
+            "Mix with flour, egg, salt, and nutmeg to form dough.",
+            "Roll into logs, cut into pieces, and press with a fork.",
+            "Cook gnocchi in boiling water until they float.",
+            "Toss with melted butter and sage."
+          ]
+        },
+        
+        "goulash": {
+          "name": "Hungarian Goulash",
+          "country": "Hungary",
+          "ingredients": [
+            "500g Beef (cubed)",
+            "1 Onion (chopped)",
+            "2 Garlic cloves (minced)",
+            "1 tbsp Paprika",
+            "2 cups Beef broth",
+            "1 cup Tomatoes (diced)",
+            "2 Potatoes (cubed)",
+            "Salt and pepper to taste",
+            "Oil for cooking"
+          ],
+          "steps": [
+            "Heat oil and brown beef. Set aside.",
+            "Sauté onions and garlic until soft.",
+            "Add paprika, tomatoes, and beef broth. Return beef to the pot.",
+            "Simmer until beef is tender.",
+            "Add potatoes and cook until tender.",
+            "Season with salt and pepper.",
+            "Serve hot."
+          ]
+        },
+        "chickenAdobo": {
+          "name": "Chicken Adobo",
+          "country": "Philippines",
+          "ingredients": [
+            "1 kg Chicken (cut into pieces)",
+            "1/2 cup Soy sauce",
+            "1/2 cup Vinegar",
+            "1/2 cup Water",
+            "1 Onion (chopped)",
+            "4 Garlic cloves (minced)",
+            "2 Bay leaves",
+            "1 tsp Black peppercorns",
+            "2 tbsp Oil"
+          ],
+          "steps": [
+            "Marinate chicken in soy sauce, vinegar, and garlic for 30 minutes.",
+            "Heat oil in a pan and cook onions until soft.",
+            "Add marinated chicken and cook until browned.",
+            "Add water, bay leaves, and peppercorns.",
+            "Simmer until chicken is tender and sauce is reduced.",
+            "Serve with rice."
+          ]
+        },
+        "moussaka": {
+          "name": "Moussaka",
+          "country": "Greece",
+          "ingredients": [
+            "2 Eggplants (sliced and salted)",
+            "500g Ground beef",
+            "1 Onion (chopped)",
+            "2 Garlic cloves (minced)",
+            "1 can Tomato sauce",
+            "1 tsp Cinnamon",
+            "1/2 cup Red wine",
+            "1/2 cup Parmesan cheese (grated)",
+            "1/2 cup Bechamel sauce",
+            "Salt and black pepper to taste",
+            "Olive oil"
+          ],
+          "steps": [
+            "Preheat oven to 180°C (350°F).",
+            "Brush eggplant slices with olive oil and bake for 20 minutes until tender.",
+            "In a pan, cook ground beef with onion and garlic until browned.",
+            "Add tomato sauce, cinnamon, red wine, salt, and pepper. Simmer for 10 minutes.",
+            "Layer eggplant slices in a baking dish, then spread the beef mixture over them.",
+            "Top with Bechamel sauce and grated Parmesan cheese.",
+            "Bake for 30 minutes until golden and bubbly.",
+            "Cool slightly before serving."
+          ]
+        },
+        "empanadas": {
+          "name": "Argentinian Empanadas",
+          "country": "Argentina",
+          "ingredients": [
+            "2 cups All-purpose flour",
+            "1/2 cup Butter",
+            "1/2 cup Water",
+            "1 cup Ground beef",
+            "1 Onion (chopped)",
+            "1/2 cup Olives (chopped)",
+            "1/2 cup Hard-boiled eggs (chopped)",
+            "1 tsp Paprika",
+            "Salt and pepper to taste",
+            "1 Egg (for egg wash)"
+          ],
+          "steps": [
+            "Mix flour, butter, and water to form a dough. Chill.",
+            "Cook beef with onion, paprika, salt, and pepper. Mix with olives and eggs.",
+            "Roll out dough and cut into circles. Fill with beef mixture and fold.",
+            "Seal edges and brush with egg wash.",
+            "Bake at 375°F (190°C) for 20 minutes until golden.",
+            "Serve warm."
+          ]
+        },
+        "kimchi": {
+          "name": "Kimchi",
+          "country": "Korea",
+          "ingredients": [
+            "1 Napa cabbage",
+            "1/4 cup Sea salt",
+            "1 tbsp Sugar",
+            "1 tbsp Ginger (minced)",
+            "3 Garlic cloves (minced)",
+            "2 tbsp Korean red pepper flakes",
+            "1/4 cup Fish sauce",
+            "2 Green onions (chopped)",
+            "1 Carrot (julienned)"
+          ],
+          "steps": [
+            "Cut cabbage and sprinkle with sea salt. Let sit for 2 hours.",
+            "Rinse cabbage and drain.",
+            "Mix sugar, ginger, garlic, red pepper flakes, and fish sauce.",
+            "Add cabbage, green onions, and carrot. Toss to coat evenly.",
+            "Pack into jars, pressing down to eliminate air.",
+            "Let ferment at room temperature for 1-2 days, then refrigerate.",
+            "Serve as a side dish."
+          ]
+        },
+        "ratatouille": {
+          "name": "Ratatouille",
+          "country": "France",
+          "ingredients": [
+            "1 Eggplant (diced)",
+            "1 Zucchini (diced)",
+            "1 Bell pepper (diced)",
+            "1 Onion (chopped)",
+            "2 Garlic cloves (minced)",
+            "2 cups Tomato sauce",
+            "1 tsp Thyme",
+            "1 tsp Basil",
+            "Olive oil",
+            "Salt and pepper to taste"
+          ],
+          "steps": [
+            "Heat olive oil in a pan and cook onion and garlic until softened.",
+            "Add eggplant, zucchini, and bell pepper. Cook until tender.",
+            "Stir in tomato sauce, thyme, and basil.",
+            "Simmer for 15 minutes. Season with salt and pepper.",
+            "Serve hot or cold as a side dish or main course."
+          ]
+        },
+        "churros": {
+          "name": "Churros",
+          "country": "Spain",
+          "ingredients": [
+            "1 cup Water",
+            "1/2 cup Butter",
+            "1 cup All-purpose flour",
+            "1/4 tsp Salt",
+            "2 Eggs",
+            "1/2 cup Sugar",
+            "1 tbsp Cinnamon",
+            "Oil for frying"
+          ],
+          "steps": [
+            "In a saucepan, bring water and butter to a boil.",
+            "Remove from heat and stir in flour and salt until smooth.",
+            "Beat in eggs one at a time until dough is smooth and thick.",
+            "Heat oil in a deep pan. Pipe dough into hot oil and fry until golden brown.",
+            "Combine sugar and cinnamon. Roll churros in mixture.",
+            "Serve with chocolate dipping sauce."
+          ]
+        },
+        "shawarma": {
+          "name": "Shawarma",
+          "country": "Lebanon",
+          "ingredients": [
+            "500g Chicken breast (sliced)",
+            "1/2 cup Yogurt",
+            "2 tbsp Shawarma spice mix",
+            "2 tbsp Lemon juice",
+            "2 Garlic cloves (minced)",
+            "1/4 cup Olive oil",
+            "Pita bread",
+            "Tahini sauce",
+            "Pickles and vegetables for garnish"
+          ],
+          "steps": [
+            "Marinate chicken in yogurt, shawarma spice mix, lemon juice, garlic, and olive oil for at least 2 hours.",
+            "Grill or pan-fry chicken until fully cooked.",
+            "Serve in pita bread with tahini sauce, pickles, and vegetables."
+          ]
+        },
+
+            "tacos": {
+              "name": "Tacos",
+              "country": "Mexico",
+              "ingredients": [
+                "1 lb Ground beef",
+                "1 Onion (chopped)",
+                "2 Garlic cloves (minced)",
+                "1 tbsp Taco seasoning",
+                "Taco shells",
+                "1 cup Lettuce (shredded)",
+                "1 cup Tomato (diced)",
+                "1/2 cup Cheddar cheese (shredded)",
+                "Sour cream and salsa for topping"
+              ],
+              "steps": [
+                "Cook ground beef with onion and garlic until browned.",
+                "Add taco seasoning and a splash of water. Simmer until well combined.",
+                "Fill taco shells with beef mixture and top with lettuce, tomato, cheese, sour cream, and salsa.",
+                "Serve immediately."
+              ]
+            },
+            "pho": {
+              "name": "Pho",
+              "country": "Vietnam",
+              "ingredients": [
+                "200g Beef (thinly sliced)",
+                "1 Onion (quartered)",
+                "1 Ginger root (sliced)",
+                "2 Star anise",
+                "4 Cloves",
+                "1 Cinnamon stick",
+                "6 cups Beef broth",
+                "Rice noodles",
+                "Fresh herbs (basil, cilantro)",
+                "Bean sprouts",
+                "Lime wedges",
+                "Chili slices",
+                "Fish sauce to taste"
+              ],
+              "steps": [
+                "Char onion and ginger in a hot pan until fragrant.",
+                "Add spices and beef broth. Simmer for 30 minutes.",
+                "Strain the broth and return to pot. Add beef slices and cook briefly.",
+                "Prepare rice noodles according to package instructions.",
+                "Serve hot broth over noodles with fresh herbs, bean sprouts, lime, chili, and fish sauce."
+              ]
+            },
+            "sushi": {
+              "name": "Sushi",
+              "country": "Japan",
+              "ingredients": [
+                "2 cups Sushi rice",
+                "2 1/2 cups Water",
+                "1/2 cup Rice vinegar",
+                "1/4 cup Sugar",
+                "1/4 cup Soy sauce",
+                "1/2 lb Fresh fish (sliced)",
+                "Nori sheets",
+                "Wasabi and pickled ginger for serving"
+              ],
+              "steps": [
+                "Rinse rice until water runs clear. Cook in a rice cooker with water.",
+                "Mix rice vinegar and sugar. Stir into cooked rice and cool.",
+                "Place rice on nori sheets and add fish slices.",
+                "Roll tightly and slice into pieces.",
+                "Serve with soy sauce, wasabi, and pickled ginger."
+              ]
+            },
+            "babaGanoush": {
+              "name": "Baba Ganoush",
+              "country": "Lebanon",
+              "ingredients": [
+                "2 Eggplants",
+                "3 tbsp Tahini",
+                "2 Garlic cloves (minced)",
+                "1/4 cup Lemon juice",
+                "1/4 cup Olive oil",
+                "Salt to taste",
+                "Parsley for garnish"
+              ],
+              "steps": [
+                "Roast eggplants until tender and charred. Cool and peel.",
+                "Blend eggplants with tahini, garlic, lemon juice, olive oil, and salt.",
+                "Serve with a drizzle of olive oil and garnish with parsley.",
+                "Enjoy with pita bread or vegetables."
+              ]
+            },
+            "bruschetta": {
+              "name": "Bruschetta",
+              "country": "Italy",
+              "ingredients": [
+                "1 Baguette (sliced)",
+                "2 cups Cherry tomatoes (diced)",
+                "2 Garlic cloves (minced)",
+                "1/4 cup Fresh basil (chopped)",
+                "1/4 cup Olive oil",
+                "Salt and pepper to taste"
+              ],
+              "steps": [
+                "Toast baguette slices until crisp.",
+                "Mix tomatoes, garlic, basil, olive oil, salt, and pepper.",
+                "Top toasted baguette slices with tomato mixture.",
+                "Serve immediately."
+              ]
+            },
+            "beefStroganoff": {
+              "name": "Beef Stroganoff",
+              "country": "Russia",
+              "ingredients": [
+                "500g Beef (thinly sliced)",
+                "1 Onion (chopped)",
+                "2 Garlic cloves (minced)",
+                "1 cup Mushrooms (sliced)",
+                "1 cup Beef broth",
+                "1 cup Sour cream",
+                "2 tbsp Flour",
+                "2 tbsp Butter",
+                "Salt and pepper to taste"
+              ],
+              "steps": [
+                "Cook beef in butter until browned. Set aside.",
+                "In the same pan, sauté onion, garlic, and mushrooms.",
+                "Add flour and cook for a minute.",
+                "Stir in beef broth and simmer until thickened.",
+                "Return beef to pan and stir in sour cream.",
+                "Season with salt and pepper.",
+                "Serve over egg noodles or rice."
+              ]
+            },
+            "cannoli": {
+              "name": "Cannoli",
+              "country": "Italy",
+              "ingredients": [
+                "1 cup Ricotta cheese",
+                "1 cup Mascarpone cheese",
+                "1 cup Powdered sugar",
+                "1 tsp Vanilla extract",
+                "1/2 cup Mini chocolate chips",
+                "Cannoli shells"
+              ],
+              "steps": [
+                "Mix ricotta, mascarpone, powdered sugar, and vanilla.",
+                "Stir in chocolate chips.",
+                "Fill cannoli shells with the mixture.",
+                "Chill before serving."
+              ]
+            },
+            "shakshuka": {
+              "name": "Shakshuka",
+              "country": "Israel",
+              "ingredients": [
+                "1 Onion (chopped)",
+                "1 Bell pepper (chopped)",
+                "2 Garlic cloves (minced)",
+                "1 can Diced tomatoes",
+                "1 tsp Cumin",
+                "1 tsp Paprika",
+                "4 Eggs",
+                "Salt and pepper to taste",
+                "Fresh cilantro for garnish"
+              ],
+              "steps": [
+                "Sauté onion, bell pepper, and garlic in a pan.",
+                "Add tomatoes, cumin, paprika, salt, and pepper. Simmer for 10 minutes.",
+                "Make wells in the sauce and crack eggs into them.",
+                "Cover and cook until eggs are set.",
+                "Garnish with cilantro and serve with bread."
+              ]
+            },
+            "tiramisu": {
+              "name": "Tiramisu",
+              "country": "Italy",
+              "ingredients": [
+                "6 Egg yolks",
+                "1 cup Sugar",
+                "1 cup Mascarpone cheese",
+                "1 cup Heavy cream",
+                "1 cup Strong coffee (cooled)",
+                "24 Ladyfingers",
+                "2 tbsp Cocoa powder",
+                "1/4 cup Dark rum (optional)"
+              ],
+              "steps": [
+                "Whisk egg yolks and sugar until thick and pale.",
+                "Fold in mascarpone cheese.",
+                "Whip cream until stiff and fold into mascarpone mixture.",
+                "Dip ladyfingers in coffee and layer in a dish.",
+                "Spread mascarpone mixture over ladyfingers.",
+                "Repeat layers and finish with cocoa powder.",
+                "Chill for at least 4 hours before serving."
+              ]
+            },
+            "caponata": {
+              "name": "Caponata",
+              "country": "Italy",
+              "ingredients": [
+                "2 Eggplants (diced)",
+                "1 Onion (chopped)",
+                "1 Bell pepper (chopped)",
+                "2 cups Tomato sauce",
+                "1/4 cup Red wine vinegar",
+                "1/4 cup Green olives (chopped)",
+                "1/4 cup Capers",
+                "2 tbsp Sugar",
+                "Salt and pepper to taste"
+              ],
+              "steps": [
+                "Sauté eggplant, onion, and bell pepper until softened.",
+                "Add tomato sauce, vinegar, olives, capers, and sugar.",
+                "Simmer for 20 minutes until flavors meld.",
+                "Season with salt and pepper.",
+                "Serve warm or cold as a side dish."
+              ]
+            },
+            "poutine": {
+              "name": "Poutine",
+              "country": "Canada",
+              "ingredients": [
+                "4 cups Frozen French fries",
+                "2 cups Beef gravy",
+                "1 cup Cheese curds",
+                "Salt and pepper to taste"
+              ],
+              "steps": [
+                "Cook French fries according to package instructions.",
+                "Heat beef gravy until hot.",
+                "Place fries on a plate and top with cheese curds.",
+                "Pour hot gravy over the fries and cheese.",
+                "Serve immediately."
+              ]
+            },
+            "potatoSalad": {
+              "name": "Potato Salad",
+              "country": "USA",
+              "ingredients": [
+                "4 cups Potatoes (cubed)",
+                "1/2 cup Mayonnaise",
+                "2 tbsp Dijon mustard",
+                "1/4 cup Red onion (chopped)",
+                "2 Celery stalks (chopped)",
+                "Salt and pepper to taste",
+                "2 tbsp Fresh parsley (chopped)"
+              ],
+              "steps": [
+                "Boil potatoes until tender. Drain and cool.",
+                "Mix mayonnaise and mustard in a bowl.",
+                "Add potatoes, red onion, celery, salt, and pepper.",
+                "Gently toss to combine.",
+                "Garnish with parsley before serving."
+              ]
+            },
+            "baklava": {
+              "name": "Baklava",
+              "country": "Turkey",
+              "ingredients": [
+                "1 package Phyllo dough",
+                "1 cup Walnuts (chopped)",
+                "1 cup Butter (melted)",
+                "1 cup Honey",
+                "1 cup Sugar",
+                "1 cup Water",
+                "1 tsp Vanilla extract",
+                "1 tsp Lemon juice"
+              ],
+              "steps": [
+                "Preheat oven to 350°F (175°C).",
+                "Layer phyllo dough in a baking dish, brushing each layer with melted butter.",
+                "Sprinkle walnuts between layers.",
+                "Cut into diamond shapes and bake for 45 minutes.",
+                "Boil sugar, water, honey, vanilla, and lemon juice for 10 minutes.",
+                "Pour syrup over hot baklava.",
+                "Cool before serving."
+              ]
+            }          
+          }
+        }
+        
