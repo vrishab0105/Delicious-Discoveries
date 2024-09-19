@@ -39,8 +39,13 @@ async function loadRecipesByCountry(country) {
         const snapshot = await get(countryQuery);
         if (snapshot.exists()) {
             const recipes = snapshot.val();
-            for (const key in recipes) {
-                const recipe = recipes[key];
+            // Convert the object to an array and sort it by recipe name
+            const sortedRecipes = Object.entries(recipes).sort((a, b) => {
+                return a[1].name.localeCompare(b[1].name);
+            });
+
+            // Display the sorted recipes
+            sortedRecipes.forEach(([key, recipe]) => {
                 const recipeItem = document.createElement('div');
                 recipeItem.className = 'recipe-item';
                 recipeItem.innerHTML = `
@@ -48,7 +53,7 @@ async function loadRecipesByCountry(country) {
                     <a href="recipe-detail.html?recipeId=${encodeURIComponent(key)}">View Recipe</a>
                 `;
                 recipeList.appendChild(recipeItem);
-            }
+            });
         } else {
             recipeList.innerHTML = '<p>No recipes found for this country.</p>';
         }
