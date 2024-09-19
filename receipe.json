@@ -208,32 +208,6 @@
         "Garnish with parsley and serve immediately."
       ]
     },
-
-
-        "samosa": {
-          "name": "Samosa",
-          "country": "India",
-          "ingredients": [
-            "2 cups All-purpose flour",
-            "1/4 cup Ghee or oil",
-            "1 tsp Cumin seeds",
-            "1/2 cup Boiled potatoes (mashed)",
-            "1/2 cup Green peas",
-            "1 tsp Garam masala",
-            "1/2 tsp Turmeric powder",
-            "1/2 tsp Red chili powder",
-            "Salt to taste",
-            "Oil for frying"
-          ],
-          "steps": [
-            "Mix flour, ghee, and a pinch of salt. Knead into a smooth dough and let it rest.",
-            "Heat oil in a pan, add cumin seeds, and then mix in potatoes and peas.",
-            "Add spices and cook for a few minutes. Allow the filling to cool.",
-            "Roll out dough, cut into circles, fill with the mixture, and fold into a triangle.",
-            "Deep fry until golden brown.",
-            "Serve hot with chutney."
-          ]
-        },
         
         "croissant": {
           "name": "Croissant",
@@ -1084,29 +1058,7 @@
                         "Stir in green peas and season with salt and pepper."
                       ]
                     },
-                    "vegetableSamosas": {
-                      "name": "Vegetable Samosas",
-                      "country": "India",
-                      "ingredients": [
-                        "1 package Samosa pastry",
-                        "2 Potatoes (boiled and mashed)",
-                        "1/2 cup Green peas",
-                        "1 Onion (chopped)",
-                        "2 Garlic cloves (minced)",
-                        "1 tsp Cumin seeds",
-                        "1 tsp Coriander seeds",
-                        "1/2 tsp Turmeric",
-                        "1/2 tsp Garam masala",
-                        "Salt to taste",
-                        "Oil for frying"
-                      ],
-                      "steps": [
-                        "Heat oil and cook cumin seeds, garlic, and onion.",
-                        "Add potatoes, peas, coriander, turmeric, garam masala, and salt.",
-                        "Fill pastry with mixture and seal edges.",
-                        "Fry until golden brown."
-                      ]
-                    },
+                    
                     "rakija": {
                       "name": "Rakija",
                       "country": "Serbia",
@@ -1493,7 +1445,7 @@
                         },
                         "stuffedBellPeppers": {
                           "name": "Stuffed Bell Peppers",
-                          "country": "United States",
+                          "country": "USA",
                           "ingredients": [
                             "4 Bell peppers",
                             "1 lb Ground beef",
@@ -1667,29 +1619,7 @@
                             "Add rice and broth, and simmer until rice is cooked."
                           ]
                         },
-                        "samosas": {
-                          "name": "Samosas",
-                          "country": "India",
-                          "ingredients": [
-                            "1 cup Potatoes (boiled and mashed)",
-                            "1/2 cup Peas",
-                            "1 Onion (chopped)",
-                            "1 tbsp Ginger (minced)",
-                            "1 tsp Cumin",
-                            "1 tsp Coriander",
-                            "1 tsp Garam masala",
-                            "1/2 tsp Turmeric",
-                            "Samosa wrappers",
-                            "Oil for frying",
-                            "Salt to taste"
-                          ],
-                          "steps": [
-                            "Cook onion, ginger, and spices until fragrant.",
-                            "Add potatoes and peas, and mix well.",
-                            "Fill samosa wrappers with mixture and seal.",
-                            "Fry until golden brown."
-                          ]
-                        },
+                  
                         "butterChicken": {
                           "name": "Butter Chicken",
                           "country": "India",
@@ -1731,7 +1661,87 @@
                             "Mix with parsley, mint, tomato, and cucumber.",
                             "Add lemon juice, olive oil, salt, and pepper."
                           ]
-                        }
+                        },
+
+                        
+                          "vegetableSamosa": {
+                            "name": "Vegetable Samosa",
+                            "country": "India",
+                            "ingredients": [
+                              "1 package Samosa pastry",
+                              "2 cups Potatoes (boiled and mashed)",
+                              "1/2 cup Green peas",
+                              "1 Onion (chopped)",
+                              "2 Garlic cloves (minced)",
+                              "1 tsp Cumin seeds",
+                              "1 tsp Coriander seeds",
+                              "1/2 tsp Turmeric powder",
+                              "1 tsp Garam masala",
+                              "Salt to taste",
+                              "Oil for frying"
+                            ],
+                            "steps": [
+                              "Heat oil in a pan, cook cumin seeds, garlic, and onion until softened.",
+                              "Add potatoes, green peas, coriander seeds, turmeric powder, garam masala, and salt. Cook for a few minutes.",
+                              "Allow the filling to cool.",
+                              "Fill the samosa pastry with the mixture and seal the edges.",
+                              "Fry until golden brown.",
+                              "Serve hot with chutney."
+                            ]
+                          },
+                          "muttonSamosa": {
+                            "name": "Mutton Samosa",
+                            "country": "India",
+                            "ingredients": [
+                              "1 lb Ground mutton",
+                              "1 package Samosa pastry",
+                              "1 Onion (chopped)",
+                              "2 Garlic cloves (minced)",
+                              "1 tbsp Ginger (minced)",
+                              "1 tsp Cumin seeds",
+                              "1 tsp Coriander powder",
+                              "1 tsp Garam masala",
+                              "1/2 tsp Turmeric powder",
+                              "1/2 tsp Red chili powder",
+                              "Salt to taste",
+                              "Oil for frying"
+                            ],
+                            "steps": [
+                              "Heat oil in a pan, cook onion, garlic, and ginger until softened.",
+                              "Add ground mutton, cumin seeds, coriander powder, garam masala, turmeric powder, red chili powder, and salt. Cook until mutton is browned and cooked through.",
+                              "Allow the filling to cool.",
+                              "Fill the samosa pastry with the mutton mixture and seal the edges.",
+                              "Fry until golden brown.",
+                              "Serve hot with chutney."
+                            ]
+                          },
+                          "chickenSamosa": {
+                            "name": "Chicken Samosa",
+                            "country": "India",
+                            "ingredients": [
+                              "1 lb Ground chicken",
+                              "1 package Samosa pastry",
+                              "1 Onion (chopped)",
+                              "2 Garlic cloves (minced)",
+                              "1 tbsp Ginger (minced)",
+                              "1 tsp Cumin seeds",
+                              "1 tsp Coriander powder",
+                              "1 tsp Garam masala",
+                              "1/2 tsp Turmeric powder",
+                              "1/2 tsp Red chili powder",
+                              "Salt to taste",
+                              "Oil for frying"
+                            ],
+                            "steps": [
+                              "Heat oil in a pan, cook onion, garlic, and ginger until softened.",
+                              "Add ground chicken, cumin seeds, coriander powder, garam masala, turmeric powder, red chili powder, and salt. Cook until chicken is cooked through and the mixture is dry.",
+                              "Allow the filling to cool.",
+                              "Fill the samosa pastry with the chicken mixture and seal the edges.",
+                              "Fry until golden brown.",
+                              "Serve hot with chutney."
+                            ]
+                          }
+                     } 
                       }
-                    }
+                      
                     
