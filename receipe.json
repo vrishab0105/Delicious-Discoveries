@@ -2,7 +2,7 @@
   "recipes": {
     "Fries": {
       "name": "Fries",
-      "country": "United States",
+      "country": "USA",
       "ingredients": [
         "potato\noil\nseasoning"
       ],
