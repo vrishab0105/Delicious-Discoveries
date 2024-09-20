@@ -1,9 +1,9 @@
-// Replace this with the actual endpoint for client-side usage
-const endpoint = "https://models.inference.ai.azure.com";
-const modelName = "gpt-4o";
-const token = "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"; // Avoid exposing sensitive tokens in client-side code
-
 document.getElementById('searchButton').addEventListener('click', async () => {
+    // Load API key from config.json
+    const responseConfig = await fetch('key.json');
+    const config = await responseConfig.json();
+    const OPENAI_API_KEY = config.OPENAI_API_KEY;
+
     const imageInput = document.getElementById('imageInput');
     if (imageInput.files.length === 0) {
         alert('Please select an image first.');
@@ -17,21 +17,30 @@ document.getElementById('searchButton').addEventListener('click', async () => {
         const imageDataUrl = event.target.result;
 
         try {
-            const response = await fetch(`${endpoint}/chat/completions`, {
+            const response = await fetch('https://api.openai.com/v1/chat/completions', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
-                    'Authorization': `Bearer ${token}`
+                    'Authorization': `Bearer ${OPENAI_API_KEY}`
                 },
                 body: JSON.stringify({
+                    model: 'gpt-4o', 
                     messages: [
                         { role: "system", content: "You are a helpful assistant that describes images in detail." },
-                        { role: "user", content: [
-                            { type: "text", text: "Only give the name of this dish in this image." },
-                            { type: "image_url", image_url: { url: imageDataUrl, details: "low" } }
-                        ]}
-                    ],
-                    model: modelName
+                        { 
+                            role: "user", 
+                            content: [
+                                { type: "text", text: "Give me the name of this dish (only the name of this dish in the response), thanks" },
+                                { 
+                                    type: "image_url", 
+                                    image_url: {
+                                        url: imageDataUrl,
+                                        details: "low"
+                                    }
+                                }
+                            ] 
+                        }
+                    ]
                 })
             });
 
