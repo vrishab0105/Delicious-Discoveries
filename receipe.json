@@ -1201,28 +1201,8 @@
                         "Season with salt and pepper."
                       ]
                     },
-                    "beefStroganoff": {
-                      "name": "Beef Stroganoff",
-                      "country": "Russia",
-                      "ingredients": [
-                        "1 lb Beef sirloin (sliced)",
-                        "1 Onion (chopped)",
-                        "2 Garlic cloves (minced)",
-                        "1 cup Mushrooms (sliced)",
-                        "1/2 cup Sour cream",
-                        "1/2 cup Beef broth",
-                        "1 tbsp Dijon mustard",
-                        "2 tbsp Butter",
-                        "Salt and pepper to taste"
-                      ],
-                      "steps": [
-                        "Cook beef in butter until browned and set aside.",
-                        "In the same pan, cook onion, garlic, and mushrooms.",
-                        "Add broth, mustard, and return beef to pan.",
-                        "Stir in sour cream and heat through.",
-                        "Season with salt and pepper."
-                      ]
-                    },
+                   
+                   
                     "sauerbraten": {
                       "name": "Sauerbraten",
                       "country": "Germany",
@@ -2769,24 +2749,7 @@
                       "Garnish with green onions and serve hot."
                     ]
                   },
-                  "teaEggs": {
-                    "name": "Tea Eggs",
-                    "country": "China",
-                    "ingredients": [
-                      "6 Eggs",
-                      "1/2 cup Soy sauce",
-                      "2 Black tea bags",
-                      "1 Cinnamon stick",
-                      "1 Star anise",
-                      "1 tsp Sugar"
-                    ],
-                    "steps": [
-                      "Hard boil the eggs, then crack the shells lightly but keep them intact.",
-                      "Simmer soy sauce, tea, cinnamon, star anise, and sugar with water.",
-                      "Add the eggs to the mixture and simmer for 1-2 hours to absorb flavor.",
-                      "Cool and peel the eggs to serve."
-                    ]
-                  },
+                 
                   "chineseHotPot": {
                     "name": "Chinese Hot Pot",
                     "country": "China",
@@ -2848,26 +2811,7 @@
                     "Brush with beaten egg and bake for 30-35 minutes until golden brown."
                   ]
                 },
-                "lamingtons": {
-                  "name": "Lamingtons",
-                  "country": "Australia",
-                  "ingredients": [
-                    "1 cup All-purpose flour",
-                    "1/2 cup Sugar",
-                    "1/2 cup Butter (softened)",
-                    "1/2 cup Milk",
-                    "2 Eggs",
-                    "1 tsp Baking powder",
-                    "1 cup Chocolate icing",
-                    "1 cup Desiccated coconut"
-                  ],
-                  "steps": [
-                    "Preheat the oven to 180°C (350°F) and grease a baking dish.",
-                    "In a bowl, mix flour, sugar, butter, milk, eggs, and baking powder to form a batter.",
-                    "Pour into the baking dish and bake for 25-30 minutes. Allow to cool.",
-                    "Cut into squares, dip in chocolate icing, and roll in coconut. Let set before serving."
-                  ]
-                },
+              
                 "fairyBread": {
                   "name": "Fairy Bread",
                   "country": "Australia",
@@ -2899,27 +2843,7 @@
                     "Bake for 30-35 minutes until golden. Serve warm with butter."
                   ]
                 },
-                "anzacBiscuits": {
-                  "name": "ANZAC Biscuits",
-                  "country": "Australia",
-                  "ingredients": [
-                    "1 cup Rolled oats",
-                    "1 cup All-purpose flour",
-                    "1 cup Brown sugar",
-                    "1/2 cup Coconut (desiccated)",
-                    "125g Butter",
-                    "2 tbsp Golden syrup",
-                    "1/2 tsp Baking soda",
-                    "2 tbsp Boiling water"
-                  ],
-                  "steps": [
-                    "Preheat the oven to 160°C (320°F) and line a baking tray with parchment paper.",
-                    "In a bowl, mix oats, flour, sugar, and coconut.",
-                    "Melt butter and golden syrup together. Dissolve baking soda in boiling water and add to the mixture.",
-                    "Combine wet and dry ingredients, then form small balls and place on the baking tray.",
-                    "Flatten slightly and bake for 15-20 minutes until golden."
-                  ]
-                },
+               
                 "chocolateFudgeSlice": {
                   "name": "Chocolate Fudge Slice",
                   "country": "Australia",
@@ -3089,25 +3013,7 @@
                     "Bake for 1 hour until golden and bubbly."
                   ]
                 },
-                "chickenParma": {
-                  "name": "Chicken Parmigiana",
-                  "country": "Australia",
-                  "ingredients": [
-                    "2 Chicken breast fillets",
-                    "1 cup Breadcrumbs",
-                    "1/2 cup Flour",
-                    "2 Eggs (beaten)",
-                    "1 cup Tomato sauce",
-                    "1 cup Cheese (grated)",
-                    "Salt and pepper to taste"
-                  ],
-                  "steps": [
-                    "Preheat the oven to 200°C (390°F).",
-                    "Season chicken fillets with salt and pepper, then coat in flour, dip in egg, and coat with breadcrumbs.",
-                    "Fry in a pan until golden, then place on a baking tray.",
-                    "Top with tomato sauce and cheese, and bake for 15-20 minutes until cheese is melted."
-                  ]
-                },
+              
                 "roastPumpkinSalad": {
                   "name": "Roast Pumpkin Salad",
                   "country": "Australia",
