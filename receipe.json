@@ -2882,25 +2882,7 @@
                     "Cut the bread into triangles and serve immediately."
                   ]
                 },
-                "pavlova": {
-                  "name": "Pavlova",
-                  "country": "Australia",
-                  "ingredients": [
-                    "4 Egg whites",
-                    "1 cup Sugar",
-                    "1 tsp Vinegar",
-                    "1 tsp Cornflour",
-                    "1 cup Whipping cream",
-                    "1 cup Mixed berries (strawberries, blueberries, raspberries)",
-                    "Mint leaves (for garnish)"
-                  ],
-                  "steps": [
-                    "Preheat the oven to 120°C (250°F) and line a baking tray with parchment paper.",
-                    "Beat egg whites until soft peaks form. Gradually add sugar, beating until stiff peaks form. Fold in vinegar and cornflour.",
-                    "Shape the meringue into a circle on the prepared tray and bake for 1 hour. Turn off the oven and let cool.",
-                    "Whip the cream and spread over the cooled meringue. Top with berries and garnish with mint leaves before serving."
-                  ]
-                },
+
                 "damper": {
                   "name": "Damper",
                   "country": "Australia",
