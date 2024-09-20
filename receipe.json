@@ -2825,9 +2825,953 @@
                       "Toss the cooled noodles with the sauce, cucumber, and carrots.",
                       "Drizzle with chili oil if desired and garnish with chopped peanuts before serving."
                     ]
-                  }
-
-                     } 
-                      }
+                  },
+                  "meatPie": {
+                  "name": "Meat Pie",
+                  "country": "Australia",
+                  "ingredients": [
+                    "500g Ground beef",
+                    "1 Onion (chopped)",
+                    "2 Garlic cloves (minced)",
+                    "1 cup Beef broth",
+                    "1 tbsp Worcestershire sauce",
+                    "1 tsp Thyme",
+                    "Salt and pepper to taste",
+                    "2 sheets Puff pastry",
+                    "1 Egg (beaten, for glazing)"
+                  ],
+                  "steps": [
+                    "In a pan, sauté onion and garlic until soft.",
+                    "Add ground beef, cooking until browned. Stir in beef broth, Worcestershire sauce, thyme, salt, and pepper. Simmer for 20 minutes.",
+                    "Preheat the oven to 200°C (390°F).",
+                    "Line a pie dish with one sheet of pastry, fill with the meat mixture, and cover with the second sheet. Seal edges and make slits on top.",
+                    "Brush with beaten egg and bake for 30-35 minutes until golden brown."
+                  ]
+                },
+                "lamingtons": {
+                  "name": "Lamingtons",
+                  "country": "Australia",
+                  "ingredients": [
+                    "1 cup All-purpose flour",
+                    "1/2 cup Sugar",
+                    "1/2 cup Butter (softened)",
+                    "1/2 cup Milk",
+                    "2 Eggs",
+                    "1 tsp Baking powder",
+                    "1 cup Chocolate icing",
+                    "1 cup Desiccated coconut"
+                  ],
+                  "steps": [
+                    "Preheat the oven to 180°C (350°F) and grease a baking dish.",
+                    "In a bowl, mix flour, sugar, butter, milk, eggs, and baking powder to form a batter.",
+                    "Pour into the baking dish and bake for 25-30 minutes. Allow to cool.",
+                    "Cut into squares, dip in chocolate icing, and roll in coconut. Let set before serving."
+                  ]
+                },
+                "fairyBread": {
+                  "name": "Fairy Bread",
+                  "country": "Australia",
+                  "ingredients": [
+                    "4 slices White bread",
+                    "Butter (softened)",
+                    "1/2 cup Sprinkles (hundreds and thousands)"
+                  ],
+                  "steps": [
+                    "Spread a thin layer of butter on each slice of bread.",
+                    "Sprinkle the hundreds and thousands evenly over the butter.",
+                    "Cut the bread into triangles and serve immediately."
+                  ]
+                },
+                "pavlova": {
+                  "name": "Pavlova",
+                  "country": "Australia",
+                  "ingredients": [
+                    "4 Egg whites",
+                    "1 cup Sugar",
+                    "1 tsp Vinegar",
+                    "1 tsp Cornflour",
+                    "1 cup Whipping cream",
+                    "1 cup Mixed berries (strawberries, blueberries, raspberries)",
+                    "Mint leaves (for garnish)"
+                  ],
+                  "steps": [
+                    "Preheat the oven to 120°C (250°F) and line a baking tray with parchment paper.",
+                    "Beat egg whites until soft peaks form. Gradually add sugar, beating until stiff peaks form. Fold in vinegar and cornflour.",
+                    "Shape the meringue into a circle on the prepared tray and bake for 1 hour. Turn off the oven and let cool.",
+                    "Whip the cream and spread over the cooled meringue. Top with berries and garnish with mint leaves before serving."
+                  ]
+                },
+                "damper": {
+                  "name": "Damper",
+                  "country": "Australia",
+                  "ingredients": [
+                    "3 cups Self-raising flour",
+                    "1 tsp Salt",
+                    "1 cup Milk",
+                    "1 tbsp Butter (melted)"
+                  ],
+                  "steps": [
+                    "Preheat the oven to 200°C (390°F).",
+                    "In a bowl, mix flour and salt. Gradually add milk and melted butter to form a dough.",
+                    "Knead lightly and shape into a round loaf. Place on a baking tray and cut a cross on top.",
+                    "Bake for 30-35 minutes until golden. Serve warm with butter."
+                  ]
+                },
+                "anzacBiscuits": {
+                  "name": "ANZAC Biscuits",
+                  "country": "Australia",
+                  "ingredients": [
+                    "1 cup Rolled oats",
+                    "1 cup All-purpose flour",
+                    "1 cup Brown sugar",
+                    "1/2 cup Coconut (desiccated)",
+                    "125g Butter",
+                    "2 tbsp Golden syrup",
+                    "1/2 tsp Baking soda",
+                    "2 tbsp Boiling water"
+                  ],
+                  "steps": [
+                    "Preheat the oven to 160°C (320°F) and line a baking tray with parchment paper.",
+                    "In a bowl, mix oats, flour, sugar, and coconut.",
+                    "Melt butter and golden syrup together. Dissolve baking soda in boiling water and add to the mixture.",
+                    "Combine wet and dry ingredients, then form small balls and place on the baking tray.",
+                    "Flatten slightly and bake for 15-20 minutes until golden."
+                  ]
+                },
+                "chocolateFudgeSlice": {
+                  "name": "Chocolate Fudge Slice",
+                  "country": "Australia",
+                  "ingredients": [
+                    "250g Digestive biscuits (crumbled)",
+                    "1 cup Condensed milk",
+                    "1/2 cup Cocoa powder",
+                    "125g Butter (melted)",
+                    "1 cup Chocolate chips",
+                    "1/2 cup Chopped nuts (optional)"
+                  ],
+                  "steps": [
+                    "In a bowl, mix biscuit crumbs, cocoa powder, and melted butter.",
+                    "Add condensed milk, chocolate chips, and nuts. Mix well.",
+                    "Press the mixture into a lined baking dish and refrigerate until firm.",
+                    "Cut into squares and serve."
+                  ]
+                },
+                "kangarooSteak": {
+                  "name": "Kangaroo Steak",
+                  "country": "Australia",
+                  "ingredients": [
+                    "500g Kangaroo fillet",
+                    "2 tbsp Olive oil",
+                    "1 tsp Garlic powder",
+                    "1 tsp Rosemary",
+                    "Salt and pepper to taste"
+                  ],
+                  "steps": [
+                    "Rub kangaroo fillet with olive oil, garlic powder, rosemary, salt, and pepper.",
+                    "Heat a pan over high heat and cook the fillet for 3-4 minutes on each side for medium-rare.",
+                    "Let rest for a few minutes before slicing and serving."
+                  ]
+                },
+                "shrimpOnTheBarbie": {
+                  "name": "Shrimp on the Barbie",
+                  "country": "Australia",
+                  "ingredients": [
+                    "500g Prawns (peeled and deveined)",
+                    "2 tbsp Olive oil",
+                    "2 Garlic cloves (minced)",
+                    "1 tbsp Lemon juice",
+                    "Salt and pepper to taste"
+                  ],
+                  "steps": [
+                    "In a bowl, mix prawns, olive oil, garlic, lemon juice, salt, and pepper.",
+                    "Preheat the grill and cook the prawns for 2-3 minutes on each side until cooked through.",
+                    "Serve with lemon wedges."
+                  ]
+                },
+                "prawnCocktail": {
+                  "name": "Prawn Cocktail",
+                  "country": "Australia",
+                  "ingredients": [
+                    "500g Prawns (cooked and peeled)",
+                    "1/2 cup Mayonnaise",
+                    "2 tbsp Tomato sauce",
+                    "1 tbsp Lemon juice",
+                    "Lettuce leaves",
+                    "Lemon wedges (for garnish)"
+                  ],
+                  "steps": [
+                    "In a bowl, mix mayonnaise, tomato sauce, and lemon juice.",
+                    "Arrange lettuce leaves on serving plates, top with prawns, and drizzle with the sauce.",
+                    "Garnish with lemon wedges and serve chilled."
+                  ]
+                },
+                "coconutRough": {
+                  "name": "Coconut Rough",
+                  "country": "Australia",
+                  "ingredients": [
+                    "200g Dark chocolate (melted)",
+                    "1 cup Desiccated coconut",
+                    "1/2 cup Condensed milk",
+                    "1/4 cup Chopped nuts (optional)"
+                  ],
+                  "steps": [
+                    "Mix melted chocolate, coconut, condensed milk, and nuts until well combined.",
+                    "Spread the mixture into a lined baking dish and refrigerate until set.",
+                    "Cut into squares and serve."
+                  ]
+                },
+                "chickpeaSalad": {
+                  "name": "Chickpea Salad",
+                  "country": "Australia",
+                  "ingredients": [
+                    "1 can Chickpeas (drained and rinsed)",
+                    "1 Cucumber (diced)",
+                    "1 Red onion (chopped)",
+                    "1 Red bell pepper (diced)",
+                    "1/4 cup Parsley (chopped)",
+                    "2 tbsp Olive oil",
+                    "1 tbsp Lemon juice",
+                    "Salt and pepper to taste"
+                  ],
+                  "steps": [
+                    "In a bowl, combine chickpeas, cucumber, onion, bell pepper, and parsley.",
+                    "Drizzle with olive oil and lemon juice, season with salt and pepper, and toss well.",
+                    "Serve chilled or at room temperature."
+                  ]
+                },
+                "vegetableSausageRolls": {
+                  "name": "Vegetable Sausage Rolls",
+                  "country": "Australia",
+                  "ingredients": [
+                    "1 sheet Puff pastry",
+                    "1 cup Mixed vegetables (carrots, peas, corn)",
+                    "1/2 cup Breadcrumbs",
+                    "1 Egg (beaten, for glazing)",
+                    "Salt and pepper to taste"
+                  ],
+                  "steps": [
+                    "Preheat the oven to 200°C (390°F) and line a baking tray.",
+                    "In a bowl, mix mixed vegetables, breadcrumbs, salt, and pepper.",
+                    "Roll out puff pastry and cut into rectangles. Place filling on one end, roll, and seal.",
+                    "Brush with beaten egg and bake for 20-25 minutes until golden."
+                  ]
+                },
+                "beetrootSalad": {
+                  "name": "Beetroot Salad",
+                  "country": "Australia",
+                  "ingredients": [
+                    "2 cups Cooked beetroot (diced)",
+                    "1/2 cup Feta cheese (crumbled)",
+                    "1/4 cup Walnuts (chopped)",
+                    "2 tbsp Olive oil",
+                    "1 tbsp Balsamic vinegar",
+                    "Salt and pepper to taste"
+                  ],
+                  "steps": [
+                    "In a bowl, combine beetroot, feta cheese, and walnuts.",
+                    "Drizzle with olive oil and balsamic vinegar, season with salt and pepper, and toss gently.",
+                    "Serve chilled or at room temperature."
+                  ]
+                },
+                "bakedBarramundi": {
+                  "name": "Baked Barramundi",
+                  "country": "Australia",
+                  "ingredients": [
+                    "2 Barramundi fillets",
+                    "2 tbsp Olive oil",
+                    "1 Lemon (sliced)",
+                    "2 Garlic cloves (sliced)",
+                    "Salt and pepper to taste"
+                  ],
+                  "steps": [
+                    "Preheat the oven to 180°C (350°F).",
+                    "Place barramundi fillets on a baking tray, drizzle with olive oil, and season with salt and pepper.",
+                    "Top with lemon slices and garlic, and bake for 15-20 minutes until cooked through.",
+                    "Serve with a side salad."
+                  ]
+                },
+                "potatoBake": {
+                  "name": "Potato Bake",
+                  "country": "Australia",
+                  "ingredients": [
+                    "4 Potatoes (thinly sliced)",
+                    "1 Onion (sliced)",
+                    "1 cup Cream",
+                    "1 cup Cheese (grated)",
+                    "Salt and pepper to taste"
+                  ],
+                  "steps": [
+                    "Preheat the oven to 180°C (350°F).",
+                    "Layer potatoes and onions in a baking dish, seasoning with salt and pepper between layers.",
+                    "Pour cream over the top and sprinkle with cheese.",
+                    "Bake for 1 hour until golden and bubbly."
+                  ]
+                },
+                "chickenParma": {
+                  "name": "Chicken Parmigiana",
+                  "country": "Australia",
+                  "ingredients": [
+                    "2 Chicken breast fillets",
+                    "1 cup Breadcrumbs",
+                    "1/2 cup Flour",
+                    "2 Eggs (beaten)",
+                    "1 cup Tomato sauce",
+                    "1 cup Cheese (grated)",
+                    "Salt and pepper to taste"
+                  ],
+                  "steps": [
+                    "Preheat the oven to 200°C (390°F).",
+                    "Season chicken fillets with salt and pepper, then coat in flour, dip in egg, and coat with breadcrumbs.",
+                    "Fry in a pan until golden, then place on a baking tray.",
+                    "Top with tomato sauce and cheese, and bake for 15-20 minutes until cheese is melted."
+                  ]
+                },
+                "roastPumpkinSalad": {
+                  "name": "Roast Pumpkin Salad",
+                  "country": "Australia",
+                  "ingredients": [
+                    "500g Pumpkin (peeled and cubed)",
+                    "2 cups Spinach leaves",
+                    "1/4 cup Feta cheese (crumbled)",
+                    "1/4 cup Walnuts (chopped)",
+                    "2 tbsp Olive oil",
+                    "Salt and pepper to taste",
+                    "1 tbsp Balsamic vinegar"
+                  ],
+                  "steps": [
+                    "Preheat the oven to 200°C (390°F).",
+                    "Toss pumpkin cubes with olive oil, salt, and pepper, then roast for 25-30 minutes until tender.",
+                    "In a bowl, combine spinach, roasted pumpkin, feta, and walnuts.",
+                    "Drizzle with balsamic vinegar before serving."
+                  ]
+                },
+                "chocolateMousse": {
+                  "name": "Chocolate Mousse",
+                  "country": "Australia",
+                  "ingredients": [
+                    "200g Dark chocolate (chopped)",
+                    "3 Eggs (separated)",
+                    "1/2 cup Sugar",
+                    "1 cup Whipping cream",
+                    "1 tsp Vanilla extract"
+                  ],
+                  "steps": [
+                    "Melt the dark chocolate in a bowl over simmering water and let cool slightly.",
+                    "In a separate bowl, beat egg yolks and sugar until creamy. Stir in melted chocolate and vanilla.",
+                    "In another bowl, whip the cream until soft peaks form and fold into the chocolate mixture.",
+                    "In a clean bowl, beat egg whites until stiff peaks form, then gently fold into the chocolate mixture.",
+                    "Pour into serving dishes and refrigerate for at least 2 hours before serving."
+                  ]
+                },
+                "stuffedZucchini": {
+                  "name": "Stuffed Zucchini",
+                  "country": "Australia",
+                  "ingredients": [
+                    "4 Zucchini (halved lengthwise)",
+                    "1 cup Cooked quinoa",
+                    "1 cup Mixed vegetables (chopped)",
+                    "1/2 cup Cheese (grated)",
+                    "2 tbsp Olive oil",
+                    "Salt and pepper to taste",
+                    "Fresh herbs (for garnish)"
+                  ],
+                  "steps": [
+                    "Preheat the oven to 180°C (350°F).",
+                    "Scoop out the zucchini halves and mix the flesh with quinoa, vegetables, cheese, olive oil, salt, and pepper.",
+                    "Fill the zucchini halves with the mixture and place on a baking tray.",
+                    "Bake for 20-25 minutes until the zucchini is tender and the tops are golden.",
+                    "Garnish with fresh herbs before serving."
+                  ]
+                },
+                "chickpeaCurry": {
+                  "name": "Chickpea Curry",
+                  "country": "Australia",
+                  "ingredients": [
+                    "1 can Chickpeas (drained and rinsed)",
+                    "1 Onion (chopped)",
+                    "2 Garlic cloves (minced)",
+                    "1 tbsp Ginger (grated)",
+                    "1 can Coconut milk",
+                    "2 tbsp Curry powder",
+                    "1 tbsp Olive oil",
+                    "Salt and pepper to taste",
+                    "Fresh coriander (for garnish)"
+                  ],
+                  "steps": [
+                    "In a pan, heat olive oil and sauté onion, garlic, and ginger until soft.",
+                    "Add curry powder and cook for another minute.",
+                    "Stir in chickpeas and coconut milk, simmer for 15-20 minutes.",
+                    "Season with salt and pepper, and garnish with fresh coriander before serving."
+                  ]
+                },
+                "bbqLambChops": {
+                  "name": "BBQ Lamb Chops",
+                  "country": "Australia",
+                  "ingredients": [
+                    "500g Lamb chops",
+                    "2 tbsp Olive oil",
+                    "1 tbsp Rosemary",
+                    "1 tbsp Garlic (minced)",
+                    "Salt and pepper to taste"
+                  ],
+                  "steps": [
+                    "In a bowl, mix olive oil, rosemary, garlic, salt, and pepper.",
+                    "Marinate lamb chops in the mixture for at least 30 minutes.",
+                    "Preheat the BBQ grill and cook the chops for 3-4 minutes on each side until desired doneness.",
+                    "Serve hot with a side salad."
+                  ]
+                },
+                "pumpkinSoup": {
+                  "name": "Pumpkin Soup",
+                  "country": "Australia",
+                  "ingredients": [
+                    "500g Pumpkin (peeled and cubed)",
+                    "1 Onion (chopped)",
+                    "2 Garlic cloves (minced)",
+                    "4 cups Vegetable broth",
+                    "1/2 cup Cream",
+                    "2 tbsp Olive oil",
+                    "Salt and pepper to taste",
+                    "Pumpkin seeds (for garnish)"
+                  ],
+                  "steps": [
+                    "In a pot, heat olive oil and sauté onion and garlic until soft.",
+                    "Add pumpkin cubes and vegetable broth, bringing to a boil.",
+                    "Simmer for 20-25 minutes until pumpkin is tender.",
+                    "Blend until smooth, stir in cream, and season with salt and pepper.",
+                    "Serve hot, garnished with pumpkin seeds."
+                  ]
+                },
+                "beefStroganoff": {
+                  "name": "Beef Stroganoff",
+                  "country": "Australia",
+                  "ingredients": [
+                    "500g Beef strips",
+                    "1 Onion (sliced)",
+                    "2 cups Mushrooms (sliced)",
+                    "1 cup Beef broth",
+                    "1/2 cup Sour cream",
+                    "2 tbsp Olive oil",
+                    "Salt and pepper to taste",
+                    "Cooked pasta or rice (for serving)"
+                  ],
+                  "steps": [
+                    "In a pan, heat olive oil and sauté onion until soft. Add beef strips and cook until browned.",
+                    "Add mushrooms and cook for another 5 minutes.",
+                    "Pour in beef broth and simmer for 10 minutes.",
+                    "Stir in sour cream and season with salt and pepper.",
+                    "Serve over cooked pasta or rice."
+                  ]
+                },
+                "friedRice": {
+                  "name": "Fried Rice",
+                  "country": "Australia",
+                  "ingredients": [
+                    "2 cups Cooked rice",
+                    "1 cup Mixed vegetables (peas, carrots, corn)",
+                    "2 Eggs (beaten)",
+                    "2 tbsp Soy sauce",
+                    "2 Green onions (chopped)",
+                    "2 tbsp Vegetable oil",
+                    "Salt and pepper to taste"
+                  ],
+                  "steps": [
+                    "In a pan, heat vegetable oil and scramble the eggs. Set aside.",
+                    "Add mixed vegetables to the pan and stir-fry for a few minutes.",
+                    "Add cooked rice, soy sauce, and scrambled eggs. Stir well to combine.",
+                    "Season with salt and pepper and garnish with green onions before serving."
+                  ]
+                },
+                "spaghettiBolognese": {
+                  "name": "Spaghetti Bolognese",
+                  "country": "Australia",
+                  "ingredients": [
+                    "400g Spaghetti",
+                    "500g Ground beef",
+                    "1 Onion (chopped)",
+                    "2 Garlic cloves (minced)",
+                    "1 can Tomato sauce",
+                    "1 tsp Italian herbs",
+                    "Salt and pepper to taste",
+                    "Grated Parmesan (for serving)"
+                  ],
+                  "steps": [
+                    "Cook spaghetti according to package instructions. Drain and set aside.",
+                    "In a pan, sauté onion and garlic until soft, then add ground beef and cook until browned.",
+                    "Stir in tomato sauce, Italian herbs, salt, and pepper. Simmer for 15-20 minutes.",
+                    "Serve the sauce over spaghetti and top with grated Parmesan."
+                  ]
+                },
+                "chocolateCake": {
+                  "name": "Chocolate Cake",
+                  "country": "Australia",
+                  "ingredients": [
+                    "1 3/4 cups All-purpose flour",
+                    "1 3/4 cups Sugar",
+                    "3/4 cup Cocoa powder",
+                    "1 1/2 tsp Baking powder",
+                    "1 1/2 tsp Baking soda",
+                    "1 tsp Salt",
+                    "2 Eggs",
+                    "1 cup Milk",
+                    "1/2 cup Vegetable oil",
+                    "2 tsp Vanilla extract",
+                    "1 cup Boiling water"
+                  ],
+                  "steps": [
+                    "Preheat the oven to 180°C (350°F) and grease two round cake pans.",
+                    "In a large bowl, mix flour, sugar, cocoa, baking powder, baking soda, and salt.",
+                    "Add eggs, milk, oil, and vanilla. Beat for 2 minutes, then stir in boiling water.",
+                    "Pour batter into prepared pans and bake for 30-35 minutes.",
+                    "Let cool before frosting with chocolate icing."
+                  ]
+                },
+                "cauliflowerCheese": {
+                  "name": "Cauliflower Cheese",
+                  "country": "Australia",
+                  "ingredients": [
+                    "1 head Cauliflower (broken into florets)",
+                    "2 cups Cheese sauce",
+                    "1 cup Grated cheese",
+                    "Salt and pepper to taste",
+                    "1/2 cup Breadcrumbs"
+                  ],
+                  "steps": [
+                    "Preheat the oven to 180°C (350°F).",
+                    "Steam cauliflower florets until tender.",
+                    "In a baking dish, mix cauliflower with cheese sauce, salt, and pepper.",
+                    "Top with grated cheese and breadcrumbs.",
+                    "Bake for 20-25 minutes until golden and bubbling."
+                  ]
+                },
+                "mangoPavlova": {
+                  "name": "Mango Pavlova",
+                  "country": "Australia",
+                  "ingredients": [
+                    "4 Egg whites",
+                    "1 cup Sugar",
+                    "1 tsp Vinegar",
+                    "1 tsp Cornflour",
+                    "1 cup Whipping cream",
+                    "2 ripe Mangoes (sliced)",
+                    "Mint leaves (for garnish)"
+                  ],
+                  "steps": [
+                    "Preheat the oven to 120°C (250°F) and line a baking tray with parchment paper.",
+                    "Beat egg whites until soft peaks form. Gradually add sugar, beating until stiff peaks form. Fold in vinegar and cornflour.",
+                    "Shape the meringue into a circle on the prepared tray and bake for 1 hour. Turn off the oven and let cool.",
+                    "Whip the cream and spread over the cooled meringue. Top with mango slices and garnish with mint leaves before serving."
+                  ]
+                },"vegetableStirFry": {
+                  "name": "Vegetable Stir Fry",
+                  "country": "Australia",
+                  "ingredients": [
+                    "2 cups Mixed vegetables (broccoli, bell peppers, carrots)",
+                    "1 Onion (sliced)",
+                    "2 Garlic cloves (minced)",
+                    "2 tbsp Soy sauce",
+                    "1 tbsp Olive oil",
+                    "Salt and pepper to taste",
+                    "Cooked rice (for serving)"
+                  ],
+                  "steps": [
+                    "Heat olive oil in a large pan over medium heat.",
+                    "Add onion and garlic, sautéing until fragrant.",
+                    "Add mixed vegetables and stir-fry for about 5-7 minutes until tender.",
+                    "Drizzle with soy sauce and season with salt and pepper. Stir well to combine.",
+                    "Serve hot over cooked rice."
+                  ]
+                },
+                "porkChops": {
+                  "name": "Pork Chops",
+                  "country": "Australia",
+                  "ingredients": [
+                    "4 Pork chops",
+                    "2 tbsp Olive oil",
+                    "2 Garlic cloves (minced)",
+                    "1 tsp Paprika",
+                    "Salt and pepper to taste",
+                    "Fresh parsley (for garnish)"
+                  ],
+                  "steps": [
+                    "Season pork chops with paprika, salt, and pepper.",
+                    "In a skillet, heat olive oil over medium-high heat and add garlic.",
+                    "Cook pork chops for 4-5 minutes on each side until golden and cooked through.",
+                    "Garnish with fresh parsley before serving."
+                  ]
+                },
+                "fishTacos": {
+                  "name": "Fish Tacos",
+                  "country": "Australia",
+                  "ingredients": [
+                    "500g White fish fillets (grilled or fried)",
+                    "4 Tortillas",
+                    "1 cup Cabbage (shredded)",
+                    "1/2 Avocado (sliced)",
+                    "1/4 cup Sour cream",
+                    "Lime wedges (for serving)",
+                    "Salt and pepper to taste"
+                  ],
+                  "steps": [
+                    "Season fish fillets with salt and pepper, then grill or fry until cooked through.",
+                    "Warm tortillas and fill each with fish, cabbage, avocado, and sour cream.",
+                    "Serve with lime wedges."
+                  ]
+                },
+                "chocolateBrownies": {
+                  "name": "Chocolate Brownies",
+                  "country": "Australia",
+                  "ingredients": [
+                    "200g Dark chocolate (chopped)",
+                    "150g Butter",
+                    "1 cup Sugar",
+                    "3 Eggs",
+                    "1 cup All-purpose flour",
+                    "1/2 cup Walnuts (chopped, optional)",
+                    "1 tsp Vanilla extract"
+                  ],
+                  "steps": [
+                    "Preheat the oven to 180°C (350°F) and grease a baking dish.",
+                    "Melt chocolate and butter together in a bowl over simmering water.",
+                    "In another bowl, whisk sugar and eggs until light and fluffy. Stir in melted chocolate and vanilla.",
+                    "Fold in flour and walnuts. Pour into the baking dish.",
+                    "Bake for 20-25 minutes until set. Let cool before cutting into squares."
+                  ]
+                },
+                "curriedPumpkin": {
+                  "name": "Curried Pumpkin",
+                  "country": "Australia",
+                  "ingredients": [
+                    "500g Pumpkin (peeled and cubed)",
+                    "1 Onion (chopped)",
+                    "2 Garlic cloves (minced)",
+                    "1 tbsp Curry powder",
+                    "1 can Coconut milk",
+                    "2 tbsp Olive oil",
+                    "Salt and pepper to taste",
+                    "Fresh coriander (for garnish)"
+                  ],
+                  "steps": [
+                    "In a pot, heat olive oil and sauté onion and garlic until soft.",
+                    "Add pumpkin and curry powder, cooking for a few minutes.",
+                    "Stir in coconut milk and simmer until pumpkin is tender.",
+                    "Blend until smooth, season with salt and pepper, and garnish with coriander."
+                  ]
+                },
+                "appleCrumble": {
+                  "name": "Apple Crumble",
+                  "country": "Australia",
+                  "ingredients": [
+                    "4 Apples (peeled and sliced)",
+                    "1/2 cup Sugar",
+                    "1 tsp Cinnamon",
+                    "1 cup Oats",
+                    "1/2 cup Flour",
+                    "1/2 cup Butter (melted)",
+                    "1/4 cup Brown sugar"
+                  ],
+                  "steps": [
+                    "Preheat the oven to 180°C (350°F).",
+                    "In a baking dish, mix apples with sugar and cinnamon.",
+                    "In a bowl, combine oats, flour, melted butter, and brown sugar to form a crumbly mixture.",
+                    "Spread the crumble over the apples and bake for 30-35 minutes until golden."
+                  ]
+                },
+                "salmonWithAsparagus": {
+                  "name": "Salmon with Asparagus",
+                  "country": "Australia",
+                  "ingredients": [
+                    "2 Salmon fillets",
+                    "1 bunch Asparagus (trimmed)",
+                    "2 tbsp Olive oil",
+                    "1 Lemon (sliced)",
+                    "Salt and pepper to taste"
+                  ],
+                  "steps": [
+                    "Preheat the oven to 200°C (390°F).",
+                    "Place salmon and asparagus on a baking tray. Drizzle with olive oil and season with salt and pepper.",
+                    "Top salmon with lemon slices.",
+                    "Bake for 15-20 minutes until salmon is cooked through."
+                  ]
+                },
+                "vegetableFrittata": {
+                  "name": "Vegetable Frittata",
+                  "country": "Australia",
+                  "ingredients": [
+                    "6 Eggs",
+                    "1 cup Mixed vegetables (bell peppers, spinach, tomatoes)",
+                    "1/2 cup Cheese (grated)",
+                    "2 tbsp Olive oil",
+                    "Salt and pepper to taste"
+                  ],
+                  "steps": [
+                    "Preheat the oven to 180°C (350°F).",
+                    "In a skillet, heat olive oil and sauté mixed vegetables until tender.",
+                    "In a bowl, whisk eggs, cheese, salt, and pepper, then pour over the vegetables.",
+                    "Cook on the stove for a few minutes before transferring to the oven to bake for 15-20 minutes until set."
+                  ]
+                },
+                "chickenSatay": {
+                  "name": "Chicken Satay",
+                  "country": "Australia",
+                  "ingredients": [
+                    "500g Chicken breast (cubed)",
+                    "2 tbsp Peanut butter",
+                    "2 tbsp Soy sauce",
+                    "1 tbsp Honey",
+                    "1 tsp Garlic (minced)",
+                    "Skewers"
+                  ],
+                  "steps": [
+                    "In a bowl, mix peanut butter, soy sauce, honey, and garlic to make a marinade.",
+                    "Add chicken cubes and let marinate for at least 30 minutes.",
+                    "Thread chicken onto skewers and grill for 10-15 minutes until cooked through."
+                  ]
+                },
+                "lemonMeringuePie": {
+                  "name": "Lemon Meringue Pie",
+                  "country": "Australia",
+                  "ingredients": [
+                    "1 Pie crust (pre-baked)",
+                    "1 cup Sugar",
+                    "1/4 cup Cornstarch",
+                    "1/4 tsp Salt",
+                    "1 1/2 cups Water",
+                    "3 Egg yolks",
+                    "1/4 cup Lemon juice",
+                    "3 Egg whites",
+                    "1/4 tsp Cream of tartar"
+                  ],
+                  "steps": [
+                    "In a saucepan, whisk sugar, cornstarch, and salt. Gradually add water and cook until thickened.",
+                    "Whisk in egg yolks and lemon juice, then pour into the pie crust.",
+                    "In a bowl, beat egg whites and cream of tartar until soft peaks form, then gradually add sugar and beat until stiff peaks form.",
+                    "Spread meringue over the pie and bake at 180°C (350°F) for 10-15 minutes until golden."
+                  ]
+                },
+                "zucchiniSlice": {
+                  "name": "Zucchini Slice",
+                  "country": "Australia",
+                  "ingredients": [
+                    "2 Zucchinis (grated)",
+                    "1 Onion (chopped)",
+                    "3 Eggs",
+                    "1 cup Self-raising flour",
+                    "1 cup Cheese (grated)",
+                    "1/4 cup Olive oil",
+                    "Salt and pepper to taste"
+                  ],
+                  "steps": [
+                    "Preheat the oven to 180°C (350°F) and grease a baking dish.",
+                    "In a bowl, mix grated zucchini, onion, eggs, flour, cheese, olive oil, salt, and pepper.",
+                    "Pour the mixture into the baking dish and bake for 30-35 minutes until golden.",
+                    "Let cool slightly before slicing and serving."
+                  ]
+                },
+                "scones": {
+                  "name": "Scones",
+                  "country": "Australia",
+                  "ingredients": [
+                    "2 cups Self-raising flour",
+                    "1/4 cup Butter (cold, cubed)",
+                    "1 cup Milk",
+                    "1/4 tsp Salt",
+                    "Jam and whipped cream (for serving)"
+                  ],
+                  "steps": [
+                    "Preheat the oven to 200°C (390°F) and line a baking tray with parchment paper.",
+                    "In a bowl, rub butter into the flour and salt until the mixture resembles breadcrumbs.",
+                    "Gradually add milk to form a soft dough.",
+                    "Turn the dough onto a floured surface, knead lightly, and cut into rounds.",
+                    "Place on the baking tray and bake for 12-15 minutes until golden.",
+                    "Serve warm with jam and whipped cream."
+                  ]
+                },
+                "baconEggPie": {
+                  "name": "Bacon and Egg Pie",
+                  "country": "Australia",
+                  "ingredients": [
+                    "4 Eggs",
+                    "6 slices Bacon",
+                    "1 Onion (chopped)",
+                    "1 cup Grated cheese",
+                    "1 sheet Puff pastry",
+                    "Salt and pepper to taste"
+                  ],
+                  "steps": [
+                    "Preheat oven to 180°C (350°F).",
+                    "Line a pie dish with puff pastry.",
+                    "Layer bacon and onion in the dish. Crack eggs over the top and season with salt and pepper.",
+                    "Sprinkle grated cheese over and bake for 25-30 minutes until golden and cooked through."
+                  ]
+                },
+                "sausageRolls": {
+                  "name": "Sausage Rolls",
+                  "country": "Australia",
+                  "ingredients": [
+                    "500g Sausage mince",
+                    "1 Onion (finely chopped)",
+                    "1 Carrot (grated)",
+                    "1 Egg (beaten)",
+                    "2 sheets Puff pastry",
+                    "1 tbsp Tomato sauce",
+                    "Salt and pepper to taste"
+                  ],
+                  "steps": [
+                    "Preheat oven to 200°C (390°F).",
+                    "In a bowl, combine sausage mince, onion, carrot, salt, and pepper.",
+                    "Cut pastry sheets in half and spoon the sausage mixture along the edge of each piece.",
+                    "Roll up and cut into small pieces. Brush with beaten egg.",
+                    "Bake for 20-25 minutes until golden and crispy."
+                  ]
+                },
+                "lamingtons": {
+                  "name": "Lamingtons",
+                  "country": "Australia",
+                  "ingredients": [
+                    "1 Sponge cake (cut into squares)",
+                    "2 cups Icing sugar",
+                    "1/2 cup Cocoa powder",
+                    "2 tbsp Butter",
+                    "1/2 cup Milk",
+                    "2 cups Desiccated coconut"
+                  ],
+                  "steps": [
+                    "In a bowl, combine icing sugar, cocoa, butter, and milk to make a chocolate icing.",
+                    "Dip each sponge square into the icing, then roll in desiccated coconut.",
+                    "Set on a rack to dry before serving."
+                  ]
+                },
+                "anzacBiscuits": {
+                  "name": "ANZAC Biscuits",
+                  "country": "Australia",
+                  "ingredients": [
+                    "1 cup Rolled oats",
+                    "1 cup Flour",
+                    "1 cup Desiccated coconut",
+                    "1/2 cup Sugar",
+                    "125g Butter",
+                    "2 tbsp Golden syrup",
+                    "1 tsp Baking soda",
+                    "2 tbsp Boiling water"
+                  ],
+                  "steps": [
+                    "Preheat oven to 160°C (320°F).",
+                    "In a bowl, combine oats, flour, coconut, and sugar.",
+                    "Melt butter and golden syrup together. Dissolve baking soda in boiling water and add to butter mixture.",
+                    "Stir the wet ingredients into the dry ingredients.",
+                    "Roll spoonfuls of the mixture into balls and place on a baking tray. Flatten slightly.",
+                    "Bake for 15-18 minutes until golden."
+                  ]
+                },
+                "beefPie": {
+                  "name": "Beef Pie",
+                  "country": "Australia",
+                  "ingredients": [
+                    "500g Ground beef",
+                    "1 Onion (chopped)",
+                    "1 cup Beef stock",
+                    "2 tbsp Flour",
+                    "1 tsp Worcestershire sauce",
+                    "1 sheet Puff pastry",
+                    "Salt and pepper to taste",
+                    "1 Egg (beaten, for brushing)"
+                  ],
+                  "steps": [
+                    "Preheat oven to 180°C (350°F).",
+                    "In a pan, brown the ground beef with onion. Stir in flour and cook for a minute.",
+                    "Add beef stock and Worcestershire sauce, simmering until thickened. Season with salt and pepper.",
+                    "Spoon the beef mixture into a pie dish and cover with puff pastry. Brush with beaten egg.",
+                    "Bake for 25-30 minutes until the pastry is golden."
+                  ]
+                },
+                "meatPies": {
+                  "name": "Meat Pies",
+                  "country": "Australia",
+                  "ingredients": [
+                    "500g Ground beef",
+                    "1 Onion (chopped)",
+                    "1 cup Beef stock",
+                    "2 tbsp Flour",
+                    "1 tsp Worcestershire sauce",
+                    "Puff pastry sheets",
+                    "1 Egg (beaten)"
+                  ],
+                  "steps": [
+                    "Preheat the oven to 180°C (350°F).",
+                    "Cook ground beef and onion until browned. Stir in flour, then add beef stock and Worcestershire sauce. Simmer until thickened.",
+                    "Cut puff pastry into circles and spoon beef mixture into the center of each. Top with another pastry circle and crimp the edges.",
+                    "Brush with beaten egg and bake for 20-25 minutes until golden."
+                  ]
+                },
+                "chickenParma": {
+                  "name": "Chicken Parma",
+                  "country": "Australia",
+                  "ingredients": [
+                    "2 Chicken breasts",
+                    "1 cup Bread crumbs",
+                    "1 Egg (beaten)",
+                    "1/2 cup Flour",
+                    "1 cup Tomato sauce",
+                    "1/2 cup Mozzarella cheese (grated)",
+                    "1/4 cup Parmesan cheese",
+                    "Salt and pepper to taste"
+                  ],
+                  "steps": [
+                    "Preheat the oven to 180°C (350°F).",
+                    "Coat chicken breasts in flour, dip in beaten egg, and then coat with bread crumbs.",
+                    "Fry the chicken in a pan until golden, then transfer to a baking dish.",
+                    "Top with tomato sauce, mozzarella, and Parmesan. Bake for 20 minutes until the cheese is melted and bubbly."
+                  ]
+                },
+                "damperBread": {
+                  "name": "Damper Bread",
+                  "country": "Australia",
+                  "ingredients": [
+                    "3 cups Self-raising flour",
+                    "Pinch of salt",
+                    "1 cup Milk",
+                    "1 tbsp Butter (melted)"
+                  ],
+                  "steps": [
+                    "Preheat the oven to 180°C (350°F).",
+                    "In a bowl, mix flour and salt. Gradually add milk and melted butter to form a dough.",
+                    "Shape the dough into a round loaf and place on a baking tray.",
+                    "Bake for 30-35 minutes until golden and sounds hollow when tapped."
+                  ]
+                },
+                "barbecuePrawns": {
+                  "name": "Barbecue Prawns",
+                  "country": "Australia",
+                  "ingredients": [
+                    "500g Large prawns (peeled and deveined)",
+                    "2 Garlic cloves (minced)",
+                    "2 tbsp Olive oil",
+                    "1 Lemon (juiced)",
+                    "Salt and pepper to taste"
+                  ],
+                  "steps": [
+                    "Preheat the barbecue grill.",
+                    "In a bowl, mix prawns with garlic, olive oil, lemon juice, salt, and pepper.",
+                    "Skewer the prawns and grill for 2-3 minutes on each side until cooked through.",
+                    "Serve with extra lemon wedges."
+                  ]
+                },
+                "vegemiteToast": {
+                  "name": "Vegemite on Toast",
+                  "country": "Australia",
+                  "ingredients": [
+                    "2 slices Bread",
+                    "1 tbsp Butter",
+                    "1 tsp Vegemite"
+                  ],
+                  "steps": [
+                    "Toast the bread slices until golden.",
+                    "Spread butter on the toast, followed by a thin layer of Vegemite.",
+                    "Serve immediately."
+                  ]
+              }
+    } 
+}
                       
                     
