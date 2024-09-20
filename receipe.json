@@ -1744,7 +1744,37 @@
                               "Fry until golden brown.",
                               "Serve hot with chutney."
                             ]
-                          }
+                          },
+                      "kungPaoChicken": {
+                      "name": "Kung Pao Chicken",
+                      "country": "China",
+                      "ingredients": [
+                        "500g Chicken breast (diced)",
+                        "2 tbsp Soy sauce",
+                        "1 tbsp Rice vinegar",
+                        "1 tbsp Cornstarch",
+                        "2 tbsp Vegetable oil",
+                        "3-4 Dried red chilies",
+                        "1/2 cup Peanuts",
+                        "1 Green bell pepper (diced)",
+                        "1 Red bell pepper (diced)",
+                        "2 Garlic cloves (minced)",
+                        "1 tsp Ginger (minced)",
+                        "2 tbsp Hoisin sauce",
+                        "1 tbsp Sugar",
+                        "1/2 cup Chicken broth",
+                        "Salt to taste"
+                      ],
+                      "steps": [
+                        "Marinate the diced chicken with soy sauce, rice vinegar, and cornstarch for 15 minutes.",
+                        "Heat oil in a pan and stir-fry the dried chilies until they darken. Remove and set aside.",
+                        "In the same pan, stir-fry the chicken until browned and cooked through. Set aside.",
+                        "Add garlic, ginger, and bell peppers to the pan and stir-fry for 2-3 minutes.",
+                        "Add chicken back to the pan along with hoisin sauce, sugar, and chicken broth. Stir well.",
+                        "Add the peanuts and cooked chilies, season with salt, and stir-fry for another minute.",
+                        "Serve hot with rice."
+                      ]
+                    }
                      } 
                       }
                       
