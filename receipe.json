@@ -1774,7 +1774,1059 @@
                         "Add the peanuts and cooked chilies, season with salt, and stir-fry for another minute.",
                         "Serve hot with rice."
                       ]
-                    }
+                    },
+                    "mapoTofu": {
+                    "name": "Mapo Tofu",
+                    "country": "China",
+                    "ingredients": [
+                      "400g Tofu (cubed)",
+                      "200g Ground pork",
+                      "2 tbsp Doubanjiang (spicy bean paste)",
+                      "1 tbsp Soy sauce",
+                      "1 tsp Sichuan peppercorns",
+                      "2 Garlic cloves (minced)",
+                      "1 tsp Ginger (minced)",
+                      "1 Green onion (chopped)",
+                      "1 cup Chicken broth",
+                      "1 tbsp Cornstarch (mixed with water)",
+                      "2 tbsp Vegetable oil",
+                      "Salt to taste"
+                    ],
+                    "steps": [
+                      "Heat oil in a pan and fry Sichuan peppercorns until fragrant, then remove them.",
+                      "Add ground pork to the pan and stir-fry until browned.",
+                      "Add doubanjiang, garlic, and ginger, and stir-fry for another minute.",
+                      "Add tofu cubes and gently stir to coat them with the sauce.",
+                      "Pour in the chicken broth and simmer for 5-6 minutes.",
+                      "Stir in the cornstarch mixture to thicken the sauce.",
+                      "Garnish with green onions and serve hot."
+                    ]
+                  },
+                  "springRolls": {
+                    "name": "Spring Rolls",
+                    "country": "China",
+                    "ingredients": [
+                      "20 Spring roll wrappers",
+                      "1 cup Cabbage (shredded)",
+                      "1/2 cup Carrots (julienned)",
+                      "1/2 cup Bean sprouts",
+                      "2 Garlic cloves (minced)",
+                      "1 tbsp Soy sauce",
+                      "1 tbsp Sesame oil",
+                      "1 tbsp Cornstarch",
+                      "1 tbsp Water",
+                      "Vegetable oil for frying",
+                      "Salt to taste"
+                    ],
+                    "steps": [
+                      "Heat sesame oil in a pan and sauté garlic until fragrant.",
+                      "Add cabbage, carrots, and bean sprouts. Stir-fry for 3-4 minutes.",
+                      "Add soy sauce and salt. Cook for another minute, then remove from heat.",
+                      "Mix cornstarch with water to form a paste. This will be used to seal the spring rolls.",
+                      "Place a small amount of the filling on a spring roll wrapper and roll it tightly, sealing the edges with the cornstarch paste.",
+                      "Heat oil in a deep pan and fry the spring rolls until golden and crispy.",
+                      "Serve with dipping sauce."
+                    ]
+                  },
+                  "hotAndSourSoup": {
+                    "name": "Hot and Sour Soup",
+                    "country": "China",
+                    "ingredients": [
+                      "100g Pork (thinly sliced)",
+                      "1/2 cup Bamboo shoots (sliced)",
+                      "1/2 cup Shiitake mushrooms (sliced)",
+                      "1 Egg (beaten)",
+                      "4 cups Chicken broth",
+                      "2 tbsp Soy sauce",
+                      "2 tbsp Rice vinegar",
+                      "1 tbsp Chili paste",
+                      "1 tbsp Cornstarch",
+                      "1 tsp White pepper",
+                      "2 Green onions (chopped)",
+                      "Salt to taste"
+                    ],
+                    "steps": [
+                      "Bring chicken broth to a boil in a pot.",
+                      "Add pork, bamboo shoots, and mushrooms. Simmer for 5 minutes.",
+                      "Stir in soy sauce, rice vinegar, chili paste, and white pepper.",
+                      "Slowly pour in the beaten egg while stirring the soup to create ribbons.",
+                      "Mix cornstarch with water and add to the soup to thicken it.",
+                      "Garnish with green onions and serve hot."
+                    ]
+                  },
+                  "charSiuPork": {
+                    "name": "Char Siu Pork",
+                    "country": "China",
+                    "ingredients": [
+                      "500g Pork shoulder",
+                      "3 tbsp Hoisin sauce",
+                      "2 tbsp Soy sauce",
+                      "2 tbsp Honey",
+                      "1 tbsp Chinese five-spice powder",
+                      "1 tbsp Rice wine",
+                      "1 tbsp Sesame oil",
+                      "2 Garlic cloves (minced)",
+                      "1 tsp Ginger (minced)"
+                    ],
+                    "steps": [
+                      "In a bowl, mix hoisin sauce, soy sauce, honey, five-spice powder, rice wine, sesame oil, garlic, and ginger to make the marinade.",
+                      "Marinate the pork in the mixture for at least 4 hours or overnight.",
+                      "Preheat the oven to 200°C (390°F).",
+                      "Place the pork on a baking tray and roast for 25-30 minutes, basting with the marinade halfway through.",
+                      "Slice the pork and serve with rice or noodles."
+                    ]
+                  },
+                  "pekingDuck": {
+                    "name": "Peking Duck",
+                    "country": "China",
+                    "ingredients": [
+                      "1 Whole duck",
+                      "2 tbsp Honey",
+                      "2 tbsp Soy sauce",
+                      "1 tbsp Rice vinegar",
+                      "1 tsp Chinese five-spice powder",
+                      "4 Green onions (sliced)",
+                      "1/2 cup Hoisin sauce",
+                      "Pancakes (to serve)"
+                    ],
+                    "steps": [
+                      "Preheat the oven to 200°C (390°F).",
+                      "In a bowl, mix honey, soy sauce, rice vinegar, and five-spice powder.",
+                      "Brush the mixture all over the duck and let it sit for 30 minutes.",
+                      "Roast the duck in the oven for 1.5-2 hours until the skin is crispy.",
+                      "Slice the duck and serve with hoisin sauce, green onions, and pancakes."
+                    ]
+                  },
+                  "wontons": {
+                    "name": "Wontons",
+                    "country": "China",
+                    "ingredients": [
+                      "30 Wonton wrappers",
+                      "200g Ground pork",
+                      "2 Garlic cloves (minced)",
+                      "1 tsp Ginger (minced)",
+                      "1 tbsp Soy sauce",
+                      "1 tbsp Sesame oil",
+                      "1 Green onion (chopped)",
+                      "1 Egg (beaten)",
+                      "Vegetable oil for frying"
+                    ],
+                    "steps": [
+                      "In a bowl, mix ground pork, garlic, ginger, soy sauce, sesame oil, and green onion.",
+                      "Place a small amount of the filling in the center of each wonton wrapper.",
+                      "Brush the edges of the wrapper with beaten egg and fold to seal.",
+                      "Heat oil in a deep pan and fry the wontons until golden and crispy.",
+                      "Serve with dipping sauce."
+                    ]
+                  },
+                  "danDanNoodles": {
+                    "name": "Dan Dan Noodles",
+                    "country": "China",
+                    "ingredients": [
+                      "200g Noodles",
+                      "100g Ground pork",
+                      "2 tbsp Soy sauce",
+                      "1 tbsp Doubanjiang (spicy bean paste)",
+                      "1 tbsp Sichuan pepper oil",
+                      "2 Garlic cloves (minced)",
+                      "1 tsp Ginger (minced)",
+                      "2 Green onions (chopped)",
+                      "1 tbsp Peanut butter",
+                      "2 tbsp Sesame oil",
+                      "1 cup Chicken broth",
+                      "Salt to taste"
+                    ],
+                    "steps": [
+                      "Cook the noodles according to package instructions and set aside.",
+                      "Heat sesame oil in a pan and stir-fry garlic, ginger, and ground pork until browned.",
+                      "Add doubanjiang, soy sauce, peanut butter, and chicken broth. Stir well and simmer for 5 minutes.",
+                      "Pour the sauce over the cooked noodles.",
+                      "Garnish with green onions and serve hot."
+                    ]
+                  },
+                  "sweetSourPork": {
+                    "name": "Sweet and Sour Pork",
+                    "country": "China",
+                    "ingredients": [
+                      "400g Pork (cubed)",
+                      "1/2 cup Pineapple (cubed)",
+                      "1/2 cup Bell peppers (diced)",
+                      "1 Onion (diced)",
+                      "2 tbsp Soy sauce",
+                      "2 tbsp Rice vinegar",
+                      "3 tbsp Ketchup",
+                      "1 tbsp Sugar",
+                      "2 tbsp Cornstarch",
+                      "1 Egg (beaten)",
+                      "Vegetable oil for frying",
+                      "Salt to taste"
+                    ],
+                    "steps": [
+                      "Coat the pork cubes in beaten egg and cornstarch.",
+                      "Heat oil in a pan and deep-fry the pork until golden and crispy. Set aside.",
+                      "In a separate pan, stir-fry onions and bell peppers for 2-3 minutes.",
+                      "Add soy sauce, rice vinegar, ketchup, sugar, and pineapple to the pan. Stir well.",
+                      "Add the fried pork and stir to coat it with the sauce.",
+                      "Serve hot with rice."
+                    ]
+                  },
+                  "scallionPancakes": {
+                    "name": "Scallion Pancakes",
+                    "country": "China",
+                    "ingredients": [
+                      "2 cups All-purpose flour",
+                      "1 cup Water",
+                      "1 cup Scallions (chopped)",
+                      "2 tbsp Sesame oil",
+                      "1 tsp Salt",
+                      "Vegetable oil for frying"
+                    ],
+                    "steps": [
+                      "In a bowl, mix flour and water to form a dough. Knead until smooth, then let it rest for 30 minutes.",
+                      "Divide the dough into small balls and roll each ball into a flat circle.",
+                      "Brush with sesame oil, sprinkle with scallions and salt, then roll it up and flatten again.",
+                      "Heat vegetable oil in a pan and fry the pancakes until golden and crispy on both sides.",
+                      "Serve hot."
+                    ]
+                  },
+                  "chowMein": {
+                    "name": "Chow Mein",
+                    "country": "China",
+                    "ingredients": [
+                      "200g Egg noodles",
+                      "1/2 cup Cabbage (shredded)",
+                      "1/2 cup Carrots (julienned)",
+                      "1/2 cup Bean sprouts",
+                      "1 Onion (sliced)",
+                      "2 Garlic cloves (minced)",
+                      "2 tbsp Soy sauce",
+                      "1 tbsp Oyster sauce",
+                      "1 tbsp Sesame oil",
+                      "1 tbsp Vegetable oil",
+                      "Salt to taste"
+                    ],
+                    "steps": [
+                      "Cook the egg noodles according to package instructions and set aside.",
+                      "Heat vegetable oil in a pan and sauté garlic and onions until softened.",
+                      "Add cabbage, carrots, and bean sprouts. Stir-fry for 2-3 minutes.",
+                      "Add the cooked noodles to the pan along with soy sauce, oyster sauce, and sesame oil.",
+                      "Toss everything together and stir-fry for another 2 minutes.",
+                      "Serve hot."
+                    ]
+                  },
+                  "loMein": {
+                    "name": "Lo Mein",
+                    "country": "China",
+                    "ingredients": [
+                      "200g Lo mein noodles",
+                      "100g Chicken breast (sliced)",
+                      "1/2 cup Broccoli florets",
+                      "1/2 cup Carrots (julienned)",
+                      "1/4 cup Bell peppers (sliced)",
+                      "2 tbsp Soy sauce",
+                      "1 tbsp Hoisin sauce",
+                      "1 tbsp Sesame oil",
+                      "2 Garlic cloves (minced)",
+                      "1 tsp Ginger (minced)",
+                      "1 tbsp Vegetable oil",
+                      "Salt to taste"
+                    ],
+                    "steps": [
+                      "Cook lo mein noodles according to package instructions and set aside.",
+                      "Heat vegetable oil in a pan and sauté garlic and ginger until fragrant.",
+                      "Add chicken slices and stir-fry until cooked through.",
+                      "Add broccoli, carrots, and bell peppers to the pan. Stir-fry for 3-4 minutes.",
+                      "Stir in soy sauce, hoisin sauce, and sesame oil.",
+                      "Toss in the cooked noodles and stir-fry for another 2 minutes.",
+                      "Serve hot."
+                    ]
+                  },
+                  "congee": {
+                    "name": "Congee",
+                    "country": "China",
+                    "ingredients": [
+                      "1 cup Jasmine rice",
+                      "6 cups Water",
+                      "100g Chicken breast (shredded)",
+                      "2 Garlic cloves (minced)",
+                      "1 tbsp Soy sauce",
+                      "1 tsp Ginger (minced)",
+                      "1 Green onion (chopped)",
+                      "Salt to taste",
+                      "Pepper to taste"
+                    ],
+                    "steps": [
+                      "In a pot, bring water to a boil and add jasmine rice.",
+                      "Simmer the rice on low heat, stirring occasionally, until it becomes a thick porridge (about 1 hour).",
+                      "Add shredded chicken, garlic, ginger, soy sauce, salt, and pepper. Stir well and cook for another 10 minutes.",
+                      "Garnish with green onions and serve hot."
+                    ]
+                  },
+                  "eggFriedRice": {
+                    "name": "Egg Fried Rice",
+                    "country": "China",
+                    "ingredients": [
+                      "2 cups Cooked rice (cold)",
+                      "2 Eggs (beaten)",
+                      "1/2 cup Peas",
+                      "1/2 cup Carrots (diced)",
+                      "1/4 cup Green onions (chopped)",
+                      "2 tbsp Soy sauce",
+                      "1 tbsp Sesame oil",
+                      "1 tbsp Vegetable oil",
+                      "Salt to taste",
+                      "Pepper to taste"
+                    ],
+                    "steps": [
+                      "Heat vegetable oil in a pan and scramble the beaten eggs. Set aside.",
+                      "In the same pan, sauté peas, carrots, and green onions for 2-3 minutes.",
+                      "Add the cold rice and stir-fry for 5 minutes, breaking up any clumps.",
+                      "Stir in soy sauce, sesame oil, salt, and pepper.",
+                      "Add the scrambled eggs back to the pan and toss everything together.",
+                      "Serve hot."
+                    ]
+                  },
+                  "steamedBuns": {
+                    "name": "Steamed Buns (Baozi)",
+                    "country": "China",
+                    "ingredients": [
+                      "3 cups All-purpose flour",
+                      "1 cup Warm water",
+                      "2 tsp Yeast",
+                      "1 tbsp Sugar",
+                      "200g Ground pork",
+                      "1/2 cup Cabbage (shredded)",
+                      "2 Garlic cloves (minced)",
+                      "1 tbsp Soy sauce",
+                      "1 tbsp Sesame oil",
+                      "Salt to taste",
+                      "Pepper to taste"
+                    ],
+                    "steps": [
+                      "In a bowl, mix flour, yeast, sugar, and warm water to form a dough. Knead until smooth and let it rise for 1 hour.",
+                      "In another bowl, mix ground pork, cabbage, garlic, soy sauce, sesame oil, salt, and pepper.",
+                      "Divide the dough into small balls, flatten them, and place a spoonful of filling in the center.",
+                      "Pinch the edges together to seal the buns.",
+                      "Steam the buns for 15-20 minutes until fully cooked.",
+                      "Serve hot."
+                    ]
+                  },
+                  "sichuanBoiledFish": {
+                    "name": "Sichuan Boiled Fish",
+                    "country": "China",
+                    "ingredients": [
+                      "500g Fish fillets (sliced)",
+                      "2 tbsp Doubanjiang (spicy bean paste)",
+                      "1 tbsp Soy sauce",
+                      "1 tbsp Chili oil",
+                      "1 tsp Sichuan peppercorns",
+                      "1 cup Chicken broth",
+                      "2 Garlic cloves (minced)",
+                      "1 tsp Ginger (minced)",
+                      "2 Green onions (chopped)",
+                      "Vegetable oil",
+                      "Salt to taste"
+                    ],
+                    "steps": [
+                      "Heat oil in a pan and stir-fry garlic, ginger, and doubanjiang until fragrant.",
+                      "Add chicken broth, soy sauce, chili oil, and Sichuan peppercorns. Bring to a boil.",
+                      "Add the fish fillets and simmer for 5-7 minutes until cooked through.",
+                      "Garnish with green onions and serve hot."
+                    ]
+                  },
+                  "teaEggs": {
+                    "name": "Tea Eggs",
+                    "country": "China",
+                    "ingredients": [
+                      "6 Eggs",
+                      "2 tbsp Soy sauce",
+                      "1 tbsp Black tea leaves",
+                      "1 tbsp Five-spice powder",
+                      "1 Cinnamon stick",
+                      "1 Star anise",
+                      "2 cups Water",
+                      "1 tsp Sugar",
+                      "Salt to taste"
+                    ],
+                    "steps": [
+                      "Boil the eggs for 8 minutes, then remove and crack the shells slightly.",
+                      "In a pot, add water, soy sauce, tea leaves, five-spice powder, cinnamon stick, star anise, sugar, and salt.",
+                      "Bring to a boil, then reduce heat and add the cracked eggs.",
+                      "Simmer for 1 hour, then let the eggs sit in the liquid for an additional 2 hours.",
+                      "Peel and serve."
+                    ]
+                  },
+                  "stirFriedGreenBeans": {
+                    "name": "Stir-Fried Green Beans",
+                    "country": "China",
+                    "ingredients": [
+                      "300g Green beans (trimmed)",
+                      "2 Garlic cloves (minced)",
+                      "1 tbsp Soy sauce",
+                      "1 tbsp Oyster sauce",
+                      "1 tbsp Sesame oil",
+                      "1 tsp Sugar",
+                      "Vegetable oil",
+                      "Salt to taste"
+                    ],
+                    "steps": [
+                      "Heat vegetable oil in a pan and stir-fry green beans for 3-4 minutes.",
+                      "Add garlic, soy sauce, oyster sauce, sesame oil, and sugar. Stir well and cook for another 2 minutes.",
+                      "Serve hot."
+                    ]
+                  },
+                  "braisedPorkBelly": {
+                    "name": "Braised Pork Belly",
+                    "country": "China",
+                    "ingredients": [
+                      "500g Pork belly (cubed)",
+                      "2 tbsp Soy sauce",
+                      "1 tbsp Rice wine",
+                      "1 tbsp Sugar",
+                      "2 Garlic cloves (minced)",
+                      "1 tsp Ginger (minced)",
+                      "2 Green onions (chopped)",
+                      "1 Star anise",
+                      "1 cup Water",
+                      "Salt to taste"
+                    ],
+                    "steps": [
+                      "In a pan, sear the pork belly cubes until browned on all sides. Set aside.",
+                      "In the same pan, stir-fry garlic and ginger until fragrant.",
+                      "Add soy sauce, rice wine, sugar, star anise, and water. Bring to a boil.",
+                      "Return the pork belly to the pan and simmer on low heat for 1 hour until tender.",
+                      "Garnish with green onions and serve hot."
+                    ]
+                  },
+                  "pineappleBuns": {
+                    "name": "Pineapple Buns (Bolo Bao)",
+                    "country": "China",
+                    "ingredients": [
+                      "3 cups All-purpose flour",
+                      "1/2 cup Sugar",
+                      "2 tsp Yeast",
+                      "1 cup Milk",
+                      "2 Eggs",
+                      "100g Butter",
+                      "1 tsp Baking powder",
+                      "1/2 tsp Vanilla extract",
+                      "A pinch of Salt"
+                    ],
+                    "steps": [
+                      "In a bowl, mix flour, yeast, sugar, and milk to form a dough. Knead until smooth and let it rise for 1 hour.",
+                      "In another bowl, mix butter, sugar, and vanilla extract to make the topping dough.",
+                      "Divide the dough into small balls, flatten them, and add a piece of the topping dough on top.",
+                      "Bake the buns at 180°C (350°F) for 20-25 minutes until golden.",
+                      "Serve warm."
+                    ]
+                  },
+                  "beggarsChicken": {
+                    "name": "Beggar’s Chicken",
+                    "country": "China",
+                    "ingredients": [
+                      "1 Whole chicken",
+                      "2 tbsp Soy sauce",
+                      "2 tbsp Rice wine",
+                      "2 Garlic cloves (minced)",
+                      "1 tsp Ginger (minced)",
+                      "2 Green onions (chopped)",
+                      "1 tsp Chinese five-spice powder",
+                      "Lotus leaves (or aluminum foil)",
+                      "Clay (or dough for wrapping)",
+                      "Salt to taste"
+                    ],
+                    "steps": [
+                      "Marinate the chicken with soy sauce, rice wine, garlic, ginger, green onions, and five-spice powder for 2-3 hours.",
+                      "Wrap the marinated chicken in lotus leaves or aluminum foil.",
+                      "Coat the wrapped chicken with clay or dough.",
+                      "Bake the chicken at 180°C (350°F) for 2-3 hours until fully cooked.",
+                      "Break open the clay or dough and serve the chicken hot."
+                    ]
+                  },
+                  "lionHeadMeatballs": {
+                    "name": "Lion’s Head Meatballs",
+                    "country": "China",
+                    "ingredients": [
+                      "400g Ground pork",
+                      "1/2 cup Water chestnuts (chopped)",
+                      "2 tbsp Soy sauce",
+                      "1 tbsp Rice wine",
+                      "1 Egg (beaten)",
+                      "1 tsp Ginger (minced)",
+                      "2 Green onions (chopped)",
+                      "1 tsp Sesame oil",
+                      "1 tbsp Cornstarch",
+                      "1/2 cup Chicken broth",
+                      "Vegetable oil for frying",
+                      "Salt to taste"
+                    ],
+                    "steps": [
+                      "In a bowl, mix ground pork, water chestnuts, soy sauce, rice wine, egg, ginger, green onions, sesame oil, cornstarch, and salt.",
+                      "Form large meatballs from the mixture.",
+                      "Heat vegetable oil in a pan and fry the meatballs until golden.",
+                      "Add chicken broth to the pan and simmer the meatballs for 20-25 minutes.",
+                      "Serve hot."
+                    ]
+                  },
+                  "drunkenChicken": {
+                    "name": "Drunken Chicken",
+                    "country": "China",
+                    "ingredients": [
+                      "1 Whole chicken",
+                      "2 cups Shaoxing wine",
+                      "2 tbsp Soy sauce",
+                      "1 tbsp Sugar",
+                      "2 Garlic cloves (minced)",
+                      "1 tsp Ginger (minced)",
+                      "1 Green onion (chopped)",
+                      "1 Star anise",
+                      "2 cups Chicken broth",
+                      "Salt to taste"
+                    ],
+                    "steps": [
+                      "Boil the chicken in water until fully cooked. Remove and let it cool.",
+                      "In a pot, mix Shaoxing wine, soy sauce, sugar, garlic, ginger, green onion, star anise, and chicken broth. Bring to a boil.",
+                      "Pour the wine mixture over the cooked chicken and marinate for 4-6 hours.",
+                      "Slice the chicken and serve cold or at room temperature."
+                    ]
+                  },
+                  "youtiao": {
+                    "name": "Youtiao (Chinese Fried Dough)",
+                    "country": "China",
+                    "ingredients": [
+                      "2 cups All-purpose flour",
+                      "1 tsp Baking powder",
+                      "1 tsp Baking soda",
+                      "1 tbsp Sugar",
+                      "1/2 cup Water",
+                      "Vegetable oil for frying",
+                      "A pinch of Salt"
+                    ],
+                    "steps": [
+                      "In a bowl, mix flour, baking powder, baking soda, sugar, salt, and water to form a dough. Knead until smooth and let it rest for 1 hour.",
+                      "Roll the dough into long strips and cut into small pieces.",
+                      "Heat vegetable oil in a deep pan and fry the dough pieces until golden and crispy.",
+                      "Serve warm."
+                    ]
+                  },
+                  "redCookedPork": {
+                    "name": "Red-Cooked Pork",
+                    "country": "China",
+                    "ingredients": [
+                      "500g Pork belly (cubed)",
+                      "2 tbsp Soy sauce",
+                      "1 tbsp Rice wine",
+                      "2 tbsp Sugar",
+                      "1 Star anise",
+                      "2 Garlic cloves (minced)",
+                      "1 tsp Ginger (minced)",
+                      "1 Green onion (chopped)",
+                      "1 cup Water",
+                      "Salt to taste"
+                    ],
+                    "steps": [
+                      "In a pan, caramelize sugar over low heat until it turns brown.",
+                      "Add pork belly to the pan and stir until coated with caramelized sugar.",
+                      "Add soy sauce, rice wine, garlic, ginger, star anise, green onion, and water. Bring to a boil.",
+                      "Simmer the pork for 1 hour until tender.",
+                      "Serve hot."
+                    ]
+                  },
+                  "dongPoPork": {
+                    "name": "Dongpo Pork",
+                    "country": "China",
+                    "ingredients": [
+                      "500g Pork belly (cut into large cubes)",
+                      "2 tbsp Soy sauce",
+                      "1 tbsp Rice wine",
+                      "1 tbsp Sugar",
+                      "2 Garlic cloves (minced)",
+                      "1 tsp Ginger (minced)",
+                      "2 Green onions (chopped)",
+                      "1 Star anise",
+                      "1 cup Chicken broth",
+                      "Salt to taste"
+                    ],
+                    "steps": [
+                      "Blanch the pork belly in boiling water for 5 minutes, then remove and set aside.",
+                      "In a pot, caramelize sugar over low heat, then add soy sauce, rice wine, garlic, ginger, star anise, and chicken broth.",
+                      "Add the pork belly cubes to the pot and simmer on low heat for 1.5 hours until tender.",
+                      "Garnish with green onions and serve hot."
+                    ]
+                  },
+                  "bitterMelonStirFry": {
+                    "name": "Bitter Melon Stir-Fry",
+                    "country": "China",
+                    "ingredients": [
+                      "1 Bitter melon (sliced)",
+                      "2 Garlic cloves (minced)",
+                      "1 tbsp Soy sauce",
+                      "1 tsp Oyster sauce",
+                      "1 tsp Sugar",
+                      "1 tbsp Sesame oil",
+                      "Vegetable oil",
+                      "Salt to taste"
+                    ],
+                    "steps": [
+                      "Heat vegetable oil in a pan and stir-fry garlic until fragrant.",
+                      "Add sliced bitter melon and stir-fry for 3-4 minutes.",
+                      "Stir in soy sauce, oyster sauce, sugar, sesame oil, and salt.",
+                      "Cook for another 2 minutes and serve hot."
+                    ]
+                  },
+                  "fishFragrantEggplant": {
+                    "name": "Fish-Fragrant Eggplant",
+                    "country": "China",
+                    "ingredients": [
+                      "2 Eggplants (cut into strips)",
+                      "2 tbsp Doubanjiang (spicy bean paste)",
+                      "2 Garlic cloves (minced)",
+                      "1 tsp Ginger (minced)",
+                      "1 tbsp Soy sauce",
+                      "1 tbsp Sugar",
+                      "1 tbsp Rice vinegar",
+                      "1 tsp Sichuan pepper oil",
+                      "Vegetable oil",
+                      "Salt to taste"
+                    ],
+                    "steps": [
+                      "Heat vegetable oil in a pan and fry the eggplant strips until soft. Set aside.",
+                      "In the same pan, stir-fry garlic, ginger, and doubanjiang until fragrant.",
+                      "Add soy sauce, sugar, rice vinegar, and Sichuan pepper oil. Stir well.",
+                      "Add the fried eggplant back to the pan and toss to coat with the sauce.",
+                      "Serve hot."
+                    ]
+                  },
+                  "shrimpDumplings": {
+                    "name": "Shrimp Dumplings (Har Gow)",
+                    "country": "China",
+                    "ingredients": [
+                      "200g Shrimp (chopped)",
+                      "1/2 cup Bamboo shoots (chopped)",
+                      "1 tbsp Soy sauce",
+                      "1 tbsp Sesame oil",
+                      "1 Garlic clove (minced)",
+                      "1 Green onion (chopped)",
+                      "Dumpling wrappers",
+                      "Salt to taste",
+                      "Pepper to taste"
+                    ],
+                    "steps": [
+                      "In a bowl, mix shrimp, bamboo shoots, soy sauce, sesame oil, garlic, green onion, salt, and pepper.",
+                      "Place a small amount of the filling in the center of each dumpling wrapper and fold to seal.",
+                      "Steam the dumplings for 10-12 minutes until fully cooked.",
+                      "Serve hot."
+                    ]
+                  },
+                  "sesameChicken": {
+                    "name": "Sesame Chicken",
+                    "country": "China",
+                    "ingredients": [
+                      "500g Chicken breast (cut into bite-sized pieces)",
+                      "1/2 cup Cornstarch",
+                      "1 Egg (beaten)",
+                      "2 tbsp Soy sauce",
+                      "1 tbsp Rice vinegar",
+                      "1 tbsp Honey",
+                      "1 tbsp Sesame oil",
+                      "1 tbsp Sesame seeds",
+                      "Vegetable oil for frying",
+                      "Salt to taste"
+                    ],
+                    "steps": [
+                      "Coat the chicken pieces in beaten egg and cornstarch.",
+                      "Heat vegetable oil in a pan and deep-fry the chicken until golden and crispy. Set aside.",
+                      "In a separate pan, stir-fry soy sauce, rice vinegar, honey, sesame oil, and sesame seeds.",
+                      "Add the fried chicken and toss to coat with the sauce.",
+                      "Serve hot."
+                    ]
+                  },
+                  "chickenFeetDimSum": {
+                    "name": "Chicken Feet Dim Sum",
+                    "country": "China",
+                    "ingredients": [
+                      "500g Chicken feet",
+                      "2 tbsp Soy sauce",
+                      "1 tbsp Rice wine",
+                      "1 tbsp Oyster sauce",
+                      "2 Garlic cloves (minced)",
+                      "1 tsp Ginger (minced)",
+                      "1 tbsp Sugar",
+                      "1 tsp Five-spice powder",
+                      "Vegetable oil for frying",
+                      "Salt to taste"
+                    ],
+                    "steps": [
+                      "Blanch chicken feet in boiling water for 5 minutes, then drain and pat dry.",
+                      "Deep fry the chicken feet until golden and crispy.",
+                      "In a pan, mix soy sauce, rice wine, oyster sauce, garlic, ginger, sugar, and five-spice powder. Simmer the sauce.",
+                      "Add fried chicken feet to the sauce and simmer for 30 minutes.",
+                      "Serve hot."
+                    ]
+                  },
+                  "eggTarts": {
+                    "name": "Chinese Egg Tarts",
+                    "country": "China",
+                    "ingredients": [
+                      "1 sheet Puff pastry",
+                      "3 Eggs",
+                      "1/2 cup Sugar",
+                      "1/2 cup Water",
+                      "1/2 cup Milk",
+                      "1 tsp Vanilla extract"
+                    ],
+                    "steps": [
+                      "Roll out puff pastry and cut into circles. Line a muffin tin with the pastry.",
+                      "In a pot, dissolve sugar in water and let it cool.",
+                      "Beat eggs and mix with milk, vanilla extract, and the sugar syrup.",
+                      "Pour the mixture into the pastry shells and bake at 200°C (390°F) for 20-25 minutes.",
+                      "Serve warm."
+                    ]
+                  },
+                  "chiliOilWontons": {
+                    "name": "Chili Oil Wontons",
+                    "country": "China",
+                    "ingredients": [
+                      "200g Ground pork",
+                      "50g Shrimp (chopped)",
+                      "1 tbsp Soy sauce",
+                      "1 tbsp Sesame oil",
+                      "1 Garlic clove (minced)",
+                      "1 Green onion (chopped)",
+                      "Wonton wrappers",
+                      "Chili oil (for serving)",
+                      "Salt to taste"
+                    ],
+                    "steps": [
+                      "In a bowl, mix pork, shrimp, soy sauce, sesame oil, garlic, and green onion.",
+                      "Place a small amount of filling in the center of each wonton wrapper and fold to seal.",
+                      "Boil the wontons in water for 4-5 minutes until cooked.",
+                      "Serve with a generous drizzle of chili oil."
+                    ]
+                  },
+                  "loMaiGai": {
+                    "name": "Lo Mai Gai (Sticky Rice with Chicken)",
+                    "country": "China",
+                    "ingredients": [
+                      "1 cup Glutinous rice",
+                      "200g Chicken thigh (sliced)",
+                      "2 tbsp Soy sauce",
+                      "1 tbsp Oyster sauce",
+                      "1 tbsp Sesame oil",
+                      "2 Chinese sausages (sliced)",
+                      "1/4 cup Dried shrimp",
+                      "1 tbsp Shaoxing wine",
+                      "Lotus leaves (optional)"
+                    ],
+                    "steps": [
+                      "Soak glutinous rice in water for 2 hours. Drain and steam for 30 minutes.",
+                      "Marinate chicken with soy sauce, oyster sauce, sesame oil, and Shaoxing wine.",
+                      "In a lotus leaf (or foil), layer the rice, chicken, Chinese sausage, and dried shrimp.",
+                      "Wrap and steam for 20-30 minutes until the filling is cooked.",
+                      "Serve hot."
+                    ]
+                  },
+                  "sesameBalls": {
+                    "name": "Sesame Balls (Jian Dui)",
+                    "country": "China",
+                    "ingredients": [
+                      "1 cup Glutinous rice flour",
+                      "1/4 cup Sugar",
+                      "1/4 cup Water",
+                      "Red bean paste (for filling)",
+                      "Sesame seeds",
+                      "Vegetable oil for frying"
+                    ],
+                    "steps": [
+                      "In a bowl, mix glutinous rice flour, sugar, and water to form a dough.",
+                      "Divide the dough, fill with red bean paste, and shape into balls.",
+                      "Roll the balls in sesame seeds to coat.",
+                      "Deep fry the sesame balls until golden and crispy.",
+                      "Serve warm."
+                    ]
+                  },
+                  "chineseBroccoliWithOysterSauce": {
+                    "name": "Chinese Broccoli with Oyster Sauce",
+                    "country": "China",
+                    "ingredients": [
+                      "200g Chinese broccoli (gai lan)",
+                      "2 tbsp Oyster sauce",
+                      "1 tbsp Soy sauce",
+                      "1 tsp Sugar",
+                      "1 tbsp Sesame oil"
+                    ],
+                    "steps": [
+                      "Blanch Chinese broccoli in boiling water for 2-3 minutes, then drain.",
+                      "In a small pan, heat sesame oil, oyster sauce, soy sauce, and sugar until combined.",
+                      "Pour the sauce over the broccoli and serve hot."
+                    ]
+                  },
+                  "porkDumplings": {
+                    "name": "Pork Dumplings",
+                    "country": "China",
+                    "ingredients": [
+                      "200g Ground pork",
+                      "1 Garlic clove (minced)",
+                      "1 tbsp Soy sauce",
+                      "1 tsp Sesame oil",
+                      "1 Green onion (chopped)",
+                      "Dumpling wrappers",
+                      "Salt to taste"
+                    ],
+                    "steps": [
+                      "In a bowl, mix pork, garlic, soy sauce, sesame oil, and green onion.",
+                      "Place a small amount of filling in the center of each dumpling wrapper and fold to seal.",
+                      "Boil or steam the dumplings for 8-10 minutes.",
+                      "Serve hot with dipping sauce."
+                    ]
+                  },
+                  "porkBellyBao": {
+                    "name": "Pork Belly Bao",
+                    "country": "China",
+                    "ingredients": [
+                      "500g Pork belly",
+                      "2 tbsp Soy sauce",
+                      "1 tbsp Sugar",
+                      "1 tbsp Rice wine",
+                      "Bao buns",
+                      "Pickled vegetables (for serving)",
+                      "Hoisin sauce"
+                    ],
+                    "steps": [
+                      "Cook pork belly with soy sauce, sugar, and rice wine until tender and caramelized.",
+                      "Serve slices of pork belly in bao buns with hoisin sauce and pickled vegetables."
+                    ]
+                  },
+                  "beefChowFun": {
+                    "name": "Beef Chow Fun",
+                    "country": "China",
+                    "ingredients": [
+                      "300g Beef (thinly sliced)",
+                      "200g Flat rice noodles",
+                      "1 tbsp Soy sauce",
+                      "1 tbsp Oyster sauce",
+                      "1 tbsp Dark soy sauce",
+                      "2 Garlic cloves (minced)",
+                      "1 Onion (sliced)",
+                      "Bean sprouts",
+                      "Vegetable oil"
+                    ],
+                    "steps": [
+                      "Stir-fry garlic and onion in oil until fragrant.",
+                      "Add beef and cook until browned.",
+                      "Add noodles, soy sauce, oyster sauce, and dark soy sauce, and stir-fry.",
+                      "Mix in bean sprouts and serve hot."
+                    ]
+                  },
+                  "twiceCookedPork": {
+                    "name": "Twice Cooked Pork",
+                    "country": "China",
+                    "ingredients": [
+                      "300g Pork belly",
+                      "1 tbsp Doubanjiang (spicy bean paste)",
+                      "2 tbsp Soy sauce",
+                      "1 tbsp Rice wine",
+                      "1 Bell pepper (sliced)",
+                      "1 Green onion (chopped)",
+                      "1 tsp Ginger (minced)",
+                      "Vegetable oil"
+                    ],
+                    "steps": [
+                      "Boil the pork belly for 20 minutes, then cool and slice.",
+                      "Stir-fry ginger and doubanjiang in oil, add pork belly and cook until browned.",
+                      "Add soy sauce, rice wine, bell pepper, and green onion.",
+                      "Cook for another 5 minutes and serve."
+                    ]
+                  },
+                  "steamedFishWithGinger": {
+                    "name": "Steamed Fish with Ginger",
+                    "country": "China",
+                    "ingredients": [
+                      "1 Whole fish (cleaned)",
+                      "2 tbsp Soy sauce",
+                      "1 tbsp Sesame oil",
+                      "2 Garlic cloves (minced)",
+                      "1 tbsp Ginger (julienned)",
+                      "1 Green onion (chopped)"
+                    ],
+                    "steps": [
+                      "Place the fish in a steamer and steam for 10-12 minutes.",
+                      "In a pan, heat sesame oil and stir-fry garlic and ginger until fragrant.",
+                      "Pour the mixture over the steamed fish, drizzle with soy sauce, and garnish with green onions."
+                    ]
+                  },
+                  "bbqPorkBuns": {
+                    "name": "BBQ Pork Buns (Char Siu Bao)",
+                    "country": "China",
+                    "ingredients": [
+                      "300g BBQ pork (Char Siu)",
+                      "2 tbsp Soy sauce",
+                      "1 tbsp Oyster sauce",
+                      "1 tbsp Sugar",
+                      "2 cups All-purpose flour",
+                      "1 tsp Yeast",
+                      "1/2 cup Milk",
+                      "1/4 cup Sugar"
+                    ],
+                    "steps": [
+                      "Make a dough with flour, yeast, milk, and sugar. Let it rise for 1 hour.",
+                      "Mix chopped BBQ pork with soy sauce, oyster sauce, and sugar.",
+                      "Shape dough into buns, fill with pork mixture, and steam for 10-12 minutes."
+                    ]
+                  },
+                  "threeCupChicken": {
+                    "name": "Three Cup Chicken",
+                    "country": "China",
+                    "ingredients": [
+                      "500g Chicken thighs (bone-in, chopped)",
+                      "3 tbsp Soy sauce",
+                      "3 tbsp Rice wine",
+                      "3 tbsp Sesame oil",
+                      "6 Garlic cloves",
+                      "1 tbsp Ginger (sliced)",
+                      "1/4 cup Basil leaves"
+                    ],
+                    "steps": [
+                      "Heat sesame oil in a pan and fry garlic and ginger.",
+                      "Add chicken and brown on all sides.",
+                      "Pour in soy sauce, rice wine, and cook until the sauce thickens.",
+                      "Stir in basil leaves and serve."
+                    ]
+                  },
+                  "shanghaiSoupDumplings": {
+                    "name": "Shanghai Soup Dumplings (Xiao Long Bao)",
+                    "country": "China",
+                    "ingredients": [
+                      "200g Ground pork",
+                      "1 tbsp Soy sauce",
+                      "1 tbsp Sesame oil",
+                      "1 Garlic clove (minced)",
+                      "Gelatinized broth (for filling)",
+                      "Dumpling wrappers",
+                      "Green onion (chopped)"
+                    ],
+                    "steps": [
+                      "Mix pork, soy sauce, sesame oil, and garlic for the filling.",
+                      "Add a small cube of gelatinized broth to each wrapper along with the filling.",
+                      "Seal and steam for 10-12 minutes.",
+                      "Serve with vinegar and ginger dipping sauce."
+                    ]
+                  },
+                  "spicySichuanGreenBeans": {
+                    "name": "Spicy Sichuan Green Beans",
+                    "country": "China",
+                    "ingredients": [
+                      "300g Green beans",
+                      "2 Garlic cloves (minced)",
+                      "1 tbsp Soy sauce",
+                      "1 tbsp Chili paste",
+                      "1 tsp Sichuan peppercorns",
+                      "Vegetable oil",
+                      "Salt to taste"
+                    ],
+                    "steps": [
+                      "Blanch green beans in boiling water for 2 minutes and drain.",
+                      "Stir-fry garlic, chili paste, and Sichuan peppercorns in oil until fragrant.",
+                      "Add green beans and soy sauce, and stir-fry for 3-4 minutes.",
+                      "Serve hot."
+                    ]
+                  },
+                  "sweetAndSourPork": {
+                    "name": "Sweet and Sour Pork",
+                    "country": "China",
+                    "ingredients": [
+                      "500g Pork (cubed)",
+                      "1/2 cup Pineapple (cubed)",
+                      "1 Bell pepper (chopped)",
+                      "2 tbsp Soy sauce",
+                      "2 tbsp Vinegar",
+                      "2 tbsp Sugar",
+                      "1 tbsp Ketchup",
+                      "Cornstarch (for coating)"
+                    ],
+                    "steps": [
+                      "Coat pork cubes in cornstarch and deep-fry until golden.",
+                      "In a pan, mix soy sauce, vinegar, sugar, and ketchup to make the sauce.",
+                      "Add bell pepper, pineapple, and fried pork, and toss in the sauce.",
+                      "Serve hot."
+                    ]
+                  },
+                  "eggDropSoup": {
+                    "name": "Egg Drop Soup",
+                    "country": "China",
+                    "ingredients": [
+                      "4 cups Chicken broth",
+                      "2 Eggs (beaten)",
+                      "1 tsp Cornstarch",
+                      "1 tbsp Soy sauce",
+                      "Green onions (for garnish)",
+                      "Salt and pepper to taste"
+                    ],
+                    "steps": [
+                      "Bring chicken broth to a boil and stir in soy sauce.",
+                      "Slowly pour in the beaten eggs while stirring to create ribbons.",
+                      "Dissolve cornstarch in water and add to the soup to thicken.",
+                      "Garnish with green onions and serve hot."
+                    ]
+                  },
+                  "teaEggs": {
+                    "name": "Tea Eggs",
+                    "country": "China",
+                    "ingredients": [
+                      "6 Eggs",
+                      "1/2 cup Soy sauce",
+                      "2 Black tea bags",
+                      "1 Cinnamon stick",
+                      "1 Star anise",
+                      "1 tsp Sugar"
+                    ],
+                    "steps": [
+                      "Hard boil the eggs, then crack the shells lightly but keep them intact.",
+                      "Simmer soy sauce, tea, cinnamon, star anise, and sugar with water.",
+                      "Add the eggs to the mixture and simmer for 1-2 hours to absorb flavor.",
+                      "Cool and peel the eggs to serve."
+                    ]
+                  },
+                  "chineseHotPot": {
+                    "name": "Chinese Hot Pot",
+                    "country": "China",
+                    "ingredients": [
+                      "Chicken broth",
+                      "Thinly sliced beef or lamb",
+                      "Shrimp",
+                      "Vegetables (mushrooms, spinach, cabbage)",
+                      "Tofu",
+                      "Hot pot dipping sauces"
+                    ],
+                    "steps": [
+                      "Bring the broth to a simmer in a hot pot.",
+                      "Cook meats, shrimp, vegetables, and tofu in the simmering broth at the table.",
+                      "Serve with dipping sauces like sesame sauce or soy sauce."
+                    ]
+                  },
+                  "coldNoodlesWithSesameSauce": {
+                    "name": "Cold Noodles with Sesame Sauce",
+                    "country": "China",
+                    "ingredients": [
+                      "200g Wheat noodles",
+                      "2 tbsp Sesame paste",
+                      "1 tbsp Soy sauce",
+                      "1 tbsp Rice vinegar",
+                      "1 tbsp Sugar",
+                      "1 Garlic clove (minced)",
+                      "Cucumber (julienned)",
+                      "Carrots (julienned)",
+                      "Chili oil (optional)",
+                      "Chopped peanuts (for garnish)"
+                    ],
+                    "steps": [
+                      "Cook the wheat noodles according to package instructions, then rinse under cold water and drain.",
+                      "In a bowl, mix sesame paste, soy sauce, rice vinegar, sugar, and garlic to form a sauce.",
+                      "Toss the cooled noodles with the sauce, cucumber, and carrots.",
+                      "Drizzle with chili oil if desired and garnish with chopped peanuts before serving."
+                    ]
+                  }
+
                      } 
                       }
                       
