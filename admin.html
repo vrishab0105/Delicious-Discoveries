@@ -7,7 +7,22 @@
     <link rel="stylesheet" href="admin_styles.css">
 </head>
 <body>
-    <div class="container">
+    <div id="login-page" class="login-page">
+        <div class="login-content">
+            <h2>Login</h2>
+            <form id="login-form">
+                <label for="username">Username:</label>
+                <input type="text" id="username" required>
+                
+                <label for="password">Password:</label>
+                <input type="password" id="password" required>
+
+                <button type="submit" class="btn">Login</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="container" id="main-content" style="display: none;">
         <h1>Recipe List</h1>
         <button id="add-recipe-btn" class="btn">Add Recipe</button>
         <ul class="recipe-list" id="recipe-list"></ul>

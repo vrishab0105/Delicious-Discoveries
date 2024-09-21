@@ -12,7 +12,7 @@ const firebaseConfig = {
     messagingSenderId: "699923003257",
     appId: "1:699923003257:web:e2800b973a35db246ee1a8",
     measurementId: "G-BDWV430X2H",
-    databaseURL: "https://deliciousdiscoveries04.firebaseio.com" // Add correct database URL
+    databaseURL: "https://deliciousdiscoveries04.firebaseio.com"
 };
 
 // Initialize Firebase
@@ -20,69 +20,95 @@ const app = initializeApp(firebaseConfig);
 const analytics = getAnalytics(app);
 const database = getDatabase(app);
 
-// Function to fetch and display recipe names in alphabetical order
+// Handle login functionality
 document.addEventListener('DOMContentLoaded', function () {
-    const recipeList = document.getElementById('recipe-list');
+    const loginForm = document.getElementById('login-form');
+    const mainContent = document.getElementById('main-content');
+    const loginPage = document.getElementById('login-page');
 
-    // Reference to the 'recipes' node in your Firebase Realtime Database
-    const recipeRef = ref(database, 'recipes');
+    // Hardcoded credentials
+    const username = "Recipe";
+    const password = "Admin";
 
-    // Fetch the recipe names from Firebase
-    onValue(recipeRef, (snapshot) => {
-        const recipes = snapshot.val();
+    // Handle login form submission
+    loginForm.addEventListener('submit', (event) => {
+        event.preventDefault();
+        const enteredUsername = document.getElementById('username').value;
+        const enteredPassword = document.getElementById('password').value;
 
-        // Get an array of recipe objects with keys and country attribute
-        const recipeArray = Object.keys(recipes).map(key => ({
-            key: key,
-            name: recipes[key].name,
-            country: recipes[key].country // Include the country attribute
-        }));
-
-        // Log the country attribute of each recipe to the console
-        recipeArray.forEach(recipe => {
-            console.log(`Recipe Name: ${recipe.name}, Country: ${recipe.country}`);
-        });
-
-        // Sort the recipe array alphabetically by name
-        recipeArray.sort((a, b) => a.name.localeCompare(b.name));
-
-        // Clear the existing list
-        recipeList.innerHTML = '';
-
-        // Loop through the sorted recipes and create list items for each
-        recipeArray.forEach(recipe => {
-            const recipeItem = document.createElement('li');
-            recipeItem.textContent = recipe.name;
-
-            // Create a delete button
-            const deleteBtn = document.createElement('button');
-            deleteBtn.textContent = 'Delete';
-            deleteBtn.className = 'delete-btn'; // Add a class for styling
-            deleteBtn.addEventListener('click', (event) => {
-                event.stopPropagation(); // Prevent event from bubbling up
-
-                // Confirm deletion
-                if (confirm(`Are you sure you want to delete ${recipe.name}?`)) {
-                    const recipeRefToDelete = ref(database, `recipes/${recipe.key}`);
-                    set(recipeRefToDelete, null).then(() => {
-                        alert(`${recipe.name} has been deleted.`);
-                    }).catch(error => {
-                        console.error('Error deleting recipe:', error);
-                    });
-                }
-            });
-
-            // When a recipe is clicked, redirect to recipe-detail.html with the recipe key
-            recipeItem.addEventListener('click', () => {
-                window.location.href = `recipe-detail.html?recipeId=${recipe.key}`;
-            });
-
-            // Append the delete button to the recipe item
-            recipeItem.appendChild(deleteBtn);
-            recipeList.appendChild(recipeItem);
-        });
-
+        // Check credentials
+        if (enteredUsername === username && enteredPassword === password) {
+            loginPage.style.display = 'none'; // Hide login page
+            mainContent.style.display = 'block'; // Show main content
+            loadRecipes(); // Call function to load recipes
+        } else {
+            alert('Incorrect username or password. Please try again.');
+        }
     });
+
+    // Function to fetch and display recipe names in alphabetical order
+    function loadRecipes() {
+        const recipeList = document.getElementById('recipe-list');
+
+        // Reference to the 'recipes' node in your Firebase Realtime Database
+        const recipeRef = ref(database, 'recipes');
+
+        // Fetch the recipe names from Firebase
+        onValue(recipeRef, (snapshot) => {
+            const recipes = snapshot.val();
+
+            // Get an array of recipe objects with keys and country attribute
+            const recipeArray = Object.keys(recipes).map(key => ({
+                key: key,
+                name: recipes[key].name,
+                country: recipes[key].country // Include the country attribute
+            }));
+
+            // Log the country attribute of each recipe to the console
+            recipeArray.forEach(recipe => {
+                console.log(`Recipe Name: ${recipe.name}, Country: ${recipe.country}`);
+            });
+
+            // Sort the recipe array alphabetically by name
+            recipeArray.sort((a, b) => a.name.localeCompare(b.name));
+
+            // Clear the existing list
+            recipeList.innerHTML = '';
+
+            // Loop through the sorted recipes and create list items for each
+            recipeArray.forEach(recipe => {
+                const recipeItem = document.createElement('li');
+                recipeItem.textContent = recipe.name;
+
+                // Create a delete button
+                const deleteBtn = document.createElement('button');
+                deleteBtn.textContent = 'Delete';
+                deleteBtn.className = 'delete-btn'; // Add a class for styling
+                deleteBtn.addEventListener('click', (event) => {
+                    event.stopPropagation(); // Prevent event from bubbling up
+
+                    // Confirm deletion
+                    if (confirm(`Are you sure you want to delete ${recipe.name}?`)) {
+                        const recipeRefToDelete = ref(database, `recipes/${recipe.key}`);
+                        set(recipeRefToDelete, null).then(() => {
+                            alert(`${recipe.name} has been deleted.`);
+                        }).catch(error => {
+                            console.error('Error deleting recipe:', error);
+                        });
+                    }
+                });
+
+                // When a recipe is clicked, redirect to recipe-detail.html with the recipe key
+                recipeItem.addEventListener('click', () => {
+                    window.location.href = `recipe-detail.html?recipeId=${recipe.key}`;
+                });
+
+                // Append the delete button to the recipe item
+                recipeItem.appendChild(deleteBtn);
+                recipeList.appendChild(recipeItem);
+            });
+        });
+    }
 
     // Open the add recipe page when the button is clicked
     document.getElementById('add-recipe-btn').addEventListener('click', () => {
