@@ -3940,7 +3940,522 @@
     "Add paneer cubes and stir gently. Simmer for 5 minutes until the paneer absorbs the flavors.",
     "Serve hot with rice or roti."
   ]
-}
+},
+
+
+  "margheritaPizza": {
+    "name": "Margherita Pizza",
+    "country": "Italy",
+    "ingredients": [
+      "Pizza dough",
+      "200g tomato sauce",
+      "200g fresh mozzarella cheese",
+      "Fresh basil leaves",
+      "2 tbsp olive oil",
+      "Salt"
+    ],
+    "steps": [
+      "Preheat your oven to 250°C (480°F) to ensure it's hot enough to cook the pizza quickly and evenly.",
+      "Spread a thin layer of tomato sauce evenly over the pizza dough, leaving a small border around the edges.",
+      "Slice the fresh mozzarella cheese and distribute it evenly on top of the tomato sauce.",
+      "Drizzle the pizza with olive oil and sprinkle a pinch of salt to enhance the flavors.",
+      "Place the pizza in the oven and bake for 10-12 minutes, or until the crust is golden and the cheese is melted and bubbly.",
+      "Once baked, remove the pizza from the oven and top it with fresh basil leaves before serving hot."
+    ]
+  },
+  
+  "risottoMilanese": {
+    "name": "Risotto alla Milanese",
+    "country": "Italy",
+    "ingredients": [
+      "300g arborio rice",
+      "1L chicken stock",
+      "1 small onion",
+      "50g butter",
+      "1 pinch saffron threads",
+      "50g grated Parmesan",
+      "Salt"
+    ],
+    "steps": [
+      "Sauté the onion in butter over medium heat until it becomes soft and translucent.",
+      "Add the arborio rice to the pan and toast it for a couple of minutes, stirring constantly.",
+      "Gradually add the chicken stock to the rice, one ladle at a time, stirring continuously until the stock is absorbed.",
+      "Once the rice is creamy and tender, stir in the saffron threads to give the risotto its distinctive color and flavor.",
+      "Mix in the grated Parmesan cheese, adjust the seasoning with salt, and serve immediately."
+    ]
+  },
+
+  "lasagnaBolognese": {
+    "name": "Lasagna Bolognese",
+    "country": "Italy",
+    "ingredients": [
+      "Lasagna sheets",
+      "500g ground beef",
+      "1 onion",
+      "500g tomato sauce",
+      "Béchamel sauce",
+      "200g mozzarella",
+      "Parmesan cheese",
+      "Olive oil"
+    ],
+    "steps": [
+      "Prepare the Bolognese sauce by sautéing a chopped onion in olive oil until soft. Add the ground beef and cook until browned, then stir in the tomato sauce.",
+      "In a baking dish, layer lasagna sheets, followed by a layer of Bolognese sauce, then a layer of béchamel sauce, and finally a layer of sliced mozzarella.",
+      "Repeat the layering process until all ingredients are used, ending with a final layer of béchamel and a generous topping of grated Parmesan cheese.",
+      "Bake the lasagna in a preheated oven at 180°C (350°F) for about 40 minutes, or until the top is golden brown and bubbly.",
+      "Allow the lasagna to rest for a few minutes before serving."
+    ]
+  },
+
+  "gnocchiAllaSorrentina": {
+    "name": "Gnocchi alla Sorrentina",
+    "country": "Italy",
+    "ingredients": [
+      "500g gnocchi",
+      "200g tomato sauce",
+      "100g mozzarella",
+      "50g Parmesan cheese",
+      "Fresh basil",
+      "Olive oil"
+    ],
+    "steps": [
+      "Cook the gnocchi in a large pot of salted boiling water. The gnocchi are ready when they float to the surface.",
+      "In a separate pan, heat the tomato sauce over medium heat. Once the gnocchi are cooked, transfer them to the pan with the tomato sauce.",
+      "Stir gently to coat the gnocchi with the sauce, then transfer the mixture to a baking dish.",
+      "Top the gnocchi with slices of mozzarella and grated Parmesan cheese.",
+      "Bake in a preheated oven at 200°C (400°F) until the cheese is melted and the top is golden and bubbly.",
+      "Garnish with fresh basil leaves and serve hot."
+    ]
+  },
+
+  "minestroneSoup": {
+    "name": "Minestrone Soup",
+    "country": "Italy",
+    "ingredients": [
+      "1 onion",
+      "2 carrots",
+      "2 celery stalks",
+      "2 potatoes",
+      "200g beans",
+      "200g tomatoes",
+      "Pasta",
+      "Olive oil",
+      "Vegetable stock"
+    ],
+    "steps": [
+      "Heat olive oil in a large pot and sauté the chopped onions, carrots, and celery until they begin to soften.",
+      "Add the diced potatoes, beans, and chopped tomatoes to the pot, stirring to combine.",
+      "Pour in enough vegetable stock to cover the vegetables, bring to a boil, then reduce the heat and simmer for about 30 minutes.",
+      "During the last 10 minutes of cooking, add a handful of pasta to the soup and cook until the pasta is tender.",
+      "Season the soup to taste with salt and pepper before serving."
+    ]
+  },
+
+  "ossoBuco": {
+    "name": "Osso Buco",
+    "country": "Italy",
+    "ingredients": [
+      "4 veal shanks",
+      "1 onion",
+      "2 carrots",
+      "2 celery stalks",
+      "200ml white wine",
+      "400g tomatoes",
+      "Olive oil",
+      "Salt",
+      "Black pepper",
+      "Gremolata (parsley, garlic, lemon zest)"
+    ],
+    "steps": [
+      "Heat olive oil in a large pan and sear the veal shanks on all sides until browned. Remove from the pan and set aside.",
+      "In the same pan, sauté the chopped onions, carrots, and celery until soft.",
+      "Deglaze the pan with white wine, scraping up any browned bits from the bottom.",
+      "Add the chopped tomatoes to the pan, then return the veal shanks to the pan, ensuring they are partially submerged in the sauce.",
+      "Cover the pan and simmer on low heat for about 2 hours, or until the veal is tender and falling off the bone.",
+      "Before serving, top the osso buco with a sprinkling of gremolata for a burst of fresh flavor."
+    ]
+  },
+
+  "capreseSalad": {
+    "name": "Caprese Salad",
+    "country": "Italy",
+    "ingredients": [
+      "4 tomatoes",
+      "200g mozzarella",
+      "Fresh basil leaves",
+      "Olive oil",
+      "Salt",
+      "Black pepper"
+    ],
+    "steps": [
+      "Slice the tomatoes and mozzarella into even rounds.",
+      "On a serving plate, arrange the tomato and mozzarella slices alternately, slightly overlapping them.",
+      "Scatter fresh basil leaves over the top of the salad.",
+      "Drizzle the salad with olive oil, and season with salt and freshly ground black pepper to taste.",
+      "Serve the salad immediately as a refreshing appetizer or side dish."
+    ]
+  },
+
+  "spaghettiPuttanesca": {
+    "name": "Spaghetti alla Puttanesca",
+    "country": "Italy",
+    "ingredients": [
+      "400g spaghetti",
+      "2 garlic cloves",
+      "100g olives",
+      "50g capers",
+      "200g tomatoes",
+      "Olive oil",
+      "Chili flakes",
+      "Salt"
+    ],
+    "steps": [
+      "Cook the spaghetti in a large pot of salted boiling water according to the package instructions until al dente.",
+      "Meanwhile, heat olive oil in a pan and sauté the minced garlic until fragrant.",
+      "Add the chopped tomatoes, olives, capers, and a pinch of chili flakes to the pan, stirring to combine.",
+      "Once the spaghetti is cooked, drain it and add it to the pan with the sauce.",
+      "Toss the spaghetti in the sauce until well coated, and serve immediately, garnished with fresh basil if desired."
+    ]
+  },
+
+  
+    "calzone": {
+      "name": "Calzone",
+      "country": "Italy",
+      "ingredients": [
+        "Pizza dough",
+        "200g ricotta cheese",
+        "100g mozzarella",
+        "50g Parmesan cheese",
+        "Tomato sauce",
+        "Olive oil"
+      ],
+      "steps": [
+        "Preheat your oven to 200°C (400°F) to ensure it's hot enough for baking.",
+        "Roll out the pizza dough on a floured surface to your desired thickness.",
+        "Place ricotta, diced mozzarella, and grated Parmesan cheese on one half of the dough.",
+        "Fold the other half of the dough over the filling and seal the edges by pressing down firmly.",
+        "Transfer the calzone to a baking sheet lined with parchment paper, and brush the top with olive oil.",
+        "Bake in the preheated oven until golden brown, about 15-20 minutes.",
+        "Serve hot with tomato sauce on the side for dipping."
+      ]
+    },
+  
+    "polloAllaCacciatora": {
+      "name": "Pollo alla Cacciatora",
+      "country": "Italy",
+      "ingredients": [
+        "4 chicken thighs",
+        "1 onion",
+        "2 carrots",
+        "200ml white wine",
+        "400g tomatoes",
+        "1 garlic clove",
+        "Olive oil",
+        "Fresh rosemary",
+        "Salt"
+      ],
+      "steps": [
+        "In a large skillet, sauté the chicken thighs in olive oil over medium heat until golden brown on all sides. Remove and set aside.",
+        "In the same skillet, add chopped onion, diced carrots, and minced garlic, cooking until softened.",
+        "Deglaze the pan with white wine, scraping up any browned bits from the bottom.",
+        "Add the chopped tomatoes and fresh rosemary to the skillet, stirring to combine.",
+        "Return the chicken to the pan, cover, and simmer for about 30 minutes, or until the chicken is cooked through and tender."
+      ]
+    },
+  
+    "gelato": {
+      "name": "Gelato",
+      "country": "Italy",
+      "ingredients": [
+        "500ml milk",
+        "200ml cream",
+        "100g sugar",
+        "4 egg yolks",
+        "Vanilla extract"
+      ],
+      "steps": [
+        "In a saucepan, heat the milk and cream together over medium heat until warm but not boiling.",
+        "In a separate bowl, whisk the egg yolks with sugar until pale and creamy.",
+        "Slowly pour the warm milk mixture into the egg yolks, whisking constantly to temper the eggs.",
+        "Return the mixture to the saucepan and cook over low heat, stirring constantly until thickened and it coats the back of a spoon.",
+        "Remove from heat and stir in vanilla extract. Allow to cool before chilling in the refrigerator.",
+        "Once chilled, churn the mixture in an ice cream maker according to the manufacturer's instructions."
+      ]
+    },
+  
+    "arancini": {
+      "name": "Arancini",
+      "country": "Italy",
+      "ingredients": [
+        "500g cooked risotto",
+        "100g mozzarella",
+        "Flour",
+        "Eggs",
+        "Breadcrumbs",
+        "Olive oil"
+      ],
+      "steps": [
+        "Take cold risotto and form small balls, stuffing each with a cube of mozzarella in the center.",
+        "Set up a breading station with bowls of flour, beaten eggs, and breadcrumbs.",
+        "Coat each ball in flour, dip in the beaten eggs, and then roll in breadcrumbs until fully covered.",
+        "Heat olive oil in a deep frying pan over medium heat.",
+        "Fry the arancini in batches until golden brown all over, about 3-4 minutes.",
+        "Drain on paper towels and serve hot."
+      ]
+    },
+  
+    "zuppaToscana": {
+      "name": "Zuppa Toscana",
+      "country": "Italy",
+      "ingredients": [
+        "500g Italian sausage",
+        "4 potatoes",
+        "1 onion",
+        "200g kale",
+        "1L chicken broth",
+        "Cream",
+        "Olive oil"
+      ],
+      "steps": [
+        "In a large pot, cook the Italian sausage over medium heat until browned. Remove and set aside.",
+        "In the same pot, add diced onion and chopped potatoes, sautéing in olive oil until the onion is translucent.",
+        "Pour in the chicken broth and bring to a boil. Reduce heat and simmer until the potatoes are tender.",
+        "Stir in the cooked sausage and chopped kale, cooking until the kale is wilted.",
+        "Add cream to the soup, stirring to combine, and heat through before serving."
+      ]
+    },
+  
+    "saltimbocca": {
+      "name": "Saltimbocca",
+      "country": "Italy",
+      "ingredients": [
+        "4 veal cutlets",
+        "4 slices prosciutto",
+        "Fresh sage",
+        "White wine",
+        "Butter",
+        "Olive oil"
+      ],
+      "steps": [
+        "Place a slice of prosciutto and a fresh sage leaf on each veal cutlet, securing them with toothpicks.",
+        "In a skillet, heat olive oil and butter over medium-high heat, and cook the veal cutlets until browned on both sides.",
+        "Remove the veal from the pan and deglaze with white wine, scraping up any bits stuck to the pan.",
+        "Reduce the wine until slightly thickened, then return the veal to the pan, cooking for an additional minute.",
+        "Serve immediately, drizzled with the reduced sauce."
+      ]
+    },
+  
+    "pastaPrimavera": {
+      "name": "Pasta Primavera",
+      "country": "Italy",
+      "ingredients": [
+        "400g pasta",
+        "1 zucchini",
+        "1 carrot",
+        "1 bell pepper",
+        "200g cherry tomatoes",
+        "Olive oil",
+        "Parmesan cheese",
+        "Salt"
+      ],
+      "steps": [
+        "Cook the pasta in a large pot of salted boiling water according to package instructions. Drain and set aside.",
+        "In a large skillet, heat olive oil over medium heat and sauté sliced zucchini, carrot, and bell pepper until tender.",
+        "Add halved cherry tomatoes to the skillet and cook until softened.",
+        "Toss the cooked pasta with the sautéed vegetables and season with salt to taste.",
+        "Serve hot, topped with freshly grated Parmesan cheese."
+      ]
+    },
+  
+    "focaccia": {
+      "name": "Focaccia",
+      "country": "Italy",
+      "ingredients": [
+        "500g flour",
+        "300ml water",
+        "1 tsp salt",
+        "1 tsp sugar",
+        "Olive oil",
+        "Fresh rosemary"
+      ],
+      "steps": [
+        "In a large bowl, mix together flour, warm water, salt, and sugar to form a soft dough.",
+        "Knead the dough on a floured surface until smooth, then let it rise in a warm place until doubled in size.",
+        "Once risen, spread the dough onto a baking sheet, dimpling the surface with your fingers.",
+        "Drizzle with olive oil, sprinkle with fresh rosemary, and let it rest for 20 minutes.",
+        "Bake in a preheated oven at 200°C (400°F) for about 20 minutes, or until golden brown."
+      ]
+    },
+  
+    "pastaPesto": {
+      "name": "Pasta al Pesto",
+      "country": "Italy",
+      "ingredients": [
+        "400g pasta",
+        "100g fresh basil",
+        "50g pine nuts",
+        "50g Parmesan cheese",
+        "1 garlic clove",
+        "Olive oil",
+        "Salt"
+      ],
+      "steps": [
+        "Cook the pasta in a large pot of salted boiling water according to package instructions. Drain and set aside.",
+        "In a food processor, blend fresh basil, pine nuts, minced garlic, and grated Parmesan cheese until finely chopped.",
+        "With the processor running, slowly add olive oil until the mixture becomes a smooth paste. Season with salt to taste.",
+        "Toss the cooked pasta with the pesto sauce until well coated, and serve immediately."
+      ]
+    },
+
+    
+      "polenta": {
+        "name": "Polenta",
+        "country": "Italy",
+        "ingredients": [
+          "400g cornmeal",
+          "1L water",
+          "50g Parmesan cheese",
+          "Butter",
+          "Salt"
+        ],
+        "steps": [
+          "Bring 1 liter of water to a boil in a large pot.",
+          "Slowly stir in the cornmeal, whisking constantly to prevent lumps.",
+          "Cook the mixture on low heat, stirring continuously, until it thickens (about 30-40 minutes).",
+          "Once thick, stir in butter and grated Parmesan cheese until well combined.",
+          "Serve hot, either soft or allowed to set and sliced."
+        ]
+      },
+    
+      "stracciatellaSoup": {
+        "name": "Stracciatella Soup",
+        "country": "Italy",
+        "ingredients": [
+          "1L chicken broth",
+          "2 eggs",
+          "50g Parmesan cheese",
+          "Parsley",
+          "Salt",
+          "Black pepper"
+        ],
+        "steps": [
+          "In a pot, bring the chicken broth to a boil over medium heat.",
+          "In a bowl, beat the eggs together with grated Parmesan cheese.",
+          "Slowly drizzle the egg mixture into the boiling broth while stirring gently to create ribbons.",
+          "Season the soup with salt, black pepper, and chopped parsley before serving."
+        ]
+      },
+    
+      "biscotti": {
+        "name": "Biscotti",
+        "country": "Italy",
+        "ingredients": [
+          "200g flour",
+          "100g sugar",
+          "2 eggs",
+          "1 tsp baking powder",
+          "50g almonds"
+        ],
+        "steps": [
+          "In a mixing bowl, combine flour, sugar, eggs, and baking powder to form a dough.",
+          "Stir in the chopped almonds until evenly distributed.",
+          "Shape the dough into logs and place on a baking sheet lined with parchment paper.",
+          "Bake in a preheated oven at 180°C (350°F) for about 20 minutes until golden.",
+          "Remove from the oven, let cool slightly, then slice the logs and bake the slices again until crisp."
+        ]
+      },
+    
+      "ravioli": {
+        "name": "Ravioli",
+        "country": "Italy",
+        "ingredients": [
+          "Pasta dough",
+          "200g ricotta cheese",
+          "100g spinach",
+          "50g Parmesan cheese",
+          "Olive oil"
+        ],
+        "steps": [
+          "Roll out the pasta dough on a floured surface until thin.",
+          "Cut the dough into squares, about 5cm by 5cm.",
+          "In a bowl, mix together ricotta, chopped spinach, and grated Parmesan.",
+          "Place a small amount of filling in the center of each square.",
+          "Moisten the edges of the dough with water, fold over, and seal tightly.",
+          "Boil the ravioli in salted water until they float, about 3-4 minutes.",
+          "Serve with a drizzle of olive oil or your choice of sauce."
+        ]
+      },
+    
+      "spaghettiVongole": {
+        "name": "Spaghetti alle Vongole",
+        "country": "Italy",
+        "ingredients": [
+          "400g spaghetti",
+          "500g clams",
+          "2 garlic cloves",
+          "Olive oil",
+          "White wine",
+          "Fresh parsley",
+          "Salt"
+        ],
+        "steps": [
+          "Cook the spaghetti in a large pot of salted boiling water until al dente. Drain and set aside.",
+          "In a large skillet, heat olive oil over medium heat and sauté minced garlic until fragrant.",
+          "Add the clams and pour in white wine. Cover the skillet and cook until the clams open, about 5-7 minutes.",
+          "Discard any clams that do not open. Toss the cooked spaghetti in the skillet with the clams.",
+          "Garnish with chopped fresh parsley and serve immediately."
+        ]
+      },
+    
+      "pastaEceci": {
+        "name": "Pasta e Ceci",
+        "country": "Italy",
+        "ingredients": [
+          "200g pasta",
+          "200g chickpeas",
+          "1 garlic clove",
+          "Rosemary",
+          "Olive oil",
+          "Tomato paste",
+          "Salt"
+        ],
+        "steps": [
+          "In a pot, heat olive oil over medium heat and sauté minced garlic and chopped rosemary until fragrant.",
+          "Add canned chickpeas, a couple of tablespoons of tomato paste, and enough water to create a sauce.",
+          "Simmer for about 10 minutes, allowing the flavors to meld.",
+          "Meanwhile, cook the pasta in a separate pot of salted boiling water until al dente.",
+          "Drain the pasta and add it to the chickpea mixture, stirring to combine.",
+          "Serve hot, drizzled with extra olive oil if desired."
+        ]
+      },
+    
+      "ribollita": {
+        "name": "Ribollita",
+        "country": "Italy",
+        "ingredients": [
+          "1 onion",
+          "2 carrots",
+          "2 celery stalks",
+          "1 can cannellini beans",
+          "Kale",
+          "Stale bread",
+          "Olive oil",
+          "Vegetable stock"
+        ],
+        "steps": [
+          "In a large pot, heat olive oil and sauté chopped onion, carrots, and celery until softened.",
+          "Add drained cannellini beans, chopped kale, and vegetable stock, stirring to combine.",
+          "Simmer for about 30 minutes until the vegetables are tender.",
+          "Tear stale bread into pieces and stir into the soup to thicken.",
+          "Serve hot, drizzled with olive oil."
+        ]
+      }
+    
+    
+  
+
+
 
     } 
 }
