@@ -5128,7 +5128,666 @@
                   "Heat a skillet over medium heat and fry the longganisa until cooked through and golden brown, about 5-7 minutes.",
                   "Serve with rice and eggs."
                 ]
-              }
+              },
+
+              
+              
+                "tamagoSandwich": {
+                  "name": "Tamago Sandwich",
+                  "country": "Japan",
+                  "ingredients": [
+                    "2 slices bread",
+                    "2 eggs",
+                    "1 tbsp mayonnaise",
+                    "Salt",
+                    "Pepper"
+                  ],
+                  "steps": [
+                    "Boil the eggs until hard-boiled, then peel and mash in a bowl.",
+                    "Mix with mayonnaise, salt, and pepper.",
+                    "Spread the egg mixture between the slices of bread.",
+                    "Cut in half and serve."
+                  ]
+                },
+              
+                "natto": {
+                  "name": "Natto",
+                  "country": "Japan",
+                  "ingredients": [
+                    "1 pack natto",
+                    "Soy sauce",
+                    "Chopped green onions",
+                    "Rice"
+                  ],
+                  "steps": [
+                    "Stir the natto with the soy sauce until well combined.",
+                    "Serve over a bowl of steamed rice.",
+                    "Top with chopped green onions."
+                  ]
+                },
+              
+                "misoSoup": {
+                  "name": "Miso Soup",
+                  "country": "Japan",
+                  "ingredients": [
+                    "2 cups dashi broth",
+                    "2 tbsp miso paste",
+                    "Tofu (cubed)",
+                    "Chopped green onions",
+                    "Seaweed (wakame)"
+                  ],
+                  "steps": [
+                    "In a pot, bring the dashi broth to a simmer.",
+                    "Dissolve the miso paste in a small amount of broth, then stir back into the pot.",
+                    "Add cubed tofu and seaweed, cooking for a few minutes.",
+                    "Garnish with chopped green onions before serving."
+                  ]
+                },
+              
+                "onigiri": {
+                  "name": "Onigiri",
+                  "country": "Japan",
+                  "ingredients": [
+                    "2 cups cooked rice",
+                    "Nori (seaweed)",
+                    "Salt",
+                    "Fillings (like pickled plum, tuna, or salmon)"
+                  ],
+                  "steps": [
+                    "Wet your hands and sprinkle salt on them.",
+                    "Take a small amount of rice and flatten it in your palm.",
+                    "Place your filling in the center and shape the rice into a triangle.",
+                    "Wrap with a strip of nori and serve."
+                  ]
+                },
+              
+                "grilledSalmon": {
+                  "name": "Grilled Salmon",
+                  "country": "Japan",
+                  "ingredients": [
+                    "1 salmon fillet",
+                    "Salt",
+                    "Lemon",
+                    "Rice"
+                  ],
+                  "steps": [
+                    "Sprinkle salt on the salmon fillet and let it sit for 30 minutes.",
+                    "Preheat a grill or pan and cook the salmon until browned and cooked through.",
+                    "Serve with a wedge of lemon and steamed rice."
+                  ]
+                },
+              
+                "yakiOnigiri": {
+                  "name": "Yaki Onigiri",
+                  "country": "Japan",
+                  "ingredients": [
+                    "2 cups cooked rice",
+                    "Soy sauce",
+                    "Nori (seaweed)"
+                  ],
+                  "steps": [
+                    "Shape cooked rice into triangular or oval shapes.",
+                    "Grill the rice balls until crispy and golden, brushing with soy sauce while grilling.",
+                    "Serve warm, optionally wrapped in nori."
+                  ]
+                },
+              
+                "okayU": {
+                  "name": "Okayu",
+                  "country": "Japan",
+                  "ingredients": [
+                    "1 cup rice",
+                    "4 cups water",
+                    "Salt",
+                    "Pickled plum (umeboshi) for topping"
+                  ],
+                  "steps": [
+                    "In a pot, combine rice and water, and bring to a boil.",
+                    "Reduce heat and simmer until rice is soft and porridge-like, about 30 minutes.",
+                    "Season with salt and serve topped with pickled plum."
+                  ]
+                },
+              
+                "katsuSandwich": {
+                  "name": "Katsu Sandwich",
+                  "country": "Japan",
+                  "ingredients": [
+                    "2 slices bread",
+                    "Pork cutlet (katsu)",
+                    "Cabbage (shredded)",
+                    "Tonktasu sauce"
+                  ],
+                  "steps": [
+                    "Place the cooked pork cutlet on a slice of bread.",
+                    "Top with shredded cabbage and drizzle with tonkatsu sauce.",
+                    "Cover with another slice of bread, cut in half, and serve."
+                  ]
+                },
+              
+                "fruitSandwich": {
+                  "name": "Fruit Sandwich",
+                  "country": "Japan",
+                  "ingredients": [
+                    "2 slices bread",
+                    "Whipped cream",
+                    "Assorted fruits (strawberries, kiwi, banana)"
+                  ],
+                  "steps": [
+                    "Spread whipped cream on one slice of bread.",
+                    "Layer assorted sliced fruits on top.",
+                    "Cover with the other slice of bread, press gently, and slice to serve."
+                  ]
+                },
+
+  "tonkatsu": {
+    "name": "Tonkatsu",
+    "country": "Japan",
+    "ingredients": [
+      "2 pork cutlets",
+      "Salt and pepper",
+      "1 cup flour",
+      "1 egg (beaten)",
+      "1 cup panko breadcrumbs",
+      "Oil for frying",
+      "Tonkatsu sauce"
+    ],
+    "steps": [
+      "Season pork cutlets with salt and pepper.",
+      "Dredge each cutlet in flour, dip in beaten egg, then coat with panko breadcrumbs.",
+      "Heat oil in a pan and fry cutlets until golden and cooked through.",
+      "Slice and serve with tonkatsu sauce."
+    ]
+  },
+
+  "katsu curry": {
+    "name": "Katsu Curry",
+    "country": "Japan",
+    "ingredients": [
+      "2 pork cutlets",
+      "Salt and pepper",
+      "1 cup flour",
+      "1 egg (beaten)",
+      "1 cup panko breadcrumbs",
+      "Oil for frying",
+      "1 onion (sliced)",
+      "2 carrots (sliced)",
+      "2 potatoes (cubed)",
+      "Curry roux",
+      "4 cups water"
+    ],
+    "steps": [
+      "Season and bread pork cutlets as in tonkatsu.",
+      "Fry until golden and cooked through, then set aside.",
+      "In a pot, sauté onion until translucent, then add carrots and potatoes.",
+      "Pour in water and simmer until vegetables are tender.",
+      "Add curry roux and stir until dissolved.",
+      "Serve curry over sliced katsu."
+    ]
+  },
+
+ 
+  "chawanmushi": {
+    "name": "Chawanmushi",
+    "country": "Japan",
+    "ingredients": [
+      "2 eggs",
+      "1 cup dashi stock",
+      "Soy sauce",
+      "Salt",
+      "Mushrooms (sliced)",
+      "Shrimp (peeled)",
+      "Green onions (chopped)"
+    ],
+    "steps": [
+      "In a bowl, whisk together eggs, dashi, soy sauce, and salt.",
+      "Add shrimp and mushrooms, then strain the mixture into cups.",
+      "Steam in a steamer for 15-20 minutes until set.",
+      "Garnish with green onions and serve warm."
+    ]
+  },
+
+  "shabu shabu": {
+    "name": "Shabu Shabu",
+    "country": "Japan",
+    "ingredients": [
+      "300g thinly sliced beef",
+      "1 liter dashi or water",
+      "Napa cabbage",
+      "Shiitake mushrooms",
+      "Tofu",
+      "Green onions",
+      "Ponzu sauce for dipping"
+    ],
+    "steps": [
+      "Bring dashi or water to a simmer in a pot.",
+      "Arrange beef, vegetables, and tofu on a platter.",
+      "Dip slices of beef in the simmering broth until cooked.",
+      "Serve with ponzu sauce for dipping."
+    ]
+  },
+
+  "yakiniku": {
+    "name": "Yakiniku",
+    "country": "Japan",
+    "ingredients": [
+      "300g beef (thinly sliced)",
+      "Soy sauce",
+      "Mirin",
+      "Sugar",
+      "Garlic (grated)",
+      "Vegetables for grilling (e.g., bell peppers, onions)"
+    ],
+    "steps": [
+      "Marinate beef in soy sauce, mirin, sugar, and garlic for at least 30 minutes.",
+      "Preheat grill or grill pan.",
+      "Grill beef and vegetables until cooked to your liking.",
+      "Serve with rice."
+    ]
+  },
+
+  "saba shioyaki": {
+    "name": "Saba Shioyaki",
+    "country": "Japan",
+    "ingredients": [
+      "2 mackerel fillets",
+      "Salt",
+      "Lemon wedges",
+      "Rice for serving"
+    ],
+    "steps": [
+      "Sprinkle salt on mackerel fillets and let sit for 30 minutes.",
+      "Preheat grill or broiler.",
+      "Grill mackerel until cooked through and skin is crispy.",
+      "Serve with lemon wedges and rice."
+    ]
+  },
+
+  "nabe": {
+    "name": "Nabe",
+    "country": "Japan",
+    "ingredients": [
+      "200g chicken thighs",
+      "1/2 napa cabbage",
+      "1 block tofu",
+      "200g mushrooms",
+      "Dashi stock",
+      "Soy sauce",
+      "Mirin",
+      "Green onions"
+    ],
+    "steps": [
+      "In a nabe pot, combine dashi stock, soy sauce, and mirin.",
+      "Add chicken, napa cabbage, tofu, and mushrooms.",
+      "Bring to a boil and simmer until ingredients are cooked.",
+      "Serve hot, garnished with chopped green onions."
+    ]
+  },
+  "mochi": {
+    "name": "Mochi",
+    "country": "Japan",
+    "ingredients": [
+      "1 cup glutinous rice",
+      "Water",
+      "Cornstarch (for dusting)",
+      "Sweet red bean paste or ice cream (for filling)"
+    ],
+    "steps": [
+      "Soak glutinous rice in water overnight.",
+      "Drain and steam the rice until cooked and sticky.",
+      "Pound the rice until it becomes a smooth dough.",
+      "Dust hands and work surface with cornstarch, then flatten the dough.",
+      "Place a small amount of sweet filling in the center and fold the dough over.",
+      "Shape into balls and dust with cornstarch before serving."
+    ]
+  },
+
+  "dorayaki": {
+    "name": "Dorayaki",
+    "country": "Japan",
+    "ingredients": [
+      "2 eggs",
+      "1/2 cup sugar",
+      "1/2 cup flour",
+      "1/2 tsp baking powder",
+      "1 cup sweet red bean paste"
+    ],
+    "steps": [
+      "In a bowl, beat eggs and sugar until fluffy.",
+      "Sift in flour and baking powder, and mix until smooth.",
+      "Heat a non-stick pan and pour a small amount of batter to form pancakes.",
+      "Cook until bubbles form, then flip and cook until golden.",
+      "Sandwich red bean paste between two pancakes and serve."
+    ]
+  },
+
+  "dango": {
+    "name": "Dango",
+    "country": "Japan",
+    "ingredients": [
+      "1 cup glutinous rice flour",
+      "1/3 cup water",
+      "1/4 cup sugar",
+      "Soy sauce (for dipping)"
+    ],
+    "steps": [
+      "Mix glutinous rice flour and sugar in a bowl.",
+      "Gradually add water and knead until smooth.",
+      "Shape into small balls and boil until they float.",
+      "Skewer the dango on sticks and grill briefly if desired.",
+      "Serve with soy sauce for dipping."
+    ]
+  },
+
+  "taiyaki": {
+    "name": "Taiyaki",
+    "country": "Japan",
+    "ingredients": [
+      "1 cup flour",
+      "1/2 cup sugar",
+      "1 tsp baking powder",
+      "1 egg",
+      "1 cup water",
+      "Sweet red bean paste or custard (for filling)"
+    ],
+    "steps": [
+      "Mix flour, sugar, and baking powder in a bowl.",
+      "In another bowl, whisk egg and water together, then combine with dry ingredients.",
+      "Heat a taiyaki pan and pour batter into fish-shaped molds.",
+      "Add filling, cover with more batter, and cook until golden brown.",
+      "Remove and serve warm."
+    ]
+  },
+
+  "matchaIceCream": {
+    "name": "Matcha Ice Cream",
+    "country": "Japan",
+    "ingredients": [
+      "1 cup heavy cream",
+      "1/2 cup milk",
+      "1/2 cup sugar",
+      "2 tbsp matcha powder",
+      "1 egg yolk"
+    ],
+    "steps": [
+      "In a bowl, whisk together sugar and matcha powder.",
+      "In a saucepan, heat cream and milk until warm, then add the matcha mixture.",
+      "In a separate bowl, whisk egg yolk, then slowly add a bit of the warm mixture.",
+      "Combine all and heat until slightly thickened.",
+      "Chill in the fridge, then churn in an ice cream maker."
+    ]
+  },
+
+  "anmitsu": {
+    "name": "Anmitsu",
+    "country": "Japan",
+    "ingredients": [
+      "1 cup agar-agar (gelatin)",
+      "1/2 cup sweet red bean paste",
+      "1 cup fruit (like melon, strawberries, or peaches)",
+      "Black syrup (kuromitsu) for drizzling",
+      "Matcha ice cream (optional)"
+    ],
+    "steps": [
+      "Prepare agar-agar according to package instructions and let it set.",
+      "Cut the agar into cubes and arrange in a bowl.",
+      "Add sweet red bean paste and chopped fruit.",
+      "Drizzle with black syrup and top with matcha ice cream if desired."
+    ]
+  },
+
+  "kakigori": {
+    "name": "Kakigori",
+    "country": "Japan",
+    "ingredients": [
+      "Ice (shaved or crushed)",
+      "Flavored syrup (like strawberry, green tea, or lemon)",
+      "Sweetened condensed milk (optional)"
+    ],
+    "steps": [
+      "Shave or crush ice and pack it into a bowl.",
+      "Pour flavored syrup over the ice.",
+      "Drizzle with sweetened condensed milk if desired, and serve immediately."
+    ]
+  },
+
+  "shiratama": {
+    "name": "Shiratama",
+    "country": "Japan",
+    "ingredients": [
+      "1 cup glutinous rice flour",
+      "1/3 cup water",
+      "Sweet red bean paste (for filling)",
+      "Matcha powder (optional for dusting)"
+    ],
+    "steps": [
+      "Mix glutinous rice flour with water to form a dough.",
+      "Shape into small balls and boil until they float.",
+      "Let cool, then fill with sweet red bean paste.",
+      "Dust with matcha powder before serving."
+    ]
+  },
+
+  "zoni": {
+    "name": "Zoni",
+    "country": "Japan",
+    "ingredients": [
+      "4 cups dashi broth",
+      "2 rice cakes (mochi)",
+      "1 carrot (sliced)",
+      "1 shiitake mushroom (sliced)",
+      "Spinach or other greens",
+      "Soy sauce and salt (to taste)"
+    ],
+    "steps": [
+      "Heat dashi broth in a pot and add carrots and mushrooms.",
+      "Simmer until tender, then add mochi.",
+      "Once mochi is soft, add greens and season with soy sauce and salt.",
+      "Serve hot in bowls."
+    ]
+  },
+  
+    "okonomiyaki": {
+      "name": "Okonomiyaki",
+      "country": "Japan",
+      "ingredients": [
+        "2 cups all-purpose flour",
+        "1 1/2 cups dashi broth",
+        "1/2 cabbage (shredded)",
+        "1/2 cup green onions (chopped)",
+        "1/4 cup pickled ginger",
+        "4 eggs",
+        "1 cup pork belly (sliced)",
+        "Okonomiyaki sauce",
+        "Mayonnaise",
+        "Aonori (seaweed flakes)",
+        "Katsuobushi (bonito flakes)"
+      ],
+      "steps": [
+        "In a large bowl, mix flour and dashi broth until smooth.",
+        "Add cabbage, green onions, pickled ginger, and eggs to the mixture.",
+        "Heat a non-stick skillet over medium heat and add a little oil.",
+        "Pour a ladleful of batter into the skillet and spread it into a circle.",
+        "Layer sliced pork belly on top and cook for about 5-7 minutes.",
+        "Flip and cook for another 5-7 minutes until cooked through.",
+        "Drizzle with okonomiyaki sauce and mayonnaise, then sprinkle with aonori and katsuobushi before serving."
+      ]
+    },
+    
+    "shabuShabu": {
+      "name": "Shabu Shabu",
+      "country": "Japan",
+      "ingredients": [
+        "500g thinly sliced beef",
+        "1 liter dashi broth",
+        "200g napa cabbage (cut into strips)",
+        "200g shiitake mushrooms (sliced)",
+        "200g tofu (cut into cubes)",
+        "100g enoki mushrooms",
+        "2 green onions (sliced)",
+        "Ponzu sauce",
+        "Sesame sauce"
+      ],
+      "steps": [
+        "In a pot, bring dashi broth to a boil.",
+        "Add napa cabbage, shiitake mushrooms, and tofu to the pot.",
+        "Once the vegetables are tender, dip slices of beef into the boiling broth until cooked (about 5-10 seconds).",
+        "Serve with ponzu sauce and sesame sauce for dipping."
+      ]
+    },
+    
+    "nikujaga": {
+      "name": "Nikujaga",
+      "country": "Japan",
+      "ingredients": [
+        "300g beef (sliced)",
+        "3 potatoes (peeled and cut into chunks)",
+        "1 onion (sliced)",
+        "2 carrots (sliced)",
+        "1/4 cup soy sauce",
+        "1/4 cup mirin",
+        "2 cups dashi broth",
+        "1 tbsp sugar",
+        "Salt"
+      ],
+      "steps": [
+        "In a pot, sauté onions until translucent.",
+        "Add beef and cook until browned.",
+        "Add potatoes and carrots, then pour in dashi broth, soy sauce, mirin, and sugar.",
+        "Bring to a boil, then reduce heat and simmer until vegetables are tender (about 20 minutes).",
+        "Season with salt to taste and serve hot."
+      ]
+    },
+    
+    "katsu": {
+      "name": "Tonkatsu",
+      "country": "Japan",
+      "ingredients": [
+        "4 pork cutlets",
+        "Salt and pepper",
+        "1 cup flour",
+        "2 eggs (beaten)",
+        "1 cup panko breadcrumbs",
+        "Oil for frying",
+        "Tonkatsu sauce"
+      ],
+      "steps": [
+        "Season pork cutlets with salt and pepper.",
+        "Dredge each cutlet in flour, dip in beaten eggs, then coat with panko breadcrumbs.",
+        "Heat oil in a deep pan over medium heat.",
+        "Fry each cutlet until golden brown and cooked through (about 4-5 minutes per side).",
+        "Drain on paper towels and serve with tonkatsu sauce."
+      ]
+    },
+    
+    "yakiTori": {
+      "name": "Yaki Tori",
+      "country": "Japan",
+      "ingredients": [
+        "500g chicken thighs (cut into bite-sized pieces)",
+        "2 green onions (cut into 1-inch pieces)",
+        "1/4 cup soy sauce",
+        "1/4 cup sake",
+        "1/4 cup mirin",
+        "1 tbsp sugar"
+      ],
+      "steps": [
+        "Soak skewers in water for 30 minutes to prevent burning.",
+        "In a bowl, mix soy sauce, sake, mirin, and sugar to create a marinade.",
+        "Thread chicken pieces and green onions onto skewers.",
+        "Marinate skewers for 15 minutes.",
+        "Grill over medium heat for about 10-15 minutes, turning occasionally and basting with marinade."
+      ]
+    },
+    
+    "chirashi": {
+      "name": "Chirashi Sushi",
+      "country": "Japan",
+      "ingredients": [
+        "2 cups sushi rice",
+        "2 1/2 cups water",
+        "1/3 cup rice vinegar",
+        "2 tbsp sugar",
+        "1 tsp salt",
+        "200g assorted sashimi (salmon, tuna, shrimp)",
+        "Cucumber (sliced)",
+        "Carrot (julienned)",
+        "Seaweed (cut into strips)"
+      ],
+      "steps": [
+        "Rinse sushi rice until water runs clear, then cook with water in a rice cooker.",
+        "In a bowl, mix rice vinegar, sugar, and salt until dissolved.",
+        "Once rice is cooked, fluff with a fork and mix in the vinegar mixture.",
+        "Transfer rice to a serving dish, then top with sashimi, cucumber, carrot, and seaweed."
+      ]
+    },
+    
+    "saba": {
+      "name": "Saba Shioyaki",
+      "country": "Japan",
+      "ingredients": [
+        "2 saba (mackerel) fillets",
+        "Salt",
+        "Lemon (for garnish)",
+        "Shredded daikon (for serving)"
+      ],
+      "steps": [
+        "Sprinkle salt on the saba fillets and let sit for 15 minutes.",
+        "Preheat a grill or broiler.",
+        "Grill fillets skin-side down for about 5-7 minutes until cooked through.",
+        "Serve with lemon and shredded daikon."
+      ]
+    },
+    
+    "gomokuGohan": {
+      "name": "Gomoku Gohan",
+      "country": "Japan",
+      "ingredients": [
+        "2 cups rice",
+        "2 1/2 cups water",
+        "100g shiitake mushrooms (sliced)",
+        "1 carrot (julienned)",
+        "100g chicken (sliced)",
+        "1/4 cup soy sauce",
+        "1 tbsp mirin",
+        "1 tbsp sugar"
+      ],
+      "steps": [
+        "Rinse and soak rice for 30 minutes, then drain.",
+        "In a pot, combine rice and water, and bring to a boil.",
+        "Add mushrooms, carrot, and chicken, along with soy sauce, mirin, and sugar.",
+        "Cover and simmer on low heat until rice is cooked (about 15-20 minutes).",
+        "Fluff and serve."
+      ]
+    },
+    
+    "misoKatsu": {
+      "name": "Miso Katsu",
+      "country": "Japan",
+      "ingredients": [
+        "4 pork cutlets",
+        "Salt and pepper",
+        "1 cup flour",
+        "2 eggs (beaten)",
+        "1 cup panko breadcrumbs",
+        "Oil for frying",
+        "1/2 cup red miso paste",
+        "1/4 cup mirin",
+        "1/4 cup sugar"
+      ],
+      "steps": [
+        "Season pork cutlets with salt and pepper.",
+        "Dredge in flour, dip in beaten eggs, then coat with panko breadcrumbs.",
+        "Heat oil in a pan over medium heat and fry cutlets until golden brown (about 4-5 minutes per side).",
+        "In a separate pot, combine miso paste, mirin, and sugar, and heat until smooth.",
+        "Serve cutlets drizzled with miso sauce."
+      ]
+    }
+  
+  
+
+
+              
+              
             
             
           
