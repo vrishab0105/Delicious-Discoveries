@@ -584,33 +584,7 @@
                     "Garnish with parsley and serve hot."
                   ]
                 },
-                "paella": {
-                  "name": "Paella",
-                  "country": "Spain",
-                  "ingredients": [
-                    "1/2 lb Chicken thighs (cut into pieces)",
-                    "1/2 lb Chorizo (sliced)",
-                    "1/2 lb Shrimp (peeled and deveined)",
-                    "1 cup Green peas",
-                    "1 Bell pepper (diced)",
-                    "1 Onion (chopped)",
-                    "2 Garlic cloves (minced)",
-                    "1 1/2 cups Arborio rice",
-                    "2 cups Chicken broth",
-                    "1 cup Tomato sauce",
-                    "1 tsp Paprika",
-                    "1/2 tsp Saffron threads",
-                    "Olive oil"
-                  ],
-                  "steps": [
-                    "Heat olive oil in a large pan and cook chicken and chorizo until browned.",
-                    "Add onion, bell pepper, and garlic, and cook until softened.",
-                    "Stir in rice, paprika, and saffron.",
-                    "Add tomato sauce and chicken broth. Simmer until rice is cooked.",
-                    "Add shrimp and peas, and cook until shrimp are pink.",
-                    "Serve hot."
-                  ]
-                },
+               
                 "fettuccineAlfredo": {
                   "name": "Fettuccine Alfredo",
                   "country": "Italy",
@@ -846,29 +820,7 @@
                     "Serve immediately."
                   ]
                 },
-                "empanadas": {
-                  "name": "Empanadas",
-                  "country": "Argentina",
-                  "ingredients": [
-                    "1 package Empanada dough",
-                    "1/2 lb Ground beef",
-                    "1 Onion (chopped)",
-                    "1 Bell pepper (diced)",
-                    "1/2 cup Olives (chopped)",
-                    "1/2 cup Raisins",
-                    "1 tsp Cumin",
-                    "1/2 tsp Paprika",
-                    "Salt and pepper to taste",
-                    "Oil for frying"
-                  ],
-                  "steps": [
-                    "Cook beef with onion, bell pepper, cumin, and paprika.",
-                    "Add olives and raisins.",
-                    "Fill empanada dough with mixture and seal edges.",
-                    "Fry until golden brown or bake according to package instructions.",
-                    "Serve with salsa or dipping sauce."
-                  ]
-                },
+                
 
                     "boeufBourguignon": {
                       "name": "Boeuf Bourguignon",
@@ -4750,7 +4702,7 @@
         
         
           
-            "sinigang": {
+            "sinigangNaBaboy": {
               "name": "Sinigang na Baboy",
               "country": "Philippines",
               "ingredients": [
@@ -4856,7 +4808,7 @@
               ]
             },
           
-            "lumpia": {
+            "lumpiaShanghai": {
               "name": "Lumpia Shanghai",
               "country": "Philippines",
               "ingredients": [
@@ -4973,7 +4925,7 @@
                 ]
               },
             
-              "caldereta": {
+              "beefCaldereta": {
                 "name": "Beef Caldereta",
                 "country": "Philippines",
                 "ingredients": [
@@ -5034,7 +4986,7 @@
                 ]
               },
             
-              "palabok": {
+              "pancitPalabok": {
                 "name": "Pancit Palabok",
                 "country": "Philippines",
                 "ingredients": [
@@ -5232,7 +5184,7 @@
                   ]
                 },
               
-                "okayU": {
+                "okayu": {
                   "name": "Okayu",
                   "country": "Japan",
                   "ingredients": [
@@ -5299,7 +5251,7 @@
     ]
   },
 
-  "katsu curry": {
+  "katsuCurry": {
     "name": "Katsu Curry",
     "country": "Japan",
     "ingredients": [
@@ -5346,25 +5298,7 @@
     ]
   },
 
-  "shabu shabu": {
-    "name": "Shabu Shabu",
-    "country": "Japan",
-    "ingredients": [
-      "300g thinly sliced beef",
-      "1 liter dashi or water",
-      "Napa cabbage",
-      "Shiitake mushrooms",
-      "Tofu",
-      "Green onions",
-      "Ponzu sauce for dipping"
-    ],
-    "steps": [
-      "Bring dashi or water to a simmer in a pot.",
-      "Arrange beef, vegetables, and tofu on a platter.",
-      "Dip slices of beef in the simmering broth until cooked.",
-      "Serve with ponzu sauce for dipping."
-    ]
-  },
+  
 
   "yakiniku": {
     "name": "Yakiniku",
@@ -5385,22 +5319,7 @@
     ]
   },
 
-  "saba shioyaki": {
-    "name": "Saba Shioyaki",
-    "country": "Japan",
-    "ingredients": [
-      "2 mackerel fillets",
-      "Salt",
-      "Lemon wedges",
-      "Rice for serving"
-    ],
-    "steps": [
-      "Sprinkle salt on mackerel fillets and let sit for 30 minutes.",
-      "Preheat grill or broiler.",
-      "Grill mackerel until cooked through and skin is crispy.",
-      "Serve with lemon wedges and rice."
-    ]
-  },
+
 
   "nabe": {
     "name": "Nabe",
@@ -5658,26 +5577,6 @@
       ]
     },
     
-    "katsu": {
-      "name": "Tonkatsu",
-      "country": "Japan",
-      "ingredients": [
-        "4 pork cutlets",
-        "Salt and pepper",
-        "1 cup flour",
-        "2 eggs (beaten)",
-        "1 cup panko breadcrumbs",
-        "Oil for frying",
-        "Tonkatsu sauce"
-      ],
-      "steps": [
-        "Season pork cutlets with salt and pepper.",
-        "Dredge each cutlet in flour, dip in beaten eggs, then coat with panko breadcrumbs.",
-        "Heat oil in a deep pan over medium heat.",
-        "Fry each cutlet until golden brown and cooked through (about 4-5 minutes per side).",
-        "Drain on paper towels and serve with tonkatsu sauce."
-      ]
-    },
     
     "yakiTori": {
       "name": "Yaki Tori",
@@ -5699,7 +5598,7 @@
       ]
     },
     
-    "chirashi": {
+    "chirashiSushi": {
       "name": "Chirashi Sushi",
       "country": "Japan",
       "ingredients": [
@@ -5721,7 +5620,7 @@
       ]
     },
     
-    "saba": {
+    "sabaShioyaki": {
       "name": "Saba Shioyaki",
       "country": "Japan",
       "ingredients": [
@@ -5781,21 +5680,367 @@
         "In a separate pot, combine miso paste, mirin, and sugar, and heat until smooth.",
         "Serve cutlets drizzled with miso sauce."
       ]
-    }
-  
-  
+    },
 
+    
+      "gazpacho": {
+        "name": "Gazpacho",
+        "country": "Spain",
+        "ingredients": [
+          "6 ripe tomatoes",
+          "1 cucumber",
+          "1 bell pepper",
+          "1 onion",
+          "2 cloves garlic",
+          "3 cups tomato juice",
+          "1/4 cup olive oil",
+          "2 tbsp vinegar",
+          "Salt",
+          "Pepper"
+        ],
+        "steps": [
+          "Chop tomatoes, cucumber, bell pepper, onion, and garlic.",
+          "Blend all ingredients with tomato juice until smooth.",
+          "Drizzle with olive oil and vinegar.",
+          "Season with salt and pepper, then chill before serving."
+        ]
+      },
+    
+      "patatasBravas": {
+        "name": "Patatas Bravas",
+        "country": "Spain",
+        "ingredients": [
+          "4 potatoes",
+          "1/4 cup olive oil",
+          "1 tsp paprika",
+          "1/4 tsp cayenne pepper",
+          "Salt",
+          "Garlic aioli for dipping"
+        ],
+        "steps": [
+          "Peel and cut potatoes into cubes.",
+          "Boil potatoes until slightly tender, then drain.",
+          "Heat olive oil in a pan and fry potatoes until crispy.",
+          "Sprinkle with paprika, cayenne, and salt.",
+          "Serve with garlic aioli."
+        ]
+      },
+    
+      "tortillaEspañola": {
+        "name": "Tortilla Española",
+        "country": "Spain",
+        "ingredients": [
+          "4 eggs",
+          "2 large potatoes",
+          "1 onion",
+          "Salt",
+          "Olive oil"
+        ],
+        "steps": [
+          "Peel and thinly slice potatoes and onion.",
+          "Heat olive oil in a skillet and sauté potatoes and onion until soft.",
+          "Beat eggs in a bowl and add the potato mixture.",
+          "Pour back into the skillet and cook until set.",
+          "Flip to cook both sides and serve."
+        ]
+      },
+    
+      
+    
+      "paella": {
+        "name": "Paella",
+        "country": "Spain",
+        "ingredients": [
+          "2 cups rice",
+          "4 cups chicken broth",
+          "1/2 kg chicken, cut into pieces",
+          "1/2 kg shrimp",
+          "1 bell pepper",
+          "1 onion",
+          "2 cloves garlic",
+          "1 tsp saffron",
+          "Olive oil",
+          "Salt"
+        ],
+        "steps": [
+          "Heat olive oil in a paella pan and brown the chicken.",
+          "Add onion, garlic, and bell pepper, and sauté until soft.",
+          "Stir in rice and saffron, then pour in chicken broth.",
+          "Add shrimp and cook without stirring until rice is tender.",
+          "Let rest before serving."
+        ]
+      },
+    
+      "flan": {
+        "name": "Flan",
+        "country": "Spain",
+        "ingredients": [
+          "1 cup sugar",
+          "4 eggs",
+          "1 can sweetened condensed milk",
+          "1 can evaporated milk",
+          "1 tsp vanilla extract"
+        ],
+        "steps": [
+          "In a saucepan, melt sugar until caramelized and pour into flan mold.",
+          "In a bowl, mix eggs, condensed milk, evaporated milk, and vanilla.",
+          "Pour the mixture into the mold and bake in a water bath at 350°F (175°C) for 50 minutes.",
+          "Cool before flipping onto a plate."
+        ]
+      },
+    
+      "empanadas": {
+        "name": "Empanadas",
+        "country": "Spain",
+        "ingredients": [
+          "2 cups flour",
+          "1/2 cup butter",
+          "1/2 cup water",
+          "1/2 kg ground beef",
+          "1 onion",
+          "1 egg",
+          "Salt",
+          "Pepper"
+        ],
+        "steps": [
+          "Mix flour, butter, and water to form a dough, then chill.",
+          "Sauté onion until soft, then add ground beef and cook through.",
+          "Roll out dough, cut into circles, and fill with beef mixture.",
+          "Fold and seal, then bake until golden."
+        ]
+      },
+    
+      "salmorejo": {
+        "name": "Salmorejo",
+        "country": "Spain",
+        "ingredients": [
+          "6 ripe tomatoes",
+          "1/4 cup olive oil",
+          "1 cup bread crumbs",
+          "1 clove garlic",
+          "Vinegar",
+          "Salt",
+          "Hard-boiled eggs for garnish"
+        ],
+        "steps": [
+          "Blend tomatoes, olive oil, bread crumbs, garlic, vinegar, and salt until smooth.",
+          "Chill before serving.",
+          "Garnish with chopped hard-boiled eggs."
+        ]
+      },
+    
+      "pimientosRellenos": {
+        "name": "Pimientos Rellenos",
+        "country": "Spain",
+        "ingredients": [
+          "4 bell peppers",
+          "1 cup rice",
+          "1/2 kg ground meat",
+          "1 onion",
+          "2 cloves garlic",
+          "Tomato sauce",
+          "Salt",
+          "Pepper"
+        ],
+        "steps": [
+          "Cook rice and set aside.",
+          "Sauté onion and garlic, then add ground meat until browned.",
+          "Mix in cooked rice and tomato sauce, then stuff into halved bell peppers.",
+          "Bake until peppers are tender."
+        ]
+      },
 
-              
-              
-            
-            
-          
-          
+      "pulpoGallego": {
+        "name": "Pulpo a la Gallega",
+        "country": "Spain",
+        "ingredients": [
+          "1 kg octopus",
+          "4 medium potatoes",
+          "Paprika",
+          "Olive oil",
+          "Salt"
+        ],
+        "steps": [
+          "Boil the octopus in salted water for about 40 minutes until tender.",
+          "Remove and let cool, then slice into pieces.",
+          "Boil the potatoes until soft, then slice them.",
+          "Arrange the potato slices on a plate, top with octopus slices.",
+          "Drizzle with olive oil and sprinkle with paprika and salt."
+        ]
+      },
+    
+    
+    
+      "bacalao": {
+        "name": "Bacalao al Pil-Pil",
+        "country": "Spain",
+        "ingredients": [
+          "500g salted cod",
+          "4 cloves garlic",
+          "1 cup olive oil",
+          "Chili flakes",
+          "Parsley"
+        ],
+        "steps": [
+          "Soak the cod in water for 24 hours, changing the water frequently.",
+          "Heat olive oil in a pan, sauté garlic until golden.",
+          "Add cod and cook gently, stirring until the oil emulsifies.",
+          "Season with chili flakes and parsley before serving."
+        ]
+      },
+    
+    
+      "salmonConPimientos": {
+        "name": "Salmon con Pimientos",
+        "country": "Spain",
+        "ingredients": [
+          "4 salmon fillets",
+          "2 bell peppers",
+          "1 onion",
+          "Olive oil",
+          "Salt",
+          "Pepper"
+        ],
+        "steps": [
+          "Heat olive oil in a pan and sauté sliced onion until soft.",
+          "Add sliced bell peppers and cook until tender.",
+          "Season salmon fillets with salt and pepper, then place on top of vegetables.",
+          "Cover and cook for about 10 minutes until salmon is cooked through."
+        ]
+      },
+
+      
+        "pisto": {
+          "name": "Pisto",
+          "country": "Spain",
+          "ingredients": [
+            "2 zucchini (chopped)",
+            "1 bell pepper (chopped)",
+            "1 onion (chopped)",
+            "2 tomatoes (chopped)",
+            "3 tbsp olive oil",
+            "Salt",
+            "Pepper",
+            "4 eggs (for topping)"
+          ],
+          "steps": [
+            "Heat olive oil in a pan over medium heat.",
+            "Sauté onion and bell pepper until softened.",
+            "Add zucchini and cook until tender.",
+            "Stir in chopped tomatoes and season with salt and pepper.",
+            "Simmer for 15-20 minutes until thickened.",
+            "Fry the eggs sunny-side up and serve on top of the pisto."
+          ]
+        },
+      
+        "bacalaoVizcaina": {
+          "name": "Bacalao a la Vizcaína",
+          "country": "Spain",
+          "ingredients": [
+            "500g salted cod (soaked and deboned)",
+            "2 onions (chopped)",
+            "2 red bell peppers (chopped)",
+            "2 tomatoes (chopped)",
+            "3 cloves garlic (minced)",
+            "1/2 tsp paprika",
+            "Salt",
+            "Olive oil"
+          ],
+          "steps": [
+            "In a pan, heat olive oil and sauté onions and garlic until translucent.",
+            "Add chopped bell peppers and cook until softened.",
+            "Stir in tomatoes and paprika, cooking until saucy.",
+            "Add the soaked cod and cover with water.",
+            "Simmer for 20-25 minutes until the fish is tender.",
+            "Season with salt to taste before serving."
+          ]
+        },
+      
+        "pimientosDePadron": {
+          "name": "Pimientos de Padrón",
+          "country": "Spain",
+          "ingredients": [
+            "250g Padrón peppers",
+            "3 tbsp olive oil",
+            "Sea salt"
+          ],
+          "steps": [
+            "Heat olive oil in a skillet over medium-high heat.",
+            "Add Padrón peppers and sauté until blistered and slightly charred.",
+            "Remove from heat and sprinkle with sea salt.",
+            "Serve warm as a tapas dish."
+          ]
+        },
+      
+        "cocido": {
+          "name": "Cocido",
+          "country": "Spain",
+          "ingredients": [
+            "300g chickpeas (soaked overnight)",
+            "500g beef (cut into pieces)",
+            "200g chorizo (sliced)",
+            "1 onion (whole)",
+            "2 carrots (chopped)",
+            "1 potato (peeled and cubed)",
+            "Salt",
+            "Pepper",
+            "Water"
+          ],
+          "steps": [
+            "In a large pot, combine soaked chickpeas, beef, chorizo, and onion.",
+            "Cover with water and bring to a boil.",
+            "Reduce heat and simmer for 1.5-2 hours until meat is tender.",
+            "Add carrots and potatoes, cooking until soft.",
+            "Season with salt and pepper, and serve warm."
+          ]
+        },
+      
+        "tartaDeSantiago": {
+          "name": "Tarta de Santiago",
+          "country": "Spain",
+          "ingredients": [
+            "200g almond flour",
+            "150g sugar",
+            "4 eggs",
+            "1 lemon (zested)",
+            "1/2 tsp cinnamon",
+            "Powdered sugar (for topping)"
+          ],
+          "steps": [
+            "Preheat oven to 350°F (175°C).",
+            "In a bowl, mix almond flour, sugar, eggs, lemon zest, and cinnamon until combined.",
+            "Pour batter into a greased tart pan.",
+            "Bake for 30-35 minutes until golden.",
+            "Let cool and dust with powdered sugar before serving."
+          ]
+        },
+      
+        "chistorra": {
+          "name": "Chistorra",
+          "country": "Spain",
+          "ingredients": [
+            "500g ground pork",
+            "100g bacon (finely chopped)",
+            "2 cloves garlic (minced)",
+            "1/4 cup paprika",
+            "Salt",
+            "Pepper",
+            "Natural casings (for stuffing)"
+          ],
+          "steps": [
+            "In a bowl, combine ground pork, bacon, garlic, paprika, salt, and pepper.",
+            "Mix until well combined.",
+            "Stuff mixture into natural casings, tying off at intervals.",
+            "Cook in a skillet over medium heat until browned and cooked through.",
+            "Serve hot with bread or in a sandwich."
+          ]
+        }
+      
+      
+    
+    
     
   
-
-
 
     } 
 }
