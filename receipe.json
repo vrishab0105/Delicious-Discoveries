@@ -3661,7 +3661,287 @@
                     "Spread butter on the toast, followed by a thin layer of Vegemite.",
                     "Serve immediately."
                   ]
-              }
+              },
+
+
+            "paneerButterMasala": {
+  "name": "Paneer Butter Masala",
+  "country": "India",
+  "ingredients": [
+    "200g Paneer (cubed)",
+    "2 Tomatoes (pureed)",
+    "1 Onion (finely chopped)",
+    "1 tsp Ginger-garlic paste",
+    "2 tbsp Butter",
+    "1 tsp Red chili powder",
+    "1/2 tsp Turmeric powder",
+    "1/2 tsp Garam masala",
+    "1/4 cup Fresh cream",
+    "Salt to taste",
+    "Coriander for garnish"
+  ],
+  "steps": [
+    "Heat butter in a pan and sauté onions until golden.",
+    "Add ginger-garlic paste and cook until the raw smell disappears.",
+    "Add pureed tomatoes and cook until the oil separates from the masala.",
+    "Add red chili powder, turmeric powder, garam masala, and salt. Cook for another 2-3 minutes.",
+    "Add the cubed paneer and stir gently to coat the paneer with the masala.",
+    "Pour in fresh cream and simmer on low heat for 5 minutes.",
+    "Garnish with fresh coriander leaves and serve hot with naan or rice."
+  ]
+},
+
+"roganJosh": {
+  "name": "Rogan Josh",
+  "country": "India",
+  "ingredients": [
+    "500g Mutton (bone-in)",
+    "2 Onions (sliced)",
+    "1 tbsp Ginger-garlic paste",
+    "1 cup Yogurt",
+    "1 tsp Red chili powder",
+    "1/2 tsp Turmeric powder",
+    "1 tsp Garam masala",
+    "1 tbsp Ghee",
+    "Salt to taste"
+  ],
+  "steps": [
+    "Heat ghee in a pan and fry onions until golden brown.",
+    "Add ginger-garlic paste and cook until the raw smell disappears.",
+    "Add mutton pieces and sear until they turn brown on all sides.",
+    "Whisk yogurt and add it to the pan, stirring constantly to avoid curdling.",
+    "Add red chili powder, turmeric powder, garam masala, and salt. Stir well to coat the mutton.",
+    "Add enough water to cover the mutton and bring to a boil.",
+    "Lower the heat and let it simmer until the mutton is tender and the gravy thickens.",
+    "Serve hot with rice or roti."
+  ]
+},
+
+"pavBhaji": {
+  "name": "Pav Bhaji",
+  "country": "India",
+  "ingredients": [
+    "4 Potatoes (boiled and mashed)",
+    "1 Onion (finely chopped)",
+    "1 Tomato (chopped)",
+    "1 Green bell pepper (chopped)",
+    "2 tbsp Pav Bhaji masala",
+    "2 tbsp Butter",
+    "4 Pav (Indian bread rolls)",
+    "Salt to taste"
+  ],
+  "steps": [
+    "Heat butter in a pan, add onions and sauté until soft and translucent.",
+    "Add tomatoes and bell peppers, cook until they soften and blend well.",
+    "Add mashed potatoes and mix everything together, ensuring no lumps.",
+    "Sprinkle pav bhaji masala and salt, and mix well. Cook for a few minutes until the flavors meld together.",
+    "Toast the pav with butter on a hot griddle until golden brown.",
+    "Serve hot pav bhaji with a dollop of butter and chopped onions."
+  ]
+},
+
+"alooParatha": {
+  "name": "Aloo Paratha",
+  "country": "India",
+  "ingredients": [
+    "2 cups Wheat flour",
+    "3 Potatoes (boiled and mashed)",
+    "2 Green chilies (chopped)",
+    "1 tsp Ginger (grated)",
+    "1/2 tsp Garam masala",
+    "Butter for cooking",
+    "Salt to taste"
+  ],
+  "steps": [
+    "Knead wheat flour with water into a soft dough and set aside for 15-20 minutes.",
+    "In a bowl, mix mashed potatoes, chopped green chilies, grated ginger, garam masala, and salt.",
+    "Divide the dough into equal portions and roll each into small discs.",
+    "Place a portion of the potato mixture in the center of the disc and fold the edges to seal.",
+    "Gently roll the stuffed dough into a flat round shape using a rolling pin.",
+    "Cook the paratha on a hot griddle, applying butter on both sides, until golden brown spots appear.",
+    "Serve hot with yogurt or pickle."
+  ]
+},
+
+"bainganBharta": {
+  "name": "Baingan Bharta",
+  "country": "India",
+  "ingredients": [
+    "1 Large eggplant",
+    "1 Onion (chopped)",
+    "2 Tomatoes (chopped)",
+    "1 tsp Ginger-garlic paste",
+    "2 Green chilies",
+    "1/2 tsp Garam masala",
+    "1/2 tsp Cumin seeds",
+    "Salt to taste",
+    "Coriander for garnish"
+  ],
+  "steps": [
+    "Roast the eggplant over an open flame or in the oven until the skin is charred and the flesh softens.",
+    "Let it cool, then peel off the skin and mash the roasted eggplant flesh.",
+    "Heat oil in a pan, add cumin seeds and let them crackle.",
+    "Add chopped onions, green chilies, and ginger-garlic paste. Sauté until the onions turn golden.",
+    "Add chopped tomatoes, garam masala, and salt. Cook until the tomatoes break down and form a thick gravy.",
+    "Stir in the mashed eggplant and cook for 5 minutes until the flavors blend.",
+    "Garnish with fresh coriander and serve hot with roti."
+  ]
+},
+
+"samosaChaat": {
+  "name": "Samosa Chaat",
+  "country": "India",
+  "ingredients": [
+    "4 Vegetable samosas (store-bought or homemade)",
+    "1/2 cup Yogurt",
+    "1/4 cup Tamarind chutney",
+    "1/4 cup Green chutney",
+    "1/2 cup Sev (crunchy gram noodles)",
+    "Chopped onions and coriander"
+  ],
+  "steps": [
+    "Break the samosas into bite-sized pieces and place them on a serving plate.",
+    "Drizzle yogurt evenly over the samosa pieces.",
+    "Top with tamarind chutney and green chutney to taste.",
+    "Sprinkle sev, chopped onions, and fresh coriander over the chaat.",
+    "Serve immediately to enjoy the crispy textures."
+  ]
+},
+
+"palakPaneer": {
+  "name": "Palak Paneer",
+  "country": "India",
+  "ingredients": [
+    "200g Paneer (cubed)",
+    "2 cups Spinach (blanched and pureed)",
+    "1 Onion (chopped)",
+    "1 Tomato (chopped)",
+    "1 tsp Ginger-garlic paste",
+    "1/2 tsp Garam masala",
+    "Salt to taste"
+  ],
+  "steps": [
+    "Heat oil in a pan and sauté onions until golden brown.",
+    "Add ginger-garlic paste and cook until the raw smell goes away.",
+    "Add chopped tomatoes and cook until soft and mushy.",
+    "Pour in the spinach puree and cook for 5 minutes on medium heat.",
+    "Add paneer cubes, garam masala, and salt. Stir well and cook for another 5 minutes.",
+    "Serve hot with rice or naan."
+  ]
+},
+
+"poha": {
+  "name": "Poha",
+  "country": "India",
+  "ingredients": [
+    "2 cups Flattened rice (Poha)",
+    "1 Onion (chopped)",
+    "1 Green chili (chopped)",
+    "1 tsp Mustard seeds",
+    "8-10 Curry leaves",
+    "1/2 tsp Turmeric powder",
+    "Salt to taste",
+    "Coriander for garnish"
+  ],
+  "steps": [
+    "Rinse poha in water and drain well. Set aside for 5 minutes to soften.",
+    "Heat oil in a pan, add mustard seeds, and let them splutter.",
+    "Add curry leaves, chopped onions, and green chilies. Sauté until the onions become translucent.",
+    "Sprinkle turmeric powder and add the drained poha. Mix well and season with salt.",
+    "Cook for 2-3 minutes on low heat, stirring occasionally.",
+    "Garnish with fresh coriander and serve hot."
+  ]
+},
+
+"rajmaChawal": {
+  "name": "Rajma Chawal",
+  "country": "India",
+  "ingredients": [
+    "1 cup Kidney beans (Rajma)",
+    "1 Onion (chopped)",
+    "2 Tomatoes (chopped)",
+    "1 tsp Ginger-garlic paste",
+    "1/2 tsp Cumin seeds",
+    "1 tsp Garam masala",
+    "Salt to taste",
+    "Cooked rice"
+  ],
+  "steps": [
+    "Soak rajma overnight, then cook in a pressure cooker until soft.",
+    "Heat oil in a pan, add cumin seeds and let them crackle.",
+    "Add chopped onions and ginger-garlic paste, sauté until golden brown.",
+    "Add chopped tomatoes and cook until they break down into a thick sauce.",
+    "Add cooked rajma, garam masala, and salt. Simmer for 10-15 minutes, stirring occasionally.",
+    "Serve hot with steamed rice."
+  ]
+},
+
+"paniPuri": {
+  "name": "Pani Puri",
+  "country": "India",
+  "ingredients": [
+    "Puri shells",
+    "1/2 cup Tamarind chutney",
+    "1/2 cup Mint water",
+    "1 cup Boiled potatoes (mashed)",
+    "1/2 cup Boiled chickpeas",
+    "Chopped onions and coriander"
+  ],
+  "steps": [
+    "Gently crack a small hole in each puri shell.",
+    "Fill the puris with mashed potatoes and boiled chickpeas.",
+    "Add tamarind chutney and mint water to each puri according to taste.",
+    "Top with chopped onions and coriander for garnish.",
+    "Serve immediately for the best crunch."
+  ]
+},
+
+"dalMakhani": {
+  "name": "Dal Makhani",
+  "country": "India",
+  "ingredients": [
+    "1 cup Black lentils (Urad dal)",
+    "1/4 cup Red kidney beans (Rajma)",
+    "1 Onion (chopped)",
+    "2 Tomatoes (chopped)",
+    "1 tsp Ginger-garlic paste",
+    "1/2 cup Fresh cream",
+    "Butter",
+    "Salt to taste"
+  ],
+  "steps": [
+    "Soak black lentils and red kidney beans overnight. Cook them in a pressure cooker until soft.",
+    "Heat butter in a pan and sauté chopped onions until golden brown.",
+    "Add ginger-garlic paste and cook until the raw smell fades.",
+    "Add chopped tomatoes and cook until they break down into a gravy.",
+    "Add the cooked lentils and beans to the tomato mixture and stir well.",
+    "Simmer for 30 minutes, stirring occasionally to prevent sticking.",
+    "Stir in fresh cream, cook for a few more minutes, and serve hot."
+  ]
+},
+
+"mutterPaneer": {
+  "name": "Mutter Paneer",
+  "country": "India",
+  "ingredients": [
+    "200g Paneer (cubed)",
+    "1 cup Green peas",
+    "1 Onion (chopped)",
+    "2 Tomatoes (pureed)",
+    "1 tsp Ginger-garlic paste",
+    "1 tsp Garam masala",
+    "Salt to taste"
+  ],
+  "steps": [
+    "Heat oil in a pan and sauté onions until they turn golden brown.",
+    "Add ginger-garlic paste and cook until the raw smell disappears.",
+    "Add pureed tomatoes and cook until the oil separates.",
+    "Add green peas, garam masala, and salt. Stir and cook until the peas are tender.",
+    "Add paneer cubes and stir gently. Simmer for 5 minutes until the paneer absorbs the flavors.",
+    "Serve hot with rice or roti."
+  ]
+}
+
     } 
 }
                       
