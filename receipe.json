@@ -4,10 +4,13 @@
       "name": "French Fries",
       "country": "USA",
       "ingredients": [
-        "potato\noil\nseasoning"
+        "potato",
+        "oil",
+        "seasoning"
       ],
       "steps": [
-        "fry the potatoes in the oil\nseason it with the seasoning"
+        "fry the potatoes in the oil",
+        "season it with the seasoning"
       ]
     },
 
