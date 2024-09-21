@@ -4746,10 +4746,393 @@
               "Drizzle the Caesar dressing over the salad. Toss gently until the lettuce and toppings are evenly coated.",
               "Season with salt and pepper to taste, and serve immediately."
             ]
-          }
+          },
         
         
-    
+          
+            "sinigang": {
+              "name": "Sinigang na Baboy",
+              "country": "Philippines",
+              "ingredients": [
+                "500g pork belly",
+                "1 liter water",
+                "2 tomatoes",
+                "1 onion",
+                "1 radish",
+                "5 string beans",
+                "Tamarind paste",
+                "Salt",
+                "Pepper"
+              ],
+              "steps": [
+                "In a large pot, add the pork belly and pour in 1 liter of water. Bring to a boil.",
+                "Once boiling, add the tomatoes and onion. Lower the heat and simmer until the pork is tender, about 45 minutes to an hour.",
+                "Stir in the tamarind paste and add the radish and string beans.",
+                "Season with salt and pepper to taste. Continue to simmer until the vegetables are cooked, about 10-15 minutes.",
+                "Serve hot with steamed rice."
+              ]
+            },
+          
+            "lechonKawali": {
+              "name": "Lechon Kawali",
+              "country": "Philippines",
+              "ingredients": [
+                "1 kg pork belly",
+                "1 tbsp salt",
+                "1 tsp black peppercorns",
+                "3 cloves garlic",
+                "Oil for frying"
+              ],
+              "steps": [
+                "In a large pot, combine the pork belly, salt, garlic, and black peppercorns. Add enough water to cover the pork.",
+                "Bring to a boil, then reduce heat and simmer until the pork is tender, about 1-1.5 hours.",
+                "Once tender, remove the pork and drain well. Allow it to cool completely.",
+                "Heat oil in a deep pan. Once hot, carefully add the pork and deep fry until golden brown and crispy, about 5-10 minutes.",
+                "Remove from the oil and let drain on paper towels. Slice and serve with lechon sauce or vinegar dip."
+              ]
+            },
+          
+            "kareKare": {
+              "name": "Kare Kare",
+              "country": "Philippines",
+              "ingredients": [
+                "500g oxtail",
+                "1/4 cup peanut butter",
+                "1 banana heart",
+                "1 eggplant",
+                "5 string beans",
+                "1 tbsp annatto oil",
+                "Salt",
+                "Pepper"
+              ],
+              "steps": [
+                "In a large pot, boil the oxtail until tender, which may take 1.5 to 2 hours.",
+                "Once tender, add the banana heart, eggplant, and string beans. Cook until the vegetables are softened.",
+                "Stir in the peanut butter and annatto oil, mixing well to combine. Season with salt and pepper to taste.",
+                "Serve hot with bagoong (fermented shrimp paste) on the side."
+              ]
+            },
+          
+            "pancitCanton": {
+              "name": "Pancit Canton",
+              "country": "Philippines",
+              "ingredients": [
+                "250g pancit canton noodles",
+                "200g chicken breast",
+                "1 carrot",
+                "1 cabbage",
+                "1 onion",
+                "2 cloves garlic",
+                "Soy sauce",
+                "Pepper"
+              ],
+              "steps": [
+                "In a large skillet or wok, heat a small amount of oil. Stir-fry the garlic and onion until fragrant.",
+                "Add the chicken breast, cooking until fully cooked and lightly browned.",
+                "Add the julienned carrot and sliced cabbage, stir-frying until the vegetables are tender.",
+                "Pour in soy sauce and mix well. Add the pancit canton noodles, tossing everything together until well combined and heated through.",
+                "Season with pepper to taste and serve hot."
+              ]
+            },
+          
+            "sisig": {
+              "name": "Sisig",
+              "country": "Philippines",
+              "ingredients": [
+                "500g pork face",
+                "2 onions",
+                "2 green chilies",
+                "1 egg",
+                "Soy sauce",
+                "Calamansi juice",
+                "Salt",
+                "Pepper"
+              ],
+              "steps": [
+                "In a pot, boil the pork face until tender. Once cooked, grill the pork until slightly charred, then chop finely.",
+                "In a skillet, sauté the chopped onions and green chilies until fragrant.",
+                "Add the grilled pork and mix well. Season with soy sauce, calamansi juice, salt, and pepper.",
+                "Transfer to a serving plate and top with a raw egg. Serve immediately while hot."
+              ]
+            },
+          
+            "lumpia": {
+              "name": "Lumpia Shanghai",
+              "country": "Philippines",
+              "ingredients": [
+                "500g ground pork",
+                "1 carrot",
+                "1 onion",
+                "1 egg",
+                "Spring roll wrappers",
+                "Salt",
+                "Pepper"
+              ],
+              "steps": [
+                "In a bowl, mix the ground pork with grated carrot, chopped onion, egg, salt, and pepper until well combined.",
+                "Take a spring roll wrapper and place a spoonful of the mixture on one edge. Roll tightly, folding the sides in as you go to seal the filling.",
+                "Heat oil in a deep pan. Fry the lumpia until golden brown and crispy, about 3-5 minutes per side.",
+                "Remove from oil and drain on paper towels. Serve with your favorite dipping sauce."
+              ]
+            },
+          
+            "tapsilog": {
+              "name": "Tapsilog",
+              "country": "Philippines",
+              "ingredients": [
+                "500g beef tapa",
+                "3 eggs",
+                "4 cups garlic fried rice",
+                "Vinegar dipping sauce"
+              ],
+              "steps": [
+                "Marinate the beef in soy sauce, vinegar, and crushed garlic for at least 30 minutes.",
+                "Heat a skillet over medium-high heat and fry the marinated beef until cooked through and slightly crispy.",
+                "In another pan, fry the eggs sunny-side up.",
+                "To serve, place a portion of garlic fried rice on a plate, top with the cooked beef and fried eggs, and serve with vinegar dipping sauce."
+              ]
+            },
+          
+            "haloHalo": {
+              "name": "Halo Halo",
+              "country": "Philippines",
+              "ingredients": [
+                "Crushed ice",
+                "Sweetened beans",
+                "Leche flan",
+                "Ube halaya",
+                "Bananas",
+                "Nata de coco",
+                "Condensed milk"
+              ],
+              "steps": [
+                "In a tall glass, layer the sweetened beans, sliced bananas, ube halaya, and nata de coco.",
+                "Top with a generous amount of crushed ice.",
+                "Drizzle condensed milk over the ice and ingredients, adjusting to taste.",
+                "Serve chilled with a spoon or straw for mixing."
+              ]
+            },
+          
+            "bibingka": {
+              "name": "Bibingka",
+              "country": "Philippines",
+              "ingredients": [
+                "1 cup rice flour",
+                "1 cup coconut milk",
+                "1/2 cup sugar",
+                "2 eggs",
+                "Grated cheese",
+                "Salted eggs"
+              ],
+              "steps": [
+                "In a bowl, mix the rice flour, coconut milk, sugar, and eggs to form a smooth batter.",
+                "Line molds with banana leaves and pour in the batter, filling them halfway.",
+                "Top with grated cheese and sliced salted egg.",
+                "Bake in a preheated oven at 375°F (190°C) until set and cooked through, about 25-30 minutes.",
+                "Serve warm, optionally topped with more cheese."
+              ]
+            },
+
+            
+              "bicolExpress": {
+                "name": "Bicol Express",
+                "country": "Philippines",
+                "ingredients": [
+                  "500g pork belly",
+                  "2 cups coconut milk",
+                  "5 green chilies",
+                  "1 onion",
+                  "4 cloves garlic",
+                  "Salt",
+                  "Pepper"
+                ],
+                "steps": [
+                  "In a pan, heat oil and sauté minced garlic, chopped onion, and sliced green chilies until fragrant.",
+                  "Add the pork belly, cooking until it is browned and the fat has rendered.",
+                  "Pour in the coconut milk and bring to a simmer. Cook until the pork is tender, about 30-40 minutes.",
+                  "Season with salt and pepper to taste before serving."
+                ]
+              },
+            
+              "ginataangLangka": {
+                "name": "Ginataang Langka",
+                "country": "Philippines",
+                "ingredients": [
+                  "500g young jackfruit",
+                  "2 cups coconut milk",
+                  "3 cloves garlic",
+                  "1 onion",
+                  "Salt",
+                  "Pepper"
+                ],
+                "steps": [
+                  "In a pot, sauté minced garlic and chopped onion until soft.",
+                  "Add the young jackfruit and pour in the coconut milk. Stir well.",
+                  "Simmer on low heat until the jackfruit is tender, about 20-25 minutes.",
+                  "Season with salt and pepper to taste before serving."
+                ]
+              },
+            
+              "caldereta": {
+                "name": "Beef Caldereta",
+                "country": "Philippines",
+                "ingredients": [
+                  "500g beef stew meat",
+                  "2 potatoes",
+                  "1 carrot",
+                  "1 onion",
+                  "2 cloves garlic",
+                  "Tomato sauce",
+                  "Liver spread",
+                  "Salt",
+                  "Pepper"
+                ],
+                "steps": [
+                  "In a large pot, brown the beef stew meat over medium heat.",
+                  "Add minced garlic and chopped onion, cooking until the onion is translucent.",
+                  "Pour in the tomato sauce and add enough water to cover the meat. Simmer until the beef is tender, about 1-1.5 hours.",
+                  "Add diced potatoes, carrots, and liver spread. Cook until the vegetables are tender.",
+                  "Season with salt and pepper to taste before serving."
+                ]
+              },
+            
+              "dinuguan": {
+                "name": "Dinuguan",
+                "country": "Philippines",
+                "ingredients": [
+                  "500g pork belly",
+                  "1 cup pork blood",
+                  "2 cloves garlic",
+                  "1 onion",
+                  "Vinegar",
+                  "Salt",
+                  "Pepper"
+                ],
+                "steps": [
+                  "In a pot, sauté minced garlic and chopped onion until fragrant.",
+                  "Add the pork belly and cook until browned.",
+                  "Pour in vinegar and simmer for a few minutes, allowing the vinegar to cook off.",
+                  "Stir in the pork blood, mixing well, and cook until thickened.",
+                  "Season with salt and pepper to taste before serving."
+                ]
+              },
+            
+              "suman": {
+                "name": "Suman",
+                "country": "Philippines",
+                "ingredients": [
+                  "2 cups glutinous rice",
+                  "1 cup coconut milk",
+                  "1/4 cup sugar",
+                  "Banana leaves"
+                ],
+                "steps": [
+                  "In a pot, cook the glutinous rice with coconut milk and sugar until it becomes sticky, about 30 minutes.",
+                  "Take banana leaves, cut into squares, and use them to wrap small portions of the sticky rice.",
+                  "Steam the wrapped rice until cooked through, about 20-30 minutes.",
+                  "Serve warm with extra sugar or latik (coconut curds)."
+                ]
+              },
+            
+              "palabok": {
+                "name": "Pancit Palabok",
+                "country": "Philippines",
+                "ingredients": [
+                  "250g rice noodles",
+                  "1/2 cup shrimp broth",
+                  "1/4 cup annatto oil",
+                  "1/2 cup pork cracklings",
+                  "Shrimp",
+                  "Boiled eggs",
+                  "Green onions"
+                ],
+                "steps": [
+                  "Cook the rice noodles according to the package instructions, then drain and set aside.",
+                  "In a saucepan, prepare the sauce by mixing shrimp broth and annatto oil. Heat until warm.",
+                  "To serve, place the noodles on a plate and top with the sauce, followed by shrimp, crushed pork cracklings, sliced boiled eggs, and chopped green onions.",
+                  "Serve immediately, garnished with lime or calamansi if desired."
+                ]
+              },
+            
+              "tocino": {
+                "name": "Tocino",
+                "country": "Philippines",
+                "ingredients": [
+                  "500g pork belly",
+                  "1/4 cup sugar",
+                  "2 tbsp soy sauce",
+                  "1 tbsp pineapple juice",
+                  "Salt",
+                  "Pepper"
+                ],
+                "steps": [
+                  "In a bowl, mix the pork belly with sugar, soy sauce, pineapple juice, salt, and pepper. Marinate for at least 24 hours in the refrigerator.",
+                  "In a skillet, heat a small amount of oil over medium heat. Fry the marinated pork until golden brown and caramelized, about 5-7 minutes on each side.",
+                  "Serve with garlic rice and fried eggs."
+                ]
+              },
+            
+              "champorado": {
+                "name": "Champorado",
+                "country": "Philippines",
+                "ingredients": [
+                  "1 cup glutinous rice",
+                  "1/4 cup cocoa powder",
+                  "1/2 cup sugar",
+                  "2 cups water",
+                  "Evaporated milk"
+                ],
+                "steps": [
+                  "In a pot, cook the glutinous rice in water until soft and fully cooked.",
+                  "Once cooked, stir in cocoa powder and sugar, mixing well until fully dissolved.",
+                  "Cook until the mixture thickens to your desired consistency.",
+                  "Serve warm, drizzled with evaporated milk."
+                ]
+              },
+            
+              "pinakbet": {
+                "name": "Pinakbet",
+                "country": "Philippines",
+                "ingredients": [
+                  "250g pork belly",
+                  "1 eggplant",
+                  "1 bitter melon",
+                  "5 string beans",
+                  "1 squash",
+                  "1 tomato",
+                  "Shrimp paste",
+                  "Salt"
+                ],
+                "steps": [
+                  "In a pot, sauté the pork belly and chopped tomato until the pork is browned.",
+                  "Add the sliced vegetables and shrimp paste, stirring to combine.",
+                  "Add a small amount of water if needed, cover, and cook until the vegetables are tender.",
+                  "Season with salt to taste before serving with rice."
+                ]
+              },
+            
+              "longganisa": {
+                "name": "Longganisa",
+                "country": "Philippines",
+                "ingredients": [
+                  "500g ground pork",
+                  "1/4 cup sugar",
+                  "2 cloves garlic",
+                  "1 tbsp vinegar",
+                  "Salt",
+                  "Pepper"
+                ],
+                "steps": [
+                  "In a bowl, combine the ground pork with sugar, minced garlic, vinegar, salt, and pepper. Mix well until fully combined.",
+                  "Form the mixture into small sausages or patties.",
+                  "Heat a skillet over medium heat and fry the longganisa until cooked through and golden brown, about 5-7 minutes.",
+                  "Serve with rice and eggs."
+                ]
+              }
+            
+            
+          
+          
     
   
 
