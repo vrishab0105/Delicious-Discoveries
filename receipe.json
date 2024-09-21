@@ -536,31 +536,7 @@
                 "Garnish with parsley before serving."
               ]
             },
-            "baklava": {
-              "name": "Baklava",
-              "country": "Turkey",
-              "ingredients": [
-                "1 package Phyllo dough",
-                "1 cup Walnuts (chopped)",
-                "1 cup Butter (melted)",
-                "1 cup Honey",
-                "1 cup Sugar",
-                "1 cup Water",
-                "1 tsp Vanilla extract",
-                "1 tsp Lemon juice"
-              ],
-              "steps": [
-                "Preheat oven to 350°F (175°C).",
-                "Layer phyllo dough in a baking dish, brushing each layer with melted butter.",
-                "Sprinkle walnuts between layers.",
-                "Cut into diamond shapes and bake for 45 minutes.",
-                "Boil sugar, water, honey, vanilla, and lemon juice for 10 minutes.",
-                "Pour syrup over hot baklava.",
-                "Cool before serving."
-              ]
-            } ,
-
-                
+             
                 "risotto": {
                   "name": "Risotto",
                   "country": "Italy",
@@ -6034,7 +6010,372 @@
             "Cook in a skillet over medium heat until browned and cooked through.",
             "Serve hot with bread or in a sandwich."
           ]
-        }
+        },
+
+        
+          "kebap": {
+            "name": "Kebap",
+            "country": "Turkey",
+            "ingredients": [
+              "500g lamb or beef (cubed)",
+              "1 onion (grated)",
+              "2 cloves garlic (minced)",
+              "1 tsp cumin",
+              "1 tsp paprika",
+              "Salt",
+              "Pepper",
+              "Skewers"
+            ],
+            "steps": [
+              "Mix meat, onion, garlic, cumin, paprika, salt, and pepper in a bowl.",
+              "Skewer the marinated meat onto skewers.",
+              "Grill over medium-high heat until cooked through.",
+              "Serve with flatbread and salad."
+            ]
+          },
+          
+          "meze": {
+            "name": "Meze",
+            "country": "Turkey",
+            "ingredients": [
+              "Hummus, baba ghanoush, stuffed grape leaves, and various dips",
+              "Pita bread",
+              "Olives",
+              "Cheese"
+            ],
+            "steps": [
+              "Prepare various dips like hummus and baba ghanoush.",
+              "Serve with pita bread, olives, and cheese on a platter.",
+              "Enjoy as an appetizer or side dish."
+            ]
+          },
+          
+          "dolma": {
+            "name": "Dolma",
+            "country": "Turkey",
+            "ingredients": [
+              "500g grape leaves",
+              "300g rice",
+              "1 onion (chopped)",
+              "1 tomato (chopped)",
+              "1/4 cup pine nuts",
+              "Salt",
+              "Pepper",
+              "1/4 cup olive oil"
+            ],
+            "steps": [
+              "Sauté onion in olive oil until translucent.",
+              "Mix rice, tomatoes, pine nuts, salt, and pepper into the onion.",
+              "Place a spoonful of filling in each grape leaf and roll tightly.",
+              "Arrange in a pot, add water, and simmer for 30-40 minutes."
+            ]
+          },
+          
+          
+          "pide": {
+            "name": "Pide",
+            "country": "Turkey",
+            "ingredients": [
+              "500g flour",
+              "300ml water",
+              "10g yeast",
+              "1 tsp salt",
+              "Toppings (cheese, minced meat, vegetables)"
+            ],
+            "steps": [
+              "Mix flour, water, yeast, and salt to form a dough.",
+              "Let rise for 1 hour.",
+              "Shape dough into oval boats and add desired toppings.",
+              "Bake in a preheated oven until golden."
+            ]
+          },
+          
+          "baklava": {
+            "name": "Baklava",
+            "country": "Turkey",
+            "ingredients": [
+              "500g phyllo pastry",
+              "300g nuts (walnuts or pistachios)",
+              "200g butter",
+              "1 cup sugar",
+              "1 cup water",
+              "1 tsp vanilla extract"
+            ],
+            "steps": [
+              "Layer phyllo sheets in a baking dish, brushing each with melted butter.",
+              "Chop and sprinkle nuts between layers.",
+              "Cut into diamond shapes before baking at 350°F (175°C) until golden.",
+              "Prepare syrup with sugar, water, and vanilla; pour over hot baklava."
+            ]
+          },
+          
+          "kumpir": {
+            "name": "Kumpir",
+            "country": "Turkey",
+            "ingredients": [
+              "4 large potatoes",
+              "Butter",
+              "Cheese",
+              "Toppings (corn, olives, pickles, sausage)"
+            ],
+            "steps": [
+              "Bake potatoes until soft.",
+              "Cut open and fluff the insides with butter and cheese.",
+              "Add desired toppings and serve immediately."
+            ]
+          },
+          
+          "simit": {
+            "name": "Simit",
+            "country": "Turkey",
+            "ingredients": [
+              "500g flour",
+              "1 tsp yeast",
+              "1 tsp sugar",
+              "1 tsp salt",
+              "Sesame seeds",
+              "Water"
+            ],
+            "steps": [
+              "Mix flour, yeast, sugar, and salt; gradually add water to form a dough.",
+              "Shape into rings and dip in a water-sugar solution, then in sesame seeds.",
+              "Bake at 375°F (190°C) until golden."
+            ]
+          },
+          
+          "lahmacun": {
+            "name": "Lahmacun",
+            "country": "Turkey",
+            "ingredients": [
+              "500g flour",
+              "200ml water",
+              "200g ground meat",
+              "1 onion (chopped)",
+              "2 tomatoes (chopped)",
+              "Spices (cumin, paprika)",
+              "Salt"
+            ],
+            "steps": [
+              "Prepare dough with flour and water; let rise.",
+              "Mix ground meat with onion, tomatoes, spices, and salt.",
+              "Roll out dough and spread meat mixture on top.",
+              "Bake until crispy."
+            ]
+          },
+          
+          "mercimekCorbasi": {
+            "name": "Mercimek Çorbası",
+            "country": "Turkey",
+            "ingredients": [
+              "1 cup red lentils",
+              "1 onion (chopped)",
+              "2 carrots (chopped)",
+              "1 potato (chopped)",
+              "4 cups vegetable broth",
+              "Salt",
+              "Pepper",
+              "Lemon for serving"
+            ],
+            "steps": [
+              "Sauté onion in a pot until translucent.",
+              "Add carrots, potato, lentils, and broth.",
+              "Simmer until lentils are soft; blend until smooth.",
+              "Season with salt and pepper, serve with lemon."
+            ]
+          },
+          
+         
+          
+          "imamBayildi": {
+            "name": "İmam Bayıldı",
+            "country": "Turkey",
+            "ingredients": [
+              "4 eggplants",
+              "1 onion (chopped)",
+              "2 tomatoes (chopped)",
+              "2 cloves garlic (minced)",
+              "Olive oil",
+              "Salt",
+              "Pepper"
+            ],
+            "steps": [
+              "Halve eggplants and scoop out some flesh.",
+              "Sauté onion, garlic, and tomatoes in olive oil; mix with eggplant flesh.",
+              "Fill eggplant halves with the mixture and bake at 350°F (175°C) until tender."
+            ]
+          },
+          
+          "kuzu tandir": {
+            "name": "Kuzu Tandır",
+            "country": "Turkey",
+            "ingredients": [
+              "1 kg lamb shoulder",
+              "1 onion (quartered)",
+              "2 cloves garlic (smashed)",
+              "Salt",
+              "Pepper",
+              "Thyme"
+            ],
+            "steps": [
+              "Season lamb with salt, pepper, and thyme.",
+              "Place in a pot with onion and garlic; add water to cover.",
+              "Slow-cook for several hours until tender; serve with rice."
+            ]
+          },
+          
+          "yufka": {
+            "name": "Yufka",
+            "country": "Turkey",
+            "ingredients": [
+              "500g flour",
+              "200ml water",
+              "1 tsp salt",
+              "Olive oil"
+            ],
+            "steps": [
+              "Mix flour, water, and salt to form a dough.",
+              "Roll out thinly and cook on a hot griddle until lightly browned.",
+              "Use for wraps or as a side."
+            ]
+          },
+          
+          "sahandaEgg": {
+            "name": "Sahanda Egg",
+            "country": "Turkey",
+            "ingredients": [
+              "4 eggs",
+              "1 onion (chopped)",
+              "1 tomato (chopped)",
+              "Salt",
+              "Pepper",
+              "Butter"
+            ],
+            "steps": [
+              "Sauté onion in butter until soft.",
+              "Add tomatoes and cook until softened.",
+              "Crack eggs over the mixture, season with salt and pepper, and cook until set."
+            ]
+          },
+
+          
+            "cilbir": {
+              "name": "Çılbır (Poached Eggs with Yogurt)",
+              "country": "Turkey",
+              "ingredients": [
+                "4 eggs",
+                "1 cup plain yogurt",
+                "2 cloves garlic (minced)",
+                "2 tbsp butter",
+                "1 tsp paprika",
+                "Salt",
+                "Pepper",
+                "Fresh dill (for garnish)"
+              ],
+              "steps": [
+                "In a bowl, mix yogurt with minced garlic, salt, and pepper. Set aside.",
+                "Bring a pot of water to a gentle simmer and poach the eggs for about 3-4 minutes until the whites are set but the yolks are still runny.",
+                "In a small pan, melt butter and add paprika. Cook until fragrant.",
+                "Place the garlic yogurt on a plate, top with the poached eggs, and drizzle with the paprika butter.",
+                "Garnish with fresh dill and serve warm with bread."
+              ]
+            },
+          
+            "kisir": {
+              "name": "Kısır (Bulgur Salad)",
+              "country": "Turkey",
+              "ingredients": [
+                "1 cup fine bulgur",
+                "1 cup hot water",
+                "1 onion (finely chopped)",
+                "2 tomatoes (diced)",
+                "1 cucumber (diced)",
+                "1/4 cup parsley (chopped)",
+                "1/4 cup mint (chopped)",
+                "3 tbsp olive oil",
+                "2 tbsp lemon juice",
+                "Salt",
+                "Pepper"
+              ],
+              "steps": [
+                "Place bulgur in a bowl and pour hot water over it. Cover and let sit for 15 minutes until the bulgur absorbs the water.",
+                "Fluff the bulgur with a fork and add chopped onion, tomatoes, cucumber, parsley, and mint.",
+                "Drizzle with olive oil and lemon juice, then season with salt and pepper.",
+                "Toss everything together until well combined.",
+                "Serve chilled or at room temperature."
+              ]
+            },
+          
+            "borek": {
+              "name": "Börek (Savory Pastry)",
+              "country": "Turkey",
+              "ingredients": [
+                "1 package phyllo dough",
+                "300g feta cheese (crumbled)",
+                "200g spinach (cooked and chopped)",
+                "1 onion (finely chopped)",
+                "1 egg (beaten)",
+                "1/4 cup olive oil",
+                "Salt",
+                "Pepper"
+              ],
+              "steps": [
+                "Preheat the oven to 375°F (190°C).",
+                "In a bowl, mix feta cheese, spinach, onion, and half of the beaten egg. Season with salt and pepper.",
+                "Layer phyllo dough sheets, brushing each layer with olive oil. Place the filling on one side and roll it up into a log.",
+                "Place the rolled börek on a baking sheet and brush with the remaining egg.",
+                "Bake for 25-30 minutes until golden brown and crispy.",
+                "Let cool slightly before slicing and serving."
+              ]
+            },
+          
+            "manti": {
+              "name": "Mantı (Turkish Dumplings)",
+              "country": "Turkey",
+              "ingredients": [
+                "2 cups flour",
+                "1 egg",
+                "1/2 cup water",
+                "300g ground beef or lamb",
+                "1 onion (grated)",
+                "Salt",
+                "Pepper",
+                "Yogurt (for serving)",
+                "Paprika (for garnish)"
+              ],
+              "steps": [
+                "In a bowl, mix flour, egg, and water to form a dough. Knead until smooth and let rest for 30 minutes.",
+                "In another bowl, mix ground meat, grated onion, salt, and pepper.",
+                "Roll out the dough thinly and cut into small squares. Place a small amount of filling in the center of each square.",
+                "Fold the squares into triangles and pinch the edges to seal.",
+                "Boil in salted water for about 10 minutes until cooked.",
+                "Serve with yogurt and sprinkle with paprika."
+              ]
+            },
+          
+            "dondurma": {
+              "name": "Dondurma (Turkish Ice Cream)",
+              "country": "Turkey",
+              "ingredients": [
+                "4 cups whole milk",
+                "1 cup sugar",
+                "1/4 cup cornstarch",
+                "1/2 cup salep (or cornstarch as a substitute)",
+                "1 tsp vanilla extract",
+                "Pistachios (for garnish)"
+              ],
+              "steps": [
+                "In a saucepan, mix milk, sugar, and cornstarch over medium heat until sugar dissolves.",
+                "Add salep and stir constantly until the mixture thickens.",
+                "Remove from heat and let cool slightly. Stir in vanilla extract.",
+                "Pour into a container and freeze for at least 6 hours.",
+                "Once frozen, stir every hour for the first 4 hours to achieve a creamy texture.",
+                "Serve scoops topped with crushed pistachios."
+              ]
+            }
+          
+          
+        
+        
       
       
     
