@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe App</title>
+    <link rel="stylesheet" href="admin_styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Recipe List</h1>
+        <button id="add-recipe-btn" class="btn">Add Recipe</button>
+        <ul class="recipe-list" id="recipe-list"></ul>
+    </div>
+
+    <!-- Add Recipe Page -->
+    <div id="add-recipe-page" class="add-recipe-page">
+        <div class="add-recipe-content">
+            <span class="close-add-recipe">&times;</span>
+            <h2>Add New Recipe</h2>
+            <form id="add-recipe-form">
+                <label for="recipe-name">Recipe Name:</label>
+                <input type="text" id="recipe-name" required>
+
+                <label for="country">Country:</label>
+                <input type="text" id="country" required placeholder="Enter country name">
+
+                <label for="ingredients">Ingredients (comma-separated):</label>
+                <textarea id="ingredients" rows="4" required></textarea>
+
+                <label for="steps">Steps (comma-separated):</label>
+                <textarea id="steps" rows="4" required></textarea>
+
+                <button type="submit" class="btn">Add Recipe</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="admin.js" type="module"></script>
+</body>
+</html>

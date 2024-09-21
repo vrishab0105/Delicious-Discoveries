@@ -1,0 +1,238 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+  }
+  
+  /* Container for Main Content */
+  .container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+  }
+  
+  /* Landing Page Styles */
+  .landing-container {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .options {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px; /* Space between buttons */
+  }
+  
+  .options .btn {
+    width: 250px;
+    padding: 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+  }
+  
+  .options .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Heading Styles */
+  h1 {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  /* Recipe List Styles */
+  ul.recipe-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  ul.recipe-list li {
+    padding: 15px;
+    background-color: #f9f9f9;
+    margin: 10px 0;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  ul.recipe-list li:hover {
+    background-color: #e0e0e0;
+  }
+  
+  /* Button Styles */
+  .btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Modal Styles */
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  .modal-content {
+    background-color: white;
+    margin: 50px auto;
+    padding: 20px;
+    width: 90%;
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow-y: auto;
+    max-height: 90%;
+  }
+  
+  .modal-content h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .modal-content ul, .modal-content ol {
+    margin: 0 0 20px 20px;
+    color: #333;
+  }
+  
+  .modal-content ul li, .modal-content ol li {
+    margin-bottom: 10px;
+  }
+  
+  .close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 24px;
+    color: #333;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .close:hover {
+    color: #ff0000;
+  }
+  
+  /* Add Recipe Page Styles */
+  .add-recipe-page {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  .add-recipe-content {
+    background-color: white;
+    margin: 50px auto;
+    padding: 20px;
+    width: 90%;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow-y: auto;
+  }
+  
+  .add-recipe-content h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .add-recipe-content form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .add-recipe-content label {
+    margin-bottom: 5px;
+  }
+  
+  .add-recipe-content input, .add-recipe-content textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .add-recipe-content button {
+    align-self: center;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .add-recipe-content button:hover {
+    background-color: #0056b3;
+  }
+  
+  .close-add-recipe {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 24px;
+    color: #333;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .close-add-recipe:hover {
+    color: #ff0000;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .modal-content, .add-recipe-content {
+        width: 95%;
+    }
+  }
+  
+  .delete-btn {
+    margin-left: 10px;
+    padding: 5px 10px;
+    background-color: #dc3545; /* Bootstrap's danger color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.delete-btn:hover {
+    background-color: #c82333;
+}
