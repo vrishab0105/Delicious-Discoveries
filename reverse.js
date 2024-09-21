@@ -86,6 +86,12 @@ document.getElementById('searchButton').addEventListener('click', async () => {
                         if (dish.name.toLowerCase().includes(dishName.toLowerCase())) {
                             const listItem = document.createElement('li');
                             listItem.textContent = `${dish.name} - ${dish.country}`;
+                            
+                            // Add click event to open recipe-detail page with recipe ID in URL
+                            listItem.addEventListener('click', () => {
+                                window.location.href = `recipe-detail.html?recipeId=${childSnapshot.key}`;
+                            });
+
                             similarDishesList.appendChild(listItem);
                         }
                     });
