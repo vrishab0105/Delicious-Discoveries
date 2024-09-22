@@ -1,7 +1,7 @@
 /* Basic Reset */
 * {
     margin: 0;
-    padding: 0;
+    padding: 10;
     box-sizing: border-box;
 }
 
