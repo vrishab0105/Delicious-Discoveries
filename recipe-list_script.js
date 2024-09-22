@@ -20,22 +20,27 @@ const app = initializeApp(firebaseConfig);
 const analytics = getAnalytics(app);
 const database = getDatabase(app);
 
-// Function to fetch and display recipe names in alphabetical order
-document.addEventListener('DOMContentLoaded', function () {
+// Function to display recipes
+function displayRecipes(recipes) {
     const recipeList = document.getElementById('recipe-list');
-    const searchButton = document.getElementById('search-recipe-btn');
-    const searchContainer = document.getElementById('search-container');
-    const searchDishButton = document.getElementById('search-dish-btn');
-    const searchTermInput = document.getElementById('search-term');
+    recipeList.innerHTML = '';
 
-    // Reference to the 'recipes' node in your Firebase Realtime Database
+    recipes.forEach(recipe => {
+        const recipeItem = document.createElement('li');
+        recipeItem.textContent = recipe.name;
+        recipeItem.addEventListener('click', () => {
+            window.location.href = `recipe-detail.html?recipeId=${recipe.key}`;
+        });
+
+        recipeList.appendChild(recipeItem);
+    });
+}
+
+// Function to fetch and display all recipes
+function fetchAllRecipes() {
     const recipeRef = ref(database, 'recipes');
-
-    // Fetch the recipe names from Firebase
     onValue(recipeRef, (snapshot) => {
         const recipes = snapshot.val();
-
-        // Get an array of recipe objects
         const recipeArray = Object.keys(recipes).map(key => ({
             key: key,
             name: recipes[key].name,
@@ -45,38 +50,42 @@ document.addEventListener('DOMContentLoaded', function () {
         // Sort the recipe array alphabetically by name
         recipeArray.sort((a, b) => a.name.localeCompare(b.name));
 
-        // Display all recipes initially
+        // Display all recipes
         displayRecipes(recipeArray);
     });
+}
 
-    // Function to display recipes
-    function displayRecipes(recipes) {
-        recipeList.innerHTML = '';
+// Initial fetch of all recipes
+fetchAllRecipes();
 
-        recipes.forEach(recipe => {
-            const recipeItem = document.createElement('li');
-            recipeItem.textContent = recipe.name;
+document.addEventListener('DOMContentLoaded', function () {
+    const searchButton = document.getElementById('search-dish-btn');
+    const showAllButton = document.getElementById('show-all-btn');
+    const searchInputContainer = document.getElementById('search-input-container');
+    const searchRecipeButton = document.getElementById('search-recipe-btn');
+    const searchTermInput = document.getElementById('search-term');
 
-            recipeItem.addEventListener('click', () => {
-                window.location.href = `recipe-detail.html?recipeId=${recipe.key}`;
-            });
-
-            recipeList.appendChild(recipeItem);
-        });
-    }
-
-    // Show search input when the search button is clicked
-    searchDishButton.addEventListener('click', () => {
-        searchContainer.style.display = 'flex'; // Show input field
-        searchTermInput.value = ''; // Clear any previous input
-        searchTermInput.focus(); // Focus on the input
+    // Show search input when clicking the search button
+    searchButton.addEventListener('click', () => {
+        searchInputContainer.style.display = 'flex';
+        showAllButton.style.display = 'inline-block';
+        searchButton.style.display = 'none'; // Hide search button
     });
 
-    // Search functionality
-    searchButton.addEventListener('click', () => {
+    // Show all recipes and hide search input
+    showAllButton.addEventListener('click', () => {
+        searchInputContainer.style.display = 'none';
+        showAllButton.style.display = 'none';
+        searchButton.style.display = 'inline-block'; // Show search button
+        fetchAllRecipes(); // Fetch and display all recipes again
+    });
+
+    // Search feature
+    searchRecipeButton.addEventListener('click', () => {
         const searchTerm = searchTermInput.value.trim().toLowerCase();
 
         if (searchTerm) {
+            const recipeRef = ref(database, 'recipes');
             onValue(recipeRef, (snapshot) => {
                 const recipes = snapshot.val();
                 const filteredRecipes = [];
@@ -95,6 +104,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 if (filteredRecipes.length > 0) {
                     displayRecipes(filteredRecipes);
                 } else {
+                    const recipeList = document.getElementById('recipe-list');
                     recipeList.innerHTML = '<li>No recipes found.</li>';
                 }
             });
