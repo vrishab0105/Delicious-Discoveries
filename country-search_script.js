@@ -1,9 +1,8 @@
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.13.1/firebase-app.js";
 import { getDatabase, ref, query, orderByChild, equalTo, get } from "https://www.gstatic.com/firebasejs/10.13.1/firebase-database.js";
 
-
- // Your web app's Firebase configuration
- const firebaseConfig = {
+// Your web app's Firebase configuration
+const firebaseConfig = {
    apiKey: "AIzaSyASQtEDg7g5koc-H-d6W1kGcW0k-vE-TSY",
    authDomain: "deliciousdiscoveries04.firebaseapp.com",
    projectId: "deliciousdiscoveries04",
@@ -11,20 +10,34 @@ import { getDatabase, ref, query, orderByChild, equalTo, get } from "https://www
    messagingSenderId: "699923003257",
    appId: "1:699923003257:web:e2800b973a35db246ee1a8",
    measurementId: "G-BDWV430X2H",
-   databaseURL: "https://deliciousdiscoveries04.firebaseio.com" // Add correct database URL
- };
+   databaseURL: "https://deliciousdiscoveries04.firebaseio.com"
+};
 
 initializeApp(firebaseConfig);
-
 const db = getDatabase();
 
 document.addEventListener('DOMContentLoaded', () => {
     const buttons = document.querySelectorAll('.country-buttons button');
+    const searchContainer = document.getElementById('search-container');
+    const recipeList = document.getElementById('recipe-list');
+
     buttons.forEach(button => {
         button.addEventListener('click', async (e) => {
             const country = e.target.dataset.country;
             await loadRecipesByCountry(country);
+            searchContainer.style.display = 'flex'; // Show search options
         });
+    });
+
+    document.getElementById('search-recipe-btn').addEventListener('click', () => {
+        const searchTerm = document.getElementById('search-term').value.trim().toLowerCase();
+        filterRecipes(searchTerm);
+    });
+
+    document.getElementById('show-all-btn').addEventListener('click', () => {
+        const country = document.querySelector('.country-buttons button.active').dataset.country;
+        loadRecipesByCountry(country); // Reload all recipes for the selected country
+        document.getElementById('search-term').value = ''; // Clear search input
     });
 });
 
@@ -44,16 +57,11 @@ async function loadRecipesByCountry(country) {
                 return a[1].name.localeCompare(b[1].name);
             });
 
+            // Store recipes for filtering
+            window.currentRecipes = sortedRecipes;
+
             // Display the sorted recipes
-            sortedRecipes.forEach(([key, recipe]) => {
-                const recipeItem = document.createElement('div');
-                recipeItem.className = 'recipe-item';
-                recipeItem.innerHTML = `
-                    <h2>${recipe.name}</h2>
-                    <a href="recipe-detail.html?recipeId=${encodeURIComponent(key)}">View Recipe</a>
-                `;
-                recipeList.appendChild(recipeItem);
-            });
+            displayRecipes(sortedRecipes);
         } else {
             recipeList.innerHTML = '<p>No recipes found for this country.</p>';
         }
@@ -61,4 +69,27 @@ async function loadRecipesByCountry(country) {
         console.error('Error loading recipes:', error);
         recipeList.innerHTML = '<p>Error loading recipes. Please try again later.</p>';
     }
+}
+
+function displayRecipes(recipes) {
+    const recipeList = document.getElementById('recipe-list');
+    recipeList.innerHTML = ''; // Clear previous results
+
+    recipes.forEach(([key, recipe]) => {
+        const recipeItem = document.createElement('div');
+        recipeItem.className = 'recipe-item';
+        recipeItem.innerHTML = `
+            <h2>${recipe.name}</h2>
+            <a href="recipe-detail.html?recipeId=${encodeURIComponent(key)}">View Recipe</a>
+        `;
+        recipeList.appendChild(recipeItem);
+    });
+}
+
+function filterRecipes(searchTerm) {
+    const filteredRecipes = window.currentRecipes.filter(([key, recipe]) =>
+        recipe.name.toLowerCase().includes(searchTerm)
+    );
+
+    displayRecipes(filteredRecipes.length > 0 ? filteredRecipes : [['', { name: 'No recipes found.' }]]);
 }

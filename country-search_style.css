@@ -39,6 +39,33 @@ h1 {
     background-color: #0056b3;
 }
 
+#search-container {
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+}
+
+#search-container input {
+    padding: 0.5rem;
+    margin-right: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+#search-container button {
+    padding: 0.5rem 1rem;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#search-container button:hover {
+    background-color: #0056b3;
+}
+
 #recipe-list {
     display: flex;
     flex-direction: column;
