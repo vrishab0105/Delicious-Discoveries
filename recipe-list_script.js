@@ -12,7 +12,7 @@ const firebaseConfig = {
     messagingSenderId: "699923003257",
     appId: "1:699923003257:web:e2800b973a35db246ee1a8",
     measurementId: "G-BDWV430X2H",
-    databaseURL: "https://deliciousdiscoveries04.firebaseio.com" // Add correct database URL
+    databaseURL: "https://deliciousdiscoveries04.firebaseio.com"
 };
 
 // Initialize Firebase
@@ -38,19 +38,20 @@ document.addEventListener('DOMContentLoaded', function () {
             country: recipes[key].country // Include the country attribute
         }));
 
-        // Log the country attribute of each recipe to the console
-        recipeArray.forEach(recipe => {
-            console.log(`Recipe Name: ${recipe.name}, Country: ${recipe.country}`);
-        });
-
         // Sort the recipe array alphabetically by name
         recipeArray.sort((a, b) => a.name.localeCompare(b.name));
 
+        // Display all recipes initially
+        displayRecipes(recipeArray);
+    });
+
+    // Function to display recipes
+    function displayRecipes(recipes) {
         // Clear the existing list
         recipeList.innerHTML = '';
 
         // Loop through the sorted recipes and create list items for each
-        recipeArray.forEach(recipe => {
+        recipes.forEach(recipe => {
             const recipeItem = document.createElement('li');
             recipeItem.textContent = recipe.name;
 
@@ -61,5 +62,39 @@ document.addEventListener('DOMContentLoaded', function () {
 
             recipeList.appendChild(recipeItem);
         });
+    }
+
+    // Search feature
+    const searchButton = document.getElementById('search-recipe-btn');
+    const searchTermInput = document.getElementById('search-term');
+
+    searchButton.addEventListener('click', () => {
+        const searchTerm = searchTermInput.value.trim().toLowerCase();
+
+        if (searchTerm) {
+            // Query Firebase for recipes that match the search term
+            const recipeRef = ref(database, 'recipes');
+            onValue(recipeRef, (snapshot) => {
+                const recipes = snapshot.val();
+                const filteredRecipes = [];
+
+                for (const key in recipes) {
+                    const recipeName = recipes[key].name.toLowerCase();
+                    if (recipeName.includes(searchTerm)) {
+                        filteredRecipes.push({
+                            key: key,
+                            name: recipes[key].name,
+                            country: recipes[key].country
+                        });
+                    }
+                }
+
+                if (filteredRecipes.length > 0) {
+                    displayRecipes(filteredRecipes);
+                } else {
+                    recipeList.innerHTML = '<li>No recipes found.</li>';
+                }
+            });
+        }
     });
 });
