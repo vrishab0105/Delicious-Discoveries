@@ -23,6 +23,10 @@ const database = getDatabase(app);
 // Function to fetch and display recipe names in alphabetical order
 document.addEventListener('DOMContentLoaded', function () {
     const recipeList = document.getElementById('recipe-list');
+    const searchButton = document.getElementById('search-recipe-btn');
+    const searchContainer = document.getElementById('search-container');
+    const searchDishButton = document.getElementById('search-dish-btn');
+    const searchTermInput = document.getElementById('search-term');
 
     // Reference to the 'recipes' node in your Firebase Realtime Database
     const recipeRef = ref(database, 'recipes');
@@ -31,11 +35,11 @@ document.addEventListener('DOMContentLoaded', function () {
     onValue(recipeRef, (snapshot) => {
         const recipes = snapshot.val();
 
-        // Get an array of recipe objects with keys and country attribute
+        // Get an array of recipe objects
         const recipeArray = Object.keys(recipes).map(key => ({
             key: key,
             name: recipes[key].name,
-            country: recipes[key].country // Include the country attribute
+            country: recipes[key].country
         }));
 
         // Sort the recipe array alphabetically by name
@@ -47,15 +51,12 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Function to display recipes
     function displayRecipes(recipes) {
-        // Clear the existing list
         recipeList.innerHTML = '';
 
-        // Loop through the sorted recipes and create list items for each
         recipes.forEach(recipe => {
             const recipeItem = document.createElement('li');
             recipeItem.textContent = recipe.name;
 
-            // When a recipe is clicked, redirect to recipe-detail.html with the recipe key
             recipeItem.addEventListener('click', () => {
                 window.location.href = `recipe-detail.html?recipeId=${recipe.key}`;
             });
@@ -64,16 +65,18 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     }
 
-    // Search feature
-    const searchButton = document.getElementById('search-recipe-btn');
-    const searchTermInput = document.getElementById('search-term');
+    // Show search input when the search button is clicked
+    searchDishButton.addEventListener('click', () => {
+        searchContainer.style.display = 'flex'; // Show input field
+        searchTermInput.value = ''; // Clear any previous input
+        searchTermInput.focus(); // Focus on the input
+    });
 
+    // Search functionality
     searchButton.addEventListener('click', () => {
         const searchTerm = searchTermInput.value.trim().toLowerCase();
 
         if (searchTerm) {
-            // Query Firebase for recipes that match the search term
-            const recipeRef = ref(database, 'recipes');
             onValue(recipeRef, (snapshot) => {
                 const recipes = snapshot.val();
                 const filteredRecipes = [];
