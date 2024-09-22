@@ -1,21 +1,95 @@
+/* Global Styles */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #fff9e3; /* Light warm background */
 }
 
+
+
+/* Navbar Styles */
+
 header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%; /* Ensure the header spans the full width */
+    z-index: 1000; /* Ensures the header stays above other content */
+  }
+  
+  
+  
+  .navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: #333;
-    color: #fff;
+    padding: 10px 20px;
+    font-family: Arial, sans-serif;
+    color: white;
+    z-index: 1000;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Position the name on the left */
+  #name {
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    align-items: center; /* Align image and text vertically */
+  }
+  
+  #navbar-logo {
+    width: 30px; /* Adjust the size of the image */
+    height: 30px;
+    margin-right: 10px; /* Adds space between the image and the text */
+    border-radius: 50%; /* Optional: Make the image circular */
+  }
+  
+  /* Center the navigation links */
+  .nav-center {
+    display: flex;
+    justify-content: space-evenly;
+    flex: 1;
+  }
+  
+  
+  
+  /* Style the links in the center and right sections */
+  .nav-center a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 8px 12px;
+    margin: 0 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .nav-center a:hover {
+    background-color: #555;
+    border-radius: 4px;
+  }
+  
+  /* Add space for the navbar */
+  body {
+    padding-top: 60px;
+  }
+
+
+h1 {
+    margin: 0;
+    font-size: 2.5rem; /* Increased font size for prominence */
+    background-color: #333; /* Dark background for header */
+    color: #fff; /* White text for contrast */
     padding: 1rem;
     text-align: center;
 }
 
-h1 {
-    margin: 0;
-}
-
+/* Country Buttons */
 .country-buttons {
     display: flex;
     justify-content: center;
@@ -24,21 +98,23 @@ h1 {
 }
 
 .country-buttons button {
-    background-color: #007BFF;
+    background-color: #e67300; /* Orange button matching theme */
     color: #fff;
     border: none;
     padding: 1rem 2rem;
     margin: 0.5rem;
-    font-size: 1rem;
-    border-radius: 5px;
+    font-size: 1.2rem; /* Larger font size for buttons */
+    border-radius: 8px; /* More rounded corners */
     cursor: pointer;
-    transition: background-color 0.3s;
+    transition: background-color 0.3s, transform 0.3s; /* Smooth transition */
 }
 
 .country-buttons button:hover {
-    background-color: #0056b3;
+    background-color: #d46400; /* Darker orange on hover */
+    transform: scale(1.05); /* Slight lift effect on hover */
 }
 
+/* Search Container */
 #search-container {
     display: flex;
     justify-content: center;
@@ -50,22 +126,25 @@ h1 {
     margin-right: 0.5rem;
     border-radius: 5px;
     border: 1px solid #ddd;
+    font-size: 1rem; /* Increased font size */
 }
 
 #search-container button {
     padding: 0.5rem 1rem;
-    background-color: #007BFF;
+    background-color: #e67300; /* Orange button matching theme */
     color: #fff;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    transition: background-color 0.3s;
+    transition: background-color 0.3s, transform 0.3s; /* Smooth transition */
 }
 
 #search-container button:hover {
-    background-color: #0056b3;
+    background-color: #d46400; /* Darker orange on hover */
+    transform: scale(1.05); /* Slight lift effect on hover */
 }
 
+/* Recipe List */
 #recipe-list {
     display: flex;
     flex-direction: column;
@@ -74,21 +153,23 @@ h1 {
 }
 
 .recipe-item {
-    background-color: #fff;
+    background-color: #fff; /* White background for recipe items */
     border: 1px solid #ddd;
-    border-radius: 5px;
+    border-radius: 8px; /* More rounded corners */
     padding: 1rem;
     margin: 0.5rem;
     width: 80%;
     max-width: 600px;
     text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
 }
 
 .recipe-item a {
     text-decoration: none;
-    color: #007BFF;
+    color: #e67300; /* Orange link color to match theme */
+    font-weight: bold; /* Bold links for emphasis */
 }
 
 .recipe-item a:hover {
-    text-decoration: underline;
+    text-decoration: underline; /* Underline on hover for better visibility */
 }

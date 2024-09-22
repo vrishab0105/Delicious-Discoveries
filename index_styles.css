@@ -81,54 +81,202 @@ body {
 
   
   /* Landing Page Styles */
-  .landing-container {
-    max-width: 800px;
-    margin: 50px auto;
-    padding: 20px;
-    text-align: center;
-    background-color: white;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
-  }
+ 
+  /* Global Styles */
+body {
+  font-family: 'Pirata One', cursive;
+  margin: 0;
+  padding: 0;
+  background-color: #fef9f3; /* Light background for a warm feel */
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Landing Page Styles */
+ 
+ /* introduction para */
+ #logodiv {
+  margin-bottom: 0; /* Remove extra bottom margin */
+  padding-bottom: 0; /* Remove padding to reduce the gap */
+}
+
+
+ #intro {
+   
+  padding: 40px;
+  border-radius: 10px;
+  text-align: center;
+  background-color:#fff9e3;
+  font-family: 'Georgia', serif; /* Elegant, classic font */
   
-  .landing-container h1 {
-    margin-bottom: 40px;
-    font-size: 2em;
-    color: #333;
-  }
-  
-  /* Button Styles */
+  max-width: 100%;
+}
+
+#intro h1 {
+  font-family: 'Pirata One', cursive; /* Unique header font */
+  font-size: 3em;
+  color: #5c6b49;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2); /* Soft text shadow */
+}
+
+#intro h1 span {
+  color: rgb(230, 115, 0); /* Highlight the brand name */
+  font-style: italic;
+}
+
+#intro p {
+  font-size: 1.3em;
+  line-height: 1.8em;
+  color: #333333;
+  margin-top: 20px;
+}
+
+#intro p span {
+  color: #e67300; /* Make brand name pop in the text */
+  font-weight: bold;
+  font-style: italic;
+}
+
+#intro p::first-letter {
+  font-size: 2em;
+  color: #5c6b49; /* Larger and colored first letter for style */
+}
+
+
+
+
+
+/* Options Section with Titles and Descriptions */
+.options {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  padding: 50px 20px;
+  background-color: #fff9e3; /* Matches intro background */
+  padding-top: 0; /* Remove top padding to reduce gap */
+  margin-top: 0; /* Ensure no extra margin */
+  padding: 50px 20px; /* Adjusted for other sides */
+}
+
+.option-item {
+  text-align: center;
+  max-width: 700px;
+ 
+  position: relative;
+ 
+}
+
+
+/* Title and description styling */
+.option-item h2 {
+  font-size: 32px; /* Larger font for the title */
+  color: #e67300; /* Orange color for title to stand out */
+  font-family: 'Playfair Display', serif; /* Elegant, decorative font */
+  margin-bottom: 15px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.option-item p {
+  font-size: 20px; /* Larger, more readable paragraph text */
+  color: #4a4a4a; /* Slightly darker shade for readability */
+  margin-bottom: 25px;
+  font-family: 'Georgia', serif; /* Elegant serif font */
+  line-height: 1.7;
+}
+
+/* Button Styles */
+.options .btn {
+  width: 260px;
+  padding: 16px;
+  font-size: 20px; /* Increased button font size */
+  background-color: #f77f00; /* Vibrant orange for the button */
+  color: white;
+  border: none;
+  border-radius: 12px; /* Slightly more rounded */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Stronger shadow for depth */
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.options .btn:hover {
+  background-color: #d46400; /* Darker on hover */
+  transform: translateY(-4px); /* More lift effect on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
   .options {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    align-items: center;
+      padding: 30px;
   }
-  
+
   .options .btn {
-    width: 250px;
-    padding: 15px;
-    font-size: 16px;
-    background-color: #007bff;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
+      width: 100%;
   }
-  
-  .options .btn:hover {
-    background-color: #0056b3;
+
+  .option-item h2 {
+      font-size: 28px;
   }
-  
-  /* Responsive Design */
-  @media (max-width: 768px) {
-    .options {
-        flex-direction: column;
-    }
-  
-    .options .btn {
-        width: 90%;
-    }
+
+  .option-item p {
+      font-size: 18px;
   }
-  
+}
+
+
+/* Partition (hr) Styles */
+hr {
+  border: 0;
+    height: 2px;
+    background-color: #e67300; /* Same color as the title for cohesion */
+    width: 80%; /* Adjust width to match the layout */
+    margin: 0 auto; /* Remove any white gap */
+    padding: 0;
+    opacity: 0.8;
+}
+
+
+
+
+/* Footer Styles */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #333;
+  color: white;
+  font-size: 16px;
+  margin-top: 40px;
+}
+
+footer .btn {
+  font-size: 16px;
+  background-color: #d9534f;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+footer .btn:hover {
+  background-color: #c9302c;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  #intro h1 {
+      font-size: 28px;
+  }
+
+  .options .btn {
+      width: 90%;
+  }
+}
+
+
+
+
+
+/* Existing styles below remain the same... */

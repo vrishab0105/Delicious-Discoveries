@@ -1,10 +1,83 @@
 /* Global Styles */
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Arial', sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f7f7f7;
+  background-color: #fff9e3; /* Warm background matching the theme */
 }
+
+
+/* Navbar Styles */
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%; /* Ensure the header spans the full width */
+  z-index: 1000; /* Ensures the header stays above other content */
+}
+
+
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 10px 20px;
+  font-family: Arial, sans-serif;
+  color: white;
+  z-index: 1000;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Position the name on the left */
+#name {
+  font-size: 18px;
+  font-weight: bold;
+  display: flex;
+  align-items: center; /* Align image and text vertically */
+}
+
+#navbar-logo {
+  width: 30px; /* Adjust the size of the image */
+  height: 30px;
+  margin-right: 10px; /* Adds space between the image and the text */
+  border-radius: 50%; /* Optional: Make the image circular */
+}
+
+/* Center the navigation links */
+.nav-center {
+  display: flex;
+  justify-content: space-evenly;
+  flex: 1;
+}
+
+
+
+/* Style the links in the center and right sections */
+.nav-center a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 8px 12px;
+  margin: 0 10px;
+  transition: background-color 0.3s ease;
+}
+
+.nav-center a:hover {
+  background-color: #555;
+  border-radius: 4px;
+}
+
+/* Add space for the navbar */
+body {
+  padding-top: 60px;
+}
+
 
 /* Container for Main Content */
 .container {
@@ -14,6 +87,7 @@ body {
   background-color: white;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   position: relative;
+  border-radius: 10px; /* Rounded corners for a softer look */
 }
 
 /* Search Container Styles */
@@ -27,23 +101,27 @@ body {
 /* Button Styles */
 .btn {
   padding: 10px 20px;
-  background-color: #007bff;
+  background-color: #e67300; /* Orange button matching the theme */
   color: white;
   border: none;
   border-radius: 5px;
   cursor: pointer;
   font-size: 16px;
   text-align: center;
+  transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 .btn:hover {
-  background-color: #0056b3;
+  background-color: #d46400; /* Darker orange on hover */
+  transform: scale(1.05); /* Slight lift effect on hover */
 }
 
 /* Heading Styles */
 h1 {
   text-align: center;
   margin-bottom: 40px;
+  color: #5c6b49; /* Dark green for headings */
+  font-size: 2.5rem;
 }
 
 /* Recipe List Styles */
@@ -54,15 +132,16 @@ ul.recipe-list {
 
 ul.recipe-list li {
   padding: 15px;
-  background-color: #f9f9f9;
+  background-color: #f9f9f9; /* Light background for recipe items */
   margin: 10px 0;
   cursor: pointer;
   border-radius: 5px;
-  transition: background-color 0.3s;
+  transition: background-color 0.3s, transform 0.3s; /* Smooth transition */
 }
 
 ul.recipe-list li:hover {
-  background-color: #e0e0e0;
+  background-color: #e0e0e0; /* Slightly darker on hover */
+  transform: scale(1.02); /* Slight lift effect on hover */
 }
 
 /* Modal Styles */
@@ -82,4 +161,9 @@ ul.recipe-list li:hover {
   .modal-content, .add-recipe-content {
       width: 95%;
   }
+}
+
+
+#recipe-detail{
+  margin-top: 300px;
 }
