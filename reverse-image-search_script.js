@@ -19,10 +19,26 @@ const app = initializeApp(firebaseConfig);
 const database = getDatabase(app);
 
 document.getElementById('searchButton').addEventListener('click', async () => {
-    // Load API key from config.json
-    const responseConfig = await fetch('key.json');
-    const config = await responseConfig.json();
-    const OPENAI_API_KEY = config.OPENAI_API_KEY;
+    let OPENAI_API_KEY;
+
+    // Try to load API key from config.json
+    try {
+        const responseConfig = await fetch('key.json');
+        if (!responseConfig.ok) {
+            throw new Error('API key file not found');
+        }
+
+        const config = await responseConfig.json();
+        OPENAI_API_KEY = config.OPENAI_API_KEY;
+
+        if (!OPENAI_API_KEY) {
+            throw new Error('API key not found in key.json');
+        }
+    } catch (error) {
+        console.error('Error loading API key:', error.message);
+        document.getElementById('result').innerText = 'Error: API key not found or key.json missing';
+        return;
+    }
 
     const imageInput = document.getElementById('imageInput');
     if (imageInput.files.length === 0) {
