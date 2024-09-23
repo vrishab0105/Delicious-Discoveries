@@ -3063,7 +3063,7 @@
                 },
                 "beefStroganoff": {
                   "name": "Beef Stroganoff",
-                  "country": "Australia",
+                  "country": "Russia",
                   "ingredients": [
                     "500g Beef strips",
                     "1 Onion (sliced)",
@@ -6577,7 +6577,42 @@
                   "Simmer for 2-3 hours, ensuring the can is always submerged in water.",
                   "Remove from heat, allow to cool, and open to reveal dulce de leche."
                 ]
-              }
+              },
+
+              "chole_bhature": {
+  "name": "Chole Bhature",
+  "country": "India",
+  "ingredients": [
+    "2 cups Chickpeas (soaked overnight)",
+    "1 large Onion (finely chopped)",
+    "2 Tomatoes (pureed)",
+    "2 Green chilies (slit)",
+    "1 tbsp Ginger-garlic paste",
+    "2 tbsp Chole masala",
+    "1 tsp Cumin seeds",
+    "2-3 tbsp Oil",
+    "Salt (to taste)",
+    "Fresh coriander leaves (for garnish)",
+    "4 cups All-purpose flour",
+    "1/2 cup Yogurt",
+    "1/2 tsp Baking powder",
+    "Salt (to taste)",
+    "Water (as needed)",
+    "Oil (for frying)"
+  ],
+  "steps": [
+    "In a pressure cooker, heat oil and add cumin seeds. Once they splutter, add chopped onions and fry until golden brown.",
+    "Add ginger-garlic paste and green chilies. Sauté for a minute.",
+    "Add tomato puree and cook until the oil separates. Add chole masala and salt.",
+    "Add soaked chickpeas and enough water to cover them. Pressure cook for 4-5 whistles until soft.",
+    "Once done, mash some chickpeas for a thicker gravy. Garnish with coriander leaves.",
+    "In a bowl, mix all-purpose flour, yogurt, baking powder, and salt. Knead into a soft dough with water. Let it rest for 30 minutes.",
+    "Divide the dough into small balls and roll out into circles.",
+    "Heat oil in a deep pan and fry the rolled bhature until they puff up and turn golden brown.",
+    "Serve hot with chole."
+  ]
+}
+
 
 
     } 
