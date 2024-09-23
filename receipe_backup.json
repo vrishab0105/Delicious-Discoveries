@@ -6371,17 +6371,214 @@
                 "Once frozen, stir every hour for the first 4 hours to achieve a creamy texture.",
                 "Serve scoops topped with crushed pistachios."
               ]
-            }
+            },
           
-          
-        
-        
-      
-      
-    
-    
-    
-  
+            
+              "asado": {
+                "name": "Asado",
+                "country": "Argentina",
+                "ingredients": [
+                  "Various cuts of beef (ribs, flank steak, sirloin, etc.)",
+                  "Coarse salt",
+                  "Chorizo sausages",
+                  "Blood sausages",
+                  "Chicken (optional)",
+                  "Chimichurri sauce (optional)"
+                ],
+                "steps": [
+                  "Prepare a fire using wood or charcoal. Let the fire burn down until the coals are glowing red with a layer of ash.",
+                  "Generously season the cuts of beef with coarse salt on all sides.",
+                  "Place the meat on the grill (parrilla) over indirect heat, making sure the coals are evenly distributed.",
+                  "Slowly cook the meat, turning it occasionally to ensure even cooking. The goal is a low, slow roast to make the meat tender and flavorful.",
+                  "Add sausages to the grill in the final 15-20 minutes of cooking.",
+                  "Serve the meat hot with chimichurri sauce on the side, if desired."
+                ]
+              },
+              "chimichurri": {
+                "name": "Chimichurri",
+                "country": "Argentina",
+                "ingredients": [
+                  "1 cup fresh parsley (finely chopped)",
+                  "4 cloves garlic (minced)",
+                  "1/2 cup olive oil",
+                  "1/4 cup red wine vinegar",
+                  "1 teaspoon dried oregano",
+                  "1 teaspoon red pepper flakes",
+                  "Salt and pepper to taste"
+                ],
+                "steps": [
+                  "In a medium bowl, combine the parsley, garlic, and oregano.",
+                  "Slowly whisk in olive oil and red wine vinegar.",
+                  "Add red pepper flakes, salt, and pepper, adjusting to taste.",
+                  "Allow the chimichurri to rest for at least 30 minutes before serving to let the flavors meld together.",
+                  "Serve over grilled meats or as a dipping sauce."
+                ]
+              },
+              "milanesa": {
+                "name": "Milanesa",
+                "country": "Argentina",
+                "ingredients": [
+                  "4 thin beef or chicken cutlets",
+                  "2 eggs",
+                  "1 cup breadcrumbs",
+                  "1/2 cup flour",
+                  "1 tablespoon parsley (finely chopped)",
+                  "2 cloves garlic (minced)",
+                  "Salt and pepper to taste",
+                  "Oil for frying",
+                  "Lemon wedges for serving"
+                ],
+                "steps": [
+                  "Season the cutlets with salt, pepper, minced garlic, and chopped parsley. Let them marinate for 15-30 minutes.",
+                  "Set up a breading station with flour, beaten eggs, and breadcrumbs in separate shallow bowls.",
+                  "Dredge each cutlet in flour, then dip in beaten eggs, and finally coat in breadcrumbs. Press the breadcrumbs to ensure an even coating.",
+                  "Heat oil in a large frying pan over medium heat. Fry the breaded cutlets in batches, cooking for about 3-4 minutes on each side or until golden brown.",
+                  "Drain on paper towels and serve hot with lemon wedges."
+                ]
+              },
+              "provoleta": {
+                "name": "Provoleta",
+                "country": "Argentina",
+                "ingredients": [
+                  "1 round of provolone cheese (about 1 inch thick)",
+                  "1 tablespoon olive oil",
+                  "1 teaspoon oregano",
+                  "1/4 teaspoon crushed red pepper flakes",
+                  "Chimichurri sauce (optional)"
+                ],
+                "steps": [
+                  "Heat a grill or heavy skillet over medium-high heat.",
+                  "Brush the provolone round with olive oil and sprinkle with oregano and red pepper flakes.",
+                  "Place the cheese on the hot grill or pan. Cook for 2-3 minutes until the bottom is golden and crispy, and the cheese starts to melt but still holds its shape.",
+                  "Carefully flip the cheese and cook for another 2-3 minutes on the other side.",
+                  "Serve immediately, either plain or topped with chimichurri sauce."
+                ]
+              },
+              "matambre_a_la_pizza": {
+                "name": "Matambre a la Pizza",
+                "country": "Argentina",
+                "ingredients": [
+                  "1 beef flank steak (matambre)",
+                  "1 cup tomato sauce",
+                  "1 1/2 cups mozzarella cheese (shredded)",
+                  "1 teaspoon oregano",
+                  "1 teaspoon dried basil",
+                  "1/4 teaspoon crushed red pepper flakes (optional)",
+                  "Salt and pepper to taste"
+                ],
+                "steps": [
+                  "Preheat a grill or oven to medium heat.",
+                  "Season the flank steak with salt and pepper, and grill or bake until cooked through (about 10-15 minutes depending on thickness).",
+                  "Spread tomato sauce evenly over the cooked steak.",
+                  "Sprinkle shredded mozzarella cheese, oregano, basil, and red pepper flakes over the top of the sauce.",
+                  "Return the steak to the grill or oven and cook until the cheese is melted and bubbly.",
+                  "Slice the matambre like a pizza and serve hot."
+                ]
+              },
+              "carbonada": {
+                "name": "Carbonada",
+                "country": "Argentina",
+                "ingredients": [
+                  "500g beef (cubed)",
+                  "1 large potato (diced)",
+                  "1 sweet potato (diced)",
+                  "1 ear of corn (cut into chunks)",
+                  "1 large onion (chopped)",
+                  "1 red bell pepper (chopped)",
+                  "1 can peaches (drained and cut into slices)",
+                  "1 bay leaf",
+                  "Salt and pepper to taste",
+                  "1 liter beef broth"
+                ],
+                "steps": [
+                  "In a large pot, sauté the onion and bell pepper until softened.",
+                  "Add the cubed beef and brown on all sides.",
+                  "Add the diced potato, sweet potato, corn, and bay leaf. Pour in the beef broth and bring to a simmer.",
+                  "Lower the heat and cook for about 1 hour, stirring occasionally, until the beef is tender and the vegetables are cooked through.",
+                  "Add the peach slices in the last 10 minutes of cooking.",
+                  "Adjust seasoning with salt and pepper, and serve the carbonada hot."
+                ]
+              },
+              "humita": {
+                "name": "Humita",
+                "country": "Argentina",
+                "ingredients": [
+                  "6 ears of corn (grated or processed into a coarse mixture)",
+                  "1 large onion (chopped)",
+                  "2 tablespoons butter",
+                  "1/2 cup crumbled fresh cheese (e.g., queso fresco)",
+                  "1 tablespoon sugar",
+                  "Salt and pepper to taste",
+                  "Paprika (optional)"
+                ],
+                "steps": [
+                  "In a large skillet, melt butter over medium heat. Add the chopped onion and sauté until soft and translucent.",
+                  "Add the grated corn to the skillet and stir to combine. Season with salt, pepper, and sugar, and cook over low heat, stirring frequently.",
+                  "Cook for about 15-20 minutes until the mixture thickens to a creamy consistency.",
+                  "Stir in the crumbled cheese and cook for another 5 minutes.",
+                  "Optionally sprinkle with paprika before serving. You can also wrap the mixture in corn husks and steam for a traditional presentation."
+                ]
+              },
+              "locro": {
+                "name": "Locro",
+                "country": "Argentina",
+                "ingredients": [
+                  "500g cubed beef",
+                  "100g chorizo sausage (sliced)",
+                  "1 cup dried white beans (soaked overnight)",
+                  "1 ear of corn (cut into pieces)",
+                  "1 sweet potato (peeled and diced)",
+                  "1 large onion (chopped)",
+                  "1 tablespoon paprika",
+                  "1 teaspoon cumin",
+                  "1 bay leaf",
+                  "Salt and pepper to taste",
+                  "1 liter beef broth"
+                ],
+                "steps": [
+                  "In a large pot, sauté the onion in a bit of oil until soft and translucent.",
+                  "Add the cubed beef and chorizo, and cook until browned on all sides.",
+                  "Stir in the soaked beans, diced sweet potato, corn, paprika, cumin, and bay leaf.",
+                  "Pour in the beef broth and bring to a boil. Reduce the heat and simmer for 2-3 hours, stirring occasionally, until the meat is tender and the beans are cooked through.",
+                  "Season with salt and pepper, and serve the locro hot, optionally with a sprinkle of paprika or a dollop of chimichurri."
+                ]
+              },
+              "alfajores": {
+                "name": "Alfajores",
+                "country": "Argentina",
+                "ingredients": [
+                  "2 cups cornstarch",
+                  "1 cup all-purpose flour",
+                  "1/2 cup butter (softened)",
+                  "1/2 cup sugar",
+                  "1 egg yolk",
+                  "1/2 teaspoon vanilla extract",
+                  "Dulce de leche (for filling)",
+                  "Powdered sugar (for dusting)"
+                ],
+                "steps": [
+                  "Preheat oven to 350°F (180°C).",
+                  "In a large bowl, beat together the butter and sugar until light and fluffy. Add the egg yolk and vanilla, and mix until combined.",
+                  "Gradually add the cornstarch and flour, mixing until a soft dough forms.",
+                  "Roll out the dough on a floured surface to about 1/4-inch thickness. Cut into small circles using a cookie cutter.",
+                  "Place the cookies on a baking sheet lined with parchment paper and bake for 10-12 minutes or until the edges are lightly golden.",
+                  "Let the cookies cool completely, then sandwich together with dulce de leche.",
+                  "Dust with powdered sugar before serving."
+                ]
+              },
+              "dulce_de_leche": {
+                "name": "Dulce de Leche",
+                "country": "Argentina",
+                "ingredients": [
+                  "1 can sweetened condensed milk"
+                ],
+                "steps": [
+                  "Place unopened can of condensed milk in a pot of water.",
+                  "Simmer for 2-3 hours, ensuring the can is always submerged in water.",
+                  "Remove from heat, allow to cool, and open to reveal dulce de leche."
+                ]
+              }
+
 
     } 
 }
