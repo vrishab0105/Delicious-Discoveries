@@ -167,3 +167,12 @@ ul.recipe-list li:hover {
 #recipe-detail{
   margin-top: 300px;
 }
+
+#dish-type-dropdown {
+  margin-top: 10px; /* Space above the dropdown */
+  padding: 5px; /* Add some padding for aesthetics */
+  border: 1px solid #ccc; /* Add border */
+  border-radius: 4px; /* Rounded corners */
+  width: 200px; /* Set a width */
+  display: none; /* Initially hidden */
+}

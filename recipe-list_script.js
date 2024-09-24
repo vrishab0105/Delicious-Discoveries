@@ -34,9 +34,15 @@ function displayRecipes(recipes) {
 
         recipeList.appendChild(recipeItem);
     });
+
+    // Show the recipe list
+    recipeList.style.display = recipes.length > 0 ? 'block' : 'none';
 }
 
-// Function to fetch and display all recipes
+// Initialize an array to store unique dish types
+const uniqueDishTypes = new Set();
+
+// Function to fetch all recipes and dish types
 function fetchAllRecipes() {
     const recipeRef = ref(database, 'recipes');
     onValue(recipeRef, (snapshot) => {
@@ -44,14 +50,35 @@ function fetchAllRecipes() {
         const recipeArray = Object.keys(recipes).map(key => ({
             key: key,
             name: recipes[key].name,
-            country: recipes[key].country
+            country: recipes[key].country,
+            dish_type: recipes[key].dish_type // Include dish_type here
         }));
+
+        // Collect unique dish types
+        recipeArray.forEach(recipe => {
+            uniqueDishTypes.add(recipe.dish_type);
+        });
+
+        // Populate the dropdown menu
+        populateDishTypeDropdown(uniqueDishTypes);
 
         // Sort the recipe array alphabetically by name
         recipeArray.sort((a, b) => a.name.localeCompare(b.name));
 
         // Display all recipes
         displayRecipes(recipeArray);
+    });
+}
+
+// Function to populate the dish type dropdown
+function populateDishTypeDropdown(dishTypes) {
+    const dishTypeDropdown = document.getElementById('dish-type-dropdown');
+    dishTypeDropdown.innerHTML = ''; // Clear existing options
+    dishTypes.forEach(type => {
+        const option = document.createElement('option');
+        option.value = type;
+        option.textContent = type;
+        dishTypeDropdown.appendChild(option);
     });
 }
 
@@ -64,12 +91,17 @@ document.addEventListener('DOMContentLoaded', function () {
     const searchInputContainer = document.getElementById('search-input-container');
     const searchRecipeButton = document.getElementById('search-recipe-btn');
     const searchTermInput = document.getElementById('search-term');
+    const dishTypeDropdown = document.getElementById('dish-type-dropdown');
 
-    // Show search input when clicking the search button
+    // Hide the dropdown by default
+    dishTypeDropdown.style.display = 'none';
+
+    // Show search input and dish type dropdown when clicking the search button
     searchButton.addEventListener('click', () => {
         searchInputContainer.style.display = 'flex';
         showAllButton.style.display = 'inline-block';
         searchButton.style.display = 'none'; // Hide search button
+        dishTypeDropdown.style.display = 'block'; // Show dropdown
     });
 
     // Show all recipes and hide search input
@@ -77,12 +109,14 @@ document.addEventListener('DOMContentLoaded', function () {
         searchInputContainer.style.display = 'none';
         showAllButton.style.display = 'none';
         searchButton.style.display = 'inline-block'; // Show search button
+        dishTypeDropdown.style.display = 'none'; // Hide dropdown when showing all recipes
         fetchAllRecipes(); // Fetch and display all recipes again
     });
 
     // Search feature
     searchRecipeButton.addEventListener('click', () => {
         const searchTerm = searchTermInput.value.trim().toLowerCase();
+        const selectedType = dishTypeDropdown.value; // Get selected dish type
 
         if (searchTerm) {
             const recipeRef = ref(database, 'recipes');
@@ -92,7 +126,10 @@ document.addEventListener('DOMContentLoaded', function () {
 
                 for (const key in recipes) {
                     const recipeName = recipes[key].name.toLowerCase();
-                    if (recipeName.includes(searchTerm)) {
+                    const recipeType = recipes[key].dish_type;
+
+                    // Filter based on both search term and selected dish type
+                    if (recipeName.includes(searchTerm) && (selectedType === '' || recipeType === selectedType)) {
                         filteredRecipes.push({
                             key: key,
                             name: recipes[key].name,
@@ -101,12 +138,8 @@ document.addEventListener('DOMContentLoaded', function () {
                     }
                 }
 
-                if (filteredRecipes.length > 0) {
-                    displayRecipes(filteredRecipes);
-                } else {
-                    const recipeList = document.getElementById('recipe-list');
-                    recipeList.innerHTML = '<li>No recipes found.</li>';
-                }
+                // Show the filtered recipes or a message if none found
+                displayRecipes(filteredRecipes.length > 0 ? filteredRecipes : [{ name: 'No recipes found.' }]);
             });
         }
     });
