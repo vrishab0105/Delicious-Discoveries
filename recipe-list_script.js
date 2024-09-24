@@ -55,6 +55,27 @@ function fetchAllRecipes() {
     });
 }
 
+// Fetch recipes by country
+function fetchRecipesByCountry(selectedCountry) {
+    const recipeRef = ref(database, 'recipes');
+    onValue(recipeRef, (snapshot) => {
+        const recipes = snapshot.val();
+        const filteredRecipes = [];
+
+        for (const key in recipes) {
+            if (recipes[key].country === selectedCountry) {
+                filteredRecipes.push({
+                    key: key,
+                    name: recipes[key].name,
+                    country: recipes[key].country
+                });
+            }
+        }
+
+        displayRecipes(filteredRecipes.length > 0 ? filteredRecipes : [{ name: "No recipes found." }]);
+    });
+}
+
 // Initial fetch of all recipes
 fetchAllRecipes();
 
@@ -64,6 +85,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const searchInputContainer = document.getElementById('search-input-container');
     const searchRecipeButton = document.getElementById('search-recipe-btn');
     const searchTermInput = document.getElementById('search-term');
+    const countryDropdown = document.getElementById('dish-type'); // Get the dropdown for country filtering
 
     // Show search input when clicking the search button
     searchButton.addEventListener('click', () => {
@@ -101,13 +123,18 @@ document.addEventListener('DOMContentLoaded', function () {
                     }
                 }
 
-                if (filteredRecipes.length > 0) {
-                    displayRecipes(filteredRecipes);
-                } else {
-                    const recipeList = document.getElementById('recipe-list');
-                    recipeList.innerHTML = '<li>No recipes found.</li>';
-                }
+                displayRecipes(filteredRecipes.length > 0 ? filteredRecipes : [{ name: "No recipes found." }]);
             });
+        }
+    });
+
+    // Filter recipes by country
+    countryDropdown.addEventListener('change', () => {
+        const selectedCountry = countryDropdown.value;
+        if (selectedCountry) {
+            fetchRecipesByCountry(selectedCountry);
+        } else {
+            fetchAllRecipes(); // If no country is selected, show all recipes
         }
     });
 });

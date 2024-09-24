@@ -167,3 +167,42 @@ ul.recipe-list li:hover {
 #recipe-detail{
   margin-top: 300px;
 }
+
+/* Existing styles above... */
+
+/* Filter Container Styles */
+#filter-container {
+  margin-top: 20px;
+  display: flex;
+  align-items: center; /* Center align items vertically */
+  gap: 10px; /* Space between label and select */
+}
+
+/* Filter Dropdown Styles */
+#dish-type {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc; /* Light border */
+  border-radius: 5px; /* Rounded corners */
+  background-color: white; /* White background */
+  transition: border-color 0.3s ease; /* Smooth transition for border color */
+}
+
+/* Dropdown hover effect */
+#dish-type:hover {
+  border-color: #e67300; /* Change border color on hover */
+}
+
+/* Responsive Design for Filter */
+@media (max-width: 768px) {
+  #filter-container {
+      flex-direction: column; /* Stack vertically on smaller screens */
+      align-items: flex-start; /* Align items to the left */
+  }
+  
+  #dish-type {
+      width: 100%; /* Full width on smaller screens */
+  }
+}
+
+/* Additional styles for other elements can be added below... */
