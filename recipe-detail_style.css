@@ -214,3 +214,14 @@ a:hover {
 #recipe-detail{
     margin-top: 70px;
 }
+
+/* Additional styling for the country display */
+#recipe-detail p strong {
+    color: #e67300; /* Match the color of other headings */
+}
+
+#recipe-detail p {
+    font-size: 1.125rem;
+    margin-bottom: 15px;
+    line-height: 1.8;
+}

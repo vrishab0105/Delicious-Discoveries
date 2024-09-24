@@ -38,6 +38,7 @@ async function loadRecipeDetail(recipeId) {
             const recipe = snapshot.val();
             recipeContent.innerHTML = `
                 <h2>${recipe.name}</h2>
+                <p><strong>Country:</strong> ${recipe.country}</p> <!-- Added country display -->
                 <p><strong>Ingredients:</strong></p>
                 <ul>${recipe.ingredients.map(ingredient => `<li>${ingredient}</li>`).join('')}</ul>
                 <p><strong>Steps:</strong></p>
