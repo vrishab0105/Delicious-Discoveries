@@ -1,123 +1,107 @@
 /* Global Styles */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f7f7f7;
-  }
-  
-
-/* Navbar Styles */
-
-  header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%; /* Ensure the header spans the full width */
-    z-index: 1000; /* Ensures the header stays above other content */
-  }
-  
-  
-  
-  .navbar {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #333;
-    padding: 10px 20px;
-    font-family: Arial, sans-serif;
-    color: white;
-    z-index: 1000;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  /* Position the name on the left */
-  #name {
-    font-size: 18px;
-    font-weight: bold;
-    display: flex;
-    align-items: center; /* Align image and text vertically */
-  }
-  
-  #navbar-logo {
-    width: 30px; /* Adjust the size of the image */
-    height: 30px;
-    margin-right: 10px; /* Adds space between the image and the text */
-    border-radius: 50%; /* Optional: Make the image circular */
-  }
-  
-  /* Center the navigation links */
-  .nav-center {
-    display: flex;
-    justify-content: space-evenly;
-    flex: 1;
-  }
-  
-  
-  
-  /* Style the links in the center and right sections */
-  .nav-center a {
-    color: white;
-    text-decoration: none;
-    font-size: 16px;
-    padding: 8px 12px;
-    margin: 0 10px;
-    transition: background-color 0.3s ease;
-  }
-  
-  .nav-center a:hover {
-    background-color: #555;
-    border-radius: 4px;
-  }
-  
-  /* Add space for the navbar */
-  body {
-    padding-top: 60px;
-  }
-
-
-  
-  /* Landing Page Styles */
- 
-  /* Global Styles */
-body {
-  font-family: 'Pirata One', cursive;
+  font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
+  background-color: #f7f7f7;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensures body takes full viewport height */
+}
+
+/* Navbar Styles */
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%; /* Ensure the header spans the full width */
+  z-index: 1000; /* Ensures the header stays above other content */
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 10px 20px;
+  font-family: Arial, sans-serif;
+  color: white;
+  z-index: 1000;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+#name {
+  font-size: 18px;
+  font-weight: bold;
+  display: flex;
+  align-items: center; /* Align image and text vertically */
+}
+
+#navbar-logo {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  border-radius: 50%; /* Optional: Make the image circular */
+}
+
+/* Center the navigation links */
+.nav-center {
+  display: flex;
+  justify-content: space-evenly;
+  flex: 1;
+}
+
+.nav-center a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 8px 12px;
+  margin: 0 10px;
+  transition: background-color 0.3s ease;
+}
+
+.nav-center a:hover {
+  background-color: #555;
+  border-radius: 4px;
+}
+
+/* Add space for the navbar */
+body {
+  padding-top: 60px;
+}
+
+/* Landing Page Styles */
+body {
+  font-family: 'Pirata One', cursive;
   background-color: #fef9f3; /* Light background for a warm feel */
   color: #333;
   line-height: 1.6;
 }
 
-/* Landing Page Styles */
- 
- /* introduction para */
- #logodiv {
-  margin-bottom: 0; /* Remove extra bottom margin */
-  padding-bottom: 0; /* Remove padding to reduce the gap */
+/* Introduction Section */
+#logodiv {
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 
-
- #intro {
-   
+#intro {
   padding: 40px;
   border-radius: 10px;
   text-align: center;
-  background-color:#fff9e3;
+  background-color: #fff9e3;
   font-family: 'Georgia', serif; /* Elegant, classic font */
-  
   max-width: 100%;
 }
 
 #intro h1 {
-  font-family: 'Pirata One', cursive; /* Unique header font */
+  font-family: 'Pirata One', cursive;
   font-size: 3em;
   color: #5c6b49;
   margin-bottom: 20px;
-  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2); /* Soft text shadow */
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
 }
 
 #intro h1 span {
@@ -143,69 +127,56 @@ body {
   color: #5c6b49; /* Larger and colored first letter for style */
 }
 
-
-
-
-
-/* Options Section with Titles and Descriptions */
+/* Options Section */
 .options {
   display: flex;
   flex-direction: column;
-
   align-items: center;
   padding: 50px 20px;
-  background-color: #fff9e3; /* Matches intro background */
-  padding-top: 0; /* Remove top padding to reduce gap */
-  margin-top: 0; /* Ensure no extra margin */
-  padding: 50px 20px; /* Adjusted for other sides */
+  background-color: #fff9e3;
 }
 
 .option-item {
   text-align: center;
   max-width: 700px;
- 
   position: relative;
- 
 }
 
-
-/* Title and description styling */
 .option-item h2 {
-  font-size: 32px; /* Larger font for the title */
-  color: #e67300; /* Orange color for title to stand out */
-  font-family: 'Playfair Display', serif; /* Elegant, decorative font */
+  font-size: 32px;
+  color: #e67300;
+  font-family: 'Playfair Display', serif;
   margin-bottom: 15px;
-  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .option-item p {
-  font-size: 20px; /* Larger, more readable paragraph text */
-  color: #4a4a4a; /* Slightly darker shade for readability */
+  font-size: 20px;
+  color: #4a4a4a;
   margin-bottom: 25px;
-  font-family: 'Georgia', serif; /* Elegant serif font */
+  font-family: 'Georgia', serif;
   line-height: 1.7;
 }
 
-/* Button Styles */
 .options .btn {
   width: 260px;
   padding: 16px;
-  font-size: 20px; /* Increased button font size */
-  background-color: #f77f00; /* Vibrant orange for the button */
+  font-size: 20px;
+  background-color: #f77f00;
   color: white;
   border: none;
-  border-radius: 12px; /* Slightly more rounded */
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Stronger shadow for depth */
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
   cursor: pointer;
   transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 .options .btn:hover {
-  background-color: #d46400; /* Darker on hover */
-  transform: translateY(-4px); /* More lift effect on hover */
+  background-color: #d46400;
+  transform: translateY(-4px);
 }
 
-/* Responsive Design */
+/* Responsive Design for Options Section */
 @media (max-width: 768px) {
   .options {
       padding: 30px;
@@ -224,20 +195,15 @@ body {
   }
 }
 
-
 /* Partition (hr) Styles */
 hr {
   border: 0;
-    height: 2px;
-    background-color: #e67300; /* Same color as the title for cohesion */
-    width: 80%; /* Adjust width to match the layout */
-    margin: 0 auto; /* Remove any white gap */
-    padding: 0;
-    opacity: 0.8;
+  height: 2px;
+  background-color: #e67300;
+  width: 80%;
+  margin: 0 auto;
+  opacity: 0.8;
 }
-
-
-
 
 /* Footer Styles */
 footer {
@@ -246,7 +212,7 @@ footer {
   background-color: #333;
   color: white;
   font-size: 16px;
-  margin-top: 40px;
+  margin-top: auto; /* Pushes the footer to the bottom */
 }
 
 footer .btn {
@@ -264,7 +230,7 @@ footer .btn:hover {
   background-color: #c9302c;
 }
 
-/* Responsive Design */
+/* Responsive Design for Footer */
 @media (max-width: 768px) {
   #intro h1 {
       font-size: 28px;
@@ -274,9 +240,3 @@ footer .btn:hover {
       width: 90%;
   }
 }
-
-
-
-
-
-/* Existing styles below remain the same... */
