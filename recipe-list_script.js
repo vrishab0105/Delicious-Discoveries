@@ -113,34 +113,77 @@ document.addEventListener('DOMContentLoaded', function () {
         fetchAllRecipes(); // Fetch and display all recipes again
     });
 
-    // Search feature
-    searchRecipeButton.addEventListener('click', () => {
-        const searchTerm = searchTermInput.value.trim().toLowerCase();
-        const selectedType = dishTypeDropdown.value; // Get selected dish type
+    // Search feature with Firebase handling the filter
+searchRecipeButton.addEventListener('click', () => {
+    const searchTerm = searchTermInput.value.trim().toLowerCase();
+    const selectedType = dishTypeDropdown.value; // Get selected dish type
 
-        if (searchTerm) {
-            const recipeRef = ref(database, 'recipes');
-            onValue(recipeRef, (snapshot) => {
-                const recipes = snapshot.val();
-                const filteredRecipes = [];
+    let queryRef = ref(database, 'recipes');
 
-                for (const key in recipes) {
-                    const recipeName = recipes[key].name.toLowerCase();
-                    const recipeType = recipes[key].dish_type;
-
-                    // Filter based on both search term and selected dish type
-                    if (recipeName.includes(searchTerm) && (selectedType === '' || recipeType === selectedType)) {
-                        filteredRecipes.push({
-                            key: key,
-                            name: recipes[key].name,
-                            country: recipes[key].country
-                        });
-                    }
-                }
-
-                // Show the filtered recipes or a message if none found
-                displayRecipes(filteredRecipes.length > 0 ? filteredRecipes : [{ name: 'No recipes found.' }]);
+    if (searchTerm) {
+        // If both search term and dish type are provided
+        if (selectedType) {
+            queryRef = ref(database, 'recipes', {
+                orderByChild: 'dish_type',
+                equalTo: selectedType
             });
         }
-    });
+
+        // Execute query
+        onValue(queryRef, (snapshot) => {
+            const recipes = snapshot.val();
+            const filteredRecipes = [];
+
+            for (const key in recipes) {
+                const recipeName = recipes[key].name.toLowerCase();
+
+                // Filter based on search term only
+                if (recipeName.includes(searchTerm)) {
+                    filteredRecipes.push({
+                        key: key,
+                        name: recipes[key].name,
+                        country: recipes[key].country
+                    });
+                }
+            }
+
+            // Show the filtered recipes or a message if none found
+            displayRecipes(filteredRecipes.length > 0 ? filteredRecipes : [{ name: 'No recipes found.' }]);
+        });
+    }
+});
+
+// Function to display filtered recipes based on selected dish type
+dishTypeDropdown.addEventListener('change', () => {
+    const selectedType = dishTypeDropdown.value; // Get selected dish type
+
+    if (selectedType) {
+        // Query Firebase to get recipes of the selected dish type
+        const queryRef = ref(database, 'recipes');
+        
+        // Listen for data and filter it by dish type
+        onValue(queryRef, (snapshot) => {
+            const recipes = snapshot.val();
+            const filteredRecipes = [];
+
+            for (const key in recipes) {
+                if (recipes[key].dish_type === selectedType) {
+                    filteredRecipes.push({
+                        key: key,
+                        name: recipes[key].name,
+                        country: recipes[key].country
+                    });
+                }
+            }
+
+            // Show the filtered recipes or a message if none are found
+            displayRecipes(filteredRecipes.length > 0 ? filteredRecipes : [{ name: 'No recipes found.' }]);
+        });
+    } else {
+        // If no dish type is selected, fetch and show all recipes
+        fetchAllRecipes();
+    }
+});
+
+
 });
