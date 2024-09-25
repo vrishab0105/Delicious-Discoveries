@@ -21,7 +21,6 @@ const analytics = getAnalytics(app);
 const database = getDatabase(app);
 
 // Function to display recipes
-// Function to display recipes
 function displayRecipes(recipes) {
     const recipeList = document.getElementById('recipe-list');
     recipeList.innerHTML = '';
@@ -51,7 +50,6 @@ function displayRecipes(recipes) {
     recipeList.style.display = recipes.length > 0 ? 'block' : 'none';
 }
 
-
 // Function to fetch all recipes (fetch only necessary fields)
 function fetchAllRecipes() {
     const recipeRef = ref(database, 'recipes');
@@ -61,12 +59,13 @@ function fetchAllRecipes() {
         const recipes = snapshot.val();
         const recipeArray = [];
 
-        // Only extract 'name' and 'dish_type'
+        // Only extract 'name', 'dish_type', and 'veg_type'
         for (const key in recipes) {
             const recipe = {
                 key: key,
                 name: recipes[key].name,       // Fetch name
-                dish_type: recipes[key].dish_type // Fetch dish type
+                dish_type: recipes[key].dish_type, // Fetch dish type
+                veg_type: recipes[key].veg_type  // Fetch veg/non-veg type
             };
             recipeArray.push(recipe);
         }
@@ -110,16 +109,19 @@ document.addEventListener('DOMContentLoaded', function () {
     const searchRecipeButton = document.getElementById('search-recipe-btn');
     const searchTermInput = document.getElementById('search-term');
     const dishTypeDropdown = document.getElementById('dish-type-dropdown');
+    const vegTypeDropdown = document.getElementById('veg-type-dropdown'); // New dropdown for Veg/Non-Veg
 
-    // Hide the dropdown by default
+    // Hide the dropdowns by default
     dishTypeDropdown.style.display = 'none';
+    vegTypeDropdown.style.display = 'none';
 
     // Show search input and dish type dropdown when clicking the search button
     searchButton.addEventListener('click', () => {
         searchInputContainer.style.display = 'flex';
         showAllButton.style.display = 'inline-block';
         searchButton.style.display = 'none'; // Hide search button
-        dishTypeDropdown.style.display = 'block'; // Show dropdown
+        dishTypeDropdown.style.display = 'block'; // Show dish type dropdown
+        vegTypeDropdown.style.display = 'block';  // Show veg/non-veg dropdown
     });
 
     // Show all recipes and hide search input
@@ -128,6 +130,7 @@ document.addEventListener('DOMContentLoaded', function () {
         showAllButton.style.display = 'none';
         searchButton.style.display = 'inline-block'; // Show search button
         dishTypeDropdown.style.display = 'none'; // Hide dropdown when showing all recipes
+        vegTypeDropdown.style.display = 'none';   // Hide veg/non-veg dropdown
         fetchAllRecipes(); // Fetch and display all recipes again
     });
 
@@ -135,68 +138,45 @@ document.addEventListener('DOMContentLoaded', function () {
     searchRecipeButton.addEventListener('click', () => {
         const searchTerm = searchTermInput.value.trim().toLowerCase();
         const selectedType = dishTypeDropdown.value; // Get selected dish type
+        const selectedVegType = vegTypeDropdown.value; // Get selected veg/non-veg type
 
         let queryRef = ref(database, 'recipes');
 
-        if (selectedType) {
-            // If a dish type is selected, query based on dish type
+        if (selectedType || selectedVegType || searchTerm) {
+            // If search term, dish type, or veg type is provided
             queryRef = query(ref(database, 'recipes'), orderByChild('dish_type'), equalTo(selectedType));
-        }
 
-        // Execute query
-        onValue(queryRef, (snapshot) => {
-            const recipes = snapshot.val();
-            const filteredRecipes = [];
+            // Execute query
+            onValue(queryRef, (snapshot) => {
+                const recipes = snapshot.val();
+                const filteredRecipes = [];
 
-            for (const key in recipes) {
-                const recipeName = recipes[key].name.toLowerCase();
+                for (const key in recipes) {
+                    const recipeName = recipes[key].name.toLowerCase();
+                    const isVegMatch = !selectedVegType || recipes[key].veg_type === selectedVegType;
 
-                // Filter based on search term and dish type (if both are provided)
-                if (!searchTerm || recipeName.includes(searchTerm)) {
-                    filteredRecipes.push({
-                        key: key,
-                        name: recipes[key].name,
-                        country: recipes[key].country
-                    });
+                    // Filter based on search term, dish type, and veg type
+                    if (recipeName.includes(searchTerm) && isVegMatch) {
+                        filteredRecipes.push({
+                            key: key,
+                            name: recipes[key].name,
+                            country: recipes[key].country
+                        });
+                    }
                 }
-            }
 
-            // Show the filtered recipes (sorted by name) or a message if none found
-            displayRecipes(filteredRecipes.length > 0 ? filteredRecipes : [{ name: 'No recipes found.' }]);
-        });
+                // Show the filtered recipes (sorted by name) or a message if none found
+                displayRecipes(filteredRecipes.length > 0 ? filteredRecipes : [{ name: 'No recipes found.' }]);
+            });
+        }
     });
 
-    // Function to display filtered recipes based on selected dish type
+    // Function to display filtered recipes based on selected dish type or veg type
     dishTypeDropdown.addEventListener('change', () => {
-        const selectedType = dishTypeDropdown.value; // Get selected dish type
-        const searchTerm = searchTermInput.value.trim().toLowerCase();
+        searchRecipeButton.click();  // Trigger search button click on dish type change
+    });
 
-        let queryRef = ref(database, 'recipes');
-
-        if (selectedType) {
-            queryRef = query(ref(database, 'recipes'), orderByChild('dish_type'), equalTo(selectedType));
-        }
-
-        // Execute query and filter data based on both dish type and search term
-        onValue(queryRef, (snapshot) => {
-            const recipes = snapshot.val();
-            const filteredRecipes = [];
-
-            for (const key in recipes) {
-                const recipeName = recipes[key].name.toLowerCase();
-
-                // Filter based on search term (if provided)
-                if (!searchTerm || recipeName.includes(searchTerm)) {
-                    filteredRecipes.push({
-                        key: key,
-                        name: recipes[key].name,
-                        country: recipes[key].country
-                    });
-                }
-            }
-
-            // Show the filtered recipes (sorted by name) or a message if none found
-            displayRecipes(filteredRecipes.length > 0 ? filteredRecipes : [{ name: 'No recipes found.' }]);
-        });
+    vegTypeDropdown.addEventListener('change', () => {
+        searchRecipeButton.click();  // Trigger search button click on veg/non-veg change
     });
 });
