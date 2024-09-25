@@ -13,10 +13,19 @@ const firebaseConfig = {
    databaseURL: "https://deliciousdiscoveries04.firebaseio.com" // Add correct database URL
 };
 
+// Initialize Firebase
 initializeApp(firebaseConfig);
-
 const db = getDatabase();
 
+// Helper function to capitalize the first letter of each word
+function capitalizeFirstLetter(str) {
+    if (str && typeof str === 'string') {
+        return str.replace(/\b\w/g, char => char.toUpperCase());
+    }
+    return ''; // Return an empty string if undefined or not a string
+}
+
+// Load recipe details when the page is loaded
 document.addEventListener('DOMContentLoaded', async () => {
     const urlParams = new URLSearchParams(window.location.search);
     const recipeId = urlParams.get('recipeId');
@@ -28,6 +37,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     }
 });
 
+// Function to load and display the recipe details
 async function loadRecipeDetail(recipeId) {
     const recipeContent = document.getElementById('recipe-content');
 
@@ -36,11 +46,17 @@ async function loadRecipeDetail(recipeId) {
         const snapshot = await get(dbRef);
         if (snapshot.exists()) {
             const recipe = snapshot.val();
+
+            // Safely get dish_type and dish_category, handle undefined or missing data
+            const dishType = capitalizeFirstLetter(recipe.dish_type || '');
+            const dishCategory = capitalizeFirstLetter(recipe.dish_category || '');
+            
+            // Display the recipe details dynamically
             recipeContent.innerHTML = `
                 <h2>${recipe.name}</h2>
                 <p><strong>Country:</strong> ${recipe.country}</p>
-                <p><strong>Dish Type:</strong> ${recipe.dish_type}</p>
-                <p><strong>Dish Category:</strong> ${recipe.dish_category}</p>
+                <p><strong>Dish Type:</strong> ${dishType}</p>
+                <p><strong>Dish Category:</strong> ${dishCategory}</p>
                 <p><strong>Ingredients:</strong></p>
                 <ul>${recipe.ingredients.map(ingredient => `<li>${ingredient}</li>`).join('')}</ul>
                 <p><strong>Steps:</strong></p>
