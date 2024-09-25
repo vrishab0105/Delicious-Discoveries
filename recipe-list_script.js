@@ -21,6 +21,7 @@ const analytics = getAnalytics(app);
 const database = getDatabase(app);
 
 // Function to display recipes
+// Function to display recipes
 function displayRecipes(recipes) {
     const recipeList = document.getElementById('recipe-list');
     recipeList.innerHTML = '';
@@ -30,10 +31,18 @@ function displayRecipes(recipes) {
 
     recipes.forEach(recipe => {
         const recipeItem = document.createElement('li');
-        recipeItem.textContent = recipe.name;
-        recipeItem.addEventListener('click', () => {
-            window.location.href = `recipe-detail.html?recipeId=${recipe.key}`;
-        });
+
+        if (recipe.key) { 
+            // Only make it clickable if a valid recipe is found
+            recipeItem.textContent = recipe.name;
+            recipeItem.addEventListener('click', () => {
+                window.location.href = `recipe-detail.html?recipeId=${recipe.key}`;
+            });
+        } else {
+            // Display "No recipes found" without making it clickable
+            recipeItem.textContent = recipe.name;
+            recipeItem.style.color = 'gray';  // Optional: Make the text look different
+        }
 
         recipeList.appendChild(recipeItem);
     });
@@ -41,6 +50,7 @@ function displayRecipes(recipes) {
     // Show the recipe list
     recipeList.style.display = recipes.length > 0 ? 'block' : 'none';
 }
+
 
 // Function to fetch all recipes (fetch only necessary fields)
 function fetchAllRecipes() {
