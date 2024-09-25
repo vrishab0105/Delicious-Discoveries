@@ -129,6 +129,7 @@ document.addEventListener('DOMContentLoaded', function () {
         showAllButton.style.display = 'none';
         searchButton.style.display = 'inline-block'; // Show search button
         dishTypeDropdown.style.display = 'none'; // Hide dropdown when showing all recipes
+        vegTypeDropdown.style.display = 'none'; // Hide dropdown when showing all recipes
         fetchAllRecipes(); // Fetch and display all recipes again
     });
 
