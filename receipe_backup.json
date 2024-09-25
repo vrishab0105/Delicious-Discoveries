@@ -5896,6 +5896,7 @@
               "name": "Alfajores",
               "country": "Argentina",
               "dish_type": "baked",
+              "dish_category": "non-veg",
               "ingredients": [
                 "2 cups cornstarch",
                 "1 cup all-purpose flour",
@@ -5921,6 +5922,7 @@
                 "name": "Meat Pie",
                 "country": "Australia",
                 "dish_type": "baked" ,
+                "dish_category": "non-veg",
                 "ingredients": [
                   "500g Ground beef",
                   "1 Onion (chopped)",
@@ -5945,6 +5947,7 @@
             "name": "Poutine",
             "country": "Canada",
             "dish_type": "assembled",
+            "dish_category": "non-veg",
             "ingredients": [
               "4 cups Frozen French fries",
               "2 cups Beef gravy",
@@ -5964,6 +5967,7 @@
                     "name": "Kung Pao Chicken",
                     "country": "China",
                     "dish_type": "stir-fried",
+                    "dish_category": "non-veg",
                     "ingredients": [
                       "500g Chicken breast (diced)",
                       "2 tbsp Soy sauce",
@@ -5996,6 +6000,7 @@
                     "name": "Arroz Con Pollo",
                     "country": "Cuba",
                     "dish_type": "simmered",
+                    "dish_category": "non-veg",
                     "ingredients": [
                       "1 lb Chicken (cut into pieces)",
                       "1 cup Rice",
@@ -6023,6 +6028,7 @@
         "name": "Croissant",
         "country": "France",
          "dish_type": "baked",
+         "dish_category": "veg",
         "ingredients": [
           "2 1/4 cups All-purpose flour",
           "1/2 cup Warm milk",
@@ -6048,6 +6054,7 @@
                         "name": "Chicken Schnitzel",
                         "country": "Germany",
                         "dish_type": "fried",
+                        "dish_category": "non-veg",
                         "ingredients": [
                           "4 Chicken breasts (pounded thin)",
                           "1 cup Flour",
@@ -6069,6 +6076,7 @@
                     "name": "Moussaka",
                     "country": "Greece",
                     "dish_type": "baked",
+                    "dish_category": "non-veg",
                     "ingredients": [
                       "2 Eggplants (sliced and salted)",
                       "1 lb Ground lamb",
@@ -6094,6 +6102,7 @@
                     "name": "Goulash",
                     "country": "Hungary",
                     "dish_type": "stewed",
+                    "dish_category": "non-veg",
                     "ingredients": [
                       "1 lb Beef (cubed)",
                       "1 Onion (chopped)",
@@ -6120,6 +6129,7 @@
                       "name": "Spaghetti Carbonara",
                       "country": "Italy",
                       "dish_type": "assembled",
+                      "dish_category": "non-veg",
                       "ingredients": [
                         "200g Spaghetti",
                         "100g Pancetta or bacon (diced)",
@@ -6144,6 +6154,7 @@
             "name": "Sushi",
             "country": "Japan",
             "dish_type": "raw",
+            "dish_category": "non-veg",
             "ingredients": [
               "2 cups Sushi rice",
               "2 1/2 cups Water",
@@ -6167,6 +6178,7 @@
             "name": "Baba Ganoush",
             "country": "Lebanon",
             "dish_type": "blended",
+            "dish_category": "veg",
             "ingredients": [
               "2 Eggplants",
               "3 tbsp Tahini",
@@ -6188,6 +6200,7 @@
                     "name": "Laksa",
                     "country": "Malaysia",
                     "dish_type": "simmered",
+                    "dish_category": "non-veg",
                     "ingredients": [
                       "1 lb Chicken (sliced)",
                       "1 package Rice noodles",
@@ -6212,6 +6225,7 @@
             "name": "Tacos",
             "country": "Mexico",
             "dish_type": "assembled",
+            "dish_category": "non-veg",
             "ingredients": [
               "1 lb Ground beef",
               "1 Onion (chopped)",
@@ -6235,6 +6249,7 @@
               "name": "Shakshuka",
               "country": "Middle Eastern",
               "dish_type": "simmered",
+              "dish_category": "veg",
               "ingredients": [
                 "1 Onion (chopped)",
                 "2 Garlic cloves (minced)",
@@ -6261,6 +6276,7 @@
                     "name": "Couscous",
                     "country": "Morocco",
                     "dish_type": "steamed",
+                    "dish_category": "veg",
                     "ingredients": [
                       "1 cup Couscous",
                       "1 cup Water",
@@ -6282,6 +6298,7 @@
                         "name": "Jollof Rice",
                         "country": "Nigeria",
                          "dish_type": "simmered",
+                          "dish_category": "veg",
                         "ingredients": [
                           "2 cups Long-grain rice",
                           "1/4 cup Tomato paste",
@@ -6305,6 +6322,7 @@
                         "name": "Ceviche",
                         "country": "Peru",
                         "dish_type": "cured",
+                        "dish_category": "non-veg",
                         "ingredients": [
                           "1 lb Fresh fish (cubed)",
                           "1 cup Lime juice",
@@ -6325,6 +6343,7 @@
         "name": "Chicken Adobo",
         "country": "Philippines",
         "dish_type": "simmered",
+        "dish_category": "non-veg",
         "ingredients": [
           "1 kg Chicken (cut into pieces)",
           "1/2 cup Soy sauce",
@@ -6350,6 +6369,7 @@
                 "name": "Cabbage Rolls",
                 "country": "Poland",
                 "dish_type": "baked",
+                "dish_category": "non-veg",
                 "ingredients": [
                   "1 head Cabbage",
                   "1 lb Ground beef",
@@ -6375,6 +6395,7 @@
                 "name": "Beef Stroganoff",
                 "country": "Russia",
                 "dish_type": "sautéed",
+                "dish_category": "non-veg",
                 "ingredients": [
                   "500g Beef strips",
                   "1 Onion (sliced)",
@@ -6398,6 +6419,7 @@
                     "name": "Rakija",
                     "country": "Serbia",
                     "dish_type": "distilled",
+                    "dish_category": "veg",
                     "ingredients": [
                       "4 lbs Plums",
                       "1 cup Sugar",
@@ -6415,6 +6437,7 @@
                 "name": "Kimchi",
                 "country": "South Korea",
                 "dish_type": "fermented",
+                "dish_category": "veg",
                 "ingredients": [
                   "1 medium Napa cabbage",
                   "1/4 cup Sea salt",
@@ -6440,6 +6463,7 @@
       "name": "Patatas Bravas",
       "country": "Spain",
        "dish_type": "fried",
+        "dish_category": "veg",
       "ingredients": [
         "4 potatoes",
         "1/4 cup olive oil",
@@ -6461,6 +6485,7 @@
                     "name": "Pad Thai",
                     "country": "Thailand",
                     "dish_type": "stir-fried",
+                    "dish_category": "non-veg",
                     "ingredients": [
                       "8 oz Rice noodles",
                       "1/2 lb Shrimp (peeled and deveined)",
@@ -6490,6 +6515,7 @@
           "name": "Kebap",
           "country": "Turkey",
           "dish_type": "grilled",
+          "dish_category": "non-veg",
           "ingredients": [
             "500g lamb or beef (cubed)",
             "1 onion (grated)",
@@ -6512,6 +6538,7 @@
                         "name": "Beef Wellington",
                         "country": "United Kingdom",
                         "dish_type": "baked",
+                        "dish_category": "non-veg",
                         "ingredients": [
                           "1.5 lb Beef tenderloin",
                           "2 tbsp Olive oil",
@@ -6538,6 +6565,7 @@
     "name": "French Fries",
     "country": "USA",
     "dish_type": "fried",
+    "dish_category": "veg",
     "ingredients": [
       "potato",
       "oil",
@@ -6553,6 +6581,7 @@
             "name": "Pho",
             "country": "Vietnam",
             "dish_type": "simmered",
+            "dish_category": "non-veg",
             "ingredients": [
               "200g Beef (thinly sliced)",
               "1 Onion (quartered)",
@@ -6581,6 +6610,7 @@
 "name": "Pav Bhaji",
 "country": "India",
 "dish_type": "fried",
+"dish_category": "veg",
 "ingredients": [
   "4 Potatoes (boiled and mashed)",
   "1 Onion (finely chopped)",
@@ -6605,6 +6635,7 @@
     "name": "Chicken Biryani",
     "country": "India",
     "dish_type": "layered",
+    "dish_category": "non-veg",
     "ingredients": [
       "500g Chicken",
       "2 cups Basmati rice",
@@ -6634,6 +6665,7 @@
 "name": "Chole Bhature",
 "country": "India",
 "dish_type": "fried",
+"dish_category": "veg",
 "ingredients": [
   "2 cups Chickpeas (soaked overnight)",
   "1 large Onion (finely chopped)",
