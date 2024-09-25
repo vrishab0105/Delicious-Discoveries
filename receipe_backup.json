@@ -5,6 +5,8 @@
     "batataVada": {
       "name": "Batata Vada",
       "country": "India",
+      "dish_type": "fried",
+    "dish_category": "veg",
       "ingredients": [
         "4 medium-sized Potatoes (boiled and mashed)",
         "2 Green chilies (finely chopped)",
@@ -34,7 +36,8 @@
     
     "dalTadka": {
       "name": "Dal Tadka",
-      "country": "India",
+      "country": "India","dish_type": "stir-fried",
+    "dish_category": "veg",
       "ingredients": [
         "1 cup Toor dal (split pigeon peas)",
         "2 medium Tomatoes (chopped)",
@@ -55,9 +58,13 @@
         "Garnish with coriander leaves and serve with rice or chapati."
       ]
     },
+
+
     "dosa": {
       "name": "Dosa",
       "country": "India",
+      "dish_type": "fried",
+    "dish_category": "veg",
       "ingredients": [
         "2 cups Rice",
         "1 cup Urad dal (split black gram)",
@@ -73,9 +80,13 @@
         "Cook until crispy and serve hot with chutney and sambar."
       ]
     },
+
+
     "gobiManchurian": {
       "name": "Gobi Manchurian",
       "country": "India",
+      "dish_type": "fried",
+    "dish_category": "veg",
       "ingredients": [
         "1 medium Cauliflower (cut into florets)",
         "1/2 cup Corn flour",
@@ -97,9 +108,13 @@
         "Serve hot, garnished with spring onions."
       ]
     },
+
+
     "idli": {
       "name": "Idli",
       "country": "India",
+       "dish_type": "steamed",
+    "dish_category": "veg",
       "ingredients": [
         "2 cups Rice",
         "1 cup Urad dal (split black gram)",
@@ -115,9 +130,13 @@
         "Serve hot with chutney and sambar."
       ]
     },
+
+
     "jalebi": {
       "name": "Jalebi",
       "country": "India",
+      "dish_type": "fried",
+    "dish_category": "veg",
       "ingredients": [
         "1 cup All-purpose flour",
         "1 tbsp Corn flour",
@@ -135,9 +154,13 @@
         "Serve hot."
       ]
     },
+
+
     "kheer": {
       "name": "Kheer",
       "country": "India",
+      "dish_type": "boiled",
+    "dish_category": "veg",
       "ingredients": [
         "1 liter Milk",
         "1/4 cup Rice",
@@ -159,6 +182,8 @@
         "dumplings": {
           "name": "Chinese Dumplings",
           "country": "China",
+           "dish_type": "steamed",
+    "dish_category": "non-veg",
           "ingredients": [
             "2 cups All-purpose flour",
             "1/2 cup Water",
@@ -178,9 +203,13 @@
             "Serve with dipping sauce."
           ]
         },
+
+
         "gnocchi": {
           "name": "Potato Gnocchi",
           "country": "Italy",
+           "dish_type": "boiled",
+    "dish_category": "veg",
           "ingredients": [
             "1 kg Potatoes",
             "1 1/2 cups All-purpose flour",
@@ -205,6 +234,8 @@
         "ratatouille": {
           "name": "Ratatouille",
           "country": "France",
+          "dish_type": "stir-fried",
+    "dish_category": "veg",
           "ingredients": [
             "1 Eggplant (diced)",
             "1 Zucchini (diced)",
@@ -226,9 +257,12 @@
           ]
         },
      
+
         "shawarma": {
           "name": "Shawarma",
           "country": "Lebanon",
+          "dish_type": "grilled",
+    "dish_category": "non-veg",
           "ingredients": [
             "500g Chicken breast (sliced)",
             "1/2 cup Yogurt",
@@ -251,6 +285,8 @@
             "bruschetta": {
               "name": "Bruschetta",
               "country": "Italy",
+               "dish_type": "baked",
+    "dish_category": "veg",
               "ingredients": [
                 "1 Baguette (sliced)",
                 "2 cups Cherry tomatoes (diced)",
@@ -270,6 +306,8 @@
             "cannoli": {
               "name": "Cannoli",
               "country": "Italy",
+               "dish_type": "fried",
+    "dish_category": "veg",
               "ingredients": [
                 "1 cup Ricotta cheese",
                 "1 cup Mascarpone cheese",
@@ -285,9 +323,13 @@
                 "Chill before serving."
               ]
             },
+
+
             "caponata": {
               "name": "Caponata",
               "country": "Italy",
+              "dish_type": "stir-fried",
+    "dish_category": "veg",
               "ingredients": [
                 "2 Eggplants (diced)",
                 "1 Onion (chopped)",
@@ -307,10 +349,14 @@
                 "Serve warm or cold as a side dish."
               ]
             },
+
+
            
             "potatoSalad": {
               "name": "Potato Salad",
               "country": "USA",
+               "dish_type": "boiled",
+    "dish_category": "veg",
               "ingredients": [
                 "4 cups Potatoes (cubed)",
                 "1/2 cup Mayonnaise",
@@ -332,6 +378,8 @@
                 "risotto": {
                   "name": "Risotto",
                   "country": "Italy",
+                  "dish_type": "stir-fried",
+    "dish_category": "veg",
                   "ingredients": [
                     "1 1/2 cups Arborio rice",
                     "1 Onion (chopped)",
@@ -353,9 +401,12 @@
                   ]
                 },
                
+
                 "fettuccineAlfredo": {
                   "name": "Fettuccine Alfredo",
                   "country": "Italy",
+                   "dish_type": "boiled",
+    "dish_category": "veg",
                   "ingredients": [
                     "12 oz Fettuccine",
                     "1/2 cup Butter",
@@ -380,6 +431,8 @@
                 "chickenTikkaMasala": {
                   "name": "Chicken Tikka Masala",
                   "country": "India",
+                   "dish_type": "grilled",
+    "dish_category": "non-veg",
                   "ingredients": [
                     "1 lb Chicken (cubed)",
                     "1/2 cup Yogurt",
@@ -401,10 +454,13 @@
                     "Season with salt and garnish with cilantro."
                   ]
                 },
+
                 
                 "tiramisu": {
                   "name": "Tiramisu",
                   "country": "Italy",
+                   "dish_type": "baked",
+    "dish_category": "veg",
                   "ingredients": [
                     "6 Egg yolks",
                     "3/4 cup Sugar",
@@ -424,9 +480,13 @@
                     "Dust with cocoa powder and refrigerate for at least 4 hours."
                   ]
                 },
+
+
                 "beefBourguignon": {
                   "name": "Beef Bourguignon",
                   "country": "France",
+                   "dish_type": "stewed",
+    "dish_category": "non-veg",
                   "ingredients": [
                     "2 lb Beef (cubed)",
                     "1/4 cup Flour",
@@ -451,9 +511,13 @@
                     "Season with salt and pepper before serving."
                   ]
                 },
+
+
                 "brisket": {
                   "name": "Brisket",
                   "country": "USA",
+                   "dish_type": "slow-cooked",
+    "dish_category": "non-veg",
                   "ingredients": [
                     "4 lb Beef brisket",
                     "2 tbsp Olive oil",
@@ -473,9 +537,13 @@
                     "Slice and serve with cooking juices."
                   ]
                 },
+
+
                 "zucchiniBread": {
                   "name": "Zucchini Bread",
                   "country": "USA",
+                   "dish_type": "baked",
+    "dish_category": "veg",
                   "ingredients": [
                     "1 1/2 cups All-purpose flour",
                     "1/2 tsp Baking powder",
@@ -502,6 +570,8 @@
                 "souffle": {
                   "name": "Soufflé",
                   "country": "France",
+                      "dish_type": "baked",
+    "dish_category": "veg",
                   "ingredients": [
                     "4 Eggs (separated)",
                     "1/2 cup Sugar",
@@ -525,6 +595,8 @@
                     "boeufBourguignon": {
                       "name": "Boeuf Bourguignon",
                       "country": "France",
+                       "dish_type": "stewed",
+    "dish_category": "non-veg",
                       "ingredients": [
                         "2 lb Beef chuck (cut into cubes)",
                         "1/4 cup Flour",
@@ -549,9 +621,13 @@
                         "Season with salt and pepper."
                       ]
                     },
+
+
                     "pastaCarbonara": {
                       "name": "Pasta Carbonara",
                       "country": "Italy",
+                       "dish_type": "boiled",
+    "dish_category": "non-veg",
                       "ingredients": [
                         "12 oz Spaghetti",
                         "1/2 cup Pancetta (diced)",
@@ -572,10 +648,14 @@
                         "Season with salt and pepper, garnish with parsley."
                       ]
                     },
+
+
                    
                     "porkAdobo": {
                       "name": "Pork Adobo",
                       "country": "Philippines",
+                       "dish_type": "stewed",
+    "dish_category": "non-veg",
                       "ingredients": [
                         "1 lb Pork belly (cut into chunks)",
                         "1/4 cup Soy sauce",
@@ -598,6 +678,8 @@
                     "molePoblano": {
                       "name": "Mole Poblano",
                       "country": "Mexico",
+                      "dish_type": "simmered",
+    "dish_category": "non-veg",
                       "ingredients": [
                         "2 tbsp Vegetable oil",
                         "1 Onion (chopped)",
@@ -620,10 +702,13 @@
                         "Season with salt."
                       ]
                     },
-                   
+
+
+                   /
                     "tapas": {
                       "name": "Tapas",
                       "country": "Spain",
+
                       "ingredients": [
                         "1 cup Olives",
                         "1 cup Chorizo (sliced)",
@@ -637,9 +722,13 @@
                         "Serve with tomato salsa and enjoy."
                       ]
                     },
+
+
                     "churros": {
                       "name": "Churros",
                       "country": "Spain",
+                       "dish_type": "fried",
+    "dish_category": "veg",
                       "ingredients": [
                         "1 cup Water",
                         "1/2 cup Butter",
@@ -658,9 +747,13 @@
                         "Roll in sugar and cinnamon."
                       ]
                     },
+
+
                     "panzanella": {
                       "name": "Panzanella",
                       "country": "Italy",
+                      "dish_type": "stir-fried",
+                      "dish_category": "veg",
                       "ingredients": [
                         "4 cups Cubed stale bread",
                         "2 Tomatoes (chopped)",
@@ -679,9 +772,12 @@
                       ]
                     },
                    
+
                     "potatoLeekSoup": {
                       "name": "Potato Leek Soup",
                       "country": "France",
+                       "dish_type": "boiled",
+    "dish_category": "veg",
                       "ingredients": [
                         "4 Leeks (cleaned and chopped)",
                         "4 Potatoes (peeled and diced)",
@@ -699,9 +795,13 @@
                         "Season with salt and pepper."
                       ]
                     },
+
+                    
                     "risottoMushroom": {
                       "name": "Risotto with Mushrooms",
                       "country": "Italy",
+                       "dish_type": "stir-fried",
+    "dish_category": "veg",
                       "ingredients": [
                         "1 1/2 cups Arborio rice",
                         "1/2 lb Mushrooms (sliced)",
@@ -728,6 +828,8 @@
                     "sauerbraten": {
                       "name": "Sauerbraten",
                       "country": "Germany",
+                       "dish_type": "stewed",
+    "dish_category": "non-veg",
                       "ingredients": [
                         "2 lb Beef roast",
                         "1 cup Red wine vinegar",
@@ -747,9 +849,13 @@
                         "Season with salt and pepper before serving."
                       ]
                     },
+
+
                     "pavlova": {
                       "name": "Pavlova",
                       "country": "Australia",
+                       "dish_type": "baked",
+    "dish_category": "veg",
                       "ingredients": [
                         "4 Egg whites",
                         "1 cup Sugar",
@@ -774,6 +880,8 @@
                         "ramen": {
                           "name": "Ramen",
                           "country": "Japan",
+                           "dish_type": "boiled",
+    "dish_category": "non-veg",
                           "ingredients": [
                             "4 cups Chicken broth",
                             "2 packs Ramen noodles",
@@ -796,9 +904,13 @@
                             "Divide noodles into bowls, pour broth over them, and top with spinach, green onion, egg, and nori."
                           ]
                         },
+
+
                         "gyoza": {
                           "name": "Gyoza",
                           "country": "Japan",
+                           "dish_type": "fried",
+    "dish_category": "non-veg",
                           "ingredients": [
                             "1/2 lb Ground pork",
                             "1 cup Cabbage (shredded)",
@@ -818,9 +930,13 @@
                             "Add water to the pan and cover to steam for 5 minutes."
                           ]
                         },
+
+
                         "crepes": {
                           "name": "Crepes",
                           "country": "France",
+                           "dish_type": "fried",
+    "dish_category": "veg",
                           "ingredients": [
                             "1 cup Flour",
                             "2 Eggs",
@@ -837,9 +953,14 @@
                             "Cook until edges are golden, then flip and cook the other side."
                           ]
                         },
+
+
+
                         "chickenEnchiladas": {
                           "name": "Chicken Enchiladas",
                           "country": "Mexico",
+                           "dish_type": "baked",
+    "dish_category": "non-veg",
                           "ingredients": [
                             "2 cups Shredded chicken",
                             "8 Corn tortillas",
@@ -862,9 +983,12 @@
                           ]
                         },
                        
+
                         "kimchiFriedRice": {
                           "name": "Kimchi Fried Rice",
                           "country": "South Korea",
+                          "dish_type": "fried",
+                          "dish_category": "veg",                       
                           "ingredients": [
                             "2 cups Cooked rice",
                             "1 cup Kimchi (chopped)",
@@ -886,9 +1010,14 @@
                             "Garnish with green onions and sesame seeds."
                           ]
                         },
+
+
+
                         "falafel": {
                           "name": "Falafel",
                           "country": "Middle Eastern",
+                          "dish_type": "fried",
+    "dish_category": "veg",
                           "ingredients": [
                             "1 cup Dried chickpeas",
                             "1 Onion (chopped)",
@@ -907,9 +1036,14 @@
                             "Form into balls and fry until golden brown."
                           ]
                         },
+
+
+
                         "stuffedBellPeppers": {
                           "name": "Stuffed Bell Peppers",
                           "country": "USA",
+                           "dish_type": "baked",
+    "dish_category": "veg",
                           "ingredients": [
                             "4 Bell peppers",
                             "1 lb Ground beef",
@@ -935,6 +1069,8 @@
                         "lambTagine": {
                           "name": "Lamb Tagine",
                           "country": "Morocco",
+                            "dish_type": "stewed",
+    "dish_category": "non-veg",
                           "ingredients": [
                             "2 lbs Lamb (cut into chunks)",
                             "1 Onion (chopped)",
@@ -961,6 +1097,8 @@
                         "bangersAndMash": {
                           "name": "Bangers and Mash",
                           "country": "United Kingdom",
+                           "dish_type": "fried",
+    "dish_category": "non-veg",
                           "ingredients": [
                             "8 Pork sausages",
                             "4 Potatoes (peeled and diced)",
@@ -981,6 +1119,8 @@
                         "shepherdsPie": {
                           "name": "Shepherd's Pie",
                           "country": "United Kingdom",
+                           "dish_type": "baked",
+    "dish_category": "non-veg",
                           "ingredients": [
                             "1 lb Ground beef or lamb",
                             "1 Onion (chopped)",
@@ -1004,9 +1144,12 @@
                           ]
                         },
                        
+
                         "chanaMasala": {
                           "name": "Chana Masala",
                           "country": "India",
+                           "dish_type": "stir-fried",
+    "dish_category": "veg",
                           "ingredients": [
                             "2 cups Chickpeas (cooked)",
                             "1 Onion (chopped)",
@@ -1032,6 +1175,8 @@
                         "butterChicken": {
                           "name": "Butter Chicken",
                           "country": "India",
+                           "dish_type": "stir-fried",
+    "dish_category": "non-veg",
                           "ingredients": [
                             "1 lb Chicken (cubed)",
                             "1 cup Yogurt",
@@ -1052,9 +1197,13 @@
                             "Garnish with cilantro before serving."
                           ]
                         },
+
+
                         "tabbouleh": {
                           "name": "Tabbouleh",
                           "country": "Lebanon",
+                           "dish_type": "raw",
+    "dish_category": "veg",
                           "ingredients": [
                             "1 cup Bulgur wheat",
                             "1 cup Parsley (chopped)",
@@ -1076,6 +1225,8 @@
                           "vegetableSamosa": {
                             "name": "Vegetable Samosa",
                             "country": "India",
+                              "dish_type": "fried",
+    "dish_category": "veg",
                             "ingredients": [
                               "1 package Samosa pastry",
                               "2 cups Potatoes (boiled and mashed)",
@@ -1098,9 +1249,13 @@
                               "Serve hot with chutney."
                             ]
                           },
+
+
                           "muttonSamosa": {
                             "name": "Mutton Samosa",
                             "country": "India",
+                             "dish_type": "fried",
+    "dish_category": "non-veg",
                             "ingredients": [
                               "1 lb Ground mutton",
                               "1 package Samosa pastry",
@@ -1124,9 +1279,14 @@
                               "Serve hot with chutney."
                             ]
                           },
+
+
+
                           "chickenSamosa": {
                             "name": "Chicken Samosa",
                             "country": "India",
+                              "dish_type": "fried",
+    "dish_category": "non-veg",
                             "ingredients": [
                               "1 lb Ground chicken",
                               "1 package Samosa pastry",
@@ -1154,6 +1314,8 @@
                     "mapoTofu": {
                     "name": "Mapo Tofu",
                     "country": "China",
+                      "dish_type": "stir-fried",
+    "dish_category": "non-veg",
                     "ingredients": [
                       "400g Tofu (cubed)",
                       "200g Ground pork",
@@ -1178,9 +1340,14 @@
                       "Garnish with green onions and serve hot."
                     ]
                   },
+
+
+
                   "springRolls": {
                     "name": "Spring Rolls",
                     "country": "China",
+                     "dish_type": "fried",
+    "dish_category": "veg",
                     "ingredients": [
                       "20 Spring roll wrappers",
                       "1 cup Cabbage (shredded)",
@@ -1204,9 +1371,13 @@
                       "Serve with dipping sauce."
                     ]
                   },
+
+
                   "hotAndSourSoup": {
                     "name": "Hot and Sour Soup",
                     "country": "China",
+                     "dish_type": "steamed",
+    "dish_category": "non-veg",
                     "ingredients": [
                       "100g Pork (thinly sliced)",
                       "1/2 cup Bamboo shoots (sliced)",
@@ -1230,9 +1401,13 @@
                       "Garnish with green onions and serve hot."
                     ]
                   },
+
+
                   "charSiuPork": {
                     "name": "Char Siu Pork",
                     "country": "China",
+                     "dish_type": "roasted",
+    "dish_category": "non-veg",
                     "ingredients": [
                       "500g Pork shoulder",
                       "3 tbsp Hoisin sauce",
@@ -1252,9 +1427,13 @@
                       "Slice the pork and serve with rice or noodles."
                     ]
                   },
+
+
                   "pekingDuck": {
                     "name": "Peking Duck",
                     "country": "China",
+                     "dish_type": "roasted",
+    "dish_category": "non-veg",
                     "ingredients": [
                       "1 Whole duck",
                       "2 tbsp Honey",
@@ -1273,9 +1452,14 @@
                       "Slice the duck and serve with hoisin sauce, green onions, and pancakes."
                     ]
                   },
+
+
+
                   "wontons": {
                     "name": "Wontons",
                     "country": "China",
+                      "dish_type": "steamed",
+    "dish_category": "non-veg",
                     "ingredients": [
                       "30 Wonton wrappers",
                       "200g Ground pork",
@@ -1295,9 +1479,13 @@
                       "Serve with dipping sauce."
                     ]
                   },
+
+
                   "danDanNoodles": {
                     "name": "Dan Dan Noodles",
                     "country": "China",
+                     "dish_type": "boiled",
+    "dish_category": "non-veg",
                     "ingredients": [
                       "200g Noodles",
                       "100g Ground pork",
@@ -1320,9 +1508,13 @@
                       "Garnish with green onions and serve hot."
                     ]
                   },
+
+
                   "sweetSourPork": {
                     "name": "Sweet and Sour Pork",
                     "country": "China",
+                     "dish_type": "stir-fried",
+    "dish_category": "non-veg",
                     "ingredients": [
                       "400g Pork (cubed)",
                       "1/2 cup Pineapple (cubed)",
@@ -1346,9 +1538,13 @@
                       "Serve hot with rice."
                     ]
                   },
+
+
                   "scallionPancakes": {
                     "name": "Scallion Pancakes",
                     "country": "China",
+                     "dish_type": "fried",
+    "dish_category": "veg",
                     "ingredients": [
                       "2 cups All-purpose flour",
                       "1 cup Water",
@@ -1365,9 +1561,13 @@
                       "Serve hot."
                     ]
                   },
+
+
                   "chowMein": {
                     "name": "Chow Mein",
                     "country": "China",
+                     "dish_type": "stir-fried",
+    "dish_category": "non-veg",
                     "ingredients": [
                       "200g Egg noodles",
                       "1/2 cup Cabbage (shredded)",
@@ -1390,9 +1590,13 @@
                       "Serve hot."
                     ]
                   },
+
+
                   "loMein": {
                     "name": "Lo Mein",
                     "country": "China",
+                     "dish_type": "stir-fried",
+    "dish_category": "non-veg",
                     "ingredients": [
                       "200g Lo mein noodles",
                       "100g Chicken breast (sliced)",
@@ -1417,9 +1621,13 @@
                       "Serve hot."
                     ]
                   },
+
+
                   "congee": {
                     "name": "Congee",
                     "country": "China",
+                      "dish_type": "boiled",
+    "dish_category": "veg",
                     "ingredients": [
                       "1 cup Jasmine rice",
                       "6 cups Water",
@@ -1438,9 +1646,13 @@
                       "Garnish with green onions and serve hot."
                     ]
                   },
+
+
                   "eggFriedRice": {
                     "name": "Egg Fried Rice",
                     "country": "China",
+                     "dish_type": "fried",
+    "dish_category": "non-veg",
                     "ingredients": [
                       "2 cups Cooked rice (cold)",
                       "2 Eggs (beaten)",
@@ -1462,9 +1674,15 @@
                       "Serve hot."
                     ]
                   },
+
+
+
+
                   "steamedBuns": {
                     "name": "Steamed Buns (Baozi)",
                     "country": "China",
+                     "dish_type": "steamed",
+    "dish_category": "non-veg",
                     "ingredients": [
                       "3 cups All-purpose flour",
                       "1 cup Warm water",
@@ -1487,9 +1705,13 @@
                       "Serve hot."
                     ]
                   },
+
+
                   "sichuanBoiledFish": {
                     "name": "Sichuan Boiled Fish",
                     "country": "China",
+                    "dish_type": "boiled",
+    "dish_category": "non-veg",
                     "ingredients": [
                       "500g Fish fillets (sliced)",
                       "2 tbsp Doubanjiang (spicy bean paste)",
@@ -1510,9 +1732,13 @@
                       "Garnish with green onions and serve hot."
                     ]
                   },
+
+
                   "teaEggs": {
                     "name": "Tea Eggs",
                     "country": "China",
+                     "dish_type": "boiled",
+    "dish_category": "non-veg",
                     "ingredients": [
                       "6 Eggs",
                       "2 tbsp Soy sauce",
@@ -1532,9 +1758,14 @@
                       "Peel and serve."
                     ]
                   },
+
+
+
                   "stirFriedGreenBeans": {
                     "name": "Stir-Fried Green Beans",
                     "country": "China",
+                      "dish_type": "stir-fried",
+    "dish_category": "veg",
                     "ingredients": [
                       "300g Green beans (trimmed)",
                       "2 Garlic cloves (minced)",
@@ -1551,9 +1782,13 @@
                       "Serve hot."
                     ]
                   },
+
+
                   "braisedPorkBelly": {
                     "name": "Braised Pork Belly",
                     "country": "China",
+                      "dish_type": "braised",
+    "dish_category": "non-veg",
                     "ingredients": [
                       "500g Pork belly (cubed)",
                       "2 tbsp Soy sauce",
@@ -1574,9 +1809,14 @@
                       "Garnish with green onions and serve hot."
                     ]
                   },
+
+
+
                   "pineappleBuns": {
                     "name": "Pineapple Buns (Bolo Bao)",
                     "country": "China",
+                     "dish_type": "baked",
+    "dish_category": "veg",
                     "ingredients": [
                       "3 cups All-purpose flour",
                       "1/2 cup Sugar",
@@ -1596,9 +1836,13 @@
                       "Serve warm."
                     ]
                   },
+
+
                   "beggarsChicken": {
                     "name": "Beggar’s Chicken",
                     "country": "China",
+                     "dish_type": "baked",
+    "dish_category": "non-veg",
                     "ingredients": [
                       "1 Whole chicken",
                       "2 tbsp Soy sauce",
@@ -1619,9 +1863,13 @@
                       "Break open the clay or dough and serve the chicken hot."
                     ]
                   },
+
+
                   "lionHeadMeatballs": {
                     "name": "Lion’s Head Meatballs",
                     "country": "China",
+                    "dish_type": "braised",
+    "dish_category": "non-veg",
                     "ingredients": [
                       "400g Ground pork",
                       "1/2 cup Water chestnuts (chopped)",
@@ -1644,9 +1892,13 @@
                       "Serve hot."
                     ]
                   },
+
+
                   "drunkenChicken": {
                     "name": "Drunken Chicken",
                     "country": "China",
+                     "dish_type": "steamed",
+    "dish_category": "non-veg",
                     "ingredients": [
                       "1 Whole chicken",
                       "2 cups Shaoxing wine",
@@ -1666,9 +1918,13 @@
                       "Slice the chicken and serve cold or at room temperature."
                     ]
                   },
+
+
                   "youtiao": {
                     "name": "Youtiao (Chinese Fried Dough)",
                     "country": "China",
+                     "dish_type": "fried",
+    "dish_category": "veg",
                     "ingredients": [
                       "2 cups All-purpose flour",
                       "1 tsp Baking powder",
@@ -1685,9 +1941,14 @@
                       "Serve warm."
                     ]
                   },
+
+
+
                   "redCookedPork": {
                     "name": "Red-Cooked Pork",
                     "country": "China",
+                     "dish_type": "braised",
+    "dish_category": "non-veg",
                     "ingredients": [
                       "500g Pork belly (cubed)",
                       "2 tbsp Soy sauce",
@@ -1708,9 +1969,14 @@
                       "Serve hot."
                     ]
                   },
+
+
+
                   "dongPoPork": {
                     "name": "Dongpo Pork",
                     "country": "China",
+                      "dish_type": "braised",
+    "dish_category": "non-veg",
                     "ingredients": [
                       "500g Pork belly (cut into large cubes)",
                       "2 tbsp Soy sauce",
@@ -1730,9 +1996,13 @@
                       "Garnish with green onions and serve hot."
                     ]
                   },
+
+
                   "bitterMelonStirFry": {
                     "name": "Bitter Melon Stir-Fry",
                     "country": "China",
+                    "dish_type": "stir-fried",
+    "dish_category": "veg",
                     "ingredients": [
                       "1 Bitter melon (sliced)",
                       "2 Garlic cloves (minced)",
@@ -1750,9 +2020,13 @@
                       "Cook for another 2 minutes and serve hot."
                     ]
                   },
+
+
                   "fishFragrantEggplant": {
                     "name": "Fish-Fragrant Eggplant",
                     "country": "China",
+                        "dish_type": "stir-fried",
+    "dish_category": "veg",
                     "ingredients": [
                       "2 Eggplants (cut into strips)",
                       "2 tbsp Doubanjiang (spicy bean paste)",
@@ -1773,9 +2047,13 @@
                       "Serve hot."
                     ]
                   },
+
+
                   "shrimpDumplings": {
                     "name": "Shrimp Dumplings (Har Gow)",
                     "country": "China",
+                     "dish_type": "steamed",
+    "dish_category": "non-veg",
                     "ingredients": [
                       "200g Shrimp (chopped)",
                       "1/2 cup Bamboo shoots (chopped)",
@@ -1794,9 +2072,14 @@
                       "Serve hot."
                     ]
                   },
+
+
+                  
                   "sesameChicken": {
                     "name": "Sesame Chicken",
                     "country": "China",
+                     "dish_type": "fried",
+    "dish_category": "non-veg",
                     "ingredients": [
                       "500g Chicken breast (cut into bite-sized pieces)",
                       "1/2 cup Cornstarch",
@@ -1817,9 +2100,13 @@
                       "Serve hot."
                     ]
                   },
+
+
                   "chickenFeetDimSum": {
                     "name": "Chicken Feet Dim Sum",
                     "country": "China",
+                     "dish_type": "steamed",
+    "dish_category": "non-veg",
                     "ingredients": [
                       "500g Chicken feet",
                       "2 tbsp Soy sauce",
@@ -1840,9 +2127,14 @@
                       "Serve hot."
                     ]
                   },
+
+
+
                   "eggTarts": {
                     "name": "Chinese Egg Tarts",
                     "country": "China",
+                    "dish_type": "baked",
+    "dish_category": "veg",
                     "ingredients": [
                       "1 sheet Puff pastry",
                       "3 Eggs",
@@ -1859,9 +2151,14 @@
                       "Serve warm."
                     ]
                   },
+
+
+
                   "chiliOilWontons": {
                     "name": "Chili Oil Wontons",
                     "country": "China",
+                      "dish_type": "boiled",
+    "dish_category": "non-veg",
                     "ingredients": [
                       "200g Ground pork",
                       "50g Shrimp (chopped)",
@@ -1880,9 +2177,14 @@
                       "Serve with a generous drizzle of chili oil."
                     ]
                   },
+
+
+
                   "loMaiGai": {
                     "name": "Lo Mai Gai (Sticky Rice with Chicken)",
                     "country": "China",
+                      "dish_type": "steamed",
+    "dish_category": "non-veg",
                     "ingredients": [
                       "1 cup Glutinous rice",
                       "200g Chicken thigh (sliced)",
@@ -1902,9 +2204,13 @@
                       "Serve hot."
                     ]
                   },
+
+
                   "sesameBalls": {
                     "name": "Sesame Balls (Jian Dui)",
                     "country": "China",
+                     "dish_type": "fried",
+    "dish_category": "veg",
                     "ingredients": [
                       "1 cup Glutinous rice flour",
                       "1/4 cup Sugar",
@@ -1921,9 +2227,13 @@
                       "Serve warm."
                     ]
                   },
+
+                  
                   "chineseBroccoliWithOysterSauce": {
                     "name": "Chinese Broccoli with Oyster Sauce",
                     "country": "China",
+                     "dish_type": "steamed",
+    "dish_category": "veg",
                     "ingredients": [
                       "200g Chinese broccoli (gai lan)",
                       "2 tbsp Oyster sauce",
@@ -1937,9 +2247,13 @@
                       "Pour the sauce over the broccoli and serve hot."
                     ]
                   },
+
+
                   "porkDumplings": {
                     "name": "Pork Dumplings",
                     "country": "China",
+                    "dish_type": "steamed",
+    "dish_category": "non-veg",
                     "ingredients": [
                       "200g Ground pork",
                       "1 Garlic clove (minced)",
@@ -1956,9 +2270,13 @@
                       "Serve hot with dipping sauce."
                     ]
                   },
+
+
                   "porkBellyBao": {
                     "name": "Pork Belly Bao",
                     "country": "China",
+                     "dish_type": "steamed",
+    "dish_category": "non-veg",
                     "ingredients": [
                       "500g Pork belly",
                       "2 tbsp Soy sauce",
@@ -1973,9 +2291,13 @@
                       "Serve slices of pork belly in bao buns with hoisin sauce and pickled vegetables."
                     ]
                   },
+
+
                   "beefChowFun": {
                     "name": "Beef Chow Fun",
                     "country": "China",
+                    "dish_type": "stir-fried",
+    "dish_category": "non-veg",
                     "ingredients": [
                       "300g Beef (thinly sliced)",
                       "200g Flat rice noodles",
@@ -1994,9 +2316,13 @@
                       "Mix in bean sprouts and serve hot."
                     ]
                   },
+
+
                   "twiceCookedPork": {
                     "name": "Twice Cooked Pork",
                     "country": "China",
+                     "dish_type": "stir-fried",
+    "dish_category": "non-veg",
                     "ingredients": [
                       "300g Pork belly",
                       "1 tbsp Doubanjiang (spicy bean paste)",
@@ -2014,9 +2340,14 @@
                       "Cook for another 5 minutes and serve."
                     ]
                   },
+
+
+
                   "steamedFishWithGinger": {
                     "name": "Steamed Fish with Ginger",
                     "country": "China",
+                      "dish_type": "steamed",
+    "dish_category": "non-veg",
                     "ingredients": [
                       "1 Whole fish (cleaned)",
                       "2 tbsp Soy sauce",
@@ -2031,9 +2362,14 @@
                       "Pour the mixture over the steamed fish, drizzle with soy sauce, and garnish with green onions."
                     ]
                   },
+
+
+
                   "bbqPorkBuns": {
                     "name": "BBQ Pork Buns (Char Siu Bao)",
                     "country": "China",
+                     "dish_type": "steamed",
+    "dish_category": "non-veg",
                     "ingredients": [
                       "300g BBQ pork (Char Siu)",
                       "2 tbsp Soy sauce",
@@ -2050,9 +2386,14 @@
                       "Shape dough into buns, fill with pork mixture, and steam for 10-12 minutes."
                     ]
                   },
+
+
+
                   "threeCupChicken": {
                     "name": "Three Cup Chicken",
                     "country": "China",
+                     "dish_type": "stir-fried",
+    "dish_category": "non-veg",
                     "ingredients": [
                       "500g Chicken thighs (bone-in, chopped)",
                       "3 tbsp Soy sauce",
@@ -2069,9 +2410,13 @@
                       "Stir in basil leaves and serve."
                     ]
                   },
+
+
                   "shanghaiSoupDumplings": {
                     "name": "Shanghai Soup Dumplings (Xiao Long Bao)",
                     "country": "China",
+                      "dish_type": "steamed",
+    "dish_category": "non-veg",
                     "ingredients": [
                       "200g Ground pork",
                       "1 tbsp Soy sauce",
@@ -2088,9 +2433,13 @@
                       "Serve with vinegar and ginger dipping sauce."
                     ]
                   },
+
+
                   "spicySichuanGreenBeans": {
                     "name": "Spicy Sichuan Green Beans",
                     "country": "China",
+                    "dish_type": "stir-fried",
+    "dish_category": "veg",
                     "ingredients": [
                       "300g Green beans",
                       "2 Garlic cloves (minced)",
@@ -2107,9 +2456,14 @@
                       "Serve hot."
                     ]
                   },
+
+
+
                   "sweetAndSourPork": {
                     "name": "Sweet and Sour Pork",
                     "country": "China",
+                     "dish_type": "stir-fried",
+    "dish_category": "non-veg",
                     "ingredients": [
                       "500g Pork (cubed)",
                       "1/2 cup Pineapple (cubed)",
@@ -2127,9 +2481,13 @@
                       "Serve hot."
                     ]
                   },
+
+
                   "eggDropSoup": {
                     "name": "Egg Drop Soup",
                     "country": "China",
+                      "dish_type": "steamed",
+    "dish_category": "non-veg",
                     "ingredients": [
                       "4 cups Chicken broth",
                       "2 Eggs (beaten)",
@@ -2146,9 +2504,13 @@
                     ]
                   },
                  
+
+
                   "chineseHotPot": {
                     "name": "Chinese Hot Pot",
                     "country": "China",
+                      "dish_type": "boiled",
+    "dish_category": "non-veg",
                     "ingredients": [
                       "Chicken broth",
                       "Thinly sliced beef or lamb",
@@ -2163,9 +2525,14 @@
                       "Serve with dipping sauces like sesame sauce or soy sauce."
                     ]
                   },
+
+
+
                   "coldNoodlesWithSesameSauce": {
                     "name": "Cold Noodles with Sesame Sauce",
                     "country": "China",
+                     "dish_type": "boiled",
+    "dish_category": "veg",
                     "ingredients": [
                       "200g Wheat noodles",
                       "2 tbsp Sesame paste",
@@ -2190,6 +2557,8 @@
                 "fairyBread": {
                   "name": "Fairy Bread",
                   "country": "Australia",
+                   "dish_type": "none",
+    "dish_category": "veg",
                   "ingredients": [
                     "4 slices White bread",
                     "Butter (softened)",
@@ -2202,9 +2571,13 @@
                   ]
                 },
 
+
+
                 "damper": {
                   "name": "Damper",
                   "country": "Australia",
+                    "dish_type": "baked",
+    "dish_category": "veg",
                   "ingredients": [
                     "3 cups Self-raising flour",
                     "1 tsp Salt",
@@ -2218,10 +2591,14 @@
                     "Bake for 30-35 minutes until golden. Serve warm with butter."
                   ]
                 },
+
+
                
                 "chocolateFudgeSlice": {
                   "name": "Chocolate Fudge Slice",
                   "country": "Australia",
+                    "dish_type": "baked",
+    "dish_category": "veg",
                   "ingredients": [
                     "250g Digestive biscuits (crumbled)",
                     "1 cup Condensed milk",
@@ -2237,9 +2614,13 @@
                     "Cut into squares and serve."
                   ]
                 },
+
+
                 "kangarooSteak": {
                   "name": "Kangaroo Steak",
                   "country": "Australia",
+                   "dish_type": "grilled",
+    "dish_category": "non-veg",
                   "ingredients": [
                     "500g Kangaroo fillet",
                     "2 tbsp Olive oil",
@@ -2253,9 +2634,14 @@
                     "Let rest for a few minutes before slicing and serving."
                   ]
                 },
+
+
+
                 "shrimpOnTheBarbie": {
                   "name": "Shrimp on the Barbie",
                   "country": "Australia",
+                    "dish_type": "grilled",
+    "dish_category": "non-veg",
                   "ingredients": [
                     "500g Prawns (peeled and deveined)",
                     "2 tbsp Olive oil",
@@ -2269,9 +2655,14 @@
                     "Serve with lemon wedges."
                   ]
                 },
+
+
+/
                 "prawnCocktail": {
                   "name": "Prawn Cocktail",
                   "country": "Australia",
+                   "dish_type": "none",
+    "dish_category": "non-veg",
                   "ingredients": [
                     "500g Prawns (cooked and peeled)",
                     "1/2 cup Mayonnaise",
@@ -2286,9 +2677,13 @@
                     "Garnish with lemon wedges and serve chilled."
                   ]
                 },
+
+/
                 "coconutRough": {
                   "name": "Coconut Rough",
                   "country": "Australia",
+                   "dish_type": "none",
+    "dish_category": "veg",
                   "ingredients": [
                     "200g Dark chocolate (melted)",
                     "1 cup Desiccated coconut",
@@ -2301,9 +2696,14 @@
                     "Cut into squares and serve."
                   ]
                 },
+
+
+/
                 "chickpeaSalad": {
                   "name": "Chickpea Salad",
                   "country": "Australia",
+ "dish_type": "none",
+    "dish_category": "veg",
                   "ingredients": [
                     "1 can Chickpeas (drained and rinsed)",
                     "1 Cucumber (diced)",
@@ -2320,9 +2720,14 @@
                     "Serve chilled or at room temperature."
                   ]
                 },
+
+
+
                 "vegetableSausageRolls": {
                   "name": "Vegetable Sausage Rolls",
                   "country": "Australia",
+                   "dish_type": "baked",
+    "dish_category": "veg",
                   "ingredients": [
                     "1 sheet Puff pastry",
                     "1 cup Mixed vegetables (carrots, peas, corn)",
@@ -2337,9 +2742,14 @@
                     "Brush with beaten egg and bake for 20-25 minutes until golden."
                   ]
                 },
+
+
+/
                 "beetrootSalad": {
                   "name": "Beetroot Salad",
                   "country": "Australia",
+ "dish_type": "none",
+    "dish_category": "veg",
                   "ingredients": [
                     "2 cups Cooked beetroot (diced)",
                     "1/2 cup Feta cheese (crumbled)",
@@ -2354,9 +2764,13 @@
                     "Serve chilled or at room temperature."
                   ]
                 },
+
+
                 "bakedBarramundi": {
                   "name": "Baked Barramundi",
                   "country": "Australia",
+                    "dish_type": "baked",
+    "dish_category": "non-veg",
                   "ingredients": [
                     "2 Barramundi fillets",
                     "2 tbsp Olive oil",
@@ -2371,9 +2785,15 @@
                     "Serve with a side salad."
                   ]
                 },
+
+
+
+
                 "potatoBake": {
                   "name": "Potato Bake",
                   "country": "Australia",
+                    "dish_type": "baked",
+    "dish_category": "veg",
                   "ingredients": [
                     "4 Potatoes (thinly sliced)",
                     "1 Onion (sliced)",
@@ -2389,9 +2809,13 @@
                   ]
                 },
               
+
+
                 "roastPumpkinSalad": {
                   "name": "Roast Pumpkin Salad",
                   "country": "Australia",
+                   "dish_type": "baked",
+    "dish_category": "veg",
                   "ingredients": [
                     "500g Pumpkin (peeled and cubed)",
                     "2 cups Spinach leaves",
@@ -2408,9 +2832,14 @@
                     "Drizzle with balsamic vinegar before serving."
                   ]
                 },
+
+
+          /
                 "chocolateMousse": {
                   "name": "Chocolate Mousse",
                   "country": "Australia",
+                  "dish_type": "none",
+    "dish_category": "veg",
                   "ingredients": [
                     "200g Dark chocolate (chopped)",
                     "3 Eggs (separated)",
@@ -2426,9 +2855,15 @@
                     "Pour into serving dishes and refrigerate for at least 2 hours before serving."
                   ]
                 },
+
+
+
+
                 "stuffedZucchini": {
                   "name": "Stuffed Zucchini",
                   "country": "Australia",
+                   "dish_type": "baked",
+    "dish_category": "veg",
                   "ingredients": [
                     "4 Zucchini (halved lengthwise)",
                     "1 cup Cooked quinoa",
@@ -2446,9 +2881,15 @@
                     "Garnish with fresh herbs before serving."
                   ]
                 },
+
+
+
+
                 "chickpeaCurry": {
                   "name": "Chickpea Curry",
                   "country": "Australia",
+                   "dish_type": "stewed",
+    "dish_category": "veg",
                   "ingredients": [
                     "1 can Chickpeas (drained and rinsed)",
                     "1 Onion (chopped)",
@@ -2467,9 +2908,14 @@
                     "Season with salt and pepper, and garnish with fresh coriander before serving."
                   ]
                 },
+
+
+
                 "bbqLambChops": {
                   "name": "BBQ Lamb Chops",
                   "country": "Australia",
+                    "dish_type": "grilled",
+    "dish_category": "non-veg",
                   "ingredients": [
                     "500g Lamb chops",
                     "2 tbsp Olive oil",
@@ -2484,9 +2930,16 @@
                     "Serve hot with a side salad."
                   ]
                 },
+
+
+
+
+
                 "pumpkinSoup": {
                   "name": "Pumpkin Soup",
                   "country": "Australia",
+                  "dish_type": "boiled",
+    "dish_category": "veg",
                   "ingredients": [
                     "500g Pumpkin (peeled and cubed)",
                     "1 Onion (chopped)",
@@ -2505,10 +2958,14 @@
                     "Serve hot, garnished with pumpkin seeds."
                   ]
                 },
+
+
                
                 "friedRice": {
                   "name": "Fried Rice",
                   "country": "Australia",
+                   "dish_type": "fried",
+    "dish_category": "veg",
                   "ingredients": [
                     "2 cups Cooked rice",
                     "1 cup Mixed vegetables (peas, carrots, corn)",
@@ -2525,9 +2982,15 @@
                     "Season with salt and pepper and garnish with green onions before serving."
                   ]
                 },
+
+
+
+
                 "spaghettiBolognese": {
                   "name": "Spaghetti Bolognese",
                   "country": "Australia",
+                   "dish_type": "boiled",
+    "dish_category": "non-veg",
                   "ingredients": [
                     "400g Spaghetti",
                     "500g Ground beef",
@@ -2545,9 +3008,13 @@
                     "Serve the sauce over spaghetti and top with grated Parmesan."
                   ]
                 },
+
+
                 "chocolateCake": {
                   "name": "Chocolate Cake",
                   "country": "Australia",
+                   "dish_type": "baked",
+    "dish_category": "veg",
                   "ingredients": [
                     "1 3/4 cups All-purpose flour",
                     "1 3/4 cups Sugar",
@@ -2569,9 +3036,13 @@
                     "Let cool before frosting with chocolate icing."
                   ]
                 },
+
+
                 "cauliflowerCheese": {
                   "name": "Cauliflower Cheese",
                   "country": "Australia",
+                   "dish_type": "baked",
+    "dish_category": "veg",
                   "ingredients": [
                     "1 head Cauliflower (broken into florets)",
                     "2 cups Cheese sauce",
@@ -2587,9 +3058,15 @@
                     "Bake for 20-25 minutes until golden and bubbling."
                   ]
                 },
+
+
+
+
                 "mangoPavlova": {
                   "name": "Mango Pavlova",
                   "country": "Australia",
+                    "dish_type": "baked",
+    "dish_category": "veg",
                   "ingredients": [
                     "4 Egg whites",
                     "1 cup Sugar",
@@ -2605,9 +3082,15 @@
                     "Shape the meringue into a circle on the prepared tray and bake for 1 hour. Turn off the oven and let cool.",
                     "Whip the cream and spread over the cooled meringue. Top with mango slices and garnish with mint leaves before serving."
                   ]
-                },"vegetableStirFry": {
+                },
+                
+                
+                
+                "vegetableStirFry": {
                   "name": "Vegetable Stir Fry",
                   "country": "Australia",
+                   "dish_type": "stir-fried",
+    "dish_category": "veg",
                   "ingredients": [
                     "2 cups Mixed vegetables (broccoli, bell peppers, carrots)",
                     "1 Onion (sliced)",
@@ -2625,9 +3108,13 @@
                     "Serve hot over cooked rice."
                   ]
                 },
+
+
                 "porkChops": {
                   "name": "Pork Chops",
                   "country": "Australia",
+                   "dish_type": "grilled",
+    "dish_category": "non-veg",
                   "ingredients": [
                     "4 Pork chops",
                     "2 tbsp Olive oil",
@@ -2643,9 +3130,14 @@
                     "Garnish with fresh parsley before serving."
                   ]
                 },
+
+
+
                 "fishTacos": {
                   "name": "Fish Tacos",
                   "country": "Australia",
+                   "dish_type": "fried",
+    "dish_category": "non-veg",
                   "ingredients": [
                     "500g White fish fillets (grilled or fried)",
                     "4 Tortillas",
@@ -2661,9 +3153,14 @@
                     "Serve with lime wedges."
                   ]
                 },
+
+
+
                 "chocolateBrownies": {
                   "name": "Chocolate Brownies",
                   "country": "Australia",
+                   "dish_type": "baked",
+    "dish_category": "veg",
                   "ingredients": [
                     "200g Dark chocolate (chopped)",
                     "150g Butter",
@@ -2681,9 +3178,15 @@
                     "Bake for 20-25 minutes until set. Let cool before cutting into squares."
                   ]
                 },
+
+
+
+
                 "curriedPumpkin": {
                   "name": "Curried Pumpkin",
                   "country": "Australia",
+                   "dish_type": "stewed",
+    "dish_category": "veg",
                   "ingredients": [
                     "500g Pumpkin (peeled and cubed)",
                     "1 Onion (chopped)",
@@ -2701,9 +3204,15 @@
                     "Blend until smooth, season with salt and pepper, and garnish with coriander."
                   ]
                 },
+
+
+
+
                 "appleCrumble": {
                   "name": "Apple Crumble",
                   "country": "Australia",
+                   "dish_type": "baked",
+    "dish_category": "veg",
                   "ingredients": [
                     "4 Apples (peeled and sliced)",
                     "1/2 cup Sugar",
@@ -2720,9 +3229,14 @@
                     "Spread the crumble over the apples and bake for 30-35 minutes until golden."
                   ]
                 },
+
+
+
                 "salmonWithAsparagus": {
                   "name": "Salmon with Asparagus",
                   "country": "Australia",
+                    "dish_type": "grilled",
+    "dish_category": "non-veg",
                   "ingredients": [
                     "2 Salmon fillets",
                     "1 bunch Asparagus (trimmed)",
@@ -2737,9 +3251,17 @@
                     "Bake for 15-20 minutes until salmon is cooked through."
                   ]
                 },
+
+
+
+
+
+
                 "vegetableFrittata": {
                   "name": "Vegetable Frittata",
                   "country": "Australia",
+                   "dish_type": "baked",
+    "dish_category": "veg",
                   "ingredients": [
                     "6 Eggs",
                     "1 cup Mixed vegetables (bell peppers, spinach, tomatoes)",
@@ -2754,9 +3276,14 @@
                     "Cook on the stove for a few minutes before transferring to the oven to bake for 15-20 minutes until set."
                   ]
                 },
+
+
+
                 "chickenSatay": {
                   "name": "Chicken Satay",
                   "country": "Australia",
+                   "dish_type": "grilled",
+    "dish_category": "non-veg",
                   "ingredients": [
                     "500g Chicken breast (cubed)",
                     "2 tbsp Peanut butter",
@@ -2771,9 +3298,14 @@
                     "Thread chicken onto skewers and grill for 10-15 minutes until cooked through."
                   ]
                 },
+
+
+
                 "lemonMeringuePie": {
                   "name": "Lemon Meringue Pie",
                   "country": "Australia",
+                    "dish_type": "baked",
+    "dish_category": "veg",
                   "ingredients": [
                     "1 Pie crust (pre-baked)",
                     "1 cup Sugar",
@@ -2792,9 +3324,14 @@
                     "Spread meringue over the pie and bake at 180°C (350°F) for 10-15 minutes until golden."
                   ]
                 },
+
+
+
                 "zucchiniSlice": {
                   "name": "Zucchini Slice",
                   "country": "Australia",
+                    "dish_type": "baked",
+    "dish_category": "veg",
                   "ingredients": [
                     "2 Zucchinis (grated)",
                     "1 Onion (chopped)",
@@ -2811,9 +3348,14 @@
                     "Let cool slightly before slicing and serving."
                   ]
                 },
+
+
+
                 "scones": {
                   "name": "Scones",
                   "country": "Australia",
+                    "dish_type": "baked",
+    "dish_category": "veg",
                   "ingredients": [
                     "2 cups Self-raising flour",
                     "1/4 cup Butter (cold, cubed)",
@@ -2830,9 +3372,15 @@
                     "Serve warm with jam and whipped cream."
                   ]
                 },
+
+
+
+
                 "baconEggPie": {
                   "name": "Bacon and Egg Pie",
                   "country": "Australia",
+                   "dish_type": "baked",
+    "dish_category": "non-veg",
                   "ingredients": [
                     "4 Eggs",
                     "6 slices Bacon",
@@ -2848,9 +3396,16 @@
                     "Sprinkle grated cheese over and bake for 25-30 minutes until golden and cooked through."
                   ]
                 },
+
+
+
+
+
                 "sausageRolls": {
                   "name": "Sausage Rolls",
                   "country": "Australia",
+                  "dish_type": "baked",
+    "dish_category": "non-veg",
                   "ingredients": [
                     "500g Sausage mince",
                     "1 Onion (finely chopped)",
@@ -2868,9 +3423,15 @@
                     "Bake for 20-25 minutes until golden and crispy."
                   ]
                 },
+
+
+
+
                 "lamingtons": {
                   "name": "Lamingtons",
                   "country": "Australia",
+                    "dish_type": "baked",
+    "dish_category": "veg",
                   "ingredients": [
                     "1 Sponge cake (cut into squares)",
                     "2 cups Icing sugar",
@@ -2885,9 +3446,14 @@
                     "Set on a rack to dry before serving."
                   ]
                 },
+
+
+
                 "anzacBiscuits": {
                   "name": "ANZAC Biscuits",
                   "country": "Australia",
+                    "dish_type": "baked",
+    "dish_category": "veg",
                   "ingredients": [
                     "1 cup Rolled oats",
                     "1 cup Flour",
@@ -2907,9 +3473,14 @@
                     "Bake for 15-18 minutes until golden."
                   ]
                 },
+
+
+
                 "beefPie": {
                   "name": "Beef Pie",
                   "country": "Australia",
+                   "dish_type": "baked",
+    "dish_category": "non-veg",
                   "ingredients": [
                     "500g Ground beef",
                     "1 Onion (chopped)",
@@ -2929,9 +3500,13 @@
                   ]
                 },
               
+
+
                 "chickenParma": {
                   "name": "Chicken Parma",
                   "country": "Australia",
+                    "dish_type": "fried",
+    "dish_category": "non-veg",
                   "ingredients": [
                     "2 Chicken breasts",
                     "1 cup Bread crumbs",
@@ -2949,9 +3524,13 @@
                     "Top with tomato sauce, mozzarella, and Parmesan. Bake for 20 minutes until the cheese is melted and bubbly."
                   ]
                 },
+
+
                 "damperBread": {
                   "name": "Damper Bread",
                   "country": "Australia",
+                    "dish_type": "baked",
+    "dish_category": "veg",
                   "ingredients": [
                     "3 cups Self-raising flour",
                     "Pinch of salt",
@@ -2965,9 +3544,14 @@
                     "Bake for 30-35 minutes until golden and sounds hollow when tapped."
                   ]
                 },
+
+
+
                 "barbecuePrawns": {
                   "name": "Barbecue Prawns",
                   "country": "Australia",
+ "dish_type": "grilled",
+    "dish_category": "non-veg",
                   "ingredients": [
                     "500g Large prawns (peeled and deveined)",
                     "2 Garlic cloves (minced)",
@@ -2982,9 +3566,14 @@
                     "Serve with extra lemon wedges."
                   ]
                 },
+
+
+
                 "vegemiteToast": {
                   "name": "Vegemite on Toast",
                   "country": "Australia",
+                   "dish_type": "toasted",
+    "dish_category": "veg",
                   "ingredients": [
                     "2 slices Bread",
                     "1 tbsp Butter",
@@ -3001,6 +3590,8 @@
             "paneerButterMasala": {
   "name": "Paneer Butter Masala",
   "country": "India",
+  "dish_type": "cooked",
+    "dish_category": "veg",
   "ingredients": [
     "200g Paneer (cubed)",
     "2 Tomatoes (pureed)",
@@ -3028,6 +3619,8 @@
 "roganJosh": {
   "name": "Rogan Josh",
   "country": "India",
+   "dish_type": "cooked",
+    "dish_category": "non-veg",
   "ingredients": [
     "500g Mutton (bone-in)",
     "2 Onions (sliced)",
@@ -3056,6 +3649,8 @@
 "alooParatha": {
   "name": "Aloo Paratha",
   "country": "India",
+   "dish_type": "fried",
+    "dish_category": "veg",
   "ingredients": [
     "2 cups Wheat flour",
     "3 Potatoes (boiled and mashed)",
@@ -3079,6 +3674,8 @@
 "bainganBharta": {
   "name": "Baingan Bharta",
   "country": "India",
+   "dish_type": "cooked",
+    "dish_category": "veg",
   "ingredients": [
     "1 Large eggplant",
     "1 Onion (chopped)",
@@ -3104,6 +3701,8 @@
 "samosaChaat": {
   "name": "Samosa Chaat",
   "country": "India",
+   "dish_type": "fried",
+    "dish_category": "veg",
   "ingredients": [
     "4 Vegetable samosas (store-bought or homemade)",
     "1/2 cup Yogurt",
@@ -3124,6 +3723,8 @@
 "palakPaneer": {
   "name": "Palak Paneer",
   "country": "India",
+   "dish_type": "cooked",
+    "dish_category": "veg",
   "ingredients": [
     "200g Paneer (cubed)",
     "2 cups Spinach (blanched and pureed)",
@@ -3143,9 +3744,13 @@
   ]
 },
 
+
+
 "poha": {
   "name": "Poha",
   "country": "India",
+  "dish_type": "steamed",
+    "dish_category": "veg",
   "ingredients": [
     "2 cups Flattened rice (Poha)",
     "1 Onion (chopped)",
@@ -3169,6 +3774,8 @@
 "rajmaChawal": {
   "name": "Rajma Chawal",
   "country": "India",
+   "dish_type": "cooked",
+    "dish_category": "veg",
   "ingredients": [
     "1 cup Kidney beans (Rajma)",
     "1 Onion (chopped)",
@@ -3189,9 +3796,13 @@
   ]
 },
 
+
+
 "paniPuri": {
   "name": "Pani Puri",
   "country": "India",
+   "dish_type": "fried",
+    "dish_category": "veg",
   "ingredients": [
     "Puri shells",
     "1/2 cup Tamarind chutney",
@@ -3209,9 +3820,13 @@
   ]
 },
 
+
+
 "dalMakhani": {
   "name": "Dal Makhani",
   "country": "India",
+    "dish_type": "stir-fried",
+    "dish_category": "veg",
   "ingredients": [
     "1 cup Black lentils (Urad dal)",
     "1/4 cup Red kidney beans (Rajma)",
@@ -3233,9 +3848,13 @@
   ]
 },
 
+
+
 "mutterPaneer": {
   "name": "Mutter Paneer",
   "country": "India",
+     "dish_type": "stir-fried",
+    "dish_category": "veg",
   "ingredients": [
     "200g Paneer (cubed)",
     "1 cup Green peas",
@@ -3259,6 +3878,8 @@
   "margheritaPizza": {
     "name": "Margherita Pizza",
     "country": "Italy",
+     "dish_type": "baked",
+    "dish_category": "veg",
     "ingredients": [
       "Pizza dough",
       "200g tomato sauce",
@@ -3277,9 +3898,13 @@
     ]
   },
   
+
+
   "risottoMilanese": {
     "name": "Risotto alla Milanese",
     "country": "Italy",
+     "dish_type": "steamed",
+    "dish_category": "non-veg",
     "ingredients": [
       "300g arborio rice",
       "1L chicken stock",
@@ -3298,8 +3923,12 @@
     ]
   },
 
+
+
   "lasagnaBolognese": {
     "name": "Lasagna Bolognese",
+     "dish_type": "baked",
+    "dish_category": "non-veg",
     "country": "Italy",
     "ingredients": [
       "Lasagna sheets",
@@ -3323,6 +3952,8 @@
   "gnocchiAllaSorrentina": {
     "name": "Gnocchi alla Sorrentina",
     "country": "Italy",
+     "dish_type": "baked",
+    "dish_category": "veg",
     "ingredients": [
       "500g gnocchi",
       "200g tomato sauce",
@@ -3341,9 +3972,12 @@
     ]
   },
 
+
   "minestroneSoup": {
     "name": "Minestrone Soup",
     "country": "Italy",
+     "dish_type": "steamed",
+    "dish_category": "veg",
     "ingredients": [
       "1 onion",
       "2 carrots",
@@ -3363,10 +3997,13 @@
       "Season the soup to taste with salt and pepper before serving."
     ]
   },
+  
 
   "ossoBuco": {
     "name": "Osso Buco",
     "country": "Italy",
+     "dish_type": "stewed",
+    "dish_category": "non-veg",
     "ingredients": [
       "4 veal shanks",
       "1 onion",
@@ -3389,9 +4026,13 @@
     ]
   },
 
+
+
   "capreseSalad": {
     "name": "Caprese Salad",
     "country": "Italy",
+     "dish_type": "raw",
+    "dish_category": "veg",
     "ingredients": [
       "4 tomatoes",
       "200g mozzarella",
@@ -3412,6 +4053,8 @@
   "spaghettiPuttanesca": {
     "name": "Spaghetti alla Puttanesca",
     "country": "Italy",
+     "dish_type": "boiled",
+    "dish_category": "veg",
     "ingredients": [
       "400g spaghetti",
       "2 garlic cloves",
@@ -3435,6 +4078,8 @@
     "calzone": {
       "name": "Calzone",
       "country": "Italy",
+       "dish_type": "baked",
+    "dish_category": "non-veg",
       "ingredients": [
         "Pizza dough",
         "200g ricotta cheese",
@@ -3457,6 +4102,8 @@
     "polloAllaCacciatora": {
       "name": "Pollo alla Cacciatora",
       "country": "Italy",
+       "dish_type": "stewed",
+    "dish_category": "non-veg",
       "ingredients": [
         "4 chicken thighs",
         "1 onion",
@@ -3480,6 +4127,8 @@
     "gelato": {
       "name": "Gelato",
       "country": "Italy",
+       "dish_type": "frozen",
+    "dish_category": "veg",
       "ingredients": [
         "500ml milk",
         "200ml cream",
@@ -3500,6 +4149,8 @@
     "arancini": {
       "name": "Arancini",
       "country": "Italy",
+         "dish_type": "fried",
+    "dish_category": "non-veg",
       "ingredients": [
         "500g cooked risotto",
         "100g mozzarella",
@@ -3521,6 +4172,8 @@
     "zuppaToscana": {
       "name": "Zuppa Toscana",
       "country": "Italy",
+   "dish_type": "stewed",
+    "dish_category": "non-veg",
       "ingredients": [
         "500g Italian sausage",
         "4 potatoes",
@@ -3542,6 +4195,8 @@
     "saltimbocca": {
       "name": "Saltimbocca",
       "country": "Italy",
+        "dish_type": "fried",
+    "dish_category": "non-veg",
       "ingredients": [
         "4 veal cutlets",
         "4 slices prosciutto",
@@ -3562,6 +4217,8 @@
     "pastaPrimavera": {
       "name": "Pasta Primavera",
       "country": "Italy",
+       "dish_type": "boiled",
+    "dish_category": "veg",
       "ingredients": [
         "400g pasta",
         "1 zucchini",
@@ -3584,6 +4241,8 @@
     "focaccia": {
       "name": "Focaccia",
       "country": "Italy",
+       "dish_type": "baked",
+    "dish_category": "veg",
       "ingredients": [
         "500g flour",
         "300ml water",
@@ -3604,6 +4263,8 @@
     "pastaPesto": {
       "name": "Pasta al Pesto",
       "country": "Italy",
+       "dish_type": "boiled",
+    "dish_category": "veg",
       "ingredients": [
         "400g pasta",
         "100g fresh basil",
@@ -3625,6 +4286,8 @@
       "polenta": {
         "name": "Polenta",
         "country": "Italy",
+         "dish_type": "baked",
+        "dish_category": "veg",
         "ingredients": [
           "400g cornmeal",
           "1L water",
@@ -3644,6 +4307,8 @@
       "stracciatellaSoup": {
         "name": "Stracciatella Soup",
         "country": "Italy",
+         "dish_type": "steamed",
+        "dish_category": "non-veg",
         "ingredients": [
           "1L chicken broth",
           "2 eggs",
@@ -3663,6 +4328,8 @@
       "biscotti": {
         "name": "Biscotti",
         "country": "Italy",
+         "dish_type": "baked",
+        "dish_category": "veg",
         "ingredients": [
           "200g flour",
           "100g sugar",
@@ -3682,6 +4349,8 @@
       "ravioli": {
         "name": "Ravioli",
         "country": "Italy",
+         "dish_type": "boiled",
+        "dish_category": "non-veg",
         "ingredients": [
           "Pasta dough",
           "200g ricotta cheese",
@@ -3703,6 +4372,8 @@
       "spaghettiVongole": {
         "name": "Spaghetti alle Vongole",
         "country": "Italy",
+         "dish_type": "boiled",
+        "dish_category": "non-veg",
         "ingredients": [
           "400g spaghetti",
           "500g clams",
@@ -3724,6 +4395,8 @@
       "pastaEceci": {
         "name": "Pasta e Ceci",
         "country": "Italy",
+          "dish_type": "boiled",
+        "dish_category": "veg",
         "ingredients": [
           "200g pasta",
           "200g chickpeas",
@@ -3746,6 +4419,8 @@
       "ribollita": {
         "name": "Ribollita",
         "country": "Italy",
+           "dish_type": "stewed",
+        "dish_category": "veg",
         "ingredients": [
           "1 onion",
           "2 carrots",
@@ -3769,6 +4444,8 @@
         "burger": {
           "name": "Cheeseburger",
           "country": "USA",
+            "dish_type": "grilled",
+        "dish_category": "non-veg",
           "ingredients": [
             "500g ground beef",
             "4 slices of cheddar cheese",
@@ -3796,6 +4473,8 @@
         "friedChicken": {
           "name": "Fried Chicken",
           "country": "USA",
+           "dish_type": "fried",
+        "dish_category": "non-veg",
           "ingredients": [
             "1 kg chicken pieces",
             "2 cups buttermilk",
@@ -3821,6 +4500,8 @@
         "macaroniAndCheese": {
           "name": "Macaroni and Cheese",
           "country": "USA",
+            "dish_type": "baked",
+        "dish_category": "veg",
           "ingredients": [
             "2 cups elbow macaroni",
             "2 cups milk",
@@ -3843,6 +4524,8 @@
         "hotDog": {
           "name": "Hot Dog",
           "country": "USA",
+            "dish_type": "grilled",
+        "dish_category": "non-veg",
           "ingredients": [
             "4 hot dog sausages",
             "4 hot dog buns",
@@ -3864,6 +4547,8 @@
         "buffaloWings": {
           "name": "Buffalo Wings",
           "country": "USA",
+            "dish_type": "fried",
+        "dish_category": "non-veg",
           "ingredients": [
             "1 kg chicken wings",
             "1/2 cup hot sauce",
@@ -3888,6 +4573,8 @@
           "applePie": {
             "name": "Apple Pie",
             "country": "USA",
+               "dish_type": "baked",
+        "dish_category": "veg",
             "ingredients": [
               "6 apples (peeled and sliced)",
               "1 cup sugar",
@@ -3910,6 +4597,8 @@
           "pancakes": {
             "name": "Pancakes",
             "country": "USA",
+             "dish_type": "fried",
+        "dish_category": "veg",
             "ingredients": [
               "1 cup flour",
               "1 tbsp sugar",
@@ -3934,6 +4623,9 @@
           "meatloaf": {
             "name": "Meatloaf",
             "country": "USA",
+              "dish_type": "baked",
+        "dish_category": "non-veg",
+
             "ingredients": [
               "500g ground beef",
               "1 onion (chopped)",
@@ -3956,6 +4648,8 @@
           "cornbread": {
             "name": "Cornbread",
             "country": "USA",
+               "dish_type": "baked",
+        "dish_category": "veg",
             "ingredients": [
               "1 cup cornmeal",
               "1 cup flour",
@@ -3980,6 +4674,8 @@
           "clamChowder": {
             "name": "Clam Chowder",
             "country": "USA",
+              "dish_type": "stewed",
+        "dish_category": "non-veg",
             "ingredients": [
               "2 cups clams (chopped)",
               "2 cups potatoes (diced)",
@@ -4002,6 +4698,8 @@
           "bbqRibs": {
             "name": "BBQ Ribs",
             "country": "USA",
+             "dish_type": "grilled",
+        "dish_category": "non-veg",
             "ingredients": [
               "1 rack pork ribs",
               "1 cup BBQ sauce",
@@ -4025,6 +4723,8 @@
           "coleslaw": {
             "name": "Coleslaw",
             "country": "USA",
+              "dish_type": "raw",
+        "dish_category": "veg",
             "ingredients": [
               "4 cups cabbage (shredded)",
               "1 carrot (grated)",
@@ -4041,10 +4741,13 @@
               "Before serving, give the coleslaw a quick toss and adjust seasoning if needed."
             ]
           },
-        
+
+
+       / 
           "caesarSalad": {
             "name": "Caesar Salad",
             "country": "USA",
+
             "ingredients": [
               "1 head romaine lettuce",
               "1/4 cup grated Parmesan",
@@ -4066,6 +4769,8 @@
             "sinigangNaBaboy": {
               "name": "Sinigang na Baboy",
               "country": "Philippines",
+                 "dish_type": "stewed",
+        "dish_category": "non-veg",
               "ingredients": [
                 "500g pork belly",
                 "1 liter water",
@@ -4089,6 +4794,8 @@
             "lechonKawali": {
               "name": "Lechon Kawali",
               "country": "Philippines",
+                "dish_type": "fried",
+        "dish_category": "non-veg",
               "ingredients": [
                 "1 kg pork belly",
                 "1 tbsp salt",
@@ -4108,6 +4815,8 @@
             "kareKare": {
               "name": "Kare Kare",
               "country": "Philippines",
+                "dish_type": "stewed",
+        "dish_category": "non-veg",
               "ingredients": [
                 "500g oxtail",
                 "1/4 cup peanut butter",
@@ -4129,6 +4838,8 @@
             "pancitCanton": {
               "name": "Pancit Canton",
               "country": "Philippines",
+               "dish_type": "stir-fried",
+        "dish_category": "non-veg",
               "ingredients": [
                 "250g pancit canton noodles",
                 "200g chicken breast",
@@ -4151,6 +4862,8 @@
             "sisig": {
               "name": "Sisig",
               "country": "Philippines",
+               "dish_type": "fried",
+        "dish_category": "non-veg",
               "ingredients": [
                 "500g pork face",
                 "2 onions",
@@ -4172,6 +4885,8 @@
             "lumpiaShanghai": {
               "name": "Lumpia Shanghai",
               "country": "Philippines",
+                "dish_type": "fried",
+        "dish_category": "non-veg",
               "ingredients": [
                 "500g ground pork",
                 "1 carrot",
@@ -4192,6 +4907,8 @@
             "tapsilog": {
               "name": "Tapsilog",
               "country": "Philippines",
+               "dish_type": "fried",
+        "dish_category": "non-veg",
               "ingredients": [
                 "500g beef tapa",
                 "3 eggs",
@@ -4209,6 +4926,8 @@
             "haloHalo": {
               "name": "Halo Halo",
               "country": "Philippines",
+                 "dish_type": "raw",
+        "dish_category": "veg",
               "ingredients": [
                 "Crushed ice",
                 "Sweetened beans",
@@ -4229,6 +4948,8 @@
             "bibingka": {
               "name": "Bibingka",
               "country": "Philippines",
+               "dish_type": "baked",
+        "dish_category": "veg",
               "ingredients": [
                 "1 cup rice flour",
                 "1 cup coconut milk",
@@ -4250,6 +4971,8 @@
               "bicolExpress": {
                 "name": "Bicol Express",
                 "country": "Philippines",
+                  "dish_type": "stewed",
+        "dish_category": "non-veg",
                 "ingredients": [
                   "500g pork belly",
                   "2 cups coconut milk",
@@ -4270,6 +4993,8 @@
               "ginataangLangka": {
                 "name": "Ginataang Langka",
                 "country": "Philippines",
+                 "dish_type": "stewed",
+        "dish_category": "veg",
                 "ingredients": [
                   "500g young jackfruit",
                   "2 cups coconut milk",
@@ -4289,6 +5014,8 @@
               "beefCaldereta": {
                 "name": "Beef Caldereta",
                 "country": "Philippines",
+                    "dish_type": "stewed",
+        "dish_category": "non-veg",
                 "ingredients": [
                   "500g beef stew meat",
                   "2 potatoes",
@@ -4309,9 +5036,13 @@
                 ]
               },
             
+
+
               "dinuguan": {
                 "name": "Dinuguan",
                 "country": "Philippines",
+                 "dish_type": "stewed",
+        "dish_category": "non-veg",
                 "ingredients": [
                   "500g pork belly",
                   "1 cup pork blood",
@@ -4333,6 +5064,8 @@
               "suman": {
                 "name": "Suman",
                 "country": "Philippines",
+                    "dish_type": "steamed",
+        "dish_category": "veg",
                 "ingredients": [
                   "2 cups glutinous rice",
                   "1 cup coconut milk",
@@ -4350,6 +5083,8 @@
               "pancitPalabok": {
                 "name": "Pancit Palabok",
                 "country": "Philippines",
+                 "dish_type": "stir-fried",
+        "dish_category": "non-veg",
                 "ingredients": [
                   "250g rice noodles",
                   "1/2 cup shrimp broth",
@@ -4370,6 +5105,8 @@
               "tocino": {
                 "name": "Tocino",
                 "country": "Philippines",
+                  "dish_type": "fried",
+        "dish_category": "non-veg",
                 "ingredients": [
                   "500g pork belly",
                   "1/4 cup sugar",
@@ -4388,6 +5125,8 @@
               "champorado": {
                 "name": "Champorado",
                 "country": "Philippines",
+                    "dish_type": "boiled",
+        "dish_category": "veg",
                 "ingredients": [
                   "1 cup glutinous rice",
                   "1/4 cup cocoa powder",
@@ -4406,6 +5145,8 @@
               "pinakbet": {
                 "name": "Pinakbet",
                 "country": "Philippines",
+                  "dish_type": "stir-fried",
+        "dish_category": "veg",
                 "ingredients": [
                   "250g pork belly",
                   "1 eggplant",
@@ -4427,6 +5168,8 @@
               "longganisa": {
                 "name": "Longganisa",
                 "country": "Philippines",
+                 "dish_type": "fried",
+        "dish_category": "non-veg",
                 "ingredients": [
                   "500g ground pork",
                   "1/4 cup sugar",
@@ -4448,6 +5191,8 @@
                 "tamagoSandwich": {
                   "name": "Tamago Sandwich",
                   "country": "Japan",
+                   "dish_type": "raw",
+        "dish_category": "non-veg",
                   "ingredients": [
                     "2 slices bread",
                     "2 eggs",
@@ -4466,6 +5211,8 @@
                 "natto": {
                   "name": "Natto",
                   "country": "Japan",
+                   "dish_type": "raw",
+        "dish_category": "veg",
                   "ingredients": [
                     "1 pack natto",
                     "Soy sauce",
@@ -4482,6 +5229,8 @@
                 "misoSoup": {
                   "name": "Miso Soup",
                   "country": "Japan",
+                   "dish_type": "steamed",
+    "dish_category": "veg",
                   "ingredients": [
                     "2 cups dashi broth",
                     "2 tbsp miso paste",
@@ -4500,6 +5249,8 @@
                 "onigiri": {
                   "name": "Onigiri",
                   "country": "Japan",
+                    "dish_type": "steamed",
+    "dish_category": "veg",
                   "ingredients": [
                     "2 cups cooked rice",
                     "Nori (seaweed)",
@@ -4517,6 +5268,8 @@
                 "grilledSalmon": {
                   "name": "Grilled Salmon",
                   "country": "Japan",
+                    "dish_type": "grilled",
+    "dish_category": "non-veg",
                   "ingredients": [
                     "1 salmon fillet",
                     "Salt",
@@ -4533,6 +5286,8 @@
                 "yakiOnigiri": {
                   "name": "Yaki Onigiri",
                   "country": "Japan",
+                    "dish_type": "grilled",
+    "dish_category": "veg",
                   "ingredients": [
                     "2 cups cooked rice",
                     "Soy sauce",
@@ -4548,6 +5303,8 @@
                 "okayu": {
                   "name": "Okayu",
                   "country": "Japan",
+                   "dish_type": "steamed",
+    "dish_category": "veg",
                   "ingredients": [
                     "1 cup rice",
                     "4 cups water",
@@ -4564,6 +5321,8 @@
                 "katsuSandwich": {
                   "name": "Katsu Sandwich",
                   "country": "Japan",
+                   "dish_type": "fried",
+    "dish_category": "non-veg",
                   "ingredients": [
                     "2 slices bread",
                     "Pork cutlet (katsu)",
@@ -4579,6 +5338,8 @@
               
                 "fruitSandwich": {
                   "name": "Fruit Sandwich",
+                    "dish_type": "fresh",
+    "dish_category": "veg",
                   "country": "Japan",
                   "ingredients": [
                     "2 slices bread",
@@ -4595,6 +5356,8 @@
   "tonkatsu": {
     "name": "Tonkatsu",
     "country": "Japan",
+     "dish_type": "fried",
+    "dish_category": "non-veg",
     "ingredients": [
       "2 pork cutlets",
       "Salt and pepper",
@@ -4615,6 +5378,8 @@
   "katsuCurry": {
     "name": "Katsu Curry",
     "country": "Japan",
+     "dish_type": "fried",
+    "dish_category": "non-veg",
     "ingredients": [
       "2 pork cutlets",
       "Salt and pepper",
@@ -4642,6 +5407,8 @@
   "chawanmushi": {
     "name": "Chawanmushi",
     "country": "Japan",
+     "dish_type": "steamed",
+    "dish_category": "non-veg",
     "ingredients": [
       "2 eggs",
       "1 cup dashi stock",
@@ -4664,6 +5431,8 @@
   "yakiniku": {
     "name": "Yakiniku",
     "country": "Japan",
+      "dish_type": "grilled",
+    "dish_category": "non-veg",
     "ingredients": [
       "300g beef (thinly sliced)",
       "Soy sauce",
@@ -4685,6 +5454,8 @@
   "nabe": {
     "name": "Nabe",
     "country": "Japan",
+     "dish_type": "stewed",
+    "dish_category": "non-veg",
     "ingredients": [
       "200g chicken thighs",
       "1/2 napa cabbage",
@@ -4702,9 +5473,13 @@
       "Serve hot, garnished with chopped green onions."
     ]
   },
+
+
   "mochi": {
     "name": "Mochi",
     "country": "Japan",
+      "dish_type": "baked",
+    "dish_category": "veg",
     "ingredients": [
       "1 cup glutinous rice",
       "Water",
@@ -4724,6 +5499,8 @@
   "dorayaki": {
     "name": "Dorayaki",
     "country": "Japan",
+      "dish_type": "baked",
+    "dish_category": "veg",
     "ingredients": [
       "2 eggs",
       "1/2 cup sugar",
@@ -4743,6 +5520,8 @@
   "dango": {
     "name": "Dango",
     "country": "Japan",
+      "dish_type": "steamed",
+    "dish_category": "veg",
     "ingredients": [
       "1 cup glutinous rice flour",
       "1/3 cup water",
@@ -4761,6 +5540,8 @@
   "taiyaki": {
     "name": "Taiyaki",
     "country": "Japan",
+     "dish_type": "baked",
+    "dish_category": "veg",
     "ingredients": [
       "1 cup flour",
       "1/2 cup sugar",
@@ -4781,6 +5562,8 @@
   "matchaIceCream": {
     "name": "Matcha Ice Cream",
     "country": "Japan",
+     "dish_type": "frozen",
+    "dish_category": "veg",
     "ingredients": [
       "1 cup heavy cream",
       "1/2 cup milk",
@@ -4800,6 +5583,8 @@
   "anmitsu": {
     "name": "Anmitsu",
     "country": "Japan",
+     "dish_type": "fresh",
+    "dish_category": "veg",
     "ingredients": [
       "1 cup agar-agar (gelatin)",
       "1/2 cup sweet red bean paste",
@@ -4818,6 +5603,8 @@
   "kakigori": {
     "name": "Kakigori",
     "country": "Japan",
+     "dish_type": "fresh",
+    "dish_category": "veg",
     "ingredients": [
       "Ice (shaved or crushed)",
       "Flavored syrup (like strawberry, green tea, or lemon)",
@@ -4833,6 +5620,8 @@
   "shiratama": {
     "name": "Shiratama",
     "country": "Japan",
+     "dish_type": "steamed",
+    "dish_category": "veg",
     "ingredients": [
       "1 cup glutinous rice flour",
       "1/3 cup water",
@@ -4850,6 +5639,8 @@
   "zoni": {
     "name": "Zoni",
     "country": "Japan",
+      "dish_type": "steamed",
+    "dish_category": "non-veg",
     "ingredients": [
       "4 cups dashi broth",
       "2 rice cakes (mochi)",
@@ -4869,6 +5660,8 @@
     "okonomiyaki": {
       "name": "Okonomiyaki",
       "country": "Japan",
+        "dish_type": "fried",
+    "dish_category": "non-veg",
       "ingredients": [
         "2 cups all-purpose flour",
         "1 1/2 cups dashi broth",
@@ -4896,6 +5689,8 @@
     "shabuShabu": {
       "name": "Shabu Shabu",
       "country": "Japan",
+        "dish_type": "steamed",
+    "dish_category": "non-veg",
       "ingredients": [
         "500g thinly sliced beef",
         "1 liter dashi broth",
@@ -4918,6 +5713,8 @@
     "nikujaga": {
       "name": "Nikujaga",
       "country": "Japan",
+       "dish_type": "stewed",
+    "dish_category": "non-veg",
       "ingredients": [
         "300g beef (sliced)",
         "3 potatoes (peeled and cut into chunks)",
@@ -4942,6 +5739,8 @@
     "yakiTori": {
       "name": "Yaki Tori",
       "country": "Japan",
+       "dish_type": "grilled",
+    "dish_category": "non-veg",
       "ingredients": [
         "500g chicken thighs (cut into bite-sized pieces)",
         "2 green onions (cut into 1-inch pieces)",
@@ -4962,6 +5761,8 @@
     "chirashiSushi": {
       "name": "Chirashi Sushi",
       "country": "Japan",
+       "dish_type": "raw",
+    "dish_category": "non-veg",
       "ingredients": [
         "2 cups sushi rice",
         "2 1/2 cups water",
@@ -4984,6 +5785,8 @@
     "sabaShioyaki": {
       "name": "Saba Shioyaki",
       "country": "Japan",
+        "dish_type": "grilled",
+    "dish_category": "non-veg",
       "ingredients": [
         "2 saba (mackerel) fillets",
         "Salt",
@@ -5001,6 +5804,8 @@
     "gomokuGohan": {
       "name": "Gomoku Gohan",
       "country": "Japan",
+        "dish_type": "steamed",
+    "dish_category": "non-veg",
       "ingredients": [
         "2 cups rice",
         "2 1/2 cups water",
@@ -5023,6 +5828,8 @@
     "misoKatsu": {
       "name": "Miso Katsu",
       "country": "Japan",
+        "dish_type": "fried",
+    "dish_category": "non-veg",
       "ingredients": [
         "4 pork cutlets",
         "Salt and pepper",
@@ -5047,6 +5854,8 @@
       "gazpacho": {
         "name": "Gazpacho",
         "country": "Spain",
+          "dish_type": "raw",
+    "dish_category": "veg",
         "ingredients": [
           "6 ripe tomatoes",
           "1 cucumber",
@@ -5072,6 +5881,8 @@
       "tortillaEspañola": {
         "name": "Tortilla Española",
         "country": "Spain",
+         "dish_type": "fried",
+    "dish_category": "veg",
         "ingredients": [
           "4 eggs",
           "2 large potatoes",
@@ -5093,6 +5904,8 @@
       "paella": {
         "name": "Paella",
         "country": "Spain",
+          "dish_type": "stir-fried",
+    "dish_category": "non-veg",
         "ingredients": [
           "2 cups rice",
           "4 cups chicken broth",
@@ -5117,6 +5930,8 @@
       "flan": {
         "name": "Flan",
         "country": "Spain",
+         "dish_type": "baked",
+    "dish_category": "veg",
         "ingredients": [
           "1 cup sugar",
           "4 eggs",
@@ -5135,6 +5950,8 @@
       "empanadas": {
         "name": "Empanadas",
         "country": "Spain",
+         "dish_type": "fried",
+    "dish_category": "non-veg",
         "ingredients": [
           "2 cups flour",
           "1/2 cup butter",
@@ -5156,6 +5973,8 @@
       "salmorejo": {
         "name": "Salmorejo",
         "country": "Spain",
+        "dish_type": "raw",
+    "dish_category": "veg",
         "ingredients": [
           "6 ripe tomatoes",
           "1/4 cup olive oil",
@@ -5175,6 +5994,8 @@
       "pimientosRellenos": {
         "name": "Pimientos Rellenos",
         "country": "Spain",
+          "dish_type": "baked",
+    "dish_category": "veg",
         "ingredients": [
           "4 bell peppers",
           "1 cup rice",
@@ -5196,6 +6017,8 @@
       "pulpoGallego": {
         "name": "Pulpo a la Gallega",
         "country": "Spain",
+          "dish_type": "boiled",
+    "dish_category": "non-veg",
         "ingredients": [
           "1 kg octopus",
           "4 medium potatoes",
@@ -5217,6 +6040,8 @@
       "bacalao": {
         "name": "Bacalao al Pil-Pil",
         "country": "Spain",
+           "dish_type": "fried",
+    "dish_category": "non-veg",
         "ingredients": [
           "500g salted cod",
           "4 cloves garlic",
@@ -5236,6 +6061,8 @@
       "salmonConPimientos": {
         "name": "Salmon con Pimientos",
         "country": "Spain",
+         "dish_type": "baked",
+    "dish_category": "non-veg",
         "ingredients": [
           "4 salmon fillets",
           "2 bell peppers",
@@ -5256,6 +6083,8 @@
         "pisto": {
           "name": "Pisto",
           "country": "Spain",
+            "dish_type": "stir-fried",
+    "dish_category": "veg",
           "ingredients": [
             "2 zucchini (chopped)",
             "1 bell pepper (chopped)",
@@ -5279,6 +6108,8 @@
         "bacalaoVizcaina": {
           "name": "Bacalao a la Vizcaína",
           "country": "Spain",
+            "dish_type": "stewed",
+    "dish_category": "non-veg",
           "ingredients": [
             "500g salted cod (soaked and deboned)",
             "2 onions (chopped)",
@@ -5302,6 +6133,8 @@
         "pimientosDePadron": {
           "name": "Pimientos de Padrón",
           "country": "Spain",
+           "dish_type": "fried",
+    "dish_category": "veg",
           "ingredients": [
             "250g Padrón peppers",
             "3 tbsp olive oil",
@@ -5318,6 +6151,8 @@
         "cocido": {
           "name": "Cocido",
           "country": "Spain",
+           "dish_type": "stewed",
+    "dish_category": "non-veg",
           "ingredients": [
             "300g chickpeas (soaked overnight)",
             "500g beef (cut into pieces)",
@@ -5341,6 +6176,8 @@
         "tartaDeSantiago": {
           "name": "Tarta de Santiago",
           "country": "Spain",
+           "dish_type": "baked",
+    "dish_category": "veg",
           "ingredients": [
             "200g almond flour",
             "150g sugar",
@@ -5361,6 +6198,8 @@
         "chistorra": {
           "name": "Chistorra",
           "country": "Spain",
+           "dish_type": "fried",
+    "dish_category": "non-veg",
           "ingredients": [
             "500g ground pork",
             "100g bacon (finely chopped)",
@@ -5384,6 +6223,8 @@
           "meze": {
             "name": "Meze",
             "country": "Turkey",
+            "dish_type": "varied",
+    "dish_category": "non-veg",
             "ingredients": [
               "Hummus, baba ghanoush, stuffed grape leaves, and various dips",
               "Pita bread",
@@ -5400,6 +6241,8 @@
           "dolma": {
             "name": "Dolma",
             "country": "Turkey",
+  "dish_type": "steamed",
+    "dish_category": "veg",
             "ingredients": [
               "500g grape leaves",
               "300g rice",
@@ -5422,6 +6265,8 @@
           "pide": {
             "name": "Pide",
             "country": "Turkey",
+             "dish_type": "baked",
+    "dish_category": "non-veg",
             "ingredients": [
               "500g flour",
               "300ml water",
@@ -5440,6 +6285,8 @@
           "baklava": {
             "name": "Baklava",
             "country": "Turkey",
+             "dish_type": "baked",
+    "dish_category": "veg",
             "ingredients": [
               "500g phyllo pastry",
               "300g nuts (walnuts or pistachios)",
@@ -5459,6 +6306,8 @@
           "kumpir": {
             "name": "Kumpir",
             "country": "Turkey",
+            "dish_type": "baked",
+    "dish_category": "veg",
             "ingredients": [
               "4 large potatoes",
               "Butter",
@@ -5475,6 +6324,8 @@
           "simit": {
             "name": "Simit",
             "country": "Turkey",
+             "dish_type": "baked",
+    "dish_category": "veg",
             "ingredients": [
               "500g flour",
               "1 tsp yeast",
@@ -5493,6 +6344,8 @@
           "lahmacun": {
             "name": "Lahmacun",
             "country": "Turkey",
+               "dish_type": "baked",
+    "dish_category": "non-veg",
             "ingredients": [
               "500g flour",
               "200ml water",
@@ -5513,6 +6366,8 @@
           "mercimekCorbasi": {
             "name": "Mercimek Çorbası",
             "country": "Turkey",
+              "dish_type": "stewed",
+    "dish_category": "veg",
             "ingredients": [
               "1 cup red lentils",
               "1 onion (chopped)",
@@ -5536,6 +6391,8 @@
           "imamBayildi": {
             "name": "İmam Bayıldı",
             "country": "Turkey",
+              "dish_type": "stewed",
+    "dish_category": "veg",
             "ingredients": [
               "4 eggplants",
               "1 onion (chopped)",
@@ -5555,6 +6412,8 @@
           "kuzu tandir": {
             "name": "Kuzu Tandır",
             "country": "Turkey",
+             "dish_type": "roasted",
+    "dish_category": "non-veg",
             "ingredients": [
               "1 kg lamb shoulder",
               "1 onion (quartered)",
@@ -5573,6 +6432,8 @@
           "yufka": {
             "name": "Yufka",
             "country": "Turkey",
+             "dish_type": "baked",
+    "dish_category": "veg",
             "ingredients": [
               "500g flour",
               "200ml water",
@@ -5589,6 +6450,8 @@
           "sahandaEgg": {
             "name": "Sahanda Egg",
             "country": "Turkey",
+             "dish_type": "fried",
+    "dish_category": "non-veg",
             "ingredients": [
               "4 eggs",
               "1 onion (chopped)",
@@ -5608,6 +6471,8 @@
             "cilbir": {
               "name": "Çılbır (Poached Eggs with Yogurt)",
               "country": "Turkey",
+                "dish_type": "poached",
+    "dish_category": "non-veg",
               "ingredients": [
                 "4 eggs",
                 "1 cup plain yogurt",
@@ -5630,6 +6495,8 @@
             "kisir": {
               "name": "Kısır (Bulgur Salad)",
               "country": "Turkey",
+               "dish_type": "raw",
+    "dish_category": "veg",
               "ingredients": [
                 "1 cup fine bulgur",
                 "1 cup hot water",
@@ -5655,6 +6522,8 @@
             "borek": {
               "name": "Börek (Savory Pastry)",
               "country": "Turkey",
+                  "dish_type": "baked",
+    "dish_category": "non-veg",
               "ingredients": [
                 "1 package phyllo dough",
                 "300g feta cheese (crumbled)",
@@ -5678,6 +6547,8 @@
             "manti": {
               "name": "Mantı (Turkish Dumplings)",
               "country": "Turkey",
+                "dish_type": "steamed",
+    "dish_category": "non-veg",
               "ingredients": [
                 "2 cups flour",
                 "1 egg",
@@ -5702,6 +6573,8 @@
             "dondurma": {
               "name": "Dondurma (Turkish Ice Cream)",
               "country": "Turkey",
+               "dish_type": "frozen",
+    "dish_category": "veg",
               "ingredients": [
                 "4 cups whole milk",
                 "1 cup sugar",
@@ -5724,6 +6597,8 @@
               "asado": {
                 "name": "Asado",
                 "country": "Argentina",
+                 "dish_type": "grilled",
+    "dish_category": "non-veg",
                 "ingredients": [
                   "Various cuts of beef (ribs, flank steak, sirloin, etc.)",
                   "Coarse salt",
@@ -5744,6 +6619,8 @@
               "chimichurri": {
                 "name": "Chimichurri",
                 "country": "Argentina",
+                 "dish_type": "raw",
+    "dish_category": "veg",
                 "ingredients": [
                   "1 cup fresh parsley (finely chopped)",
                   "4 cloves garlic (minced)",
@@ -5761,9 +6638,13 @@
                   "Serve over grilled meats or as a dipping sauce."
                 ]
               },
+
+
               "milanesa": {
                 "name": "Milanesa",
                 "country": "Argentina",
+                 "dish_type": "fried",
+    "dish_category": "non-veg",
                 "ingredients": [
                   "4 thin beef or chicken cutlets",
                   "2 eggs",
@@ -5783,9 +6664,13 @@
                   "Drain on paper towels and serve hot with lemon wedges."
                 ]
               },
+
+
               "provoleta": {
                 "name": "Provoleta",
                 "country": "Argentina",
+                 "dish_type": "grilled",
+    "dish_category": "veg",
                 "ingredients": [
                   "1 round of provolone cheese (about 1 inch thick)",
                   "1 tablespoon olive oil",
@@ -5801,9 +6686,14 @@
                   "Serve immediately, either plain or topped with chimichurri sauce."
                 ]
               },
+
+
+
               "matambre_a_la_pizza": {
                 "name": "Matambre a la Pizza",
                 "country": "Argentina",
+                 "dish_type": "grilled",
+    "dish_category": "non-veg",
                 "ingredients": [
                   "1 beef flank steak (matambre)",
                   "1 cup tomato sauce",
@@ -5822,9 +6712,13 @@
                   "Slice the matambre like a pizza and serve hot."
                 ]
               },
+
+
               "carbonada": {
                 "name": "Carbonada",
                 "country": "Argentina",
+                 "dish_type": "stewed",
+    "dish_category": "non-veg",
                 "ingredients": [
                   "500g beef (cubed)",
                   "1 large potato (diced)",
@@ -5846,9 +6740,13 @@
                   "Adjust seasoning with salt and pepper, and serve the carbonada hot."
                 ]
               },
+
+
               "humita": {
                 "name": "Humita",
                 "country": "Argentina",
+                  "dish_type": "steamed",
+    "dish_category": "veg",
                 "ingredients": [
                   "6 ears of corn (grated or processed into a coarse mixture)",
                   "1 large onion (chopped)",
@@ -5866,9 +6764,13 @@
                   "Optionally sprinkle with paprika before serving. You can also wrap the mixture in corn husks and steam for a traditional presentation."
                 ]
               },
+
+
               "locro": {
                 "name": "Locro",
                 "country": "Argentina",
+                  "dish_type": "stewed",
+    "dish_category": "non-veg",
                 "ingredients": [
                   "500g cubed beef",
                   "100g chorizo sausage (sliced)",
@@ -5891,7 +6793,7 @@
                 ]
               },
 
-
+/
       "alfajores": {
               "name": "Alfajores",
               "country": "Argentina",
