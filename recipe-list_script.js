@@ -124,6 +124,8 @@ document.addEventListener('DOMContentLoaded', function () {
         searchButton.style.display = 'none';
         dishTypeDropdown.style.display = 'block'; // Show dropdown
         vegTypeDropdown.style.display = 'block'; // Show dropdown
+        dishInfoIcon.style.display = 'block'; // Show dish info icon
+        vegInfoIcon.style.display = 'block'; // Show veg info icon
     });
 
     // Show all recipes and hide search input
@@ -133,6 +135,8 @@ document.addEventListener('DOMContentLoaded', function () {
         searchButton.style.display = 'inline-block'; // Show search button
         dishTypeDropdown.style.display = 'none'; // Hide dropdown when showing all recipes
         vegTypeDropdown.style.display = 'none'; // Hide veg dropdown
+        dishInfoIcon.style.display = 'none'; // Hide dish info icon
+        vegInfoIcon.style.display = 'none'; // Hide veg info icon
         fetchAllRecipes(); // Fetch and display all recipes again
     });
 
