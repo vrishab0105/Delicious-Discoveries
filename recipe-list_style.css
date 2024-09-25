@@ -212,8 +212,8 @@ select#veg-type-dropdown:focus {
 
 /* Info icon styles */
 .info-icon {
-  display: none;
-  margin-left: 8px;
+  display: none;        /* Make it visible */
+  margin-left: 8px;      /* Adjust margin to position it */
   font-size: 14px;
   color: #888;
   cursor: pointer;
@@ -226,6 +226,13 @@ select#veg-type-dropdown:focus {
   background-color: white;
   transition: background-color 0.3s, color 0.3s;
 }
+
+/* Adjust dropdown container */
+.dropdown-container {
+  display: flex;          /* Align items in a row */
+  align-items: center;    /* Center items vertically */
+}
+
 
 .info-icon:hover {
   background-color: #e67300;
