@@ -170,7 +170,8 @@ ul.recipe-list li:hover {
 /* Style for both dropdowns */
 select#dish-type-dropdown,
 select#veg-type-dropdown {
-  margin-top: 10px;
+  position: relative; /* Position relative for absolute info box */
+  margin-top: 20px;
   padding: 10px;
   background-color: #fff3e0; /* Light cream color matching the theme */
   color: #5c6b49; /* Dark green text for readability */
