@@ -1,8 +1,8 @@
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.13.1/firebase-app.js";
 import { getDatabase, ref, get } from "https://www.gstatic.com/firebasejs/10.13.1/firebase-database.js";
 
- // Your web app's Firebase configuration
- const firebaseConfig = {
+// Your web app's Firebase configuration
+const firebaseConfig = {
    apiKey: "AIzaSyASQtEDg7g5koc-H-d6W1kGcW0k-vE-TSY",
    authDomain: "deliciousdiscoveries04.firebaseapp.com",
    projectId: "deliciousdiscoveries04",
@@ -11,7 +11,7 @@ import { getDatabase, ref, get } from "https://www.gstatic.com/firebasejs/10.13.
    appId: "1:699923003257:web:e2800b973a35db246ee1a8",
    measurementId: "G-BDWV430X2H",
    databaseURL: "https://deliciousdiscoveries04.firebaseio.com" // Add correct database URL
- };
+};
 
 initializeApp(firebaseConfig);
 
@@ -38,7 +38,9 @@ async function loadRecipeDetail(recipeId) {
             const recipe = snapshot.val();
             recipeContent.innerHTML = `
                 <h2>${recipe.name}</h2>
-                <p><strong>Country:</strong> ${recipe.country}</p> <!-- Added country display -->
+                <p><strong>Country:</strong> ${recipe.country}</p>
+                <p><strong>Dish Type:</strong> ${recipe.dish_type}</p>
+                <p><strong>Dish Category:</strong> ${recipe.dish_category}</p>
                 <p><strong>Ingredients:</strong></p>
                 <ul>${recipe.ingredients.map(ingredient => `<li>${ingredient}</li>`).join('')}</ul>
                 <p><strong>Steps:</strong></p>

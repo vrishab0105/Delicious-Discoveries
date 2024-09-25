@@ -5,22 +5,17 @@
     box-sizing: border-box;
 }
 
-
-
-
 /* Navbar Styles */
 
 header {
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%; /* Ensure the header spans the full width */
-    z-index: 1000; /* Ensures the header stays above other content */
-  }
-  
-  
-  
-  .navbar {
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar {
     position: fixed;
     top: 0;
     width: 100%;
@@ -33,56 +28,52 @@ header {
     color: white;
     z-index: 1000;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  /* Position the name on the left */
-  #name {
+}
+
+/* Position the name on the left */
+#name {
     font-size: 18px;
     font-weight: bold;
     display: flex;
-    align-items: center; /* Align image and text vertically */
-  }
-  
-  #navbar-logo {
-    width: 30px; /* Adjust the size of the image */
+    align-items: center;
+}
+
+#navbar-logo {
+    width: 30px;
     height: 30px;
-    margin-right: 10px; /* Adds space between the image and the text */
-    border-radius: 50%; /* Optional: Make the image circular */
-  }
-  
-  /* Center the navigation links */
-  .nav-center {
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+/* Center the navigation links */
+.nav-center {
     display: flex;
     justify-content: space-evenly;
     flex: 1;
-  }
-  
-  
-  
-  /* Style the links in the center and right sections */
-  .nav-center a {
+}
+
+.nav-center a {
     color: white;
     text-decoration: none;
     font-size: 16px;
     padding: 8px 12px;
     margin: 0 10px;
     transition: background-color 0.3s ease;
-  }
-  
-  .nav-center a:hover {
+}
+
+.nav-center a:hover {
     background-color: #555;
     border-radius: 4px;
-  }
-  
-  /* Add space for the navbar */
-  body {
-    padding-top: 60px;
-  }
+}
 
+/* Add space for the navbar */
+body {
+    padding-top: 60px;
+}
 
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #fff9e3; /* Warm background to match website theme */
+    background-color: #fff9e3;
     color: #333;
     line-height: 1.6;
     padding: 10px;
@@ -92,25 +83,25 @@ body {
 .container {
     max-width: 900px;
     margin: 20px auto;
-    background: #fff; /* Lighter background for content */
+    background: #fff;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-    background: linear-gradient(to bottom, #ffffff, #fff0d9); /* Slight gradient for a warm feel */
-    margin-left: 50px; /* Shift the whole container slightly to the right */
+    background: linear-gradient(to bottom, #ffffff, #fff0d9);
+    margin-left: 50px;
 }
 
 h1 {
     font-size: 2.5rem;
-    color: #5c6b49; /* Dark green for titles */
+    color: #5c6b49;
     margin-bottom: 15px;
 }
 
 h2 {
     font-size: 2rem;
-    color: #e67300; /* Orange for section headers */
+    color: #e67300;
     margin-bottom: 15px;
-    border-bottom: 2px solid #e67300; /* Border matching the header color */
+    border-bottom: 2px solid #e67300;
     padding-bottom: 5px;
 }
 
@@ -137,19 +128,19 @@ h2 {
 }
 
 .ingredients {
-    background-color: #f7e1bf; /* Soft orange background for ingredients */
+    background-color: #f7e1bf;
     padding: 15px;
     border-radius: 8px;
 }
 
 .steps {
-    background-color: #f7e1bf; /* Same background for steps */
+    background-color: #f7e1bf;
     padding: 15px;
     border-radius: 8px;
 }
 
 .ingredients ul {
-    list-style-type: disc;  /* Bullet points for ingredients */
+    list-style-type: disc;
     margin-left: 20px;
 }
 
@@ -159,7 +150,7 @@ h2 {
 }
 
 .steps ol {
-    list-style-type: decimal;  /* Numbered points for steps */
+    list-style-type: decimal;
     margin-left: 20px;
 }
 
@@ -169,7 +160,7 @@ h2 {
 }
 
 a {
-    color: #e67300; /* Link color matching website’s highlight color */
+    color: #e67300;
     text-decoration: none;
 }
 
@@ -182,7 +173,7 @@ a:hover {
     padding: 10px 15px;
     font-size: 1rem;
     color: #fff;
-    background-color: #5c6b49; /* Dark green for buttons */
+    background-color: #5c6b49;
     border: none;
     border-radius: 8px;
     text-align: center;
@@ -191,7 +182,7 @@ a:hover {
 }
 
 .button:hover {
-    background-color: #4a5538; /* Darker green on hover */
+    background-color: #4a5538;
     transform: scale(1.05);
 }
 
@@ -215,9 +206,9 @@ a:hover {
     margin-top: 70px;
 }
 
-/* Additional styling for the country display */
+/* Additional styling for the country, dish type, and category display */
 #recipe-detail p strong {
-    color: #e67300; /* Match the color of other headings */
+    color: #e67300;
 }
 
 #recipe-detail p {
