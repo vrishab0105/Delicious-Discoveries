@@ -210,3 +210,73 @@ select#veg-type-dropdown:focus {
     background-position: right 10px center;
   }
 }
+
+
+
+/* Info icon styles */
+.info-icon {
+  display: inline-block;
+  margin-left: 8px;
+  font-size: 14px;
+  color: #888;
+  cursor: pointer;
+  border: 1px solid #888;
+  border-radius: 50%;
+  width: 18px;
+  height: 18px;
+  text-align: center;
+  line-height: 18px;
+  background-color: white;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.info-icon:hover {
+  background-color: #e67300;
+  color: white;
+  border-color: #e67300;
+}
+
+/* Info box styles */
+.info-box {
+  display: none;
+  position: absolute;
+  background-color: #fff9e3;
+  color: #333;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 200px;
+  margin-top: 5px;
+  font-size: 14px;
+  z-index: 1000;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Positioning of the dropdown and icon container */
+.dropdown-container {
+  position: relative;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+/* Dropdown styling */
+#dish-type-dropdown, #veg-type-dropdown {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff9e3;
+  width: 220px;
+  font-size: 16px;
+  color: #333;
+  transition: border-color 0.3s, background-color 0.3s;
+}
+
+#dish-type-dropdown:hover, #veg-type-dropdown:hover {
+  border-color: #e67300;
+  background-color: #ffe8cc;
+}
+
+#dish-type-dropdown:focus, #veg-type-dropdown:focus {
+  outline: none;
+  border-color: #d46400;
+}

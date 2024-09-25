@@ -111,14 +111,17 @@ document.addEventListener('DOMContentLoaded', function () {
     const dishTypeDropdown = document.getElementById('dish-type-dropdown');
     const vegTypeDropdown = document.getElementById('veg-type-dropdown');
 
-    // Hide the dropdown by default
-    dishTypeDropdown.style.display = 'none';
+    // Info icons
+    const dishInfoIcon = document.getElementById('dish-info');
+    const dishInfoBox = document.getElementById('dish-info-box');
+    const vegInfoIcon = document.getElementById('veg-info');
+    const vegInfoBox = document.getElementById('veg-info-box');
 
     // Show search input and dish type dropdown when clicking the search button
     searchButton.addEventListener('click', () => {
         searchInputContainer.style.display = 'flex';
         showAllButton.style.display = 'inline-block';
-        searchButton.style.display = 'none'; // Hide search button
+        searchButton.style.display = 'none';
         dishTypeDropdown.style.display = 'block'; // Show dropdown
         vegTypeDropdown.style.display = 'block'; // Show dropdown
     });
@@ -129,7 +132,7 @@ document.addEventListener('DOMContentLoaded', function () {
         showAllButton.style.display = 'none';
         searchButton.style.display = 'inline-block'; // Show search button
         dishTypeDropdown.style.display = 'none'; // Hide dropdown when showing all recipes
-        vegTypeDropdown.style.display = 'none'; // Hide dropdown when showing all recipes
+        vegTypeDropdown.style.display = 'none'; // Hide veg dropdown
         fetchAllRecipes(); // Fetch and display all recipes again
     });
 
@@ -238,5 +241,21 @@ document.addEventListener('DOMContentLoaded', function () {
             // Show filtered recipes or a message if none found
             displayRecipes(filteredRecipes.length > 0 ? filteredRecipes : [{ name: 'No recipes found.' }]);
         });
+    });
+
+    // Hover effect for dish info icon
+    dishInfoIcon.addEventListener('mouseover', () => {
+        dishInfoBox.style.display = 'block';
+    });
+    dishInfoIcon.addEventListener('mouseout', () => {
+        dishInfoBox.style.display = 'none';
+    });
+
+    // Hover effect for veg info icon
+    vegInfoIcon.addEventListener('mouseover', () => {
+        vegInfoBox.style.display = 'block';
+    });
+    vegInfoIcon.addEventListener('mouseout', () => {
+        vegInfoBox.style.display = 'none';
     });
 });
