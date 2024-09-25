@@ -168,20 +168,45 @@ ul.recipe-list li:hover {
   margin-top: 300px;
 }
 
-#dish-type-dropdown {
-  margin-top: 10px; /* Space above the dropdown */
-  padding: 5px; /* Add some padding for aesthetics */
-  border: 1px solid #ccc; /* Add border */
-  border-radius: 4px; /* Rounded corners */
-  width: 200px; /* Set a width */
-  display: none; /* Initially hidden */
+/* Style for both dropdowns */
+select#dish-type-dropdown,
+select#veg-type-dropdown {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #fff3e0; /* Light cream color matching the theme */
+  color: #5c6b49; /* Dark green text for readability */
+  border: 2px solid #d46400; /* Orange border matching the theme */
+  border-radius: 8px; /* Rounded corners for a modern look */
+  width: 220px; /* Slightly wider for better usability */
+  font-size: 16px; /* Make text easier to read */
+  appearance: none; /* Remove default dropdown styling for customization */
+  background-image: url('data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjNWM2YjQ5IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNCAxNCI+PHBhdGggZD0iTTAgMkw3IDdsNy01eiIvPjwvc3ZnPg=='); /* Custom down arrow */
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  background-size: 12px;
+  cursor: pointer;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  display: none; /* Hidden by default */
 }
 
-#veg-type-dropdown {
-  margin-top: 10px; /* Space above the dropdown */
-  padding: 5px; /* Add some padding for aesthetics */
-  border: 1px solid #ccc; /* Add border */
-  border-radius: 4px; /* Rounded corners */
-  width: 200px; /* Set a width */
-  display: none; /* Initially hidden */
+select#dish-type-dropdown:hover,
+select#veg-type-dropdown:hover {
+  border-color: #e67300; /* Darker orange on hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Slight shadow on hover */
+}
+
+select#dish-type-dropdown:focus,
+select#veg-type-dropdown:focus {
+  border-color: #d46400; /* Focus state for better accessibility */
+  box-shadow: 0 0 5px rgba(214, 100, 0, 0.5); /* Focus outline effect */
+  outline: none; /* Remove default focus outline */
+}
+
+/* Adjust dropdown arrow position on smaller screens */
+@media (max-width: 768px) {
+  select#dish-type-dropdown,
+  select#veg-type-dropdown {
+    width: 100%; /* Full width on smaller devices */
+    background-position: right 10px center;
+  }
 }
