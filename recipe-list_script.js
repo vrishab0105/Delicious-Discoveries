@@ -1,6 +1,6 @@
 // Import Firebase functions you need
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.13.2/firebase-app.js";
-import { getDatabase, ref, onValue } from "https://www.gstatic.com/firebasejs/10.13.2/firebase-database.js";
+import { getDatabase, ref, onValue, query, orderByChild, equalTo } from "https://www.gstatic.com/firebasejs/10.13.2/firebase-database.js";
 import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.13.2/firebase-analytics.js";
 
 // Your web app's Firebase configuration
@@ -25,6 +25,9 @@ function displayRecipes(recipes) {
     const recipeList = document.getElementById('recipe-list');
     recipeList.innerHTML = '';
 
+    // Sort recipes alphabetically by name
+    recipes.sort((a, b) => a.name.localeCompare(b.name));
+
     recipes.forEach(recipe => {
         const recipeItem = document.createElement('li');
         recipeItem.textContent = recipe.name;
@@ -39,33 +42,30 @@ function displayRecipes(recipes) {
     recipeList.style.display = recipes.length > 0 ? 'block' : 'none';
 }
 
-// Initialize an array to store unique dish types
-const uniqueDishTypes = new Set();
-
-// Function to fetch all recipes and dish types
+// Function to fetch all recipes (fetch only necessary fields)
 function fetchAllRecipes() {
     const recipeRef = ref(database, 'recipes');
+    
+    // Use onValue to fetch the data
     onValue(recipeRef, (snapshot) => {
         const recipes = snapshot.val();
-        const recipeArray = Object.keys(recipes).map(key => ({
-            key: key,
-            name: recipes[key].name,
-            country: recipes[key].country,
-            dish_type: recipes[key].dish_type // Include dish_type here
-        }));
+        const recipeArray = [];
 
-        // Collect unique dish types
-        recipeArray.forEach(recipe => {
-            uniqueDishTypes.add(recipe.dish_type);
-        });
+        // Only extract 'name' and 'dish_type'
+        for (const key in recipes) {
+            const recipe = {
+                key: key,
+                name: recipes[key].name,       // Fetch name
+                dish_type: recipes[key].dish_type // Fetch dish type
+            };
+            recipeArray.push(recipe);
+        }
 
-        // Populate the dropdown menu
+        // Populate the dish type dropdown with unique dish types
+        const uniqueDishTypes = new Set(recipeArray.map(recipe => recipe.dish_type));
         populateDishTypeDropdown(uniqueDishTypes);
 
-        // Sort the recipe array alphabetically by name
-        recipeArray.sort((a, b) => a.name.localeCompare(b.name));
-
-        // Display all recipes
+        // Display the fetched recipes (will be sorted in displayRecipes)
         displayRecipes(recipeArray);
     });
 }
@@ -114,76 +114,69 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
     // Search feature with Firebase handling the filter
-searchRecipeButton.addEventListener('click', () => {
-    const searchTerm = searchTermInput.value.trim().toLowerCase();
-    const selectedType = dishTypeDropdown.value; // Get selected dish type
+    searchRecipeButton.addEventListener('click', () => {
+        const searchTerm = searchTermInput.value.trim().toLowerCase();
+        const selectedType = dishTypeDropdown.value; // Get selected dish type
 
-    let queryRef = ref(database, 'recipes');
+        let queryRef = ref(database, 'recipes');
 
-    if (searchTerm) {
-        // If both search term and dish type are provided
-        if (selectedType) {
-            queryRef = ref(database, 'recipes', {
-                orderByChild: 'dish_type',
-                equalTo: selectedType
+        if (searchTerm) {
+            // If both search term and dish type are provided
+            if (selectedType) {
+                queryRef = query(ref(database, 'recipes'), orderByChild('dish_type'), equalTo(selectedType));
+            }
+
+            // Execute query
+            onValue(queryRef, (snapshot) => {
+                const recipes = snapshot.val();
+                const filteredRecipes = [];
+
+                for (const key in recipes) {
+                    const recipeName = recipes[key].name.toLowerCase();
+
+                    // Filter based on search term only
+                    if (recipeName.includes(searchTerm)) {
+                        filteredRecipes.push({
+                            key: key,
+                            name: recipes[key].name,
+                            country: recipes[key].country
+                        });
+                    }
+                }
+
+                // Show the filtered recipes (sorted by name) or a message if none found
+                displayRecipes(filteredRecipes.length > 0 ? filteredRecipes : [{ name: 'No recipes found.' }]);
             });
         }
+    });
 
-        // Execute query
-        onValue(queryRef, (snapshot) => {
-            const recipes = snapshot.val();
-            const filteredRecipes = [];
+    // Function to display filtered recipes based on selected dish type
+    dishTypeDropdown.addEventListener('change', () => {
+        const selectedType = dishTypeDropdown.value; // Get selected dish type
 
-            for (const key in recipes) {
-                const recipeName = recipes[key].name.toLowerCase();
+        if (selectedType) {
+            // Query Firebase to get recipes of the selected dish type
+            const queryRef = query(ref(database, 'recipes'), orderByChild('dish_type'), equalTo(selectedType));
+            
+            // Listen for data and filter it by dish type
+            onValue(queryRef, (snapshot) => {
+                const recipes = snapshot.val();
+                const filteredRecipes = [];
 
-                // Filter based on search term only
-                if (recipeName.includes(searchTerm)) {
+                for (const key in recipes) {
                     filteredRecipes.push({
                         key: key,
                         name: recipes[key].name,
                         country: recipes[key].country
                     });
                 }
-            }
 
-            // Show the filtered recipes or a message if none found
-            displayRecipes(filteredRecipes.length > 0 ? filteredRecipes : [{ name: 'No recipes found.' }]);
-        });
-    }
-});
-
-// Function to display filtered recipes based on selected dish type
-dishTypeDropdown.addEventListener('change', () => {
-    const selectedType = dishTypeDropdown.value; // Get selected dish type
-
-    if (selectedType) {
-        // Query Firebase to get recipes of the selected dish type
-        const queryRef = ref(database, 'recipes');
-        
-        // Listen for data and filter it by dish type
-        onValue(queryRef, (snapshot) => {
-            const recipes = snapshot.val();
-            const filteredRecipes = [];
-
-            for (const key in recipes) {
-                if (recipes[key].dish_type === selectedType) {
-                    filteredRecipes.push({
-                        key: key,
-                        name: recipes[key].name,
-                        country: recipes[key].country
-                    });
-                }
-            }
-
-            // Show the filtered recipes or a message if none are found
-            displayRecipes(filteredRecipes.length > 0 ? filteredRecipes : [{ name: 'No recipes found.' }]);
-        });
-    } else {
-        // If no dish type is selected, fetch and show all recipes
-        fetchAllRecipes();
-    }
-});
-
-
+                // Show the filtered recipes (sorted by name) or a message if none are found
+                displayRecipes(filteredRecipes.length > 0 ? filteredRecipes : [{ name: 'No recipes found.' }]);
+            });
+        } else {
+            // If no dish type is selected, fetch and show all recipes
+            fetchAllRecipes();
+        }
+    });
 });
