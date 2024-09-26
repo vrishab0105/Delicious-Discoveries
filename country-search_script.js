@@ -85,12 +85,17 @@ function displayRecipes(recipes) {
     const recipeList = document.getElementById('recipe-list');
     recipeList.innerHTML = ''; // Clear previous results
 
+    if (recipes.length === 0) {
+        recipeList.innerHTML = '<p>No recipes found.</p>'; // Show message
+        return; // Exit the function early
+    }
+
     recipes.forEach(([key, recipe]) => {
         const recipeItem = document.createElement('div');
         recipeItem.className = 'recipe-item';
         recipeItem.innerHTML = `
             <h2>${recipe.name}</h2>
-            <a href="recipe-detail.html?recipeId=${encodeURIComponent(key)}">View Recipe</a>
+            <a href="recipe-detail.html?recipeId=${encodeURIComponent(key)}" class="recipe-link">View Recipe</a>
         `;
         recipeList.appendChild(recipeItem);
     });
@@ -101,5 +106,11 @@ function filterRecipes(searchTerm) {
         recipe.name.toLowerCase().includes(searchTerm)
     );
 
-    displayRecipes(filteredRecipes.length > 0 ? filteredRecipes : [['', { name: 'No recipes found.' }]]);
+    // Check if no recipes match the search term
+    if (filteredRecipes.length === 0) {
+        displayRecipes([]); // Pass an empty array to indicate no recipes
+        return;
+    }
+    
+    displayRecipes(filteredRecipes);
 }
