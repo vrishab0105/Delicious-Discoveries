@@ -112,12 +112,17 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Open the add recipe page when the button is clicked
     document.getElementById('add-recipe-btn').addEventListener('click', () => {
-        document.getElementById('add-recipe-page').style.display = 'block';
+        document.getElementById('add-recipe-page').style.display = 'flex'; // Show modal
     });
 
     // Close the add recipe page when the close button is clicked
     document.querySelector('.close-add-recipe').addEventListener('click', () => {
-        document.getElementById('add-recipe-page').style.display = 'none';
+        document.getElementById('add-recipe-page').style.display = 'none'; // Hide modal
+    });
+
+    // Close the add recipe page when the cancel button is clicked
+    document.querySelector('.cancel-btn').addEventListener('click', () => {
+        document.getElementById('add-recipe-page').style.display = 'none'; // Hide modal
     });
 
     // Handle the form submission for adding new recipes
@@ -131,26 +136,25 @@ document.addEventListener('DOMContentLoaded', function () {
         const ingredients = document.getElementById('ingredients').value.split(',').map(item => item.trim());
         const steps = document.getElementById('steps').value.split(',').map(item => item.trim());
 
-        // Push new recipe to Firebase
-        const newRecipeRef = ref(database, `recipes/${recipeName.replace(/\s+/g, '')}`);
-        set(newRecipeRef, {
+        // Reference to the 'recipes' node in Firebase
+        const newRecipeRef = ref(database, 'recipes/' + recipeName.replace(/\s+/g, '-').toLowerCase());
+
+        // Create a new recipe object
+        const newRecipe = {
             name: recipeName,
-            country: country, // Include the country in the recipe data
-            dish_type: dishType, // Include dish type
-            dish_category: dishCategory, // Include dish category    
+            country: country,
+            dishType: dishType,
+            dishCategory: dishCategory,
             ingredients: ingredients,
             steps: steps
-        }).then(() => {
-            // Clear the form
-            document.getElementById('recipe-name').value = '';
-            document.getElementById('country').value = ''; // Clear the country field
-            document.getElementById('dish-type').value = ''; // Clear the dish type field
-            document.getElementById('dish-category').value = ''; // Clear the dish category field    
-            document.getElementById('ingredients').value = '';
-            document.getElementById('steps').value = '';
+        };
 
-            // Close the add recipe page
-            document.getElementById('add-recipe-page').style.display = 'none';
+        // Set the new recipe in Firebase
+        set(newRecipeRef, newRecipe).then(() => {
+            alert(`${recipeName} has been added.`);
+            document.getElementById('add-recipe-page').style.display = 'none'; // Hide the add recipe modal
+            document.getElementById('add-recipe-form').reset(); // Reset the form
+            loadRecipes(); // Refresh the recipe list
         }).catch(error => {
             console.error('Error adding recipe:', error);
         });
