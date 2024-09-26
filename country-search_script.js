@@ -23,6 +23,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
     buttons.forEach(button => {
         button.addEventListener('click', async (e) => {
+            // Remove active class from all buttons
+            buttons.forEach(btn => btn.classList.remove('active'));
+            
+            // Add active class to the clicked button
+            e.target.classList.add('active');
+            
             const country = e.target.dataset.country;
             await loadRecipesByCountry(country);
             searchContainer.style.display = 'flex'; // Show search options
@@ -35,9 +41,13 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     document.getElementById('show-all-btn').addEventListener('click', () => {
-        const country = document.querySelector('.country-buttons button.active').dataset.country;
-        loadRecipesByCountry(country); // Reload all recipes for the selected country
-        document.getElementById('search-term').value = ''; // Clear search input
+        // Get the active country
+        const activeButton = document.querySelector('.country-buttons button.active');
+        if (activeButton) {
+            const country = activeButton.dataset.country;
+            loadRecipesByCountry(country); // Reload all recipes for the selected country
+            document.getElementById('search-term').value = ''; // Clear search input
+        }
     });
 });
 
