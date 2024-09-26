@@ -2558,8 +2558,8 @@
                 "fairyBread": {
                   "name": "Fairy Bread",
                   "country": "Australia",
-                   "dish_type": "none",
-    "dish_category": "veg",
+                   "dish_type": "baked",
+                  "dish_category": "veg",
                   "ingredients": [
                     "4 slices White bread",
                     "Butter (softened)",
