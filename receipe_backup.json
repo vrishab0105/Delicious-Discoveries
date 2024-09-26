@@ -704,11 +704,12 @@
                     },
 
 
-                   /
+                   
                     "tapas": {
                       "name": "Tapas",
                       "country": "Spain",
-
+                      "dish_type": "raw",
+                      "dish_category": "veg",
                       "ingredients": [
                         "1 cup Olives",
                         "1 cup Chorizo (sliced)",
@@ -728,7 +729,7 @@
                       "name": "Churros",
                       "country": "Spain",
                        "dish_type": "fried",
-    "dish_category": "veg",
+                       "dish_category": "veg",
                       "ingredients": [
                         "1 cup Water",
                         "1/2 cup Butter",
@@ -2657,12 +2658,12 @@
                 },
 
 
-/
+
                 "prawnCocktail": {
                   "name": "Prawn Cocktail",
                   "country": "Australia",
-                   "dish_type": "none",
-    "dish_category": "non-veg",
+                   "dish_type": "steamed",
+                   "dish_category": "non-veg",
                   "ingredients": [
                     "500g Prawns (cooked and peeled)",
                     "1/2 cup Mayonnaise",
@@ -2678,12 +2679,12 @@
                   ]
                 },
 
-/
+
                 "coconutRough": {
                   "name": "Coconut Rough",
                   "country": "Australia",
-                   "dish_type": "none",
-    "dish_category": "veg",
+                   "dish_type": "raw",
+                   "dish_category": "veg",
                   "ingredients": [
                     "200g Dark chocolate (melted)",
                     "1 cup Desiccated coconut",
@@ -2698,12 +2699,12 @@
                 },
 
 
-/
+                
                 "chickpeaSalad": {
                   "name": "Chickpea Salad",
                   "country": "Australia",
- "dish_type": "none",
-    "dish_category": "veg",
+                  "dish_type": "tossed",
+                  "dish_category": "veg",
                   "ingredients": [
                     "1 can Chickpeas (drained and rinsed)",
                     "1 Cucumber (diced)",
@@ -2744,12 +2745,12 @@
                 },
 
 
-/
+
                 "beetrootSalad": {
                   "name": "Beetroot Salad",
                   "country": "Australia",
- "dish_type": "none",
-    "dish_category": "veg",
+                  "dish_type": "raw",
+                  "dish_category": "veg",
                   "ingredients": [
                     "2 cups Cooked beetroot (diced)",
                     "1/2 cup Feta cheese (crumbled)",
@@ -2834,12 +2835,11 @@
                 },
 
 
-          /
                 "chocolateMousse": {
                   "name": "Chocolate Mousse",
                   "country": "Australia",
-                  "dish_type": "none",
-    "dish_category": "veg",
+                  "dish_type": "raw",
+                  "dish_category": "veg",
                   "ingredients": [
                     "200g Dark chocolate (chopped)",
                     "3 Eggs (separated)",
@@ -4743,11 +4743,11 @@
           },
 
 
-       / 
           "caesarSalad": {
             "name": "Caesar Salad",
             "country": "USA",
-
+            "dish_type": "raw",
+            "dish_category": "veg",
             "ingredients": [
               "1 head romaine lettuce",
               "1/4 cup grated Parmesan",
