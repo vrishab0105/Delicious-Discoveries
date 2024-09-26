@@ -176,7 +176,7 @@ h1 {
 
 /* Active Country Button Style */
 .country-buttons button.active {
-  background-color: #1c015d; /* Change to a distinct color for active state */
+  background-color: #974c01; /* Change to a distinct color for active state */
   color: #fff; /* Ensure the text remains readable */
   border: 2px solid #fff; /* Optional: Add a border to highlight the active button */
 }
