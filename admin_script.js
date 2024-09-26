@@ -126,6 +126,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
         const recipeName = document.getElementById('recipe-name').value;
         const country = document.getElementById('country').value; // Get the country from the text input
+        const dishType = document.getElementById('dish-type').value; // Get dish type
+        const dishCategory = document.getElementById('dish-category').value; // Get dish category
         const ingredients = document.getElementById('ingredients').value.split(',').map(item => item.trim());
         const steps = document.getElementById('steps').value.split(',').map(item => item.trim());
 
@@ -134,12 +136,16 @@ document.addEventListener('DOMContentLoaded', function () {
         set(newRecipeRef, {
             name: recipeName,
             country: country, // Include the country in the recipe data
+            dish_type: dishType, // Include dish type
+            dish_category: dishCategory, // Include dish category    
             ingredients: ingredients,
             steps: steps
         }).then(() => {
             // Clear the form
             document.getElementById('recipe-name').value = '';
             document.getElementById('country').value = ''; // Clear the country field
+            document.getElementById('dish-type').value = ''; // Clear the dish type field
+            document.getElementById('dish-category').value = ''; // Clear the dish category field    
             document.getElementById('ingredients').value = '';
             document.getElementById('steps').value = '';
 

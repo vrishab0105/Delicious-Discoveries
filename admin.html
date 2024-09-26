@@ -50,16 +50,22 @@
             <h2>Add New Recipe</h2>
             <form id="add-recipe-form">
                 <label for="recipe-name">Recipe Name:</label>
-                <input type="text" id="recipe-name" required>
+                <input type="text" id="recipe-name" required placeholder="Enter the name of the dish">
 
                 <label for="country">Country:</label>
                 <input type="text" id="country" required placeholder="Enter country name">
 
+                <label for="dish-type">Dish Type:</label>
+                <input type="text" id="dish-type" required placeholder="Enter dish type (e.g., fried, steamed, raw, etc)">
+    
+                <label for="dish-category">Dish Category:</label>
+                <input type="text" id="dish-category" required placeholder="Enter dish category (ie. veg or non-veg)">    
+
                 <label for="ingredients">Ingredients (comma-separated):</label>
-                <textarea id="ingredients" rows="4" required></textarea>
+                <textarea id="ingredients" rows="4" required placeholder="Enter all the ingredients needed for the dish"></textarea>
 
                 <label for="steps">Steps (comma-separated):</label>
-                <textarea id="steps" rows="4" required></textarea>
+                <textarea id="steps" rows="4" required placeholder="Enter the steps needed to prepare the dish"></textarea>
 
                 <button type="submit" class="btn">Add Recipe</button>
             </form>
