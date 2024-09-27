@@ -1,0 +1,457 @@
+
+  "borscht": {
+    "name": "borscht",
+    "country": "russia",
+    "dish_type": "boiled",
+    "dish_category": "veg",
+    "ingredients": [
+      "2 medium beets, peeled and grated",
+      "1 medium onion, chopped",
+      "1 medium carrot, grated",
+      "2 medium potatoes, diced",
+      "1/2 head of cabbage, shredded",
+      "3 tablespoons vegetable oil",
+      "1 tablespoon vinegar",
+      "2 tablespoons tomato paste",
+      "1 liter vegetable broth",
+      "salt and pepper to taste",
+      "fresh dill and sour cream for serving"
+    ],
+    "steps": [
+      "in a large pot, heat the vegetable oil over medium heat. add the onions and carrots, sautéing until soft.",
+      "stir in the grated beets and vinegar, cooking for another 5-7 minutes until they soften.",
+      "add the tomato paste, mixing well. cook for an additional 2 minutes.",
+      "pour in the vegetable broth and bring to a boil.",
+      "add the potatoes and cabbage, then reduce heat and let it simmer for about 30 minutes until vegetables are tender.",
+      "season with salt and pepper to taste.",
+      "serve hot, garnished with fresh dill and a dollop of sour cream."
+    ]
+  },
+
+  "pelmeni": {
+    "name": "pelmeni",
+    "country": "russia",
+    "dish_type": "boiled",
+    "dish_category": "non-veg",
+    "ingredients": [
+      "500g ground beef or pork",
+      "1 medium onion, finely chopped",
+      "2 cloves garlic, minced",
+      "250g flour",
+      "1 large egg",
+      "1/2 cup water",
+      "salt and pepper to taste",
+      "butter and sour cream for serving"
+    ],
+    "steps": [
+      "in a bowl, combine the ground meat, onion, garlic, salt, and pepper. mix well.",
+      "in another bowl, mix flour, egg, and water to form a dough. knead until smooth.",
+      "roll out the dough to about 2mm thickness. cut into circles using a glass.",
+      "place a teaspoon of filling in the center of each circle. fold over and pinch the edges to seal.",
+      "boil water in a large pot. drop in the pelmeni and cook for about 5-7 minutes until they float.",
+      "remove and serve hot with melted butter and sour cream."
+    ]
+  },
+
+  "blini": {
+    "name": "blini",
+    "country": "russia",
+    "dish_type": "fried",
+    "dish_category": "veg",
+    "ingredients": [
+      "250g flour",
+      "500ml milk",
+      "2 large eggs",
+      "1 tablespoon sugar",
+      "1/2 teaspoon salt",
+      "1 tablespoon vegetable oil",
+      "sour cream and caviar for serving"
+    ],
+    "steps": [
+      "in a bowl, whisk together flour, milk, eggs, sugar, and salt until smooth.",
+      "let the batter rest for 30 minutes.",
+      "heat a non-stick skillet over medium heat and brush with oil.",
+      "pour a ladle of batter into the skillet, swirling to cover the base.",
+      "cook for about 1-2 minutes until the edges lift, then flip and cook for another minute.",
+      "repeat with remaining batter, stacking blini on a plate.",
+      "serve warm with sour cream and caviar."
+    ]
+  },
+
+  "olivierSalad": {
+    "name": "olivier salad",
+    "country": "russia",
+    "dish_type": "mixed",
+    "dish_category": "non-veg",
+    "ingredients": [
+      "3 medium potatoes, boiled and diced",
+      "2 medium carrots, boiled and diced",
+      "3-4 pickles, diced",
+      "200g cooked chicken, diced",
+      "4 hard-boiled eggs, chopped",
+      "1 cup green peas (canned or frozen)",
+      "200g mayonnaise",
+      "salt and pepper to taste"
+    ],
+    "steps": [
+      "in a large bowl, combine the potatoes, carrots, pickles, chicken, eggs, and peas.",
+      "add mayonnaise and mix until well combined.",
+      "season with salt and pepper to taste.",
+      "chill in the refrigerator for at least an hour before serving.",
+      "serve cold as a side dish or appetizer."
+    ]
+  },
+
+  "pirozhki": {
+    "name": "pirozhki",
+    "country": "russia",
+    "dish_type": "baked",
+    "dish_category": ["veg", "non-veg"],
+    "ingredients": [
+      "500g flour",
+      "250ml milk",
+      "50g sugar",
+      "50g butter, melted",
+      "1 teaspoon salt",
+      "1 packet yeast (7g)",
+      "1 egg",
+      "filling of choice (e.g., meat, cabbage, or fruit)"
+    ],
+    "steps": [
+      "in a bowl, dissolve yeast in warm milk and let it activate for about 10 minutes.",
+      "add sugar, melted butter, egg, salt, and flour. knead until smooth.",
+      "cover and let the dough rise for 1 hour.",
+      "divide the dough into small balls, flatten each, and add filling.",
+      "fold and seal the edges, forming a pocket.",
+      "place on a baking sheet and let rise for another 30 minutes.",
+      "bake at 180°C (350°F) for 20-25 minutes until golden brown."
+    ]
+  },
+
+  "vareniki": {
+    "name": "vareniki",
+    "country": "russia",
+    "dish_type": "boiled",
+    "dish_category": "veg",
+    "ingredients": [
+      "500g flour",
+      "1 large egg",
+      "200ml water",
+      "1/2 teaspoon salt",
+      "filling of choice (e.g., potatoes, cherries, or cottage cheese)"
+    ],
+    "steps": [
+      "in a bowl, mix flour, egg, water, and salt to form a dough. knead until smooth.",
+      "roll out the dough to about 2mm thickness and cut into circles.",
+      "place a spoonful of filling in the center of each circle, fold, and seal.",
+      "boil water in a large pot and drop in the vareniki. cook for 5-7 minutes until they float.",
+      "remove and serve with sour cream or melted butter."
+    ]
+  },
+
+  "syrniki": {
+    "name": "syrniki",
+    "country": "russia",
+    "dish_type": "fried",
+    "dish_category": "veg",
+    "ingredients": [
+      "500g cottage cheese",
+      "1 large egg",
+      "3 tablespoons flour",
+      "2 tablespoons sugar",
+      "pinch of salt",
+      "vegetable oil for frying",
+      "sour cream or jam for serving"
+    ],
+    "steps": [
+      "in a bowl, mix cottage cheese, egg, flour, sugar, and salt until combined.",
+      "form small patties with the mixture.",
+      "heat oil in a skillet over medium heat and fry the syrniki until golden brown on both sides.",
+      "drain on paper towels and serve warm with sour cream or jam."
+    ]
+  },
+
+  "kasha": {
+    "name": "kasha",
+    "country": "russia",
+    "dish_type": "boiled",
+    "dish_category": "veg",
+    "ingredients": [
+      "1 cup buckwheat groats",
+      "2 cups water or broth",
+      "1 tablespoon butter",
+      "salt to taste",
+      "chopped herbs for garnish"
+    ],
+    "steps": [
+      "rinse the buckwheat under cold water and drain.",
+      "in a pot, bring water or broth to a boil. add buckwheat and salt.",
+      "reduce heat, cover, and simmer for about 15-20 minutes until the liquid is absorbed.",
+      "stir in butter and let it sit covered for another 5 minutes.",
+      "fluff with a fork and garnish with herbs before serving."
+    ]
+  },
+
+  "medovik": {
+    "name": "medovik",
+    "country": "russia",
+    "dish_type": "baked",
+    "dish_category": "veg",
+    "ingredients": [
+      "2 cups flour",
+      "1 cup honey",
+      "1 cup sugar",
+      "1 cup sour cream",
+      "4 large eggs",
+      "1 teaspoon baking soda",
+      "1/2 cup butter"
+    ],
+    "steps": [
+      "in a bowl, combine honey, sugar, butter, and eggs. mix well and heat over low heat until dissolved.",
+      "remove from heat and stir in baking soda. let it cool.",
+      "gradually add flour to form a dough. divide into equal parts.",
+      "roll out each part into thin layers and bake at 180°C (350°F) for about 5-7 minutes.",
+      "for the filling, mix sour cream and sugar together.",
+      "layer the baked cakes with the cream mixture, refrigerate for a few hours before serving."
+    ]
+  },
+
+  "kholodets": {
+    "name": "kholodets",
+    "country": "russia",
+    "dish_type": "boiled",
+    "dish_category": "non-veg",
+    "ingredients": [
+      "1kg pork shank or beef trotters",
+      "1 onion",
+      "2-3 carrots",
+      "2-3 cloves of garlic",
+      "salt and pepper to taste",
+      "fresh herbs for garnish"
+    ],
+    "steps": [
+      "place meat in a large pot, cover with water, and add onion and carrots.",
+      "bring to a boil, then reduce heat and simmer for about 4-6 hours until the meat is tender.",
+      "remove the meat and strain the broth. skim off any fat.",
+      "shred the meat and mix with garlic, salt, and pepper.",
+      "pour broth into a mold, add meat mixture, and let it set in the refrigerator overnight.",
+      "serve cold, garnished with herbs."
+    ]
+  },
+
+  "paskha": {
+    "name": "Paskha",
+    "country": "russia",
+    "dish_type": "refrigerated",
+    "dish_category": "veg",
+    "ingredients": [
+      "500g cottage cheese",
+      "200g butter",
+      "200g sugar",
+      "4 egg yolks",
+      "1/2 cup dried fruit (raisins, apricots)",
+      "1 teaspoon vanilla extract",
+      "pinch of salt"
+    ],
+    "steps": [
+      "in a bowl, mix cottage cheese, butter, sugar, and egg yolks until smooth.",
+      "add dried fruit, vanilla extract, and salt. mix well.",
+      "line a mold with cheesecloth and fill it with the mixture.",
+      "press down and refrigerate for at least 12 hours.",
+      "unmold and serve chilled."
+    ]
+  },
+
+  "golubtsy": {
+    "name": "Golubtsy",
+    "country": "russia",
+    "dish_type": "baked",
+    "dish_category": "non-veg",
+    "ingredients": [
+      "1 large head of cabbage",
+      "500g ground beef or pork",
+      "1 cup rice, cooked",
+      "1 medium onion, chopped",
+      "2 cloves garlic, minced",
+      "1 can tomato sauce",
+      "salt and pepper to taste",
+      "fresh dill for garnish"
+    ],
+    "steps": [
+      "bring a large pot of water to boil. carefully remove cabbage leaves and blanch for a few minutes until pliable.",
+      "in a bowl, combine ground meat, cooked rice, onion, garlic, salt, and pepper.",
+      "place a spoonful of filling on each cabbage leaf and roll tightly, tucking in the sides.",
+      "place rolls in a baking dish and cover with tomato sauce.",
+      "bake at 180°c (350°f) for about 1 hour.",
+      "garnish with fresh dill before serving."
+    ]
+  },
+
+  "kashaVarnishkes": {
+    "name": "Kasha Varnishkes",
+    "country": "russia",
+    "dish_type": "stir-fried",
+    "dish_category": "veg",
+    "ingredients": [
+      "1 cup buckwheat kasha",
+      "1/2 cup bowtie pasta (varnishkes)",
+      "2 cups water or broth",
+      "1 onion, chopped",
+      "2 tablespoons butter",
+      "salt and pepper to taste"
+    ],
+    "steps": [
+      "in a pot, bring water or broth to a boil. add kasha and a pinch of salt.",
+      "reduce heat, cover, and simmer for about 15 minutes until liquid is absorbed.",
+      "meanwhile, cook bowtie pasta according to package instructions and drain.",
+      "in a skillet, melt butter and sauté onion until golden.",
+      "combine cooked kasha and pasta in the skillet, mixing well.",
+      "season with salt and pepper to taste before serving."
+    ]
+  },
+
+  "kvass": {
+    "name": "Kvass",
+    "country": "russia",
+    "dish_type": "fermented",
+    "dish_category": "veg",
+    "ingredients": [
+      "200g rye bread, cut into cubes",
+      "5 liters water",
+      "100g sugar",
+      "10g active dry yeast",
+      "raisins for flavor (optional)"
+    ],
+    "steps": [
+      "toast the rye bread cubes in the oven until golden brown.",
+      "in a large pot, combine toasted bread, sugar, and water. bring to a boil, then let it cool.",
+      "once cooled, add yeast and stir well. cover and let it ferment for 12-24 hours at room temperature.",
+      "strain the liquid into bottles, adding a few raisins to each for flavor.",
+      "seal the bottles and refrigerate. serve chilled."
+    ]
+  },
+
+  "rassolnik": {
+    "name": "Rassolnik",
+    "country": "russia",
+    "dish_type": "boiled",
+    "dish_category": "non-veg",
+    "ingredients": [
+      "200g beef or pork, diced",
+      "1 cup pickles, diced",
+      "1 cup pearl barley",
+      "1 medium onion, chopped",
+      "2 carrots, grated",
+      "2 potatoes, diced",
+      "1 liter water",
+      "salt and pepper to taste",
+      "fresh dill for garnish"
+    ],
+    "steps": [
+      "in a pot, bring water to a boil and add meat. cook until tender.",
+      "add diced potatoes, carrots, and onions, cooking until softened.",
+      "stir in pearl barley and cook until tender, about 30 minutes.",
+      "add diced pickles and season with salt and pepper.",
+      "serve hot, garnished with fresh dill."
+    ]
+  },
+
+  "pirozhkiCherries": {
+    "name": "Pirozhki with Cherries",
+    "country": "russia",
+    "dish_type": "baked",
+    "dish_category": "veg",
+    "ingredients": [
+      "500g flour",
+      "250ml milk",
+      "50g sugar",
+      "50g butter, melted",
+      "1 teaspoon salt",
+      "1 packet yeast (7g)",
+      "1 egg",
+      "300g fresh or frozen cherries, pitted"
+    ],
+    "steps": [
+      "in a bowl, dissolve yeast in warm milk and let it activate for about 10 minutes.",
+      "add sugar, melted butter, egg, salt, and flour. knead until smooth.",
+      "cover and let the dough rise for 1 hour.",
+      "divide the dough into small balls, flatten each, and add a spoonful of cherries.",
+      "fold and seal the edges, forming a pocket.",
+      "place on a baking sheet and let rise for another 30 minutes.",
+      "bake at 180°c (350°f) for 20-25 minutes until golden brown."
+    ]
+  },
+
+  "pirogiCabbage": {
+    "name": "pirog with cabbage",
+    "country": "russia",
+    "dish_type": "baked",
+    "dish_category": "veg",
+    "ingredients": [
+      "500g flour",
+      "250ml milk",
+      "50g sugar",
+      "50g butter, melted",
+      "1 teaspoon salt",
+      "1 packet yeast (7g)",
+      "1 medium cabbage, shredded",
+      "1 onion, chopped"
+    ],
+    "steps": [
+      "in a bowl, dissolve yeast in warm milk and let it activate for about 10 minutes.",
+      "add sugar, melted butter, egg, salt, and flour. knead until smooth.",
+      "cover and let the dough rise for 1 hour.",
+      "in a skillet, sauté onion until golden, then add cabbage and cook until soft.",
+      "roll out the dough and place the cabbage filling in the center. fold and seal.",
+      "place on a baking sheet and let rise for another 30 minutes.",
+      "bake at 180°c (350°f) for 25-30 minutes until golden."
+    ]
+  },
+  
+  "kurnik": {
+    "name": "kurnik",
+    "country": "russia",
+    "dish_type": "baked",
+    "dish_category": "non-veg",
+    "ingredients": [
+      "500g flour",
+      "250g butter",
+      "1 cup sour cream",
+      "1 teaspoon baking powder",
+      "1 egg",
+      "500g chicken, cooked and shredded",
+      "1 onion, chopped",
+      "salt and pepper to taste"
+    ],
+    "steps": [
+      "in a bowl, mix flour, butter, sour cream, baking powder, and salt to form a dough.",
+      "divide the dough into two parts and refrigerate for 30 minutes.",
+      "in a skillet, sauté onion until soft, then mix with shredded chicken. season with salt and pepper.",
+      "roll out one part of the dough and place it in a pie dish. add the filling.",
+      "roll out the second part and cover the pie, sealing the edges.",
+      "bake at 180°c (350°f) for 40-45 minutes until golden brown."
+    ]
+  },
+  
+  "kashaMushrooms": {
+    "name": "kasha with mushrooms",
+    "country": "russia",
+    "dish_type": "stir-fried",
+    "dish_category": "veg",
+    "ingredients": [
+      "1 cup buckwheat",
+      "2 cups water or broth",
+      "200g mushrooms, sliced",
+      "1 onion, chopped",
+      "2 tablespoons butter",
+      "salt and pepper to taste"
+    ],
+    "steps": [
+      "rinse the buckwheat under cold water and drain.",
+      "in a pot, bring water or broth to a boil. add buckwheat and salt.",
+      "reduce heat, cover, and simmer for about 15 minutes until the liquid is absorbed.",
+      "in a skillet, melt butter and sauté onion and mushrooms until golden.",
+      "combine cooked buckwheat with the mushroom mixture, stirring to combine.",
+      "serve hot, seasoned with salt and pepper."
+    ]
+  },
