@@ -1,7 +1,7 @@
 
   "nasiLemak": {
-    "name": "nasi lemak",
-    "country": "malaysia",
+    "name": "Nasi lemak",
+    "country": "Malaysia",
     "dish_type": "steamed",
     "dish_category": "non-veg",
     "ingredients": [
@@ -29,8 +29,8 @@
     ]
   },
   "charKwayTeow": {
-    "name": "char kway teow",
-    "country": "malaysia",
+    "name": "Char Kway Teow",
+    "country": "Malaysia",
     "dish_type": "stir-fried",
     "dish_category": "non-veg",
     "ingredients": [
@@ -59,8 +59,8 @@
     ]
   },
   "rendang": {
-    "name": "beef rendang",
-    "country": "malaysia",
+    "name": "Beef rendang",
+    "country": "Malaysia",
     "dish_type": "braised",
     "dish_category": "non-veg",
     "ingredients": [
@@ -89,8 +89,8 @@
     ]
   },
   "satay": {
-    "name": "chicken satay",
-    "country": "malaysia",
+    "name": "Chicken satay",
+    "country": "Malaysia",
     "dish_type": "grilled",
     "dish_category": "non-veg",
     "ingredients": [
@@ -118,8 +118,8 @@
   },
 
   "rotiCanai": {
-    "name": "roti canai",
-    "country": "malaysia",
+    "name": "Roti Canai",
+    "country": "Malaysia",
     "dish_type": "fried",
     "dish_category": "veg",
     "ingredients": [
@@ -143,8 +143,8 @@
   },
 
   "hainaneseChickenRice": {
-    "name": "hainanese chicken rice",
-    "country": "malaysia",
+    "name": "Hainanese Chicken Rice",
+    "country": "Malaysia",
     "dish_type": "boiled",
     "dish_category": "non-veg",
     "ingredients": [
@@ -181,8 +181,8 @@
   },
 
   "meeGoreng": {
-    "name": "mee goreng",
-    "country": "malaysia",
+    "name": "Mee Goreng",
+    "country": "Malaysia",
     "dish_type": "stir-fried",
     "dish_category": "non-veg",
     "ingredients": [
@@ -214,8 +214,8 @@
     ]
   },
 "nasiKerabu": {
-    "name": "nasi kerabu",
-    "country": "malaysia",
+    "name": "Nasi kerabu",
+    "country": "Malaysia",
     "dish_type": "grilled",
     "dish_category": "non-veg",
     "ingredients": [
@@ -252,8 +252,8 @@
   },
 
   "asamPedas": {
-    "name": "asam pedas",
-    "country": "malaysia",
+    "name": "Asam pedas",
+    "country": "Malaysia",
     "dish_type": "stewed",
     "dish_category": "non-veg",
     "ingredients": [
@@ -286,8 +286,8 @@
   },
 
   "kuihLapis": {
-    "name": "kuih lapis",
-    "country": "malaysia",
+    "name": "Kuih lapis",
+    "country": "Malaysia",
     "dish_type": "steamed",
     "dish_category": "veg",
     "ingredients": [
@@ -316,8 +316,8 @@
   },
 
   "rendangAyam": {
-    "name": "rendang ayam",
-    "country": "malaysia",
+    "name": "Rendang ayam",
+    "country": "Malaysia",
     "dish_type": "stewed",
     "dish_category": "non-veg",
     "ingredients": [
@@ -349,8 +349,8 @@
   },
   
   "nasiGoreng": {
-    "name": "nasi goreng",
-    "country": "malaysia",
+    "name": "Nasi goreng",
+    "country": "Malaysia",
     "dish_type": "stir-fried",
     "dish_category": "non-veg",
     "ingredients": [
@@ -383,8 +383,8 @@
   },
   
   "sotoAyam": {
-    "name": "soto ayam",
-    "country": "malaysia",
+    "name": "Soto ayam",
+    "country": "Malaysia",
     "dish_type": "boiled",
     "dish_category": "non-veg",
     "ingredients": [
@@ -420,8 +420,8 @@
   },
   
   "curryPuff": {
-    "name": "curry puff",
-    "country": "malaysia",
+    "name": "Curry puff",
+    "country": "Malaysia",
     "dish_type": "baked",
     "dish_category": "non-veg",
     "ingredients": [

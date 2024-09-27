@@ -1,7 +1,7 @@
 
   "tomYumGoong": {
     "name": "tom yum goong",
-    "country": "thailand",
+    "country": "Thailand",
     "dish_type": "boiled",
     "dish_category": "non-veg",
     "ingredients": [
@@ -29,7 +29,7 @@
 
   "greenCurry": {
     "name": "green curry",
-    "country": "thailand",
+    "country": "Thailand",
     "dish_type": "boiled",
     "dish_category": "non-veg",
     "ingredients": [
@@ -55,7 +55,7 @@
 
   "somTum": {
     "name": "som tum",
-    "country": "thailand",
+    "country": "Thailand",
     "dish_type": "raw",
     "dish_category": "non-veg",
     "ingredients": [
@@ -78,7 +78,7 @@
 
   "massamanCurry": {
     "name": "massaman curry",
-    "country": "thailand",
+    "country": "Thailand",
     "dish_type": "boiled",
     "dish_category": "non-veg",
     "ingredients": [
@@ -103,8 +103,8 @@
   },
 
   "larb": {
-    "name": "larb",
-    "country": "thailand",
+    "name": "Larb",
+    "country": "Thailand",
     "dish_type": "stir-fried",
     "dish_category": "non-veg",
     "ingredients": [
@@ -126,8 +126,8 @@
   },
 
   "khaoPad": {
-    "name": "khao pad",
-    "country": "thailand",
+    "name": "Khao pad",
+    "country": "Thailand",
     "dish_type": "stir-fried",
     "dish_category": "non-veg",
     "ingredients": [
@@ -152,8 +152,8 @@
   },
 
   "panangCurry": {
-    "name": "panang curry",
-    "country": "thailand",
+    "name": "Panang curry",
+    "country": "Thailand",
     "dish_type": "boiled",
     "dish_category": "non-veg",
     "ingredients": [
@@ -176,7 +176,7 @@
 
   "gaengDaeng": {
     "name": "gaeng daeng",
-    "country": "thailand",
+    "country": "Thailand",
     "dish_type": "stir-fried",
     "dish_category": "non-veg",
     "ingredients": [
@@ -200,7 +200,7 @@
 
   "satay": {
     "name": "satay",
-    "country": "thailand",
+    "country": "Thailand",
     "dish_type": "grilled",
     "dish_category": "non-veg",
     "ingredients": [
@@ -223,7 +223,7 @@
 
   "thaiSpringRolls": {
     "name": "thai spring rolls",
-    "country": "thailand",
+    "country": "Thailand",
     "dish_type": "steamed",
     "dish_category": "non-veg",
     "ingredients": [
@@ -246,7 +246,7 @@
 
   "khaoSoi": {
     "name": "khao soi",
-    "country": "thailand",
+    "country": "Thailand",
     "dish_type": "boiled",
     "dish_category": "non-veg",
     "ingredients": [
@@ -270,7 +270,7 @@
 
   "thaiIcedTea": {
     "name": "thai iced tea",
-    "country": "thailand",
+    "country": "Thailand",
     "dish_type": "beverage",
     "dish_category": "veg",
     "ingredients": [
@@ -290,7 +290,7 @@
 
   "mooPadKrapow": {
     "name": "moo pad krapow",
-    "country": "thailand",
+    "country": "Thailand",
     "dish_type": "stir-fried",
     "dish_category": "non-veg",
     "ingredients": [
@@ -312,8 +312,8 @@
     ]
   },
   "thaiFishCakes": {
-    "name": "thai fish cakes",
-    "country": "thailand",
+    "name": "Thai fish cakes",
+    "country": "Thailand",
     "dish_type": "fried",
     "dish_category": "non-veg",
     "ingredients": [
@@ -334,8 +334,8 @@
     ]
   },
   "pineappleFriedRice": {
-    "name": "pineapple fried rice",
-    "country": "thailand",
+    "name": "Pineapple fried rice",
+    "country": "Thailand",
     "dish_type": "fried",
     "dish_category": "non-veg",
     "ingredients": [
@@ -358,8 +358,8 @@
     ]
   },
   "gaengSom": {
-    "name": "gaeng som",
-    "country": "thailand",
+    "name": "Gaeng Som",
+    "country": "Thailand",
     "dish_type": "boiled",
     "dish_category": "non-veg",
     "ingredients": [
@@ -380,8 +380,8 @@
     ]
   },
   "jok": {
-    "name": "jok",
-    "country": "thailand",
+    "name": "Jok",
+    "country": "Thailand",
     "dish_type": "boiled",
     "dish_category": "non-veg",
     "ingredients": [
@@ -404,8 +404,8 @@
   },
 
   "stickyRiceMango": {
-    "name": "sticky rice with mango",
-    "country": "thailand",
+    "name": "Sticky Rice with Mango",
+    "country": "Thailand",
     "dish_type": "steamed",
     "dish_category": "veg",
     "ingredients": [
@@ -426,8 +426,8 @@
   },
 
   "roti": {
-    "name": "roti",
-    "country": "thailand",
+    "name": "Roti",
+    "country": "Thailand",
     "dish_type": "fried",
     "dish_category": "veg",
     "ingredients": [
