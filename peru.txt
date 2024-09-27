@@ -1,7 +1,7 @@
 
   "lomoSaltado": {
-    "name": "lomo saltado",
-    "country": "peru",
+    "name": "Lomo saltado",
+    "country": "Peru",
     "dish_type": "stir-fried",
     "dish_category": "non-veg",
     "ingredients": [
@@ -24,9 +24,12 @@
       "serve with french fries and white rice."
     ]
   },
+
+
+
   "ajíDeGallina": {
-    "name": "ají de gallina",
-    "country": "peru",
+    "name": "Ají de gallina",
+    "country": "Peru",
     "dish_type": "stew",
     "dish_category": "non-veg",
     "ingredients": [
@@ -48,8 +51,8 @@
     ]
   },
   "papaALaHuancaína": {
-    "name": "papa a la huancaína",
-    "country": "peru",
+    "name": "Papa a la Huancaína",
+    "country": "Peru",
     "dish_type": "boiled",
     "dish_category": "veg",
     "ingredients": [
@@ -71,8 +74,8 @@
     ]
   },
   "polloALaBrasa": {
-    "name": "pollo a la brasa",
-    "country": "peru",
+    "name": "Pollo a la Brasa",
+    "country": "Peru",
     "dish_type": "baked",
     "dish_category": "non-veg",
     "ingredients": [
@@ -94,9 +97,12 @@
       "serve with french fries and a green salad."
     ]
   },
+
+
+
   "anticuchos": {
-    "name": "anticuchos",
-    "country": "peru",
+    "name": "Anticuchos",
+    "country": "Peru",
     "dish_type": "grilled",
     "dish_category": "non-veg",
     "ingredients": [
@@ -117,8 +123,8 @@
   },
 
   "rocotoRelleno": {
-    "name": "rocoto relleno",
-    "country": "peru",
+    "name": "Rocoto Relleno",
+    "country": "Peru",
     "dish_type": "baked",
     "dish_category": "non-veg",
     "ingredients": [
@@ -140,8 +146,8 @@
   },
 
   "tacuTacu": {
-    "name": "tacu tacu",
-    "country": "peru",
+    "name": "Tacu Tacu",
+    "country": "Peru",
     "dish_type": "fried",
     "dish_category": "veg",
     "ingredients": [
@@ -163,7 +169,7 @@
 
   "causaLimena": {
     "name": "causa limena",
-    "country": "peru",
+    "country": "Peru",
     "dish_type": "chilled",
     "dish_category": "non-veg",
     "ingredients": [
@@ -185,8 +191,8 @@
   },
 
   "arrozConPollo": {
-    "name": "arroz con pollo",
-    "country": "peru",
+    "name": "Arroz con Pollo",
+    "country": "Peru",
     "dish_type": "stir-fried",
     "dish_category": "non-veg",
     "ingredients": [
@@ -210,8 +216,8 @@
   },
 
   "lecheDeTigre": {
-    "name": "leche de tigre",
-    "country": "peru",
+    "name": "Leche de Tigre",
+    "country": "Peru",
     "dish_type": "marinated",
     "dish_category": "non-veg",
     "ingredients": [

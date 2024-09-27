@@ -1,7 +1,7 @@
 
   "borscht": {
     "name": "borscht",
-    "country": "russia",
+    "country": "Russia",
     "dish_type": "boiled",
     "dish_category": "veg",
     "ingredients": [
@@ -30,7 +30,7 @@
 
   "pelmeni": {
     "name": "pelmeni",
-    "country": "russia",
+    "country": "Russia",
     "dish_type": "boiled",
     "dish_category": "non-veg",
     "ingredients": [
@@ -55,7 +55,7 @@
 
   "blini": {
     "name": "blini",
-    "country": "russia",
+    "country": "Russia",
     "dish_type": "fried",
     "dish_category": "veg",
     "ingredients": [
@@ -80,7 +80,7 @@
 
   "olivierSalad": {
     "name": "olivier salad",
-    "country": "russia",
+    "country": "Russia",
     "dish_type": "mixed",
     "dish_category": "non-veg",
     "ingredients": [
@@ -104,7 +104,7 @@
 
   "pirozhki": {
     "name": "pirozhki",
-    "country": "russia",
+    "country": "Russia",
     "dish_type": "baked",
     "dish_category": ["veg", "non-veg"],
     "ingredients": [
@@ -130,7 +130,7 @@
 
   "vareniki": {
     "name": "vareniki",
-    "country": "russia",
+    "country": "Russia",
     "dish_type": "boiled",
     "dish_category": "veg",
     "ingredients": [
@@ -151,7 +151,7 @@
 
   "syrniki": {
     "name": "syrniki",
-    "country": "russia",
+    "country": "Russia",
     "dish_type": "fried",
     "dish_category": "veg",
     "ingredients": [
@@ -173,7 +173,7 @@
 
   "kasha": {
     "name": "kasha",
-    "country": "russia",
+    "country": "Russia",
     "dish_type": "boiled",
     "dish_category": "veg",
     "ingredients": [
@@ -194,7 +194,7 @@
 
   "medovik": {
     "name": "medovik",
-    "country": "russia",
+    "country": "Russia",
     "dish_type": "baked",
     "dish_category": "veg",
     "ingredients": [
@@ -218,7 +218,7 @@
 
   "kholodets": {
     "name": "kholodets",
-    "country": "russia",
+    "country": "Russia",
     "dish_type": "boiled",
     "dish_category": "non-veg",
     "ingredients": [
@@ -241,7 +241,7 @@
 
   "paskha": {
     "name": "Paskha",
-    "country": "russia",
+    "country": "Russia",
     "dish_type": "refrigerated",
     "dish_category": "veg",
     "ingredients": [
@@ -264,7 +264,7 @@
 
   "golubtsy": {
     "name": "Golubtsy",
-    "country": "russia",
+    "country": "Russia",
     "dish_type": "baked",
     "dish_category": "non-veg",
     "ingredients": [
@@ -289,7 +289,7 @@
 
   "kashaVarnishkes": {
     "name": "Kasha Varnishkes",
-    "country": "russia",
+    "country": "Russia",
     "dish_type": "stir-fried",
     "dish_category": "veg",
     "ingredients": [
@@ -312,7 +312,7 @@
 
   "kvass": {
     "name": "Kvass",
-    "country": "russia",
+    "country": "Russia",
     "dish_type": "fermented",
     "dish_category": "veg",
     "ingredients": [
@@ -333,7 +333,7 @@
 
   "rassolnik": {
     "name": "Rassolnik",
-    "country": "russia",
+    "country": "Russia",
     "dish_type": "boiled",
     "dish_category": "non-veg",
     "ingredients": [
@@ -358,7 +358,7 @@
 
   "pirozhkiCherries": {
     "name": "Pirozhki with Cherries",
-    "country": "russia",
+    "country": "Russia",
     "dish_type": "baked",
     "dish_category": "veg",
     "ingredients": [
@@ -384,7 +384,7 @@
 
   "pirogiCabbage": {
     "name": "pirog with cabbage",
-    "country": "russia",
+    "country": "Russia",
     "dish_type": "baked",
     "dish_category": "veg",
     "ingredients": [
@@ -410,7 +410,7 @@
   
   "kurnik": {
     "name": "kurnik",
-    "country": "russia",
+    "country": "Russia",
     "dish_type": "baked",
     "dish_category": "non-veg",
     "ingredients": [
@@ -435,7 +435,7 @@
   
   "kashaMushrooms": {
     "name": "kasha with mushrooms",
-    "country": "russia",
+    "country": "Russia",
     "dish_type": "stir-fried",
     "dish_category": "veg",
     "ingredients": [

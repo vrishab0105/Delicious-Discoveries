@@ -1,7 +1,7 @@
 
   "egusiSoup": {
     "name": "egusi soup",
-    "country": "nigeria",
+    "country": "Nigeria",
     "dish_type": "stewed",
     "dish_category": "non-veg",
     "ingredients": [
@@ -25,7 +25,7 @@
   
   "poundedYam": {
     "name": "pounded yam",
-    "country": "nigeria",
+    "country": "Nigeria",
     "dish_type": "boiled",
     "dish_category": "veg",
     "ingredients": [
@@ -36,13 +36,13 @@
       "boil yam pieces in water until soft.",
       "pound the cooked yam in a mortar or use a food processor.",
       "continue pounding until smooth and stretchy.",
-      "serve with egusi soup or any nigerian soup."
+      "serve with egusi soup or any Nigerian soup."
     ]
   },
   
   "moiMoi": {
     "name": "moi moi",
-    "country": "nigeria",
+    "country": "Nigeria",
     "dish_type": "steamed",
     "dish_category": "veg",
     "ingredients": [
@@ -64,7 +64,7 @@
   
   "suya": {
     "name": "suya",
-    "country": "nigeria",
+    "country": "Nigeria",
     "dish_type": "grilled",
     "dish_category": "non-veg",
     "ingredients": [
@@ -83,7 +83,7 @@
   
   "pepperSoup": {
     "name": "pepper soup",
-    "country": "nigeria",
+    "country": "Nigeria",
     "dish_type": "boiled",
     "dish_category": "non-veg",
     "ingredients": [
@@ -104,7 +104,7 @@
   
   "boli": {
     "name": "boli",
-    "country": "nigeria",
+    "country": "Nigeria",
     "dish_type": "grilled",
     "dish_category": "veg",
     "ingredients": [
@@ -124,7 +124,7 @@
 
   "afangSoup": {
     "name": "afang soup",
-    "country": "nigeria",
+    "country": "Nigeria",
     "dish_type": "stewed",
     "dish_category": "non-veg",
     "ingredients": [
@@ -153,8 +153,8 @@
   },
   
   "efoRiro": {
-    "name": "efo riro",
-    "country": "nigeria",
+    "name": "Efo riro",
+    "country": "Nigeria",
     "dish_type": "stewed",
     "dish_category": "non-veg",
     "ingredients": [
@@ -176,8 +176,8 @@
   },
   
   "akara": {
-    "name": "akara",
-    "country": "nigeria",
+    "name": "Akara",
+    "country": "Nigeria",
     "dish_type": "fried",
     "dish_category": "veg",
     "ingredients": [
@@ -196,8 +196,8 @@
   },
   
   "ofadaRiceAyamaseSauce": {
-    "name": "ofada rice and ayamase sauce",
-    "country": "nigeria",
+    "name": "Ofada Rice and Ayamase Sauce",
+    "country": "Nigeria",
     "dish_type": "stewed",
     "dish_category": ["veg", "non-veg"],
     "ingredients": [
@@ -232,8 +232,8 @@
   },
 
   "ofeNsala": {
-    "name": "ofe nsala",
-    "country": "nigeria",
+    "name": "Ofe Nsala",
+    "country": "Nigeria",
     "dish_type": "stewed",
     "dish_category": "non-veg",
     "ingredients": [
@@ -252,8 +252,8 @@
   },
   
   "eweduSoup": {
-    "name": "ewedu soup",
-    "country": "nigeria",
+    "name": "Ewedu Soup",
+    "country": "Nigeria",
     "dish_type": "stewed",
     "dish_category": "veg",
     "ingredients": [
