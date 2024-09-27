@@ -1,0 +1,271 @@
+
+  "egusiSoup": {
+    "name": "egusi soup",
+    "country": "nigeria",
+    "dish_type": "stewed",
+    "dish_category": "non-veg",
+    "ingredients": [
+      "2 cups ground melon seeds (egusi)",
+      "2 cups spinach or bitterleaf",
+      "1 onion (chopped)",
+      "1 cup meat (beef or goat)",
+      "palm oil",
+      "stock cubes",
+      "salt and pepper"
+    ],
+    "steps": [
+      "heat palm oil and sauté onions.",
+      "add meat and cook until browned.",
+      "add water and stock cubes, simmer for 15 minutes.",
+      "stir in ground egusi and cook for 10 minutes.",
+      "add spinach and season with salt and pepper.",
+      "simmer for another 5 minutes before serving."
+    ]
+  },
+  
+  "poundedYam": {
+    "name": "pounded yam",
+    "country": "nigeria",
+    "dish_type": "boiled",
+    "dish_category": "veg",
+    "ingredients": [
+      "yam tubers (peeled and cut)",
+      "water"
+    ],
+    "steps": [
+      "boil yam pieces in water until soft.",
+      "pound the cooked yam in a mortar or use a food processor.",
+      "continue pounding until smooth and stretchy.",
+      "serve with egusi soup or any nigerian soup."
+    ]
+  },
+  
+  "moiMoi": {
+    "name": "moi moi",
+    "country": "nigeria",
+    "dish_type": "steamed",
+    "dish_category": "veg",
+    "ingredients": [
+      "2 cups peeled beans",
+      "1 red bell pepper",
+      "1 onion",
+      "2 tbsp vegetable oil",
+      "salt",
+      "boiled eggs (optional)"
+    ],
+    "steps": [
+      "blend beans, bell pepper, and onion into a smooth paste.",
+      "add oil and salt, mix well.",
+      "pour into greased molds or leaves.",
+      "steam for 40-50 minutes until firm.",
+      "optionally, place boiled eggs in the middle of the moi moi before steaming."
+    ]
+  },
+  
+  "suya": {
+    "name": "suya",
+    "country": "nigeria",
+    "dish_type": "grilled",
+    "dish_category": "non-veg",
+    "ingredients": [
+      "500g beef (thinly sliced)",
+      "suya spice mix",
+      "ground peanuts",
+      "vegetable oil"
+    ],
+    "steps": [
+      "coat the beef slices with suya spice and ground peanuts.",
+      "thread the beef onto skewers.",
+      "brush with oil and grill over medium heat for 10-15 minutes.",
+      "serve with sliced onions and tomatoes."
+    ]
+  },
+  
+  "pepperSoup": {
+    "name": "pepper soup",
+    "country": "nigeria",
+    "dish_type": "boiled",
+    "dish_category": "non-veg",
+    "ingredients": [
+      "1 kg goat meat (cut into pieces)",
+      "2 tbsp pepper soup spice",
+      "2 tbsp ground crayfish",
+      "1 onion (chopped)",
+      "scent leaves",
+      "salt"
+    ],
+    "steps": [
+      "boil the goat meat with onions, salt, and water.",
+      "add pepper soup spice and crayfish. simmer for 20 minutes.",
+      "add scent leaves and adjust seasoning.",
+      "serve hot with boiled yam or rice."
+    ]
+  },
+  
+  "boli": {
+    "name": "boli",
+    "country": "nigeria",
+    "dish_type": "grilled",
+    "dish_category": "veg",
+    "ingredients": [
+      "4 ripe plantains",
+      "salt"
+    ],
+    "steps": [
+      "preheat the grill to medium heat. you can use a charcoal grill, gas grill, or oven grill for this recipe.",
+      "peel the plantains by cutting off both ends and then slitting the skin lengthwise. gently remove the skin from the plantains.",
+      "lightly sprinkle salt over the peeled plantains to add flavor.",
+      "place the plantains on the grill and cook for about 10–15 minutes, turning them occasionally to ensure even cooking on all sides.",
+      "grill until the plantains are golden brown and slightly charred on the outside. they should feel soft when pressed lightly.",
+      "once done, remove the plantains from the grill and let them cool slightly before serving.",
+      "serve the grilled plantains with groundnuts (peanuts) or pepper sauce for a traditional pairing."
+    ]
+  },
+
+  "afangSoup": {
+    "name": "afang soup",
+    "country": "nigeria",
+    "dish_type": "stewed",
+    "dish_category": "non-veg",
+    "ingredients": [
+      "500g afang leaves (wild spinach), finely chopped",
+      "500g waterleaf or spinach, finely chopped",
+      "500g assorted meat (beef, goat meat, or tripe)",
+      "200g stockfish",
+      "200g smoked fish",
+      "2 tablespoons ground crayfish",
+      "1 cup palm oil",
+      "2 tablespoons ground pepper",
+      "2 seasoning cubes",
+      "salt to taste",
+      "water"
+    ],
+    "steps": [
+      "wash and season the assorted meat with salt, seasoning cubes, and ground pepper. add water and cook until the meat is tender.",
+      "add the stockfish and smoked fish to the pot of meat and cook for an additional 10–15 minutes.",
+      "while the meat is cooking, prepare the vegetables. wash and finely chop the afang leaves and waterleaf (or spinach). set aside.",
+      "once the meat is tender, add the ground crayfish, palm oil, and extra seasoning if necessary. stir well and cook for about 5 minutes.",
+      "gradually add the waterleaf (or spinach) to the pot, stirring continuously to combine it with the meat and stock.",
+      "after 3–5 minutes, add the afang leaves to the soup and mix thoroughly. allow the soup to simmer for another 5–7 minutes until the vegetables are tender.",
+      "adjust the seasoning by adding more salt or pepper if needed. stir and let it simmer for a few more minutes.",
+      "remove from heat and serve hot with fufu, pounded yam, or garri."
+    ]
+  },
+  
+  "efoRiro": {
+    "name": "efo riro",
+    "country": "nigeria",
+    "dish_type": "stewed",
+    "dish_category": "non-veg",
+    "ingredients": [
+      "2 cups spinach (chopped)",
+      "1 red bell pepper",
+      "1 onion",
+      "500g assorted meats",
+      "palm oil",
+      "ground crayfish",
+      "salt"
+    ],
+    "steps": [
+      "blend pepper and onion into a paste.",
+      "heat palm oil and sauté the paste.",
+      "add meats and cook for 10 minutes.",
+      "stir in spinach and crayfish, season with salt.",
+      "cook for 5 minutes and serve with rice or yam."
+    ]
+  },
+  
+  "akara": {
+    "name": "akara",
+    "country": "nigeria",
+    "dish_type": "fried",
+    "dish_category": "veg",
+    "ingredients": [
+      "2 cups peeled beans",
+      "1 onion",
+      "1 bell pepper",
+      "salt",
+      "vegetable oil"
+    ],
+    "steps": [
+      "blend beans, onion, and pepper into a smooth paste.",
+      "add salt and mix.",
+      "heat oil and fry spoonfuls of the mixture until golden brown.",
+      "serve with pap or bread."
+    ]
+  },
+  
+  "ofadaRiceAyamaseSauce": {
+    "name": "ofada rice and ayamase sauce",
+    "country": "nigeria",
+    "dish_type": "stewed",
+    "dish_category": ["veg", "non-veg"],
+    "ingredients": [
+      "2 cups ofada rice",
+      "4 cups water",
+      "salt to taste",
+      "6 green bell peppers",
+      "2-3 scotch bonnet peppers",
+      "1 medium onion",
+      "500g assorted meat (beef, goat meat, or tripe)",
+      "200g palm oil",
+      "2 tablespoons ground crayfish",
+      "2 seasoning cubes",
+      "salt to taste",
+      "water"
+    ],
+    "steps": [
+      "rinse the ofada rice thoroughly under cold water to remove any impurities and excess starch.",
+      "in a pot, combine the rinsed rice and 4 cups of water. add salt to taste.",
+      "bring the mixture to a boil over medium heat, then reduce the heat to low once it starts boiling.",
+      "cover the pot and let it simmer for about 20-25 minutes, or until the rice is cooked and the water is absorbed.",
+      "once cooked, fluff the rice with a fork and allow it to sit covered for a few minutes before serving.",
+      "blend the green bell peppers, scotch bonnet peppers, and onion together until smooth. set aside.",
+      "in a pot, heat the palm oil over medium heat until it becomes clear, being careful not to overheat it.",
+      "add the blended pepper mixture to the oil and stir well. cook for about 10-15 minutes, stirring occasionally, until the sauce thickens.",
+      "while the sauce is cooking, boil the assorted meat in a separate pot until tender. drain and add the meat to the sauce.",
+      "stir in the ground crayfish, seasoning cubes, and salt. mix well and let the sauce simmer for another 5-10 minutes.",
+      "taste and adjust the seasoning as needed, then remove the sauce from heat.",
+      "serve the ofada rice on a plate and pour the ayamase sauce generously over it.",
+      "optionally, garnish with sliced onions or fresh herbs for added flavor."
+    ]
+  },
+
+  "ofeNsala": {
+    "name": "ofe nsala",
+    "country": "nigeria",
+    "dish_type": "stewed",
+    "dish_category": "non-veg",
+    "ingredients": [
+      "500g catfish",
+      "1 yam (boiled and pounded)",
+      "uziza leaves",
+      "pepper",
+      "salt"
+    ],
+    "steps": [
+      "boil the catfish with pepper and seasoning.",
+      "add pounded yam to thicken the soup.",
+      "stir in uziza leaves and cook for 5 minutes.",
+      "serve with pounded yam."
+    ]
+  },
+  
+  "eweduSoup": {
+    "name": "ewedu soup",
+    "country": "nigeria",
+    "dish_type": "stewed",
+    "dish_category": "veg",
+    "ingredients": [
+      "2 cups ewedu leaves",
+      "1 tsp potash",
+      "ground crayfish",
+      "salt"
+    ],
+    "steps": [
+      "boil ewedu leaves with potash for 5 minutes.",
+      "blend into a smooth consistency.",
+      "add crayfish and salt, cook for another 2 minutes.",
+      "serve with amala or fufu."
+    ]
+  },
