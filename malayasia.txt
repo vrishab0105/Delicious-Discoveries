@@ -1,0 +1,457 @@
+
+  "nasiLemak": {
+    "name": "nasi lemak",
+    "country": "malaysia",
+    "dish_type": "steamed",
+    "dish_category": "non-veg",
+    "ingredients": [
+      "2 cups rice",
+      "1 cup coconut milk",
+      "3 pandan leaves (knotted)",
+      "1 tsp salt",
+      "2 eggs (hard-boiled)",
+      "100g anchovies (fried)",
+      "1 cucumber (sliced)",
+      "3 tbsp sambal chili paste",
+      "100g peanuts (fried)"
+    ],
+    "steps": [
+      "rinse the rice thoroughly and drain.",
+      "in a rice cooker, combine rice, coconut milk, pandan leaves, salt, and 2 cups of water.",
+      "cook the rice until done and fluffy.",
+      "while the rice cooks, prepare the fried anchovies and peanuts.",
+      "in a pan, fry the anchovies until crispy, then set aside.",
+      "in the same pan, fry the peanuts until golden brown and set aside.",
+      "boil the eggs until hard-boiled, then peel and slice them.",
+      "slice the cucumber into thin rounds and set aside.",
+      "prepare sambal by frying chili paste in oil until fragrant.",
+      "serve the cooked rice with fried anchovies, peanuts, eggs, cucumber, and sambal on the side."
+    ]
+  },
+  "charKwayTeow": {
+    "name": "char kway teow",
+    "country": "malaysia",
+    "dish_type": "stir-fried",
+    "dish_category": "non-veg",
+    "ingredients": [
+      "200g flat rice noodles",
+      "100g prawns (peeled and deveined)",
+      "100g bean sprouts",
+      "2 eggs",
+      "50g chinese chives (cut into 2-inch lengths)",
+      "2 cloves garlic (minced)",
+      "2 tbsp soy sauce",
+      "1 tbsp dark soy sauce",
+      "1 tbsp chili paste",
+      "2 tbsp oil"
+    ],
+    "steps": [
+      "heat oil in a wok over medium-high heat.",
+      "add minced garlic and stir-fry until fragrant.",
+      "add prawns and cook until they turn pink, then remove and set aside.",
+      "in the same wok, crack the eggs and scramble them.",
+      "add the flat rice noodles and toss to coat with the eggs.",
+      "pour in soy sauce, dark soy sauce, and chili paste.",
+      "toss the noodles until they are evenly coated with the sauces.",
+      "add back the cooked prawns, bean sprouts, and chinese chives.",
+      "stir-fry for another 2-3 minutes until everything is well combined.",
+      "serve hot and garnish with extra chili if desired."
+    ]
+  },
+  "rendang": {
+    "name": "beef rendang",
+    "country": "malaysia",
+    "dish_type": "braised",
+    "dish_category": "non-veg",
+    "ingredients": [
+      "500g beef (cut into cubes)",
+      "200ml coconut milk",
+      "2 lemongrass stalks (bruised)",
+      "3 kaffir lime leaves",
+      "2 tbsp tamarind paste",
+      "4 shallots (chopped)",
+      "3 garlic cloves (chopped)",
+      "2 tsp chili powder",
+      "1 tbsp coriander powder",
+      "2 tbsp cooking oil"
+    ],
+    "steps": [
+      "heat oil in a pot and sauté shallots and garlic until fragrant.",
+      "add chili powder and coriander powder, stirring for 2 minutes.",
+      "add the beef cubes and cook until browned on all sides.",
+      "pour in coconut milk and tamarind paste, and mix well.",
+      "add bruised lemongrass stalks and kaffir lime leaves.",
+      "reduce the heat to low and simmer the mixture for 1-2 hours.",
+      "stir occasionally, allowing the liquid to reduce and thicken.",
+      "once the beef is tender and the sauce has thickened, remove from heat.",
+      "let it rest for 10 minutes before serving.",
+      "serve hot with steamed rice or flatbread."
+    ]
+  },
+  "satay": {
+    "name": "chicken satay",
+    "country": "malaysia",
+    "dish_type": "grilled",
+    "dish_category": "non-veg",
+    "ingredients": [
+      "500g chicken breast (cut into cubes)",
+      "2 tbsp ground turmeric",
+      "2 tbsp cumin powder",
+      "1 tbsp coriander powder",
+      "3 cloves garlic (minced)",
+      "1 onion (chopped)",
+      "2 tbsp soy sauce",
+      "2 tbsp palm sugar",
+      "bamboo skewers (soaked in water)",
+      "peanut sauce (for serving)"
+    ],
+    "steps": [
+      "in a bowl, mix turmeric, cumin, coriander, garlic, onion, soy sauce, and palm sugar.",
+      "add the chicken cubes and marinate for at least 2 hours or overnight.",
+      "thread the marinated chicken onto bamboo skewers.",
+      "preheat a grill or grill pan over medium heat.",
+      "grill the chicken skewers for 3-4 minutes on each side until cooked through.",
+      "baste with extra marinade while grilling for added flavor.",
+      "serve the satay with a side of peanut sauce.",
+      "optionally, garnish with sliced cucumber and onions."
+    ]
+  },
+
+  "rotiCanai": {
+    "name": "roti canai",
+    "country": "malaysia",
+    "dish_type": "fried",
+    "dish_category": "veg",
+    "ingredients": [
+      "2 cups all-purpose flour",
+      "1/2 tsp salt",
+      "1 tbsp sugar",
+      "2 tbsp ghee (clarified butter)",
+      "3/4 cup water",
+      "1/4 cup oil (for cooking)"
+    ],
+    "steps": [
+      "in a bowl, combine flour, salt, and sugar.",
+      "add ghee and rub into the flour mixture until crumbly.",
+      "gradually add water and knead into a smooth dough.",
+      "cover the dough and let it rest for at least 1 hour.",
+      "divide the dough into small balls and flatten each ball into a thin circle.",
+      "heat a pan over medium heat and brush with oil.",
+      "cook each roti for 2-3 minutes on each side until golden and crispy.",
+      "serve with curry or dhal for dipping."
+    ]
+  },
+
+  "hainaneseChickenRice": {
+    "name": "hainanese chicken rice",
+    "country": "malaysia",
+    "dish_type": "boiled",
+    "dish_category": "non-veg",
+    "ingredients": [
+      "1 whole chicken (about 1.5 kg)",
+      "salt",
+      "ginger (2-3 slices)",
+      "garlic (2-3 cloves, smashed)",
+      "water",
+      "2 cups jasmine rice",
+      "3 cups chicken broth (reserved from boiling the chicken)",
+      "2 tablespoons vegetable oil",
+      "2 cloves garlic (minced)",
+      "1 tablespoon ginger (minced)",
+      "salt to taste",
+      "3 tablespoons soy sauce",
+      "2 tablespoons sesame oil",
+      "2 tablespoons chili sauce",
+      "2 tablespoons ginger-garlic paste"
+    ],
+    "steps": [
+      "clean the whole chicken and rub salt all over it, including the cavity.",
+      "in a large pot, add enough water to submerge the chicken. add ginger and smashed garlic.",
+      "bring the water to a boil, then lower the heat and gently add the chicken. simmer for about 30-40 minutes until fully cooked.",
+      "once cooked, remove the chicken and let it cool. reserve the chicken broth for cooking the rice.",
+      "rinse the jasmine rice under cold water until the water runs clear.",
+      "in a pot, heat the vegetable oil over medium heat. add minced garlic and ginger, sautéing until fragrant.",
+      "add the rinsed rice to the pot and stir well to coat with the oil and aromatics.",
+      "pour in 3 cups of the reserved chicken broth and add salt to taste.",
+      "bring to a boil, then reduce the heat to low. cover and simmer for about 15-20 minutes, or until the rice is cooked and fluffy.",
+      "in a small bowl, mix together soy sauce, sesame oil, chili sauce, and ginger-garlic paste.",
+      "adjust the ingredients to taste, then set aside.",
+      "slice the cooled chicken and serve it over a bed of the cooked rice or drizzle the prepared sauce over the chicken."
+    ]
+  },
+
+  "meeGoreng": {
+    "name": "mee goreng",
+    "country": "malaysia",
+    "dish_type": "stir-fried",
+    "dish_category": "non-veg",
+    "ingredients": [
+      "300g yellow noodles (or egg noodles)",
+      "2 tablespoons vegetable oil",
+      "2 cloves garlic, minced",
+      "1 onion, sliced",
+      "100g tofu, diced",
+      "150g prawns, peeled and deveined",
+      "1 carrot, julienned",
+      "100g cabbage, shredded",
+      "2 eggs, beaten",
+      "3 tablespoons soy sauce",
+      "1 tablespoon chili sauce",
+      "salt and pepper to taste",
+      "green onions, chopped (for garnish)",
+      "lime wedges (for serving)"
+    ],
+    "steps": [
+      "cook the yellow noodles according to package instructions. drain and set aside.",
+      "in a large wok or frying pan, heat the vegetable oil over medium heat.",
+      "add the minced garlic and sliced onion, sautéing until fragrant and the onions are translucent.",
+      "add the diced tofu and prawns, cooking until the prawns are pink and the tofu is golden brown.",
+      "stir in the julienned carrot and shredded cabbage, cooking for about 3-5 minutes until they soften.",
+      "push the ingredients to one side of the wok and pour the beaten eggs into the other side. scramble the eggs until fully cooked, then mix with the other ingredients.",
+      "add the cooked noodles to the wok, along with soy sauce and chili sauce. toss everything together until well combined.",
+      "season with salt and pepper to taste, adjusting the flavors as needed.",
+      "serve hot, garnished with chopped green onions and lime wedges on the side."
+    ]
+  },
+"nasiKerabu": {
+    "name": "nasi kerabu",
+    "country": "malaysia",
+    "dish_type": "grilled",
+    "dish_category": "non-veg",
+    "ingredients": [
+      "2 cups jasmine rice",
+      "1/2 teaspoon blue pea flower (for coloring)",
+      "water",
+      "1 cup bean sprouts",
+      "1/2 cup long beans, cut into 1-inch pieces",
+      "1/2 cup cucumber, julienned",
+      "1/2 cup cabbage, shredded",
+      "1/4 cup fresh mint leaves",
+      "1/4 cup fresh coriander leaves",
+      "300g chicken breast",
+      "1 tablespoon soy sauce",
+      "1 tablespoon oyster sauce",
+      "1 teaspoon sesame oil",
+      "salt and pepper to taste",
+      "2 tablespoons sambal belacan (chili paste)",
+      "1 tablespoon lime juice"
+    ],
+    "steps": [
+      "rinse the jasmine rice under cold water until the water runs clear.",
+      "in a pot, add the rinsed rice and enough water to cook. add the blue pea flower for coloring.",
+      "cook the rice according to the package instructions, usually about 15-20 minutes.",
+      "once cooked, fluff the rice and set aside.",
+      "in a bowl, marinate the chicken breast with soy sauce, oyster sauce, sesame oil, salt, and pepper for at least 30 minutes.",
+      "grill or pan-fry the marinated chicken until fully cooked. slice it into thin strips once cooled.",
+      "in a small bowl, mix sambal belacan with lime juice to taste. adjust according to your spice preference.",
+      "on a plate, serve a portion of the colored rice.",
+      "arrange the bean sprouts, long beans, cucumber, cabbage, mint, and coriander around the rice.",
+      "top with the sliced grilled chicken and drizzle the sambal over the dish.",
+      "optionally, garnish with additional herbs or a lime wedge for serving."
+    ]
+  },
+
+  "asamPedas": {
+    "name": "asam pedas",
+    "country": "malaysia",
+    "dish_type": "stewed",
+    "dish_category": "non-veg",
+    "ingredients": [
+      "500g fish (such as mackerel or snapper), cleaned and cut into pieces",
+      "2 tablespoons tamarind paste",
+      "3 cups water",
+      "2 tablespoons vegetable oil",
+      "1 onion, sliced",
+      "2 cloves garlic, minced",
+      "1-inch piece of ginger, minced",
+      "2-3 fresh red chilies, sliced",
+      "1 tablespoon shrimp paste (belacan)",
+      "2 tablespoons chili powder",
+      "1 tablespoon sugar",
+      "salt to taste",
+      "1-2 stalks of okra, cut into pieces",
+      "1 cup daun kesum (vietnamese mint) or mint leaves"
+    ],
+    "steps": [
+      "in a pot, heat the vegetable oil over medium heat. add the sliced onion, minced garlic, and ginger, sautéing until fragrant.",
+      "stir in the shrimp paste (belacan) and chili powder. cook for another 2-3 minutes to release the flavors.",
+      "add the water and bring the mixture to a boil.",
+      "once boiling, add the tamarind paste, sugar, and salt to taste. stir well.",
+      "gently add the fish pieces to the pot and simmer for about 10-15 minutes until the fish is cooked through.",
+      "add the sliced red chilies, okra, and daun kesum (or mint leaves). simmer for an additional 5 minutes.",
+      "taste and adjust seasoning as needed, then remove from heat.",
+      "serve the asam pedas hot with steamed rice.",
+      "optionally, garnish with extra mint leaves or fresh herbs."
+    ]
+  },
+
+  "kuihLapis": {
+    "name": "kuih lapis",
+    "country": "malaysia",
+    "dish_type": "steamed",
+    "dish_category": "veg",
+    "ingredients": [
+      "200g rice flour",
+      "100g tapioca flour",
+      "200g sugar",
+      "600ml coconut milk",
+      "1 teaspoon pandan extract (or green food coloring)",
+      "1 teaspoon vanilla extract",
+      "1/2 teaspoon salt",
+      "water (as needed)"
+    ],
+    "steps": [
+      "in a mixing bowl, combine rice flour, tapioca flour, sugar, and salt. mix well.",
+      "gradually add coconut milk to the dry ingredients, stirring continuously until smooth and lump-free.",
+      "divide the mixture into two portions. leave one portion as is and add pandan extract (or green food coloring) to the second portion, mixing well.",
+      "grease a 9-inch square or round cake pan with oil.",
+      "pour a layer of the plain mixture (about 1/2 inch thick) into the pan and steam over boiling water for about 10-15 minutes until set.",
+      "once set, pour a layer of the green mixture (also about 1/2 inch thick) on top of the plain layer. steam for another 10-15 minutes until set.",
+      "repeat the layering process until all the batter is used up, alternating colors.",
+      "after the final layer, steam for an additional 20-30 minutes to ensure everything is cooked through.",
+      "remove the pan from the steamer and let it cool completely before slicing.",
+      "cut the kuih lapis into small squares or rectangles.",
+      "serve chilled or at room temperature as a sweet snack or dessert."
+    ]
+  },
+
+  "rendangAyam": {
+    "name": "rendang ayam",
+    "country": "malaysia",
+    "dish_type": "stewed",
+    "dish_category": "non-veg",
+    "ingredients": [
+      "1 kg chicken, cut into pieces",
+      "400 ml coconut milk",
+      "2 tablespoons vegetable oil",
+      "1 onion, chopped",
+      "3 cloves garlic, minced",
+      "1-inch piece of ginger, minced",
+      "1-inch piece of galangal, minced",
+      "2-3 fresh red chilies, blended into a paste",
+      "1 teaspoon turmeric powder",
+      "1 tablespoon tamarind paste",
+      "2-3 kaffir lime leaves",
+      "1-2 lemongrass stalks, bruised",
+      "salt to taste",
+      "sugar to taste"
+    ],
+    "steps": [
+      "heat the vegetable oil in a large pot over medium heat. add chopped onion, garlic, ginger, and galangal. sauté until fragrant.",
+      "add the blended chili paste and turmeric powder to the pot. cook for a few minutes until the oil separates from the spice mixture.",
+      "add the chicken pieces to the pot, stirring to coat them with the spice mixture. cook for about 5-7 minutes until the chicken is slightly browned.",
+      "pour in the coconut milk, tamarind paste, kaffir lime leaves, and bruised lemongrass. stir well.",
+      "bring the mixture to a boil, then reduce the heat to low. simmer uncovered for about 1-1.5 hours, stirring occasionally, until the chicken is tender and the sauce thickens.",
+      "season with salt and sugar to taste. adjust the seasoning as needed.",
+      "serve the rendang ayam hot with steamed rice or flatbreads.",
+      "optionally, garnish with additional kaffir lime leaves or fresh herbs."
+    ]
+  },
+  
+  "nasiGoreng": {
+    "name": "nasi goreng",
+    "country": "malaysia",
+    "dish_type": "stir-fried",
+    "dish_category": "non-veg",
+    "ingredients": [
+      "2 cups cooked jasmine rice (preferably day-old)",
+      "2 tablespoons vegetable oil",
+      "2 cloves garlic, minced",
+      "1 onion, chopped",
+      "2-3 red chilies, sliced (adjust to taste)",
+      "100g chicken breast, diced (or shrimp, tofu, or mixed vegetables)",
+      "2 eggs, beaten",
+      "3 tablespoons soy sauce",
+      "1 tablespoon sweet soy sauce (kecap manis)",
+      "salt and pepper to taste",
+      "green onions, chopped (for garnish)",
+      "cucumber and tomato slices (for serving)"
+    ],
+    "steps": [
+      "heat the vegetable oil in a large wok or frying pan over medium heat.",
+      "add the minced garlic and chopped onion. sauté until fragrant and the onion is translucent.",
+      "stir in the sliced red chilies and cook for another minute.",
+      "add the diced chicken (or your choice of protein) and cook until it's no longer pink.",
+      "push the mixture to one side of the wok and pour the beaten eggs into the other side. scramble the eggs until cooked, then mix with the other ingredients.",
+      "add the cooked rice to the wok, breaking up any clumps. stir everything together.",
+      "pour in the soy sauce and sweet soy sauce (kecap manis). mix well to ensure the rice is evenly coated.",
+      "season with salt and pepper to taste. stir-fry for a few more minutes until heated through.",
+      "remove from heat and garnish with chopped green onions.",
+      "serve the nasi goreng hot on a plate.",
+      "garnish with additional green onions and serve with cucumber and tomato slices on the side."
+    ]
+  },
+  
+  "sotoAyam": {
+    "name": "soto ayam",
+    "country": "malaysia",
+    "dish_type": "boiled",
+    "dish_category": "non-veg",
+    "ingredients": [
+      "1 whole chicken (about 1.5 kg), cleaned",
+      "2 liters water",
+      "2 tablespoons vegetable oil",
+      "1 onion, chopped",
+      "2 cloves garlic, minced",
+      "1-inch piece of ginger, minced",
+      "1-inch piece of turmeric, minced (or 1 teaspoon turmeric powder)",
+      "2-3 lemongrass stalks, bruised",
+      "3-4 kaffir lime leaves",
+      "2-3 fresh red chilies, sliced (optional)",
+      "salt and pepper to taste",
+      "2 tablespoons soy sauce",
+      "2-3 boiled eggs, halved (for serving)",
+      "1 cup bean sprouts (for serving)",
+      "2-3 green onions, chopped (for garnish)",
+      "lime wedges (for serving)",
+      "rice or noodles (for serving)"
+    ],
+    "steps": [
+      "in a large pot, bring water to a boil. add the whole chicken and cook until fully cooked, about 30-40 minutes.",
+      "once cooked, remove the chicken and set aside. reserve the chicken broth.",
+      "in a separate pot, heat vegetable oil over medium heat. add chopped onion, minced garlic, ginger, turmeric, and lemongrass. sauté until fragrant.",
+      "pour in about 1 liter of the reserved chicken broth into the sautéed spices. add kaffir lime leaves and bring to a simmer.",
+      "shred the cooked chicken into bite-sized pieces and add it back into the pot. simmer for another 10-15 minutes.",
+      "season with salt, pepper, and soy sauce to taste.",
+      "serve the soto ayam hot in bowls with a ladle of broth and pieces of chicken.",
+      "garnish with boiled eggs, bean sprouts, and chopped green onions.",
+      "serve with lime wedges on the side and rice or noodles as desired."
+    ]
+  },
+  
+  "curryPuff": {
+    "name": "curry puff",
+    "country": "malaysia",
+    "dish_type": "baked",
+    "dish_category": "non-veg",
+    "ingredients": [
+        "2 cups all-purpose flour",
+        "1/2 cup unsalted butter, melted",
+        "1/4 cup water (or as needed)",
+        "1/2 teaspoon salt",
+        "2 tablespoons vegetable oil",
+        "1 onion, finely chopped",
+        "200g minced chicken or beef",
+        "2-3 tablespoons curry powder",
+        "1 potato, peeled and diced",
+        "salt and pepper to taste",
+        "1/4 cup water"
+       ],
+    "steps": [
+     "in a mixing bowl, combine flour and salt. add melted butter and mix until crumbly.",
+     "gradually add water and knead until the dough is smooth and elastic. cover with a damp cloth and let it rest for 30 minutes.",
+     "heat vegetable oil in a pan over medium heat. add chopped onion and sauté until translucent.",
+     "add the minced meat and cook until browned.",
+     "stir in curry powder and diced potato. add water and simmer until the potato is cooked and the mixture thickens.",
+     "season with salt and pepper to taste. let the filling cool.",
+     "preheat the oven to 180°C (350°F).",
+     "roll out the dough on a floured surface until about 1/8 inch thick. cut out circles using a cookie cutter.",
+     "place a spoonful of the cooled filling in the center of each dough circle.",
+     "fold the dough over to create a half-moon shape and press the edges to seal. use a fork to crimp the edges for extra security.",
+     "place the curry puffs on a baking sheet lined with parchment paper.",
+     "bake in the preheated oven for about 20-25 minutes, or until golden brown.",
+     "remove from the oven and let cool slightly before serving.",
+     "serve the curry puffs warm as a snack or appetizer.",
+     "optionally, serve with chili sauce for dipping."
+    ]
+  },
