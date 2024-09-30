@@ -263,10 +263,3 @@ document.addEventListener('DOMContentLoaded', function () {
         vegInfoBox.style.display = 'none';
     });
 });
-
-
-function navigateTo(page) {
-    console.log(`Navigating to: ${page}`); // Debugging line
-    window.location.href = `${page}`;
-}
-
