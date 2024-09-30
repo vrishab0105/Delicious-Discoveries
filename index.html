@@ -8,37 +8,45 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Pirata+One&display=swap" rel="stylesheet">
+    <script>
+        function navigateTo(page) {
+            // Get the base URL from the current location
+            const baseUrl = window.location.origin + window.location.pathname.substring(0, window.location.pathname.lastIndexOf('/'));
+            // Redirect to the desired page
+            window.location.href = `${baseUrl}/${page}`;
+        }
+    </script>
 </head>
 <body>
     <header>
         <nav class="navbar">
-          <div id="name">
-            <img src="/Logo.jpeg" alt="Logo" id="navbar-logo">
-            Delicious Discoveries
-          </div>
-          <div class="nav-center">
-            <a href="/index.html">Home</a>
-            <a href="/about.html">About</a>
-          </div>
+            <div id="name">
+                <img src="/Logo.jpeg" alt="Logo" id="navbar-logo">
+                Delicious Discoveries
+            </div>
+            <div class="nav-center">
+                <a href="#" onclick="navigateTo('index.html')">Home</a>
+                <a href="#" onclick="navigateTo('about.html')">About</a>
+            </div>
         </nav>
-      </header>
+    </header>
 
-      <div id="logodiv">
+    <div id="logodiv">
         <div id="intro">
-          <h1>Welcome to <span>Delicious Discoveries</span></h1>
-          <p>
-            Your gateway to a culinary adventure like no other! Immerse yourself in a vibrant world of flavors, where each recipe is a celebration of taste, texture, and creativity. Whether you're a kitchen maestro or a budding food enthusiast, our handpicked recipes are designed to ignite your passion for cooking. With simple instructions, bold ingredients, and a dash of inspiration, you’ll transform everyday meals into extraordinary experiences. Get ready to explore, create, and savor—because at <span>Delicious Discoveries</span>, every dish tells a delicious story!
-          </p>
+            <h1>Welcome to <span>Delicious Discoveries</span></h1>
+            <p>
+                Your gateway to a culinary adventure like no other! Immerse yourself in a vibrant world of flavors, where each recipe is a celebration of taste, texture, and creativity. Whether you're a kitchen maestro or a budding food enthusiast, our handpicked recipes are designed to ignite your passion for cooking. With simple instructions, bold ingredients, and a dash of inspiration, you’ll transform everyday meals into extraordinary experiences. Get ready to explore, create, and savor—because at <span>Delicious Discoveries</span>, every dish tells a delicious story!
+            </p>
         </div>
-      </div>
+    </div>
 
-      <hr> 
+    <hr>
 
-      <div class="options">
+    <div class="options">
         <div class="option-item">
             <h2>View All Recipes</h2>
             <p>Browse through our extensive collection of recipes, carefully curated to suit every taste. From quick weeknight dinners to gourmet dishes for special occasions, you'll find step-by-step instructions to create mouthwatering meals. Whether you're an experienced cook or just starting out, our recipes ensure culinary success every time!</p>
-            <button onclick="window.location.href='recipe-list.html'" class="btn">View All Recipes</button>
+            <button onclick="navigateTo('recipe-list.html')" class="btn">View All Recipes</button>
         </div>
 
         <hr> <!-- Partition between option items -->
@@ -46,7 +54,7 @@
         <div class="option-item">
             <h2>Search Recipes by Country</h2>
             <p>Take a journey around the world without leaving your kitchen! Explore recipes from diverse cuisines such as Italian, Indian, Mexican, Japanese, and many more. Learn about traditional dishes, regional ingredients, and cooking techniques that define the flavors of different countries. Expand your palate with authentic and easy-to-follow international recipes.</p>
-            <button onclick="window.location.href='country-search.html'" class="btn">Search Recipes by Country</button>
+            <button onclick="navigateTo('country-search.html')" class="btn">Search Recipes by Country</button>
         </div>
 
         <hr> <!-- Partition between option items -->
@@ -54,12 +62,12 @@
         <div class="option-item">
             <h2>Reverse Image Search</h2>
             <p>Ever come across a picture of a delicious dish and wonder what it is or how to make it? Our reverse image search tool lets you upload an image, and we'll find matching recipes for you. This tool is perfect for discovering recipes from photos you've saved or seen online. Find the recipe and start cooking right away!</p>
-            <button onclick="window.location.href='reverse-image-search.html'" class="btn">Reverse Image Search</button>
+            <button onclick="navigateTo('reverse-image-search.html')" class="btn">Reverse Image Search</button>
         </div>
     </div>
     
-    <footer> 
-        <button onclick="window.location.href='admin.html'" class="btn">Admin</button>
+    <footer>
+        <button onclick="navigateTo('admin.html')" class="btn">Admin</button>
     </footer>
 </body>
 </html>
