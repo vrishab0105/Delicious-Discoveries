@@ -7,5 +7,5 @@ window.navigateTo = function(page) {
 document.addEventListener('DOMContentLoaded', () => {
     const logoImage = document.getElementById('navbar-logo');
     // Directly using the relative path
-    logoImage.src = "Logo.jpeg"; // Adjust path if in a subfolder
+    logoImage.src = 'photos/logo.jpeg'; // Update this path if necessary
 });
