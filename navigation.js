@@ -8,5 +8,5 @@ window.navigateTo = function(page) {
 document.addEventListener('DOMContentLoaded', () => {
     const logoImage = document.getElementById('navbar-logo');
     const baseUrl = window.location.origin; // Get the base URL
-    logoImage.src = `${baseUrl}/path/to/your/Logo.jpeg`; // Set the path to your logo
+    logoImage.src = `${baseUrl}/photos/Logo.jpeg`; // Set the path to your logo
 });
