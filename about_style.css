@@ -141,6 +141,16 @@ h2 {
     box-shadow: 0 0 10px #ff8800; /* Glow effect on photos */
 }
 
+.vrishab {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+    border: 3px solid #ff8800; /* Glowing border for photos */
+    box-shadow: 0 0 10px #ff8800; /* Glow effect on photos */
+}
+
 h3 {
     font-size: 22px;
     margin-bottom: 10px;
