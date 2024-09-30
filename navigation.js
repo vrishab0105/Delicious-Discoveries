@@ -6,7 +6,6 @@ window.navigateTo = function(page) {
 // Set the logo source dynamically based on the current location
 document.addEventListener('DOMContentLoaded', () => {
     const logoImage = document.getElementById('navbar-logo');
-    const baseUrl = window.location.origin; // Get the base URL
-    // Adjust the path based on where your image is located
-    logoImage.src = `${baseUrl}/Logo.jpeg`; // Update this path if necessary
+    // Directly using the relative path
+    logoImage.src = "Logo.jpeg"; // Adjust path if in a subfolder
 });
