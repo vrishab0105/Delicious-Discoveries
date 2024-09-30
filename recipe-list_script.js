@@ -263,3 +263,12 @@ document.addEventListener('DOMContentLoaded', function () {
         vegInfoBox.style.display = 'none';
     });
 });
+
+
+// navigation.js
+function navigateTo(page) {
+    // Get the base URL from the current location
+    const baseUrl = window.location.origin + window.location.pathname.substring(0, window.location.pathname.lastIndexOf('/'));
+    // Redirect to the desired page
+    window.location.href = `${baseUrl}/${page}`;
+}
