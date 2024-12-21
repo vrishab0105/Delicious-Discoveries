@@ -213,7 +213,7 @@ footer {
   text-align: center;
   padding: 20px;
   background-color: #87a1cc;
-  background-color: ;
+  background-color: #333;
   color: #624ada;
   font-size: 16px;
   margin-top: auto; /* Pushes the footer to the bottom */
@@ -231,7 +231,7 @@ footer .btn {
 }
 
 footer .btn:hover {
-  background-color: #1d115a;
+  background-color: #624ada;
 }
 
 /* Responsive Design for Footer */
