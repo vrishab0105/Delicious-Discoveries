@@ -98,6 +98,17 @@ body {
   font-family: 'Georgia', serif; /* Elegant, classic font */
   max-width: 100%;
 }
+/* Quote Styling */
+.quote {
+  font-family: 'Pacifico', cursive; /* Stylish Google Font */
+  font-size: 3.5rem;
+  font-weight: bold;
+  color: #057464; /* Matches the blue in the gradient */
+  text-align: center;
+  margin-top: 20px;
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3); /* Adds depth */
+}
+
 
 #intro h1 {
   font-family: 'Pirata One', cursive;
