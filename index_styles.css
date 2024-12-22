@@ -253,9 +253,6 @@ main {
   transition: transform 0.3s;
 }
 
-.image-container img:hover {
-  transform: scale(1.1);
-}
 
 #intro h1 span {
   color: #057464; /* Highlight the brand name */
