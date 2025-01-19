@@ -125,9 +125,6 @@
         "Butter for cooking",
         "Salt to taste"
       ],
-            
-      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/india%2FAloo%20Paratha.jpg?alt=media&token=bae81845-1ca5-4980-b592-07e0dab3e9e8",
-
       "name": "Aloo Paratha",
       "steps": [
         "Knead wheat flour with water into a soft dough and set aside for 15-20 minutes.",
@@ -237,8 +234,6 @@
         "1 tbsp lemon juice",
         "Pie crusts (for top and bottom)"
       ],
-
-      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/USA%2FApple%20Pie.jpg?alt=media&token=c6ccfc8c-7a37-48a3-9e04-13ae06a84a48",
       "name": "Apple Pie",
       "steps": [
         "Preheat your oven to 350°F (175°C) to prepare for baking.",
@@ -261,9 +256,6 @@
         "Breadcrumbs",
         "Olive oil"
       ],
-            
-      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/italy%2FArancini.jpg?alt=media&token=f7bf9a21-590e-4ad5-975e-d66e8ab72e8f",
-
       "name": "Arancini",
       "steps": [
         "Take cold risotto and form small balls, stuffing each with a cube of mozzarella in the center.",
@@ -455,9 +447,6 @@
         "Salt to taste",
         "Coriander for garnish"
       ],
-            
-      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/india%2FBaingan%20Bharta.jpg?alt=media&token=5b07459a-140b-4fe8-b0fa-20b5b61f7026",
-
       "name": "Baingan Bharta",
       "steps": [
         "Roast the eggplant over an open flame or in the oven until the skin is charred and the flesh softens.",
@@ -588,9 +577,6 @@
         "Oil for frying",
         "1/2 tsp Red chili powder (for batter)"
       ],
-            
-      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/india%2FBatata%20vada.jpg?alt=media&token=a1685bcc-2869-42f7-b250-89930143f9fc",
-
       "name": "Batata Vada",
       "steps": [
         "Heat a pan with 1 tbsp oil, add mustard seeds, curry leaves, and green chilies.",
@@ -655,8 +641,6 @@
         "Salt",
         "Pepper"
       ],
-      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/USA%2FBBQ%20Ribs.jpg?alt=media&token=6d483402-2dc9-49c3-8636-165f6b8703d0",
-
       "name": "BBQ Ribs",
       "steps": [
         "Preheat your oven to 300°F (150°C) to start the cooking process.",
@@ -946,10 +930,6 @@
         "2 tbsp Ghee",
         "Fresh coriander and mint leaves (for garnish)"
       ],
-
-            
-      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/india%2FChicken%20Biryani.jpg?alt=media&token=7eb03cf1-8c31-44f6-a85b-f342f1ad0384",
-
       "name": "Chicken Biryani",
       "steps": [
         "Marinate the chicken with yogurt, biryani masala, and salt for 1 hour.",
@@ -972,9 +952,6 @@
         "1 tsp baking powder",
         "50g almonds"
       ],
-                  
-      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/italy%2FBiscotti.jpg?alt=media&token=d8b2cbde-174d-4e60-a2d4-70c37e6d256c",
-
       "name": "Biscotti",
       "steps": [
         "In a mixing bowl, combine flour, sugar, eggs, and baking powder to form a dough.",
@@ -1170,9 +1147,6 @@
         "1 tbsp Paprika",
         "Salt and pepper to taste"
       ],
-
-      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/USA%2FBrisket.jpg?alt=media&token=ccaf989e-a761-4889-b3de-151f72beaf8f",
-
       "name": "Brisket",
       "steps": [
         "Rub brisket with paprika, salt, and pepper.",
@@ -1194,9 +1168,6 @@
         "1/4 cup Olive oil",
         "Salt and pepper to taste"
       ],
-                  
-      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/italy%2FBruschetta.jpg?alt=media&token=a6dc39c5-240b-44c8-91f1-cb983d97bd97",
-
       "name": "Bruschetta",
       "steps": [
         "Toast baguette slices until crisp.",
@@ -1205,11 +1176,6 @@
         "Serve immediately."
       ]
     },
-
-
-
-
-
     "buffaloWings": {
       "country": "USA",
       "dish_category": "non-veg",
@@ -1223,9 +1189,6 @@
         "Pepper",
         "Oil for frying"
       ],
-
-      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/USA%2FBuffalo%20Wings.jpg?alt=media&token=069d53a7-48f4-479e-8031-223897a2d729",
-
       "name": "Buffalo Wings",
       "steps": [
         "Heat oil in a deep fryer or a large pot to 180°C (350°F).",
@@ -1237,9 +1200,6 @@
         "Serve the buffalo wings hot, accompanied by celery sticks and blue cheese dressing."
       ]
     },
-
-
-
     "burger": {
       "country": "USA",
       "dish_category": "non-veg",
@@ -1256,9 +1216,6 @@
         "Salt",
         "Pepper"
       ],
-
-      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/USA%2FCheeseburger.jpg?alt=media&token=e20563a1-b035-4233-8068-e27b0a8150de",
-
       "name": "Cheeseburger",
       "steps": [
         "In a bowl, season the ground beef with salt and pepper to taste, ensuring it's evenly mixed.",
@@ -1271,10 +1228,6 @@
         "Top with the other half of the bun and serve immediately while hot."
       ]
     },
-
-
-
-
     "butterChicken": {
       "country": "India",
       "dish_category": "non-veg",
@@ -1292,10 +1245,6 @@
         "Salt and pepper to taste",
         "Fresh cilantro for garnish"
       ],
-
-            
-      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/india%2FButter%20Chicken.jpg?alt=media&token=f89c98d0-2c9b-4f5b-81ff-27d2f8a364f9",
-
       "name": "Butter Chicken",
       "steps": [
         "Marinate chicken in yogurt, ginger, garlic, salt, and pepper.",
@@ -1304,10 +1253,6 @@
         "Garnish with cilantro before serving."
       ]
     },
-
-
-
-
     "cabbageRolls": {
       "country": "Poland",
       "dish_category": "non-veg",
@@ -1333,10 +1278,6 @@
         "Bake at 350°F (175°C) for 1 hour."
       ]
     },
-
-
-
-    
     "caesarSalad": {
       "country": "USA",
       "dish_category": "veg",
@@ -1349,8 +1290,6 @@
         "Salt",
         "Pepper"
       ],
-      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/USA%2FCaesar%20Salad.jpg?alt=media&token=a044994e-a9f0-4528-8f32-b942b46ce361",
-
       "name": "Caesar Salad",
       "steps": [
         "Wash and chop the romaine lettuce into bite-sized pieces. Place in a large salad bowl.",
@@ -1359,9 +1298,6 @@
         "Season with salt and pepper to taste, and serve immediately."
       ]
     },
-
-
-
     "calzone": {
       "country": "Italy",
       "dish_category": "non-veg",
@@ -1374,9 +1310,6 @@
         "Tomato sauce",
         "Olive oil"
       ],
-                  
-      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/italy%2FCalzone.jpg?alt=media&token=e1a353c7-a73e-420b-9ed9-564a2dfce380",
-
       "name": "Calzone",
       "steps": [
         "Preheat your oven to 200°C (400°F) to ensure it's hot enough for baking.",
@@ -1388,9 +1321,6 @@
         "Serve hot with tomato sauce on the side for dipping."
       ]
     },
-
-
-
     "cannoli": {
       "country": "Italy",
       "dish_category": "veg",
@@ -1403,9 +1333,6 @@
         "1/2 cup Mini chocolate chips",
         "Cannoli shells"
       ],
-                  
-      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/italy%2FCannoli.jpg?alt=media&token=ce7200f3-686f-4ccf-bf12-13cf54a2e790",
-
       "name": "Cannoli",
       "steps": [
         "Mix ricotta, mascarpone, powdered sugar, and vanilla.",
@@ -1429,10 +1356,6 @@
         "2 tbsp Sugar",
         "Salt and pepper to taste"
       ],
-
-                  
-      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/italy%2FCaponata.jpg?alt=media&token=7d852d17-7841-4373-818a-eac75e85c465",
-
       "name": "Caponata",
       "steps": [
         "Sauté eggplant, onion, and bell pepper until softened.",
@@ -1454,9 +1377,6 @@
         "Salt",
         "Black pepper"
       ],
-                  
-      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/italy%2FCaprese%20Salad.jpg?alt=media&token=b29676e1-2ef3-4208-8a8b-05e306290860",
-
       "name": "Caprese Salad",
       "steps": [
         "Slice the tomatoes and mozzarella into even rounds.",
@@ -1505,9 +1425,6 @@
         "Salt and black pepper to taste",
         "Parsley for garnish"
       ],
-            
-      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/italy%2Fdownload.jpg?alt=media&token=70bd46b2-1b7a-4c3d-a99e-d3ec46480632",
-
       "name": "Spaghetti Carbonara",
       "steps": [
         "Cook spaghetti according to package instructions. Drain and set aside.",
@@ -1617,10 +1534,6 @@
         "Salt and pepper to taste",
         "Fresh cilantro for garnish"
       ],
-
-            
-      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/india%2FChana%20Masala.jpg?alt=media&token=e3d41b6e-d09c-4919-bc45-ab875cf57ea6",
-
       "name": "Chana Masala",
       "steps": [
         "Cook onion, garlic, and ginger until softened.",
@@ -1820,9 +1733,6 @@
         "Salt to taste",
         "Oil for frying"
       ],
-            
-      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/india%2FChicken%20Samosa.jpg?alt=media&token=436f19ca-051b-40ef-99e4-42386adbe87d",
-
       "name": "Chicken Samosa",
       "steps": [
         "Heat oil in a pan, cook onion, garlic, and ginger until softened.",
@@ -1889,9 +1799,6 @@
         "Salt to taste",
         "Fresh cilantro for garnish"
       ],
-            
-      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/india%2FChicken%20Tikka%20Masala.jpg?alt=media&token=570b76a3-aa7d-4ff2-bc6c-daff9552baa6",
-
       "name": "Chicken Tikka Masala",
       "steps": [
         "Marinate chicken in yogurt and tikka masala for 1 hour.",
@@ -2183,10 +2090,6 @@
         "Water (as needed)",
         "Oil (for frying)"
       ],
-
-            
-      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/india%2FChole%20Bhature.jpg?alt=media&token=a2e4b1b7-2be1-47f0-9d6d-24c9526e88d6",
-
       "name": "Chole Bhature",
       "steps": [
         "In a pressure cooker, heat oil and add cumin seeds. Once they splutter, add chopped onions and fry until golden brown.",
@@ -2287,9 +2190,6 @@
         "Salt",
         "Pepper"
       ],
-
-      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/USA%2FClam%20Chowder.jpg?alt=media&token=d39381ab-c212-4221-b24e-e391bfe0058c",
-
       "name": "Clam Chowder",
       "steps": [
         "In a large pot, melt the butter over medium heat. Add the chopped onion and sauté until soft and translucent, about 5 minutes.",
@@ -2377,9 +2277,6 @@
         "Salt",
         "Pepper"
       ],
-
-      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/USA%2FColeslaw.jpg?alt=media&token=4aec244b-fcf1-4dc3-84e4-e42539544442",
-
       "name": "Coleslaw",
       "steps": [
         "In a large bowl, combine the mayonnaise, vinegar, sugar, salt, and pepper. Whisk until smooth and well blended.",
@@ -2425,9 +2322,6 @@
         "1 egg",
         "1/4 cup butter (melted)"
       ],
-      
-      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/USA%2FCornbread.jpg?alt=media&token=21724c74-19f4-4c98-92c1-09032ec136d1",
-
       "name": "Cornbread",
       "steps": [
         "Preheat your oven to 400°F (200°C) and grease a baking pan or skillet.",
@@ -2578,9 +2472,6 @@
         "Butter",
         "Salt to taste"
       ],
-            
-      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/india%2FDal%20Makhani.jpg?alt=media&token=11b9a5b2-00a7-4bea-8487-6abbdcb72fdc",
-
       "name": "Dal Makhani",
       "steps": [
         "Soak black lentils and red kidney beans overnight. Cook them in a pressure cooker until soft.",
@@ -2608,9 +2499,6 @@
         "Fresh coriander leaves (for garnish)",
         "Ghee or oil for tempering"
       ],
-            
-      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/india%2FDal%20Tadka.jpg?alt=media&token=27faea46-a885-4428-af2f-5f31eddabffb",
-
       "name": "Dal Tadka",
       "steps": [
         "Pressure cook toor dal with turmeric powder and salt until soft.",
@@ -2823,9 +2711,6 @@
         "Salt to taste",
         "Oil for cooking"
       ],
-            
-      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/india%2FDosa.jpg?alt=media&token=43fb224f-e75e-45b4-be11-1126d44dc055",
-
       "name": "Dosa",
       "steps": [
         "Soak rice, urad dal, and fenugreek seeds separately for 6-8 hours.",
@@ -3109,9 +2994,6 @@
         "Salt and pepper to taste",
         "Fresh parsley for garnish"
       ],
-                  
-      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/italy%2FFettuccine%20Alfredo.jpg?alt=media&token=a7719f6d-7f08-4349-9641-7a9ddf31cc39",
-
       "name": "Fettuccine Alfredo",
       "steps": [
         "Cook fettuccine according to package instructions.",
@@ -3198,9 +3080,6 @@
         "Olive oil",
         "Fresh rosemary"
       ],
-                  
-      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/italy%2FFocaccia.jpg?alt=media&token=19012bf6-a811-4cac-8a9b-7c58900180ba",
-
       "name": "Focaccia",
       "steps": [
         "In a large bowl, mix together flour, warm water, salt, and sugar to form a soft dough.",
@@ -3224,9 +3103,6 @@
         "Pepper",
         "Oil for frying"
       ],
-            
-      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/USA%2FFried%20Chicken.jpg?alt=media&token=aaefb973-35f4-46e8-8eb5-b3b3d3f194b0",
-
       "name": "Fried Chicken",
       "steps": [
         "In a large bowl, combine the buttermilk, salt, and pepper. Add the chicken pieces and ensure they are well coated. Cover and marinate in the refrigerator for at least 4 hours, or overnight for best results.",
@@ -3356,9 +3232,6 @@
         "4 egg yolks",
         "Vanilla extract"
       ],
-                  
-      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/italy%2FGelato.jpg?alt=media&token=e976d1e6-76a9-46d3-a024-1ec26069de2c",
-
       "name": "Gelato",
       "steps": [
         "In a saucepan, heat the milk and cream together over medium heat until warm but not boiling.",
@@ -3401,9 +3274,6 @@
         "1/4 tsp Nutmeg",
         "Butter and sage for serving"
       ],
-                  
-      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/italy%2FPotato%20Gnocchi.jpg?alt=media&token=ca0584af-3e01-42a9-b37f-44073036e045",
-
       "name": "Potato Gnocchi",
       "steps": [
         "Boil potatoes until tender, then mash.",
@@ -3425,10 +3295,6 @@
         "Fresh basil",
         "Olive oil"
       ],
-
-                  
-      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/italy%2FGnocchi%20alla%20Sorrentina.jpg?alt=media&token=f91347c6-6917-4d22-8d89-2ea7d3cb25d9",
-
       "name": "Gnocchi alla Sorrentina",
       "steps": [
         "Cook the gnocchi in a large pot of salted boiling water. The gnocchi are ready when they float to the surface.",
@@ -3456,9 +3322,6 @@
         "Salt to taste",
         "Oil for frying"
       ],
-            
-      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/india%2FGobi%20Manchurian.jpg?alt=media&token=25f3f9f2-cb94-485f-a4f6-de5c47ff8f5a",
-
       "name": "Gobi Manchurian",
       "steps": [
         "Make a batter with corn flour, all-purpose flour, salt, and water. Dip the cauliflower florets in the batter and deep fry until golden.",
@@ -3728,9 +3591,6 @@
         "Relish",
         "Onion (chopped)"
       ],
-            
-      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/USA%2FHot%20Dog.jpg?alt=media&token=46519dd9-9504-423f-9ff9-e68ad099ce28",
-
       "name": "Hot Dog",
       "steps": [
         "Begin by boiling or grilling the hot dog sausages according to package instructions until they are heated through and cooked properly.",
@@ -3774,9 +3634,6 @@
         "Salt to taste",
         "Water for steaming"
       ],
-            
-      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/india%2FIdli.jpg?alt=media&token=21d2dfd7-58a4-459c-b0b8-3e8be858601b",
-
       "name": "Idli",
       "steps": [
         "Soak rice, urad dal, and fenugreek seeds for 6-8 hours.",
@@ -3819,9 +3676,6 @@
         "1/2 tsp Saffron strands",
         "Ghee for frying"
       ],
-            
-      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/india%2FJalebi.jpg?alt=media&token=b1fec0f3-ce11-4cbd-83c6-8c0809d25c6a",
-
       "name": "Jalebi",
       "steps": [
         "Prepare the batter by mixing flour, corn flour, baking powder, and water. Let it ferment for 6 hours.",
@@ -4144,9 +3998,6 @@
         "1/4 cup Almonds (chopped)",
         "1/4 tsp Cardamom powder"
       ],
-            
-      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/india%2FKheer.jpg?alt=media&token=dfe936ad-6977-43b8-9f85-0f339a44b938",
-
       "name": "Kheer",
       "steps": [
         "Boil milk in a large pot. Add washed rice and cook on low heat for 30 minutes.",
@@ -4560,9 +4411,6 @@
         "Parmesan cheese",
         "Olive oil"
       ],
-                  
-      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/italy%2FLasagna%20Bolognese.jpg?alt=media&token=f5e7763f-8007-485b-a4ef-5ca7f8ed4995",
-
       "name": "Lasagna Bolognese",
       "steps": [
         "Prepare the Bolognese sauce by sautéing a chopped onion in olive oil until soft. Add the ground beef and cook until browned, then stir in the tomato sauce.",
@@ -4824,9 +4672,6 @@
         "Salt",
         "Pepper"
       ],
-            
-      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/USA%2FMacaroni%20and%20Cheese.jpg?alt=media&token=65d81be1-fea5-49c1-91a6-466ae240855c",
-
       "name": "Macaroni and Cheese",
       "steps": [
         "In a large pot of boiling salted water, cook the elbow macaroni according to package instructions until al dente. Drain and set aside.",
@@ -4947,9 +4792,6 @@
         "2 tbsp olive oil",
         "Salt"
       ],
-                  
-      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/italy%2FMargherita%20Pizza.jpg?alt=media&token=d246d780-282f-4a4b-9747-23325b5ef141",
-
       "name": "Margherita Pizza",
       "steps": [
         "Preheat your oven to 250°C (480°F) to ensure it's hot enough to cook the pizza quickly and evenly.",
@@ -5065,9 +4907,6 @@
         "Salt",
         "Pepper"
       ],
-            
-      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/USA%2FMeatloaf.jpg?alt=media&token=fc9f665a-3d25-4eab-87b3-7be8b1159c4f",
-
       "name": "Meatloaf",
       "steps": [
         "Preheat your oven to 350°F (175°C) to prepare for baking.",
@@ -5212,9 +5051,6 @@
         "Olive oil",
         "Vegetable stock"
       ],
-                  
-      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/italy%2FMinestrone%20Soup.jpg?alt=media&token=5f038c07-b562-4cd2-8425-4c15ec4785da",
-
       "name": "Minestrone Soup",
       "steps": [
         "Heat olive oil in a large pot and sauté the chopped onions, carrots, and celery until they begin to soften.",
@@ -5396,9 +5232,6 @@
         "1 tsp Garam masala",
         "Salt to taste"
       ],
-            
-      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/india%2FMutter%20Paneer.jpg?alt=media&token=44ed6b2a-eb7b-493e-a893-758cb672efcf",
-
       "name": "Mutter Paneer",
       "steps": [
         "Heat oil in a pan and sauté onions until they turn golden brown.",
@@ -5427,9 +5260,6 @@
         "Salt to taste",
         "Oil for frying"
       ],
-            
-      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/india%2FMutton%20Samosa.jpg?alt=media&token=3fb6a392-e0d4-491d-b6d1-28ba72e7d641",
-
       "name": "Mutton Samosa",
       "steps": [
         "Heat oil in a pan, cook onion, garlic, and ginger until softened.",
@@ -5782,9 +5612,6 @@
         "Black pepper",
         "Gremolata (parsley, garlic, lemon zest)"
       ],
-                  
-      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/italy%2FOsso%20Buco.jpg?alt=media&token=14cf9c81-d508-4a16-b23d-168851090257",
-
       "name": "Osso Buco",
       "steps": [
         "Heat olive oil in a large pan and sear the veal shanks on all sides until browned. Remove from the pan and set aside.",
@@ -5862,10 +5689,6 @@
         "1/2 tsp Garam masala",
         "Salt to taste"
       ],
-
-            
-      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/india%2FPalak%20Paneer.jpg?alt=media&token=e8070b26-9730-4c2f-bffe-a9d8c8206c28",
-
       "name": "Palak Paneer",
       "steps": [
         "Heat oil in a pan and sauté onions until golden brown.",
@@ -5912,9 +5735,6 @@
         "2 tbsp melted butter",
         "Pinch of salt"
       ],
-            
-      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/USA%2FPancakes.jpg?alt=media&token=f509cd49-fbe8-4093-a44e-facf880178a6",
-
       "name": "Pancakes",
       "steps": [
         "In a large mixing bowl, whisk together the flour, sugar, baking powder, baking soda, and salt until well combined.",
@@ -5987,9 +5807,6 @@
         "Salt to taste",
         "Coriander for garnish"
       ],
-            
-      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/india%2FPaneer%20Butter%20Masala.jpg?alt=media&token=648e76e1-30ac-449e-8ea5-b6c6c28ab82f",
-
       "name": "Paneer Butter Masala",
       "steps": [
         "Heat butter in a pan and sauté onions until golden.",
@@ -6013,9 +5830,6 @@
         "1/2 cup Boiled chickpeas",
         "Chopped onions and coriander"
       ],
-            
-      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/india%2FPani%20Puri.jpg?alt=media&token=0a571d0c-6efe-40d8-87a3-594138854a3c",
-
       "name": "Pani Puri",
       "steps": [
         "Gently crack a small hole in each puri shell.",
@@ -6039,9 +5853,6 @@
         "Fresh basil leaves",
         "Salt and pepper to taste"
       ],
-                  
-      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/italy%2FPanzanella.jpg?alt=media&token=9be8e36d-f57f-4bcf-8407-87f5aeadea31",
-
       "name": "Panzanella",
       "steps": [
         "Toast bread cubes in olive oil.",
@@ -6109,9 +5920,6 @@
         "2 tbsp Olive oil",
         "Fresh parsley for garnish"
       ],
-                  
-      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/italy%2FPasta%20Carbonara.jpg?alt=media&token=2381e99c-d5fd-4d7b-88e1-d654fc4ce156",
-
       "name": "Pasta Carbonara",
       "steps": [
         "Cook spaghetti according to package instructions.",
@@ -6159,9 +5967,6 @@
         "Olive oil",
         "Salt"
       ],
-                  
-      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/italy%2FPasta%20al%20Pesto.jpg?alt=media&token=467a3bbd-c3f6-4f39-bca3-eeb0e4496d20",
-
       "name": "Pasta al Pesto",
       "steps": [
         "Cook the pasta in a large pot of salted boiling water according to package instructions. Drain and set aside.",
@@ -6184,9 +5989,6 @@
         "Parmesan cheese",
         "Salt"
       ],
-                  
-      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/italy%2FPasta%20Primavera.jpg?alt=media&token=0c7ff25b-e1b2-4f65-81d8-4bb970ce9dbb",
-
       "name": "Pasta Primavera",
       "steps": [
         "Cook the pasta in a large pot of salted boiling water according to package instructions. Drain and set aside.",
@@ -6231,9 +6033,6 @@
         "4 Pav (Indian bread rolls)",
         "Salt to taste"
       ],
-            
-      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/india%2FPav%20Bhaji.jpg?alt=media&token=86b9feb9-cde9-46ec-b34c-962b2e4ea757",
-
       "name": "Pav Bhaji",
       "steps": [
         "Heat butter in a pan, add onions and sauté until soft and translucent.",
@@ -6654,9 +6453,6 @@
         "Salt to taste",
         "Coriander for garnish"
       ],
-            
-      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/india%2FPoha.jpg?alt=media&token=4a96f0c8-622c-485d-8c12-c086bad32ff4",
-
       "name": "Poha",
       "steps": [
         "Rinse poha in water and drain well. Set aside for 5 minutes to soften.",
@@ -6726,9 +6522,6 @@
         "Fresh rosemary",
         "Salt"
       ],
-                  
-      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/italy%2FPollo%20alla%20Cacciatora.jpg?alt=media&token=07e9440d-5b6f-4f29-95cc-1941fde978f7",
-
       "name": "Pollo alla Cacciatora",
       "steps": [
         "In a large skillet, sauté the chicken thighs in olive oil over medium heat until golden brown on all sides. Remove and set aside.",
@@ -6875,9 +6668,6 @@
         "Salt and pepper to taste",
         "2 tbsp Fresh parsley (chopped)"
       ],
-            
-      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/USA%2FPotato%20Salad.jpg?alt=media&token=7c13b84a-0fd8-4d17-b030-ddad721d12ad",
-
       "name": "Potato Salad",
       "steps": [
         "Boil potatoes until tender. Drain and cool.",
@@ -7018,9 +6808,6 @@
         "Salt to taste",
         "Cooked rice"
       ],
-            
-      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/india%2FRajma%20Chawal.jpg?alt=media&token=3050c1ab-f1a0-444b-8d86-80db66843fdd",
-
       "name": "Rajma Chawal",
       "steps": [
         "Soak rajma overnight, then cook in a pressure cooker until soft.",
@@ -7135,9 +6922,6 @@
         "50g Parmesan cheese",
         "Olive oil"
       ],
-                  
-      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/italy%2FRavioli.jpg?alt=media&token=a455d499-a51f-4f07-87ed-a18473e32d75",
-
       "name": "Ravioli",
       "steps": [
         "Roll out the pasta dough on a floured surface until thin.",
@@ -7250,9 +7034,6 @@
         "Olive oil",
         "Vegetable stock"
       ],
-                  
-      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/italy%2FRibollita.jpg?alt=media&token=631efea3-2ee4-4683-a42d-57fc54b9604b",
-
       "name": "Ribollita",
       "steps": [
         "In a large pot, heat olive oil and sauté chopped onion, carrots, and celery until softened.",
@@ -7277,9 +7058,6 @@
         "Salt and pepper to taste",
         "Fresh parsley for garnish"
       ],
-                  
-      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/italy%2FRisotto.jpg?alt=media&token=e1919563-208d-41ac-a438-cdba7c9320f9",
-
       "name": "Risotto",
       "steps": [
         "Heat olive oil in a pan and sauté onion and garlic.",
@@ -7303,9 +7081,6 @@
         "50g grated Parmesan",
         "Salt"
       ],
-                  
-      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/italy%2FRisotto%20alla%20Milanese.jpg?alt=media&token=01ef0787-2e47-4f9a-bc63-61a3579e4460",
-
       "name": "Risotto alla Milanese",
       "steps": [
         "Sauté the onion in butter over medium heat until it becomes soft and translucent.",
@@ -7330,9 +7105,6 @@
         "2 tbsp Olive oil",
         "Salt and pepper to taste"
       ],
-                  
-      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/italy%2FRisotto%20with%20Mushrooms.jpg?alt=media&token=00730e0c-354b-4367-af4a-4753c94323a5",
-
       "name": "Risotto with Mushrooms",
       "steps": [
         "Cook mushrooms in olive oil and set aside.",
@@ -7402,9 +7174,6 @@
         "1 tbsp Ghee",
         "Salt to taste"
       ],
-            
-      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/india%2FRogan%20Josh.jpg?alt=media&token=74f9b588-d75c-447a-9e9a-dc5d58005d3a",
-
       "name": "Rogan Josh",
       "steps": [
         "Heat ghee in a pan and fry onions until golden brown.",
@@ -7592,9 +7361,6 @@
         "Butter",
         "Olive oil"
       ],
-                  
-      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/italy%2FSaltimbocca.jpg?alt=media&token=0e594429-b84d-4bc1-8453-a19270396435",
-
       "name": "Saltimbocca",
       "steps": [
         "Place a slice of prosciutto and a fresh sage leaf on each veal cutlet, securing them with toothpicks.",
@@ -7616,9 +7382,6 @@
         "1/2 cup Sev (crunchy gram noodles)",
         "Chopped onions and coriander"
       ],
-            
-      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/india%2FSamosa%20Chaat.jpg?alt=media&token=33198bee-e3a8-4312-b2fa-0b1f0f06a6e9",
-
       "name": "Samosa Chaat",
       "steps": [
         "Break the samosas into bite-sized pieces and place them on a serving plate.",
@@ -8233,9 +7996,6 @@
         "Chili flakes",
         "Salt"
       ],
-                  
-      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/italy%2FSpaghetti%20alla%20Puttanesca.jpg?alt=media&token=c5be4390-3bfc-4c45-83a6-6cd8c30491bb",
-
       "name": "Spaghetti alla Puttanesca",
       "steps": [
         "Cook the spaghetti in a large pot of salted boiling water according to the package instructions until al dente.",
@@ -8258,9 +8018,6 @@
         "Fresh parsley",
         "Salt"
       ],
-                  
-      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/italy%2FSpaghetti%20alle%20Vongole.jpg?alt=media&token=4460b255-644e-4ad4-973d-e80d4388fe7e",
-
       "name": "Spaghetti alle Vongole",
       "steps": [
         "Cook the spaghetti in a large pot of salted boiling water until al dente. Drain and set aside.",
@@ -8419,9 +8176,6 @@
         "Salt",
         "Black pepper"
       ],
-                  
-      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/italy%2FStracciatella%20Soup.jpg?alt=media&token=c31219e2-00a7-45d6-9cf2-c07b84b027c3",
-
       "name": "Stracciatella Soup",
       "steps": [
         "In a pot, bring the chicken broth to a boil over medium heat.",
@@ -8445,9 +8199,6 @@
         "1 tsp Italian seasoning",
         "Salt and pepper to taste"
       ],
-            
-      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/USA%2FStuffed%20Bell%20Peppers.jpg?alt=media&token=434f5ec0-619e-4338-b4e1-e759a6957b31",
-
       "name": "Stuffed Bell Peppers",
       "steps": [
         "Preheat oven to 375°F (190°C).",
@@ -8894,10 +8645,6 @@
         "24 Ladyfingers",
         "Cocoa powder for dusting"
       ],
-
-                  
-      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/italy%2FTiramisu.jpg?alt=media&token=084ce82f-6dad-4295-b839-18917e5e09ba",
-
       "name": "Tiramisu",
       "steps": [
         "Beat egg yolks and sugar until thick and pale.",
@@ -9110,9 +8857,6 @@
         "Salt to taste",
         "Oil for frying"
       ],
-            
-      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/india%2FVegetable%20Samosa.jpg?alt=media&token=212e367f-9106-4337-a223-09a7dc560ed6",
-
       "name": "Vegetable Samosa",
       "steps": [
         "Heat oil in a pan, cook cumin seeds, garlic, and onion until softened.",
@@ -9341,9 +9085,6 @@
         "2 Eggs",
         "1 cup Grated zucchini"
       ],
-            
-      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/USA%2FZucchini%20Bread.jpg?alt=media&token=0b3630b9-db03-4d58-8c1e-cf120524dc20",
-
       "name": "Zucchini Bread",
       "steps": [
         "Preheat oven to 350°F (175°C) and grease a loaf pan.",
@@ -9410,9 +9151,6 @@
         "Cream",
         "Olive oil"
       ],
-                  
-      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/italy%2FZuppa%20Toscana.jpg?alt=media&token=57b210f2-4942-475e-8699-cee9e05ac3ed",
-
       "name": "Zuppa Toscana",
       "steps": [
         "In a large pot, cook the Italian sausage over medium heat until browned. Remove and set aside.",
