@@ -51,9 +51,14 @@ async function loadRecipeDetail(recipeId) {
             const dishType = capitalizeFirstLetter(recipe.dish_type || '');
             const dishCategory = capitalizeFirstLetter(recipe.dish_category || '');
             
+            // Get the image URL from the database (assuming the key is 'image')
+            const imageUrl = recipe.image; // Ensure the image URL is stored in your Firebase as 'image'
+
             // Display the recipe details dynamically
             recipeContent.innerHTML = `
+                <center>
                 <h2>${recipe.name}</h2>
+                <img src="${imageUrl}" alt="${recipe.name}" style="max-width: 20vw; height: auto;">
                 <p><strong>Country:</strong> ${recipe.country}</p>
                 <p><strong>Dish Type:</strong> ${dishType}</p>
                 <p><strong>Dish Category:</strong> ${dishCategory}</p>
@@ -61,6 +66,8 @@ async function loadRecipeDetail(recipeId) {
                 <ul>${recipe.ingredients.map(ingredient => `<li>${ingredient}</li>`).join('')}</ul>
                 <p><strong>Steps:</strong></p>
                 <ol>${recipe.steps.map(step => `<li>${step}</li>`).join('')}</ol>
+                </center>
+                
             `;
         } else {
             recipeContent.innerHTML = '<p>Recipe not found.</p>';

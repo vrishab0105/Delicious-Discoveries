@@ -1,5 +1,5 @@
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.13.1/firebase-app.js";
-import { getDatabase, ref, query, orderByChild, equalTo, get } from "https://www.gstatic.com/firebasejs/10.13.1/firebase-database.js";
+import { getDatabase, ref, query, orderByChild, get } from "https://www.gstatic.com/firebasejs/10.13.1/firebase-database.js";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
@@ -16,23 +16,29 @@ const firebaseConfig = {
 initializeApp(firebaseConfig);
 const db = getDatabase();
 
-document.addEventListener('DOMContentLoaded', () => {
-    const buttons = document.querySelectorAll('.country-buttons button');
+document.addEventListener('DOMContentLoaded', async () => {
+    const countryButtonsContainer = document.querySelector('.country-buttons');
     const searchContainer = document.getElementById('search-container');
     const recipeList = document.getElementById('recipe-list');
 
-    buttons.forEach(button => {
-        button.addEventListener('click', async (e) => {
+    // Fetch and display dynamic country buttons
+    const countries = await fetchUniqueCountries();
+    displayCountryButtons(countries, countryButtonsContainer);
+
+    // Event listeners for dynamically created buttons
+    countryButtonsContainer.addEventListener('click', async (e) => {
+        if (e.target.tagName === 'BUTTON') {
             // Remove active class from all buttons
+            const buttons = countryButtonsContainer.querySelectorAll('button');
             buttons.forEach(btn => btn.classList.remove('active'));
-            
+
             // Add active class to the clicked button
             e.target.classList.add('active');
-            
+
             const country = e.target.dataset.country;
             await loadRecipesByCountry(country);
             searchContainer.style.display = 'flex'; // Show search options
-        });
+        }
     });
 
     document.getElementById('search-recipe-btn').addEventListener('click', () => {
@@ -51,26 +57,63 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 });
 
+// Fetch unique countries from Firebase and sort them alphabetically
+async function fetchUniqueCountries() {
+    const dbRef = ref(db, 'recipes');
+    const snapshot = await get(dbRef);
+
+    if (snapshot.exists()) {
+        const data = snapshot.val();
+        const countries = new Set();
+
+        for (const key in data) {
+            if (data[key].country) {
+                countries.add(data[key].country.trim()); // Trim whitespace
+            }
+        }
+
+        // Convert the Set to an array, sort alphabetically ignoring case
+        return Array.from(countries).sort((a, b) => 
+            a.toLowerCase().localeCompare(b.toLowerCase())
+        );
+    } else {
+        console.warn('No recipes found in the database.');
+        return [];
+    }
+}
+
+// Dynamically display country buttons
+function displayCountryButtons(countries, container) {
+    container.innerHTML = ''; // Clear existing buttons
+
+    countries.forEach(country => {
+        const button = document.createElement('button');
+        button.textContent = country;
+        button.dataset.country = country;
+        container.appendChild(button);
+    });
+}
 async function loadRecipesByCountry(country) {
     const recipeList = document.getElementById('recipe-list');
     recipeList.innerHTML = ''; // Clear previous results
 
     const dbRef = ref(db, 'recipes');
-    const countryQuery = query(dbRef, orderByChild('country'), equalTo(country));
+    const countryQuery = query(dbRef, orderByChild('country'));
 
     try {
         const snapshot = await get(countryQuery);
         if (snapshot.exists()) {
-            const recipes = snapshot.val();
-            // Convert the object to an array and sort it by recipe name
-            const sortedRecipes = Object.entries(recipes).sort((a, b) => {
-                return a[1].name.localeCompare(b[1].name);
-            });
+            const recipes = Object.entries(snapshot.val()).filter(
+                ([, recipe]) => recipe.country === country
+            );
 
             // Store recipes for filtering
-            window.currentRecipes = sortedRecipes;
+            window.currentRecipes = recipes;
 
-            // Display the sorted recipes
+            // Sort recipes by name and display
+            const sortedRecipes = recipes.sort(([, a], [, b]) =>
+                a.name.localeCompare(b.name)
+            );
             displayRecipes(sortedRecipes);
         } else {
             recipeList.innerHTML = '<p>No recipes found for this country.</p>';
@@ -111,6 +154,6 @@ function filterRecipes(searchTerm) {
         displayRecipes([]); // Pass an empty array to indicate no recipes
         return;
     }
-    
+
     displayRecipes(filteredRecipes);
 }
