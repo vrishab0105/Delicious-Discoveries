@@ -1915,10 +1915,13 @@
         "Add cream to the soup, stirring to combine, and heat through before serving."
       ]
     },
+
     "alfajores": {
       "country": "Argentina",
       "dish_category": "non-veg",
       "dish_type": "baked",
+      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/remaining%2023-2-25%20test%2FAlfajores.jpg?alt=media&token=470a99c4-17fa-4557-8c07-8380be337a40",
+
       "ingredients": [
         "2 cups cornstarch",
         "1 cup all-purpose flour",
@@ -1944,6 +1947,7 @@
       "country": "Argentina",
       "dish_category": "non-veg",
       "dish_type": "stewed",
+      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/remaining%2023-2-25%20test%2FCarbonada.jpg?alt=media&token=190e414e-0c9c-4024-a64a-ffc1311cd6b7",
       "ingredients": [
         "500g beef (cubed)",
         "1 large potato (diced)",
@@ -1966,10 +1970,13 @@
         "Adjust seasoning with salt and pepper, and serve the carbonada hot."
       ]
     },
+
+
     "anzacBiscuits": {
       "country": "Australia",
       "dish_category": "veg",
       "dish_type": "baked",
+      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/remaining%2023-2-25%20test%2FANZAC%20Biscuits.jpg?alt=media&token=8f9d7a17-18c3-487b-8b3d-24ed15383134",
       "ingredients": [
         "1 cup Rolled oats",
         "1 cup Flour",
@@ -1990,10 +1997,13 @@
         "Bake for 15-18 minutes until golden."
       ]
     },
+
+
     "appleCrumble": {
       "country": "Australia",
       "dish_category": "veg",
       "dish_type": "baked",
+      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/remaining%2023-2-25%20test%2FApple%20Crumble.jpg?alt=media&token=1d7dec03-d044-4ffb-8f68-71d925e60d9c",
       "ingredients": [
         "4 Apples (peeled and sliced)",
         "1/2 cup Sugar",
@@ -2011,10 +2021,13 @@
         "Spread the crumble over the apples and bake for 30-35 minutes until golden."
       ]
     },
+
+
     "poutine": {
       "country": "Canada",
       "dish_category": "non-veg",
       "dish_type": "assembled",
+      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/remaining%2023-2-25%20test%2FPoutine.jpg?alt=media&token=d9df0bdb-2b1d-4dcc-b475-8ed3003ef280",
       "ingredients": [
         "4 cups Frozen French fries",
         "2 cups Beef gravy",
@@ -2030,10 +2043,13 @@
         "Serve immediately."
       ]
     },
+
+
     "chiliOilWontons": {
       "country": "China",
       "dish_category": "non-veg",
       "dish_type": "boiled",
+      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/remaining%2023-2-25%20test%2FChili%20Oil%20Wontons.jpg?alt=media&token=bc26041f-4ce5-438a-a804-aa674fc34ed1",
       "ingredients": [
         "200g Ground pork",
         "50g Shrimp (chopped)",
@@ -2058,6 +2074,7 @@
       "country": "China",
       "dish_category": "veg",
       "dish_type": "steamed",
+      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/remaining%2023-2-25%20test%2FChinese%20Broccoli%20with%20Oyster%20Sauce.jpg?alt=media&token=28c74f69-1419-4fb0-95c5-b2f1885bc75b",
       "ingredients": [
         "200g Chinese broccoli (gai lan)",
         "2 tbsp Oyster sauce",
@@ -2072,10 +2089,13 @@
         "Pour the sauce over the broccoli and serve hot."
       ]
     },
+
+
     "crepes": {
       "country": "France",
       "dish_category": "veg",
       "dish_type": "fried",
+      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/remaining%2023-2-25%20test%2FCrepes.jpg?alt=media&token=b1366bb1-7759-49aa-b9b8-797502e77ad8",
       "ingredients": [
         "1 cup Flour",
         "2 Eggs",
@@ -2093,10 +2113,13 @@
         "Cook until edges are golden, then flip and cook the other side."
       ]
     },
+
+
     "croissant": {
       "country": "France",
       "dish_category": "veg",
       "dish_type": "baked",
+      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/remaining%2023-2-25%20test%2FCroissant.jpg?alt=media&token=5c89ca31-e57b-4a01-93b7-bca0e07b6ef6",
       "ingredients": [
         "2 1/4 cups All-purpose flour",
         "1/2 cup Warm milk",
@@ -2118,10 +2141,13 @@
         "Cool before serving."
       ]
     },
+
+
     "chickenSchnitzel": {
       "country": "Germany",
       "dish_category": "non-veg",
       "dish_type": "fried",
+      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/remaining%2023-2-25%20test%2FChicken%20Schnitzel.jpg?alt=media&token=260e688a-1eb6-4828-8299-adab9f7b80a9",
       "ingredients": [
         "4 Chicken breasts (pounded thin)",
         "1 cup Flour",
@@ -2139,10 +2165,13 @@
         "Serve with lemon wedges."
       ]
     },
+
+    
     "sauerbraten": {
       "country": "Germany",
       "dish_category": "non-veg",
       "dish_type": "stewed",
+      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/remaining%2023-2-25%20test%2FSauerbraten.jpg?alt=media&token=fe68a23d-228c-4aef-a1b3-431f8ec6447e",
       "ingredients": [
         "2 lb Beef roast",
         "1 cup Red wine vinegar",
@@ -2163,10 +2192,13 @@
         "Season with salt and pepper before serving."
       ]
     },
+
+
     "moussaka": {
       "country": "Greece",
       "dish_category": "non-veg",
       "dish_type": "baked",
+      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/remaining%2023-2-25%20test%2FMoussaka.jpg?alt=media&token=27fdd904-e260-49f8-b54d-a6a6b36a5957",
       "ingredients": [
         "2 Eggplants (sliced and salted)",
         "1 lb Ground lamb",
@@ -2188,10 +2220,13 @@
         "Top with bechamel sauce and bake at 350°F (175°C) for 45 minutes."
       ]
     },
+
+
     "goulash": {
       "country": "Hungary",
       "dish_category": "non-veg",
       "dish_type": "stewed",
+      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/remaining%2023-2-25%20test%2FGoulash.jpg?alt=media&token=b9b43463-a426-42ed-b391-734f29151856",
       "ingredients": [
         "1 lb Beef (cubed)",
         "1 Onion (chopped)",
@@ -2214,10 +2249,13 @@
         "Season with salt and pepper."
       ]
     },
+
+
     "satay": {
       "country": "Indonesia",
       "dish_category": "non-veg",
       "dish_type": "grilled",
+      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/remaining%2023-2-25%20test%2FSatay.jpg?alt=media&token=188eb755-ae8d-4977-ae20-14dd2b54b837",
       "ingredients": [
         "500g chicken or pork, sliced into strips",
         "2 tablespoons soy sauce",
@@ -2227,7 +2265,7 @@
         "1 tablespoon vegetable oil",
         "wooden skewers, soaked in water"
       ],
-      "name": "satay",
+      "name": "Satay",
       "steps": [
         "in a bowl, mix soy sauce, peanut butter, sugar, curry powder, and vegetable oil to make a marinade.",
         "add the meat to the marinade and let it sit for at least 30 minutes.",
@@ -2236,10 +2274,13 @@
         "serve with peanut sauce for dipping."
       ]
     },
+
+
     "ramen": {
       "country": "Japan",
       "dish_category": "non-veg",
       "dish_type": "boiled",
+      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/remaining%2023-2-25%20test%2FRamen.jpg?alt=media&token=860eee10-8ba6-4bce-93b8-76239cb8ba34",
       "ingredients": [
         "4 cups Chicken broth",
         "2 packs Ramen noodles",
@@ -2263,10 +2304,13 @@
         "Divide noodles into bowls, pour broth over them, and top with spinach, green onion, egg, and nori."
       ]
     },
+
+
     "sabaShioyaki": {
       "country": "Japan",
       "dish_category": "non-veg",
       "dish_type": "grilled",
+      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/remaining%2023-2-25%20test%2FSaba%20Shioyaki.jpg?alt=media&token=624a8297-2e33-46da-be8e-08928caef80e",
       "ingredients": [
         "2 saba (mackerel) fillets",
         "Salt",
@@ -2281,10 +2325,13 @@
         "Serve with lemon and shredded daikon."
       ]
     },
+
+
     "tabbouleh": {
       "country": "Lebanon",
       "dish_category": "veg",
       "dish_type": "raw",
+      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/remaining%2023-2-25%20test%2FTabbouleh.jpg?alt=media&token=14c6e7b7-1be7-4b1c-b36f-d40bf338deb4",
       "ingredients": [
         "1 cup Bulgur wheat",
         "1 cup Parsley (chopped)",
@@ -2302,10 +2349,13 @@
         "Add lemon juice, olive oil, salt, and pepper."
       ]
     },
+
+
     "shawarma": {
       "country": "Lebanon",
       "dish_category": "non-veg",
       "dish_type": "grilled",
+      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/remaining%2023-2-25%20test%2FShawarma.jpg?alt=media&token=6143e527-2584-40f5-ab94-84e65cdf6862",
       "ingredients": [
         "500g Chicken breast (sliced)",
         "1/2 cup Yogurt",
