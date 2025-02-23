@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Recipe Assistant</title>
+    <link rel="stylesheet" href="ai-recipe_style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+          <div id="name">
+            <img src="" alt="Logo" id="navbar-logo">
+            Delicious Discoveries
+          </div>
+          <div class="nav-center">
+            <a href="#" onclick="navigateTo('index.html')">Home</a>
+            <a href="#" onclick="navigateTo('about.html')">About</a>
+          </div>
+        </nav>
+    </header>
+      
+    <div class="container">
+        <h1>AI Recipe Assistant</h1>
+        <div class="input-section">
+            <input type="text" id="dishInput" placeholder="Enter the name of a dish...">
+            <button id="getRecipeButton">Get Recipe</button>
+        </div>
+        <div id="loadingIndicator" class="loading-indicator hidden">
+            Generating recipe...
+        </div>
+        <div id="recipeResult" class="recipe-result"></div>
+    </div>
+    
+    <script src="ai-recipe_script.js" type="module"></script>
+    <script src="navigation.js" type="module"></script>
+</body>
+</html>
