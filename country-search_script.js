@@ -1,5 +1,3 @@
-
-
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.13.1/firebase-app.js";
 import { getDatabase, ref, query, orderByChild, get } from "https://www.gstatic.com/firebasejs/10.13.1/firebase-database.js";
 
@@ -70,12 +68,14 @@ async function fetchUniqueCountries() {
 
         for (const key in data) {
             if (data[key].country) {
-                countries.add(data[key].country);
+                countries.add(data[key].country.trim()); // Trim whitespace
             }
         }
 
-        // Convert the Set to an array and sort alphabetically
-        return Array.from(countries).sort();
+        // Convert the Set to an array, sort alphabetically ignoring case
+        return Array.from(countries).sort((a, b) => 
+            a.toLowerCase().localeCompare(b.toLowerCase())
+        );
     } else {
         console.warn('No recipes found in the database.');
         return [];
