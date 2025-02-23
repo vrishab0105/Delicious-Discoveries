@@ -30,8 +30,13 @@
             Generating recipe...
         </div>
         <div id="recipeResult" class="recipe-result"></div>
+        <div class="download-section hidden" id="downloadSection">
+            <button id="downloadButton" class="download-btn">Download Recipe as PDF</button>
+        </div>
     </div>
     
+    <!-- Add jsPDF library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
     <script src="ai-recipe_script.js" type="module"></script>
     <script src="navigation.js" type="module"></script>
 </body>
