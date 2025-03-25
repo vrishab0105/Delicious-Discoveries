@@ -62,6 +62,7 @@ async function loadRecipeDetail(recipeId) {
                 <p><strong>Country:</strong> ${recipe.country}</p>
                 <p><strong>Dish Type:</strong> ${dishType}</p>
                 <p><strong>Dish Category:</strong> ${dishCategory}</p>
+                <p><strong>Meal Category:</strong> ${recipe.meal_category}</p>
                 <p><strong>Ingredients:</strong></p>
                 <ul>${recipe.ingredients.map(ingredient => `<li>${ingredient}</li>`).join('')}</ul>
                 <p><strong>Steps:</strong></p>
