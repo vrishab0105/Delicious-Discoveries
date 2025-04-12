@@ -16,12 +16,11 @@
           </div>
           <div class="nav-center">
             <a href="#" onclick="navigateTo('index.html')">Home</a>
-                <a href="#" onclick="navigateTo('about.html')">About</a>
-             </div>
+            <a href="#" onclick="navigateTo('about.html')">About</a>
+          </div>
+          <button onclick="downloadPDF()" class="button download-button">Download PDF</button>
         </nav>
-      </header>
-
-
+    </header>
     <div id="recipe-detail">
         <h1>Recipe Detail</h1>
         <div id="recipe-content">
@@ -29,6 +28,8 @@
         </div>
     </div>
     <script type="module" src="recipe-detail_script.js"></script>
-    <script src="navigation.js" type="module"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    
 </body>
 </html>
