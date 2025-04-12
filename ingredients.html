@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Search Recipes by Ingredients</title>
+  <link rel="stylesheet" href="index_styles.css">
+</head>
+<body>
+
+  <header>
+    <nav class="navbar">
+      <div id="name">
+        <img src="" alt="Logo" id="navbar-logo">
+        Delicious Discoveries
+      </div>
+      <div class="nav-center">
+        <a href="#" onclick="navigateTo('index.html')">Home</a>
+        <a href="#" onclick="navigateTo('about.html')">About</a>
+      </div>
+    </nav>
+  </header>
+
+  <div id="logodiv">
+    <div id="intro">
+      <h1>Search Recipes by Ingredients</h1>
+      <p>
+        Welcome to the ingredient-based recipe search! Simply enter the ingredients you have in your kitchen, and we will find recipes that match.
+      </p>
+    </div>
+  </div>
+
+  <hr>
+
+  <div class="options">
+    <div class="option-item">
+      <h2>Find Recipes</h2>
+      <p>Enter the ingredients you have, and we'll find recipes for you!</p>
+
+      <!-- Search Box -->
+      <input
+        type="text"
+        id="ingredient-box"
+        placeholder="Enter ingredients (e.g., tomato, onion, potato)"
+        style="width: 100%; max-width: 600px; padding: 10px; font-size: 16px; border-radius: 8px; border: 1px solid #ccc;"
+      />
+      <br />
+
+      <!-- Search Button -->
+      <button id="search-btn" class="btn">Search Recipes</button>
+
+      <!-- Display Results Here -->
+      <div id="results" style="margin-top: 20px;"></div>
+    </div>
+  </div>
+
+  <!-- ✅ Corrected inclusion of JavaScript module -->
+  <script type="module" src="ingredients.js"></script>
+
+</body>
+</html>
