@@ -93,9 +93,10 @@ function displayCountryButtons(countries, container) {
         container.appendChild(button);
     });
 }
+
 async function loadRecipesByCountry(country) {
     const recipeList = document.getElementById('recipe-list');
-    recipeList.innerHTML = ''; // Clear previous results
+    recipeList.innerHTML = '<p>Loading recipes...</p>'; // Show loading message
 
     const dbRef = ref(db, 'recipes');
     const countryQuery = query(dbRef, orderByChild('country'));
@@ -138,6 +139,7 @@ function displayRecipes(recipes) {
         recipeItem.className = 'recipe-item';
         recipeItem.innerHTML = `
             <h2>${recipe.name}</h2>
+            <p>${recipe.description || 'Experience the unique flavors of this traditional dish!'}</p>
             <a href="recipe-detail.html?recipeId=${encodeURIComponent(key)}" class="recipe-link">View Recipe</a>
         `;
         recipeList.appendChild(recipeItem);
