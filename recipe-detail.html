@@ -5,8 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Recipe Detail</title>
     <link rel="stylesheet" href="recipe-detail_style.css">
+    <link rel="stylesheet" href="navbar.css"> <!-- Including the navbar.css file -->
 </head>
 <body>
+
+    <!-- Google Translate Element -->
+    <div id="google_translate_element"></div>
 
     <header>
         <nav class="navbar">
@@ -18,18 +22,48 @@
             <a href="#" onclick="navigateTo('index.html')">Home</a>
             <a href="#" onclick="navigateTo('about.html')">About</a>
           </div>
-          <button onclick="downloadPDF()" class="button download-button">Download PDF</button>
+          <!-- Container to wrap the download button and make space for both -->
+          <div class="nav-right">
+            <button onclick="downloadPDF()" class="button download-button">Download PDF</button>
+          </div>
         </nav>
     </header>
+
     <div id="recipe-detail">
         <h1>Recipe Detail</h1>
         <div id="recipe-content">
             <!-- Recipe details will be injected here -->
         </div>
     </div>
+
     <script type="module" src="recipe-detail_script.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
-    
+
+    <!-- Google Translate Script -->
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'en',
+                includedLanguages: 'en,hi,mr,gu,ml,te,kn,pa,ta,ne',
+                layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+            }, 'google_translate_element');
+        }
+    </script>
+    <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+    <!-- Navigation function -->
+    <script>
+        function navigateTo(page) {
+            window.location.href = page;
+        }
+
+        // Example function to download PDF
+        function downloadPDF() {
+            const doc = new jsPDF();
+            doc.text('Recipe Details', 10, 10);
+            doc.save('recipe-detail.pdf');
+        }
+    </script>
 </body>
 </html>
