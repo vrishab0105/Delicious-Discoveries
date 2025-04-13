@@ -1,6 +1,6 @@
 // Import Firebase functions you need
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.13.2/firebase-app.js";
-import { getDatabase, ref, onValue, query, orderByChild, equalTo } from "https://www.gstatic.com/firebasejs/10.13.2/firebase-database.js";
+import { getDatabase, ref, onValue, query, orderByChild, equalTo, get, child } from "https://www.gstatic.com/firebasejs/10.13.2/firebase-database.js";
 import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.13.2/firebase-analytics.js";
 
 // Your web app's Firebase configuration
@@ -50,37 +50,45 @@ function displayRecipes(recipes) {
     recipeList.style.display = recipes.length > 0 ? 'block' : 'none';
 }
 
-// Function to fetch all recipes (fetch only necessary fields)
+// Function to fetch necessary recipe metadata (only fetch required fields)
 function fetchAllRecipes() {
+    // Create a reference to the recipes node
     const recipeRef = ref(database, 'recipes');
     
-    // Use onValue to fetch the data
-    onValue(recipeRef, (snapshot) => {
-        const recipes = snapshot.val();
-        const recipeArray = [];
+    // Use get instead of onValue to retrieve data once
+    get(recipeRef).then((snapshot) => {
+        if (snapshot.exists()) {
+            const recipes = snapshot.val();
+            const recipeArray = [];
 
-        // Extract necessary fields including meal_category
-        for (const key in recipes) {
-            const recipe = {
-                key: key,
-                name: recipes[key].name,       // Fetch name
-                dish_type: recipes[key].dish_type, // Fetch dish type
-                dish_category: recipes[key].dish_category, // Fetch dish category
-                meal_category: recipes[key].meal_category // Add meal category field
-            };
-            recipeArray.push(recipe);
+            // Extract only necessary fields to reduce data transfer
+            for (const key in recipes) {
+                const recipe = {
+                    key: key,
+                    name: recipes[key].name,
+                    dish_type: recipes[key].dish_type,
+                    dish_category: recipes[key].dish_category,
+                    meal_category: recipes[key].meal_category
+                };
+                recipeArray.push(recipe);
+            }
+
+            // Collect unique dish types and meal categories
+            const uniqueDishTypes = new Set(recipeArray.map(recipe => recipe.dish_type));
+            const uniqueMealCategories = new Set(recipeArray.map(recipe => recipe.meal_category).filter(Boolean));
+            
+            // Populate dropdowns
+            populateDishTypeDropdown(uniqueDishTypes);
+            populateMealCategoryDropdown(uniqueMealCategories);
+
+            // Display recipes
+            displayRecipes(recipeArray);
+        } else {
+            console.log("No recipes available");
+            displayRecipes([{ name: 'No recipes found.' }]);
         }
-
-        // Populate the dish type dropdown with unique dish types
-        const uniqueDishTypes = new Set(recipeArray.map(recipe => recipe.dish_type));
-        populateDishTypeDropdown(uniqueDishTypes);
-
-        // Populate the meal category dropdown with unique meal categories
-        const uniqueMealCategories = new Set(recipeArray.map(recipe => recipe.meal_category).filter(Boolean));
-        populateMealCategoryDropdown(uniqueMealCategories);
-
-        // Display the fetched recipes (will be sorted in displayRecipes)
-        displayRecipes(recipeArray);
+    }).catch((error) => {
+        console.error("Error fetching recipes:", error);
     });
 }
 
@@ -179,37 +187,68 @@ document.addEventListener('DOMContentLoaded', function () {
         filterRecipes();
     });
 
-    // Function to handle filtering based on all filters
+    // Function to handle filtering based on all filters - optimized to use Firebase queries when possible
     function filterRecipes() {
         const searchTerm = searchTermInput.value.trim().toLowerCase();
         const selectedDishType = dishTypeDropdown.value;
         const selectedVegType = vegTypeDropdown.value;
-        const selectedMealCategory = mealCategoryDropdown.value; // Get selected meal category
+        const selectedMealCategory = mealCategoryDropdown.value;
 
-        let queryRef = ref(database, 'recipes');
-
-        onValue(queryRef, (snapshot) => {
-            const recipes = snapshot.val();
-            const filteredRecipes = [];
-
-            for (const key in recipes) {
-                const recipeName = recipes[key].name.toLowerCase();
-
-                // Filter based on all criteria
-                if ((!searchTerm || recipeName.includes(searchTerm)) && 
-                    (!selectedVegType || recipes[key].dish_category === selectedVegType) &&
-                    (!selectedDishType || recipes[key].dish_type === selectedDishType) &&
-                    (!selectedMealCategory || recipes[key].meal_category === selectedMealCategory)) {
-                    filteredRecipes.push({
+        // Base reference to recipes
+        let recipeRef = ref(database, 'recipes');
+        
+        // If one specific filter is applied without search term, use Firebase query
+        // This optimizes by filtering on the server rather than client
+        if (!searchTerm) {
+            if (selectedDishType && !selectedVegType && !selectedMealCategory) {
+                // Filter by dish type on server
+                recipeRef = query(recipeRef, orderByChild('dish_type'), equalTo(selectedDishType));
+            } else if (selectedVegType && !selectedDishType && !selectedMealCategory) {
+                // Filter by veg type on server
+                recipeRef = query(recipeRef, orderByChild('dish_category'), equalTo(selectedVegType));
+            } else if (selectedMealCategory && !selectedDishType && !selectedVegType) {
+                // Filter by meal category on server
+                recipeRef = query(recipeRef, orderByChild('meal_category'), equalTo(selectedMealCategory));
+            }
+        }
+        
+        // Get recipes with optimized query
+        get(recipeRef).then((snapshot) => {
+            if (snapshot.exists()) {
+                const recipes = snapshot.val();
+                const filteredRecipes = [];
+                
+                for (const key in recipes) {
+                    const recipeName = recipes[key].name.toLowerCase();
+                    const recipe = {
                         key: key,
                         name: recipes[key].name,
-                        country: recipes[key].country
-                    });
+                        dish_type: recipes[key].dish_type,
+                        dish_category: recipes[key].dish_category,
+                        meal_category: recipes[key].meal_category
+                    };
+                    
+                    // Apply remaining filters on the client side
+                    if ((!searchTerm || recipeName.includes(searchTerm)) && 
+                        (!selectedVegType || recipe.dish_category === selectedVegType) &&
+                        (!selectedDishType || recipe.dish_type === selectedDishType) &&
+                        (!selectedMealCategory || recipe.meal_category === selectedMealCategory)) {
+                        filteredRecipes.push({
+                            key: key,
+                            name: recipes[key].name,
+                            country: recipes[key].country || "" // Include country if available
+                        });
+                    }
                 }
+                
+                // Show the filtered recipes or a message if none found
+                displayRecipes(filteredRecipes.length > 0 ? filteredRecipes : [{ name: 'No recipes found.' }]);
+            } else {
+                displayRecipes([{ name: 'No recipes found.' }]);
             }
-
-            // Show the filtered recipes or a message if none found
-            displayRecipes(filteredRecipes.length > 0 ? filteredRecipes : [{ name: 'No recipes found.' }]);
+        }).catch((error) => {
+            console.error("Error filtering recipes:", error);
+            displayRecipes([{ name: 'Error loading recipes.' }]);
         });
     }
 
