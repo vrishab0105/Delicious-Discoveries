@@ -4,38 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Recipe Detail</title>
+    <link rel="stylesheet" href="navbar.css">
     <link rel="stylesheet" href="recipe-detail_style.css">
     <link rel="stylesheet" href="navbar.css"> <!-- Including the navbar.css file -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pirata+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
 </head>
 <body>
-
-    <!-- Google Translate Element -->
-    <div id="google_translate_element"></div>
-
     <header>
-        <nav class="navbar">
-          <div id="name">
-            <img src="" alt="Logo" id="navbar-logo">
-            Delicious Discoveries
-          </div>
-          <div class="nav-center">
-            <a href="#" onclick="navigateTo('index.html')">Home</a>
-            <a href="#" onclick="navigateTo('about.html')">About</a>
-          </div>
-          <!-- Container to wrap the download button and make space for both -->
-          <div class="nav-right">
-            <button onclick="downloadPDF()" class="button download-button">Download PDF</button>
-          </div>
-        </nav>
+        <!-- Navbar will be loaded here by include-navbar.js -->
     </header>
-
-    <div id="recipe-detail">
+    
+    <div class="container" id="recipe-detail">
         <h1>Recipe Detail</h1>
         <div id="recipe-content">
             <!-- Recipe details will be injected here -->
         </div>
+        <button onclick="downloadPDF()" class="button download-button">Download PDF</button>
     </div>
-
+    
+    <script src="include-navbar.js"></script>
     <script type="module" src="recipe-detail_script.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>

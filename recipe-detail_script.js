@@ -25,6 +25,11 @@ function capitalizeFirstLetter(str) {
     return ''; // Return an empty string if undefined or not a string
 }
 
+// Function to navigate between pages
+window.navigateTo = function(page) {
+    window.location.href = page;
+};
+
 // Load recipe details when the page is loaded
 document.addEventListener('DOMContentLoaded', async () => {
     const urlParams = new URLSearchParams(window.location.search);
@@ -34,6 +39,12 @@ document.addEventListener('DOMContentLoaded', async () => {
         await loadRecipeDetail(recipeId);
     } else {
         document.getElementById('recipe-content').innerHTML = '<p>Recipe not found.</p>';
+    }
+    
+    // Set logo source
+    const logoImg = document.getElementById('navbar-logo');
+    if (logoImg) {
+        logoImg.src = "photos/logo.jpeg";
     }
 });
 
@@ -51,24 +62,36 @@ async function loadRecipeDetail(recipeId) {
             const dishType = capitalizeFirstLetter(recipe.dish_type || '');
             const dishCategory = capitalizeFirstLetter(recipe.dish_category || '');
             
-            // Get the image URL from the database (assuming the key is 'image')
-            const imageUrl = recipe.image; // Ensure the image URL is stored in your Firebase as 'image'
+            // Get the image URL from the database
+            const imageUrl = recipe.image || '';
 
-            // Display the recipe details dynamically
+            // Create HTML content with enhanced layout and styling
             recipeContent.innerHTML = `
-                <center>
-                <h2>${recipe.name}</h2>
-                <img src="${imageUrl}" alt="${recipe.name}" style="max-width: 20vw; height: auto;">
-                <p><strong>Country:</strong> ${recipe.country}</p>
-                <p><strong>Dish Type:</strong> ${dishType}</p>
-                <p><strong>Dish Category:</strong> ${dishCategory}</p>
-                <p><strong>Meal Category:</strong> ${recipe.meal_category}</p>
-                <p><strong>Ingredients:</strong></p>
-                <ul>${recipe.ingredients.map(ingredient => `<li>${ingredient}</li>`).join('')}</ul>
-                <p><strong>Steps:</strong></p>
-                <ol>${recipe.steps.map(step => `<li>${step}</li>`).join('')}</ol>
-                </center>
+                <div class="recipe-header">
+                    <h2>${recipe.name}</h2>
+                    <img src="${imageUrl}" alt="${recipe.name}" class="recipe-image">
+                </div>
                 
+                <div class="recipe-details">
+                    <p><strong>Country:</strong> ${recipe.country}</p>
+                    <p><strong>Dish Type:</strong> ${dishType}</p>
+                    <p><strong>Dish Category:</strong> ${dishCategory}</p>
+                    <p><strong>Meal Category:</strong> ${recipe.meal_category || ''}</p>
+                </div>
+                
+                <div class="ingredients">
+                    <h3>Ingredients</h3>
+                    <ul>
+                        ${recipe.ingredients ? recipe.ingredients.map(ingredient => `<li>${ingredient}</li>`).join('') : ''}
+                    </ul>
+                </div>
+                
+                <div class="steps">
+                    <h3>Steps</h3>
+                    <ol>
+                        ${recipe.steps ? recipe.steps.map(step => `<li>${step}</li>`).join('') : ''}
+                    </ol>
+                </div>
             `;
         } else {
             recipeContent.innerHTML = '<p>Recipe not found.</p>';
@@ -78,7 +101,6 @@ async function loadRecipeDetail(recipeId) {
         recipeContent.innerHTML = '<p>Error loading recipe. Please try again later.</p>';
     }
 }
-
 
 // Function to download recipe details as a PDF with an image
 window.downloadPDF = async function () {
@@ -94,15 +116,15 @@ window.downloadPDF = async function () {
     try {
         // Extract details from the recipe page
         const recipeName = recipeElement.querySelector("h2")?.innerText || "Recipe";
-        const country = recipeElement.querySelector("p:nth-of-type(1)")?.innerText || "";
-        const dishType = recipeElement.querySelector("p:nth-of-type(2)")?.innerText || "";
-        const dishCategory = recipeElement.querySelector("p:nth-of-type(3)")?.innerText || "";
+        const country = recipeElement.querySelector(".recipe-details p:nth-of-type(1)")?.innerText || "";
+        const dishType = recipeElement.querySelector(".recipe-details p:nth-of-type(2)")?.innerText || "";
+        const dishCategory = recipeElement.querySelector(".recipe-details p:nth-of-type(3)")?.innerText || "";
 
-        const ingredientsList = Array.from(recipeElement.querySelectorAll("ul li")).map(li => li.innerText);
-        const stepsList = Array.from(recipeElement.querySelectorAll("ol li")).map(li => li.innerText);
+        const ingredientsList = Array.from(recipeElement.querySelectorAll(".ingredients li")).map(li => li.innerText);
+        const stepsList = Array.from(recipeElement.querySelectorAll(".steps li")).map(li => li.innerText);
 
         // Get image URL
-        const imageUrl = document.querySelector("#recipe-content img")?.src || "";
+        const imageUrl = document.querySelector(".recipe-image")?.src || "";
 
         // Add title
         pdf.setFont("helvetica", "bold");
@@ -141,8 +163,11 @@ window.downloadPDF = async function () {
                 pdf.addPage();
                 y = 20;
             }
-            pdf.text(`${index + 1}. ${step}`, 10, y);
-            y += 10;
+            
+            // Wrap text to ensure it fits on the page
+            const splitText = pdf.splitTextToSize(`${index + 1}. ${step}`, 180);
+            pdf.text(splitText, 10, y);
+            y += 10 * splitText.length;
         });
 
         // Add image if available
@@ -167,5 +192,6 @@ window.downloadPDF = async function () {
         }
     } catch (error) {
         console.error("Error generating PDF:", error);
+        alert("Error generating PDF. Please try again.");
     }
 };
