@@ -1,5 +1,5 @@
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.13.1/firebase-app.js";
-import { getDatabase, ref, query, orderByChild, get } from "https://www.gstatic.com/firebasejs/10.13.1/firebase-database.js";
+import { getDatabase, ref, query, orderByChild, get, equalTo } from "https://www.gstatic.com/firebasejs/10.13.1/firebase-database.js";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
@@ -99,14 +99,13 @@ async function loadRecipesByCountry(country) {
     recipeList.innerHTML = '<p>Loading recipes...</p>'; // Show loading message
 
     const dbRef = ref(db, 'recipes');
-    const countryQuery = query(dbRef, orderByChild('country'));
+    // Use equalTo to filter directly by country - this leverages your Firebase index
+    const countryQuery = query(dbRef, orderByChild('country'), equalTo(country));
 
     try {
         const snapshot = await get(countryQuery);
         if (snapshot.exists()) {
-            const recipes = Object.entries(snapshot.val()).filter(
-                ([, recipe]) => recipe.country === country
-            );
+            const recipes = Object.entries(snapshot.val());
 
             // Store recipes for filtering
             window.currentRecipes = recipes;
