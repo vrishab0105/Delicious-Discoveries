@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Delicious Discoveries</title>
+    <link rel="stylesheet" href="navbar.css">
     <link rel="stylesheet" href="index_styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Pirata+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
 </head>
 <body>
 
@@ -30,17 +31,8 @@
 </div>
 
     <header>
-        <nav class="navbar">
-          <div id="name">
-            <img src="" alt="Logo" id="navbar-logo">
-            Delicious Discoveries
-          </div>
-          <div class="nav-center">
-            <a href="#" onclick="navigateTo('index.html')">Home</a>
-                <a href="#" onclick="navigateTo('about.html')">About</a>
-            </div>
-        </nav>
-      </header>
+      <!-- Navbar will be loaded here by include-navbar.js -->
+    </header>
       <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -69,7 +61,7 @@
          
           <h1>Welcome to <span>Delicious Discoveries</span></h1>
           <p>
-            Your gateway to a culinary adventure like no other! Immerse yourself in a vibrant world of flavors, where each recipe is a celebration of taste, texture, and creativity. Whether you're a kitchen maestro or a budding food enthusiast, our handpicked recipes are designed to ignite your passion for cooking. With simple instructions, bold ingredients, and a dash of inspiration, you’ll transform everyday meals into extraordinary experiences. Get ready to explore, create, and savor—because at <span>Delicious Discoveries</span>, every dish tells a delicious story!
+            Your gateway to a culinary adventure like no other! Immerse yourself in a vibrant world of flavors, where each recipe is a celebration of taste, texture, and creativity. Whether you're a kitchen maestro or a budding food enthusiast, our handpicked recipes are designed to ignite your passion for cooking. With simple instructions, bold ingredients, and a dash of inspiration, you'll transform everyday meals into extraordinary experiences. Get ready to explore, create, and savor—because at <span>Delicious Discoveries</span>, every dish tells a delicious story!
           </p>
         </div>
       </div>
@@ -88,7 +80,7 @@
         <div class="option-item">
   <h2>Search Recipes by Ingredients</h2>
   <p>
-    Enter the ingredients you have, and we’ll find recipes that match. It's the perfect way to reduce waste and discover dishes you can cook with what’s already in your kitchen!
+    Enter the ingredients you have, and we'll find recipes that match. It's the perfect way to reduce waste and discover dishes you can cook with what's already in your kitchen!
   </p>
   <button onclick="window.location.href='ingredients.html'" class="btn">Search Recipes</button>
 </div>
@@ -124,6 +116,7 @@
         <button onclick="window.location.href='admin.html'" class="btn">Admin</button>
     </footer>
 
+    <script src="include-navbar.js"></script>
     <script src="navigation.js" type="module"></script>
     <script src="index_script.js" type="module"></script>
 </body>
