@@ -68,7 +68,7 @@ header {
   text-decoration: none;
   font-size: 18px; /* Increased from 16px to 18px (2px larger) */
   padding: 0 20px; /* Removed vertical padding to rely on navbar height */
-  margin: 0 20px; /* Increased from 12px to 20px for more spacing between links */
+  margin: 0 160px; /* Increased from 20px to 30px for more spacing between links */
   border-radius: 6px;
   transition: all 0.3s ease;
   position: relative;
