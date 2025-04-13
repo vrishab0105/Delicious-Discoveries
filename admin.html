@@ -3,27 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Recipe App</title>
+    <title>Admin - Delicious Discoveries</title>
+    <link rel="stylesheet" href="navbar.css">
     <link rel="stylesheet" href="admin_style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
 </head>
 <body>
 
     <header>
-        <nav class="navbar">
-          <div id="name">
-            <img src="" alt="Logo" id="navbar-logo">
-            Delicious Discoveries
-          </div>
-          <div class="nav-center">
-            <a href="#" onclick="navigateTo('index.html')">Home</a>
-                <a href="#" onclick="navigateTo('about.html')">About</a>
-             </div>
-        </nav>
+        <!-- Navbar will be loaded here by include-navbar.js -->
     </header>
 
     <div id="login-page" class="login-page">
         <div class="login-content">
-            <h2>Login</h2>
+            <h2>Admin Login</h2>
             <form id="login-form">
                 <label for="username">Username:</label>
                 <input type="text" id="username" required>
@@ -37,8 +30,8 @@
     </div>
 
     <div class="container" id="main-content" style="display: none;">
-        <h1>Recipe List</h1>
-        <button id="add-recipe-btn" class="btn">Add Recipe</button>
+        <h1>Recipe Management</h1>
+        <button id="add-recipe-btn" class="btn">Add New Recipe</button>
         <ul class="recipe-list" id="recipe-list"></ul>
     </div>
 
@@ -74,6 +67,7 @@
         </div>
     </div>
 
+    <script src="include-navbar.js"></script>
     <script src="admin_script.js" type="module"></script>
     <script src="navigation.js" type="module"></script>
 </body>
