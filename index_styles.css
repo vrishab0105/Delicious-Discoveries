@@ -150,6 +150,7 @@ body, html {
 .search-bar {
   display: flex;
   align-items: center;
+  position: relative;
 }
 
 .search-bar input {
@@ -432,4 +433,45 @@ footer .btn:hover {
 
 .recipe-btn:active {
   background-color: #004085;
+}
+
+/* Search Results Styling */
+.results-list {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  max-height: 300px;
+  overflow-y: auto;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 0 0 5px 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  display: none;
+}
+
+.results-list li {
+  padding: 12px 15px;
+  cursor: pointer;
+  border-bottom: 1px solid #f0f0f0;
+  transition: background-color 0.2s ease;
+}
+
+.results-list li:last-child {
+  border-bottom: none;
+}
+
+.results-list li:hover {
+  background-color: #f5f5f5;
+}
+
+.results-list li.no-results,
+.results-list li.error {
+  color: #666;
+  font-style: italic;
+  cursor: default;
 }
