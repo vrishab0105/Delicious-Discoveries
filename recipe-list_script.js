@@ -1,6 +1,6 @@
 // Import Firebase functions you need
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.13.2/firebase-app.js";
-import { getDatabase, ref, onValue, query, orderByChild, equalTo } from "https://www.gstatic.com/firebasejs/10.13.2/firebase-database.js";
+import { getDatabase, ref, onValue, query, orderByChild, equalTo, get, child } from "https://www.gstatic.com/firebasejs/10.13.2/firebase-database.js";
 import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.13.2/firebase-analytics.js";
 
 // Your web app's Firebase configuration
@@ -50,32 +50,45 @@ function displayRecipes(recipes) {
     recipeList.style.display = recipes.length > 0 ? 'block' : 'none';
 }
 
-// Function to fetch all recipes (fetch only necessary fields)
+// Function to fetch necessary recipe metadata (only fetch required fields)
 function fetchAllRecipes() {
+    // Create a reference to the recipes node
     const recipeRef = ref(database, 'recipes');
     
-    // Use onValue to fetch the data
-    onValue(recipeRef, (snapshot) => {
-        const recipes = snapshot.val();
-        const recipeArray = [];
+    // Use get instead of onValue to retrieve data once
+    get(recipeRef).then((snapshot) => {
+        if (snapshot.exists()) {
+            const recipes = snapshot.val();
+            const recipeArray = [];
 
-        // Only extract 'name' and 'dish_type'
-        for (const key in recipes) {
-            const recipe = {
-                key: key,
-                name: recipes[key].name,       // Fetch name
-                dish_type: recipes[key].dish_type, // Fetch dish type
-                dish_category: recipes[key].dish_category // Fetch dish category
-            };
-            recipeArray.push(recipe);
+            // Extract only necessary fields to reduce data transfer
+            for (const key in recipes) {
+                const recipe = {
+                    key: key,
+                    name: recipes[key].name,
+                    dish_type: recipes[key].dish_type,
+                    dish_category: recipes[key].dish_category,
+                    meal_category: recipes[key].meal_category
+                };
+                recipeArray.push(recipe);
+            }
+
+            // Collect unique dish types and meal categories
+            const uniqueDishTypes = new Set(recipeArray.map(recipe => recipe.dish_type));
+            const uniqueMealCategories = new Set(recipeArray.map(recipe => recipe.meal_category).filter(Boolean));
+            
+            // Populate dropdowns
+            populateDishTypeDropdown(uniqueDishTypes);
+            populateMealCategoryDropdown(uniqueMealCategories);
+
+            // Display recipes
+            displayRecipes(recipeArray);
+        } else {
+            console.log("No recipes available");
+            displayRecipes([{ name: 'No recipes found.' }]);
         }
-
-        // Populate the dish type dropdown with unique dish types
-        const uniqueDishTypes = new Set(recipeArray.map(recipe => recipe.dish_type));
-        populateDishTypeDropdown(uniqueDishTypes);
-
-        // Display the fetched recipes (will be sorted in displayRecipes)
-        displayRecipes(recipeArray);
+    }).catch((error) => {
+        console.error("Error fetching recipes:", error);
     });
 }
 
@@ -99,6 +112,28 @@ function populateDishTypeDropdown(dishTypes) {
     });
 }
 
+// Function to populate the meal category dropdown
+function populateMealCategoryDropdown(mealCategories) {
+    const mealCategoryDropdown = document.getElementById('meal-category-dropdown');
+    mealCategoryDropdown.innerHTML = ''; // Clear existing options
+
+    // Add default 'None' option
+    const noneOption = document.createElement('option');
+    noneOption.value = '';
+    noneOption.textContent = 'None';
+    mealCategoryDropdown.appendChild(noneOption);
+
+    // Add meal categories
+    mealCategories.forEach(category => {
+        if (category) { // Ensure we only add valid categories
+            const option = document.createElement('option');
+            option.value = category;
+            option.textContent = category;
+            mealCategoryDropdown.appendChild(option);
+        }
+    });
+}
+
 // Initial fetch of all recipes
 fetchAllRecipes();
 
@@ -110,141 +145,126 @@ document.addEventListener('DOMContentLoaded', function () {
     const searchTermInput = document.getElementById('search-term');
     const dishTypeDropdown = document.getElementById('dish-type-dropdown');
     const vegTypeDropdown = document.getElementById('veg-type-dropdown');
+    const mealCategoryDropdown = document.getElementById('meal-category-dropdown');
 
     // Info icons
     const dishInfoIcon = document.getElementById('dish-info');
     const dishInfoBox = document.getElementById('dish-info-box');
     const vegInfoIcon = document.getElementById('veg-info');
     const vegInfoBox = document.getElementById('veg-info-box');
+    const mealInfoIcon = document.getElementById('meal-info');
+    const mealInfoBox = document.getElementById('meal-info-box');
 
-    // Show search input and dish type dropdown when clicking the search button
+    // Show search input and dropdowns when clicking the search button
     searchButton.addEventListener('click', () => {
         searchInputContainer.style.display = 'flex';
         showAllButton.style.display = 'inline-block';
         searchButton.style.display = 'none';
-        dishTypeDropdown.style.display = 'block'; // Show dropdown
-        vegTypeDropdown.style.display = 'block'; // Show dropdown
-        dishInfoIcon.style.display = 'block'; // Show dish info icon
-        vegInfoIcon.style.display = 'block'; // Show veg info icon
+        dishTypeDropdown.style.display = 'block'; 
+        vegTypeDropdown.style.display = 'block'; 
+        mealCategoryDropdown.style.display = 'block'; // Show meal category dropdown
+        dishInfoIcon.style.display = 'block';
+        vegInfoIcon.style.display = 'block';
+        mealInfoIcon.style.display = 'block'; // Show meal info icon
     });
 
     // Show all recipes and hide search input
     showAllButton.addEventListener('click', () => {
         searchInputContainer.style.display = 'none';
         showAllButton.style.display = 'none';
-        searchButton.style.display = 'inline-block'; // Show search button
-        dishTypeDropdown.style.display = 'none'; // Hide dropdown when showing all recipes
-        vegTypeDropdown.style.display = 'none'; // Hide veg dropdown
-        dishInfoIcon.style.display = 'none'; // Hide dish info icon
-        vegInfoIcon.style.display = 'none'; // Hide veg info icon
-        fetchAllRecipes(); // Fetch and display all recipes again
+        searchButton.style.display = 'inline-block';
+        dishTypeDropdown.style.display = 'none';
+        vegTypeDropdown.style.display = 'none';
+        mealCategoryDropdown.style.display = 'none'; // Hide meal category dropdown
+        dishInfoIcon.style.display = 'none';
+        vegInfoIcon.style.display = 'none';
+        mealInfoIcon.style.display = 'none'; // Hide meal info icon
+        fetchAllRecipes();
     });
 
-    // Search feature with Firebase handling the filter
+    // Search feature
     searchRecipeButton.addEventListener('click', () => {
-        const searchTerm = searchTermInput.value.trim().toLowerCase();
-        const selectedDishType = dishTypeDropdown.value; // Get selected dish type
-        const selectedVegType = vegTypeDropdown.value; // Get selected veg/non-veg type
-
-        let queryRef = ref(database, 'recipes');
-
-        // Filter based on dish type and veg/non-veg category
-        const queries = [];
-        if (selectedDishType) {
-            queries.push(query(ref(database, 'recipes'), orderByChild('dish_type'), equalTo(selectedDishType)));
-        }
-        if (selectedVegType) {
-            queries.push(query(ref(database, 'recipes'), orderByChild('dish_category'), equalTo(selectedVegType)));
-        }
-
-        // Execute query
-        onValue(queryRef, (snapshot) => {
-            const recipes = snapshot.val();
-            const filteredRecipes = [];
-
-            for (const key in recipes) {
-                const recipeName = recipes[key].name.toLowerCase();
-
-                // Filter based on search term and dish type (if both are provided)
-                if ((!searchTerm || recipeName.includes(searchTerm)) && 
-                    (!selectedVegType || recipes[key].dish_category === selectedVegType) &&
-                    (!selectedDishType || recipes[key].dish_type === selectedDishType)) {
-                    filteredRecipes.push({
-                        key: key,
-                        name: recipes[key].name,
-                        country: recipes[key].country
-                    });
-                }
-            }
-
-            // Show the filtered recipes (sorted by name) or a message if none found
-            displayRecipes(filteredRecipes.length > 0 ? filteredRecipes : [{ name: 'No recipes found.' }]);
-        });
+        filterRecipes();
     });
 
-    // Function to display filtered recipes based on selected dish type
-    dishTypeDropdown.addEventListener('change', () => {
-        const selectedType = dishTypeDropdown.value; // Get selected dish type
-        const selectedVegType = vegTypeDropdown.value; // Get selected veg/non-veg type
+    // Function to handle filtering based on all filters - optimized to use Firebase queries when possible
+    function filterRecipes() {
         const searchTerm = searchTermInput.value.trim().toLowerCase();
+        const selectedDishType = dishTypeDropdown.value;
+        const selectedVegType = vegTypeDropdown.value;
+        const selectedMealCategory = mealCategoryDropdown.value;
 
-        let queryRef = ref(database, 'recipes');
+        // Base reference to recipes
+        let recipeRef = ref(database, 'recipes');
         
-        // Filtering based on selected dish type and veg/non-veg category
-        onValue(queryRef, (snapshot) => {
-            const recipes = snapshot.val();
-            const filteredRecipes = [];
-
-            for (const key in recipes) {
-                const recipeName = recipes[key].name.toLowerCase();
-
-                // Add filter for dish type, search term, and veg/non-veg category
-                if ((!searchTerm || recipeName.includes(searchTerm)) && 
-                    (!selectedVegType || recipes[key].dish_category === selectedVegType) &&
-                    (!selectedType || recipes[key].dish_type === selectedType)) {
-                    filteredRecipes.push({
+        // If one specific filter is applied without search term, use Firebase query
+        // This optimizes by filtering on the server rather than client
+        if (!searchTerm) {
+            if (selectedDishType && !selectedVegType && !selectedMealCategory) {
+                // Filter by dish type on server
+                recipeRef = query(recipeRef, orderByChild('dish_type'), equalTo(selectedDishType));
+            } else if (selectedVegType && !selectedDishType && !selectedMealCategory) {
+                // Filter by veg type on server
+                recipeRef = query(recipeRef, orderByChild('dish_category'), equalTo(selectedVegType));
+            } else if (selectedMealCategory && !selectedDishType && !selectedVegType) {
+                // Filter by meal category on server
+                recipeRef = query(recipeRef, orderByChild('meal_category'), equalTo(selectedMealCategory));
+            }
+        }
+        
+        // Get recipes with optimized query
+        get(recipeRef).then((snapshot) => {
+            if (snapshot.exists()) {
+                const recipes = snapshot.val();
+                const filteredRecipes = [];
+                
+                for (const key in recipes) {
+                    const recipeName = recipes[key].name.toLowerCase();
+                    const recipe = {
                         key: key,
                         name: recipes[key].name,
-                        country: recipes[key].country
-                    });
+                        dish_type: recipes[key].dish_type,
+                        dish_category: recipes[key].dish_category,
+                        meal_category: recipes[key].meal_category
+                    };
+                    
+                    // Apply remaining filters on the client side
+                    if ((!searchTerm || recipeName.includes(searchTerm)) && 
+                        (!selectedVegType || recipe.dish_category === selectedVegType) &&
+                        (!selectedDishType || recipe.dish_type === selectedDishType) &&
+                        (!selectedMealCategory || recipe.meal_category === selectedMealCategory)) {
+                        filteredRecipes.push({
+                            key: key,
+                            name: recipes[key].name,
+                            country: recipes[key].country || "" // Include country if available
+                        });
+                    }
                 }
+                
+                // Show the filtered recipes or a message if none found
+                displayRecipes(filteredRecipes.length > 0 ? filteredRecipes : [{ name: 'No recipes found.' }]);
+            } else {
+                displayRecipes([{ name: 'No recipes found.' }]);
             }
-
-            // Show filtered recipes or a message if none found
-            displayRecipes(filteredRecipes.length > 0 ? filteredRecipes : [{ name: 'No recipes found.' }]);
+        }).catch((error) => {
+            console.error("Error filtering recipes:", error);
+            displayRecipes([{ name: 'Error loading recipes.' }]);
         });
+    }
+
+    // Filter on dish type selection
+    dishTypeDropdown.addEventListener('change', () => {
+        filterRecipes();
     });
 
-    // Function to display filtered recipes based on selected veg/non-veg type
+    // Filter on veg/non-veg type selection
     vegTypeDropdown.addEventListener('change', () => {
-        const selectedVegType = vegTypeDropdown.value; // Get selected veg/non-veg type
-        const selectedType = dishTypeDropdown.value; // Get selected dish type
-        const searchTerm = searchTermInput.value.trim().toLowerCase();
-
-        let queryRef = ref(database, 'recipes');
-
-        onValue(queryRef, (snapshot) => {
-            const recipes = snapshot.val();
-            const filteredRecipes = [];
-
-            for (const key in recipes) {
-                const recipeName = recipes[key].name.toLowerCase();
-
-                // Add filter for veg/non-veg category, search term, and dish type
-                if ((!searchTerm || recipeName.includes(searchTerm)) && 
-                    (!selectedVegType || recipes[key].dish_category === selectedVegType) &&
-                    (!selectedType || recipes[key].dish_type === selectedType)) {
-                    filteredRecipes.push({
-                        key: key,
-                        name: recipes[key].name,
-                        country: recipes[key].country
-                    });
-                }
-            }
-
-            // Show filtered recipes or a message if none found
-            displayRecipes(filteredRecipes.length > 0 ? filteredRecipes : [{ name: 'No recipes found.' }]);
-        });
+        filterRecipes();
+    });
+    
+    // Filter on meal category selection
+    mealCategoryDropdown.addEventListener('change', () => {
+        filterRecipes();
     });
 
     // Hover effect for dish info icon
@@ -261,5 +281,13 @@ document.addEventListener('DOMContentLoaded', function () {
     });
     vegInfoIcon.addEventListener('mouseout', () => {
         vegInfoBox.style.display = 'none';
+    });
+    
+    // Hover effect for meal info icon
+    mealInfoIcon.addEventListener('mouseover', () => {
+        mealInfoBox.style.display = 'block';
+    });
+    mealInfoIcon.addEventListener('mouseout', () => {
+        mealInfoBox.style.display = 'none';
     });
 });

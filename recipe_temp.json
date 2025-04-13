@@ -1,718 +1,179 @@
 {
-    "recipes": {
-        "alfajores": {
-                "name": "Alfajores",
-                "country": "Argentina",
-                "dish_type": "baked",
-                "ingredients": [
-                  "2 cups cornstarch",
-                  "1 cup all-purpose flour",
-                  "1/2 cup butter (softened)",
-                  "1/2 cup sugar",
-                  "1 egg yolk",
-                  "1/2 teaspoon vanilla extract",
-                  "Dulce de leche (for filling)",
-                  "Powdered sugar (for dusting)"
-                ],
-                "steps": [
-                  "Preheat oven to 350°F (180°C).",
-                  "In a large bowl, beat together the butter and sugar until light and fluffy. Add the egg yolk and vanilla, and mix until combined.",
-                  "Gradually add the cornstarch and flour, mixing until a soft dough forms.",
-                  "Roll out the dough on a floured surface to about 1/4-inch thickness. Cut into small circles using a cookie cutter.",
-                  "Place the cookies on a baking sheet lined with parchment paper and bake for 10-12 minutes or until the edges are lightly golden.",
-                  "Let the cookies cool completely, then sandwich together with dulce de leche.",
-                  "Dust with powdered sugar before serving."
-                ]
-              },
-
-              "meatPie": {
-                  "name": "Meat Pie",
-                  "country": "Australia",
-                  "dish_type": "baked" ,
-                  "ingredients": [
-                    "500g Ground beef",
-                    "1 Onion (chopped)",
-                    "2 Garlic cloves (minced)",
-                    "1 cup Beef broth",
-                    "1 tbsp Worcestershire sauce",
-                    "1 tsp Thyme",
-                    "Salt and pepper to taste",
-                    "2 sheets Puff pastry",
-                    "1 Egg (beaten, for glazing)"
-                  ],
-                  "steps": [
-                    "In a pan, sauté onion and garlic until soft.",
-                    "Add ground beef, cooking until browned. Stir in beef broth, Worcestershire sauce, thyme, salt, and pepper. Simmer for 20 minutes.",
-                    "Preheat the oven to 200°C (390°F).",
-                    "Line a pie dish with one sheet of pastry, fill with the meat mixture, and cover with the second sheet. Seal edges and make slits on top.",
-                    "Brush with beaten egg and bake for 30-35 minutes until golden brown."
-                  ]
-                },
-
-                "poutine": {
-              "name": "Poutine",
-              "country": "Canada",
-              "dish_type": "assembled",
-              "ingredients": [
-                "4 cups Frozen French fries",
-                "2 cups Beef gravy",
-                "1 cup Cheese curds",
-                "Salt and pepper to taste"
-              ],
-              "steps": [
-                "Cook French fries according to package instructions.",
-                "Heat beef gravy until hot.",
-                "Place fries on a plate and top with cheese curds.",
-                "Pour hot gravy over the fries and cheese.",
-                "Serve immediately."
-              ]
-            },
-
-            "kungPaoChicken": {
-                      "name": "Kung Pao Chicken",
-                      "country": "China",
-                      "dish_type": "stir-fried",
-                      "ingredients": [
-                        "500g Chicken breast (diced)",
-                        "2 tbsp Soy sauce",
-                        "1 tbsp Rice vinegar",
-                        "1 tbsp Cornstarch",
-                        "2 tbsp Vegetable oil",
-                        "3-4 Dried red chilies",
-                        "1/2 cup Peanuts",
-                        "1 Green bell pepper (diced)",
-                        "1 Red bell pepper (diced)",
-                        "2 Garlic cloves (minced)",
-                        "1 tsp Ginger (minced)",
-                        "2 tbsp Hoisin sauce",
-                        "1 tbsp Sugar",
-                        "1/2 cup Chicken broth",
-                        "Salt to taste"
-                      ],
-                      "steps": [
-                        "Marinate the diced chicken with soy sauce, rice vinegar, and cornstarch for 15 minutes.",
-                        "Heat oil in a pan and stir-fry the dried chilies until they darken. Remove and set aside.",
-                        "In the same pan, stir-fry the chicken until browned and cooked through. Set aside.",
-                        "Add garlic, ginger, and bell peppers to the pan and stir-fry for 2-3 minutes.",
-                        "Add chicken back to the pan along with hoisin sauce, sugar, and chicken broth. Stir well.",
-                        "Add the peanuts and cooked chilies, season with salt, and stir-fry for another minute.",
-                        "Serve hot with rice."
-                      ]
-                    },
-
-                    "arrozConPollo": {
-                      "name": "Arroz Con Pollo",
-                      "country": "Cuba",
-                      "dish_type": "simmered",
-                      "ingredients": [
-                        "1 lb Chicken (cut into pieces)",
-                        "1 cup Rice",
-                        "1 Onion (chopped)",
-                        "1 Bell pepper (diced)",
-                        "2 Garlic cloves (minced)",
-                        "1 cup Tomato sauce",
-                        "2 cups Chicken broth",
-                        "1 tsp Cumin",
-                        "1/2 tsp Saffron",
-                        "1/2 cup Green peas",
-                        "Salt and pepper to taste"
-                      ],
-                      "steps": [
-                        "Brown chicken in a pan and set aside.",
-                        "Cook onion, bell pepper, and garlic until softened.",
-                        "Stir in rice, tomato sauce, and cumin.",
-                        "Add chicken broth, saffron, and chicken.",
-                        "Simmer until rice is cooked.",
-                        "Stir in green peas and season with salt and pepper."
-                      ]
-                    },
-
-                    "croissant": {
-          "name": "Croissant",
-          "country": "France",
-           "dish_type": "baked",
-          "ingredients": [
-            "2 1/4 cups All-purpose flour",
-            "1/2 cup Warm milk",
-            "1/4 cup Sugar",
-            "1/4 cup Butter",
-            "1 tbsp Yeast",
-            "1 tsp Salt",
-            "1 Egg (for egg wash)",
-            "1/2 cup Butter (for laminating)"
-          ],
-          "steps": [
-            "Mix flour, sugar, and yeast. Add warm milk and melted butter, then knead into a dough.",
-            "Let the dough rise until doubled in size.",
-            "Roll out dough and fold in chilled butter. Roll and fold several times to create layers.",
-            "Cut into triangles, roll up, and shape into croissants.",
-            "Let rise again and brush with egg wash.",
-            "Bake at 375°F (190°C) for 15-20 minutes until golden brown.",
-            "Cool before serving."
-          ]
-        },
-
-        "chickenSchnitzel": {
-                          "name": "Chicken Schnitzel",
-                          "country": "Germany",
-                          "dish_type": "fried",
-                          "ingredients": [
-                            "4 Chicken breasts (pounded thin)",
-                            "1 cup Flour",
-                            "2 Eggs (beaten)",
-                            "1 cup Bread crumbs",
-                            "1/4 cup Olive oil",
-                            "Salt and pepper to taste",
-                            "Lemon wedges for serving"
-                          ],
-                          "steps": [
-                            "Season chicken with salt and pepper.",
-                            "Dredge in flour, then egg, then bread crumbs.",
-                            "Heat oil in a pan and cook chicken until golden and cooked through.",
-                            "Serve with lemon wedges."
-                          ]
-                        },
-
-                        "moussaka": {
-                      "name": "Moussaka",
-                      "country": "Greece",
-                      "dish_type": "baked",
-                      "ingredients": [
-                        "2 Eggplants (sliced and salted)",
-                        "1 lb Ground lamb",
-                        "1 Onion (chopped)",
-                        "2 Garlic cloves (minced)",
-                        "1 can Tomato sauce",
-                        "1/2 cup Red wine",
-                        "1/2 tsp Cinnamon",
-                        "1/2 tsp Nutmeg",
-                        "2 cups Bechamel sauce",
-                        "Olive oil",
-                        "Salt and pepper to taste"
-                      ],
-                      "steps": [
-                        "Fry eggplant slices in olive oil and set aside.",
-                        "Cook lamb with onion and garlic, then add tomato sauce, wine, cinnamon, and nutmeg.",
-                        "Layer eggplant and lamb mixture in a baking dish.",
-                        "Top with bechamel sauce and bake at 350°F (175°C) for 45 minutes."
-                      ]
-                    },
-
-                    "goulash": {
-                      "name": "Goulash",
-                      "country": "Hungary",
-                      "dish_type": "stewed",
-                      "ingredients": [
-                        "1 lb Beef (cubed)",
-                        "1 Onion (chopped)",
-                        "2 Garlic cloves (minced)",
-                        "1 Red bell pepper (diced)",
-                        "1 cup Tomato sauce",
-                        "2 cups Beef broth",
-                        "1 tbsp Paprika",
-                        "1 tbsp Caraway seeds",
-                        "Salt and pepper to taste",
-                        "2 tbsp Vegetable oil"
-                      ],
-                      "steps": [
-                        "Heat oil and brown beef cubes.",
-                        "Add onion, garlic, and bell pepper and cook until softened.",
-                        "Stir in paprika and caraway seeds.",
-                        "Add tomato sauce and beef broth.",
-                        "Simmer for 1 hour until beef is tender.",
-                        "Season with salt and pepper."
-                      ]
-                    },
-
-                    "carbonara": {
-                        "name": "Spaghetti Carbonara",
-                        "country": "Italy",
-                        "dish_type": "assembled",
-                        "ingredients": [
-                          "200g Spaghetti",
-                          "100g Pancetta or bacon (diced)",
-                          "2 Eggs",
-                          "50g Parmesan cheese (grated)",
-                          "2 Garlic cloves (minced)",
-                          "Salt and black pepper to taste",
-                          "Parsley for garnish"
-                        ],
-                        "steps": [
-                          "Cook spaghetti according to package instructions. Drain and set aside.",
-                          "In a pan, cook the pancetta or bacon until crispy. Remove from heat.",
-                          "In a bowl, whisk together eggs and Parmesan cheese.",
-                          "Add garlic to the pan and sauté for 1 minute.",
-                          "Add cooked spaghetti to the pan, then mix in the egg and cheese mixture quickly. The heat from the pasta will cook the eggs.",
-                          "Stir in the crispy pancetta and season with salt and black pepper.",
-                          "Garnish with parsley and serve immediately."
-                        ]
-                      },
-
-                      "sushi": {
-              "name": "Sushi",
-              "country": "Japan",
-              "dish_type": "raw",
-              "ingredients": [
-                "2 cups Sushi rice",
-                "2 1/2 cups Water",
-                "1/2 cup Rice vinegar",
-                "1/4 cup Sugar",
-                "1/4 cup Soy sauce",
-                "1/2 lb Fresh fish (sliced)",
-                "Nori sheets",
-                "Wasabi and pickled ginger for serving"
-              ],
-              "steps": [
-                "Rinse rice until water runs clear. Cook in a rice cooker with water.",
-                "Mix rice vinegar and sugar. Stir into cooked rice and cool.",
-                "Place rice on nori sheets and add fish slices.",
-                "Roll tightly and slice into pieces.",
-                "Serve with soy sauce, wasabi, and pickled ginger."
-              ]
-            },
-
-            "babaGanoush": {
-              "name": "Baba Ganoush",
-              "country": "Lebanon",
-              "dish_type": "blended",
-              "ingredients": [
-                "2 Eggplants",
-                "3 tbsp Tahini",
-                "2 Garlic cloves (minced)",
-                "1/4 cup Lemon juice",
-                "1/4 cup Olive oil",
-                "Salt to taste",
-                "Parsley for garnish"
-              ],
-              "steps": [
-                "Roast eggplants until tender and charred. Cool and peel.",
-                "Blend eggplants with tahini, garlic, lemon juice, olive oil, and salt.",
-                "Serve with a drizzle of olive oil and garnish with parsley.",
-                "Enjoy with pita bread or vegetables."
-              ]
-            },
-
-            "laksa": {
-                      "name": "Laksa",
-                      "country": "Malaysia",
-                      "dish_type": "simmered",
-                      "ingredients": [
-                        "1 lb Chicken (sliced)",
-                        "1 package Rice noodles",
-                        "1 can Coconut milk",
-                        "1/4 cup Laksa paste",
-                        "2 cups Chicken broth",
-                        "1 tbsp Fish sauce",
-                        "Bean sprouts",
-                        "Fresh cilantro",
-                        "Lime wedges for serving"
-                      ],
-                      "steps": [
-                        "Cook chicken and set aside.",
-                        "In a pot, cook laksa paste in coconut milk until fragrant.",
-                        "Add chicken broth and fish sauce, then simmer.",
-                        "Add noodles and cook until tender.",
-                        "Top with chicken, bean sprouts, cilantro, and lime wedges."
-                      ]
-                    },
-
-                    "tacos": {
-              "name": "Tacos",
-              "country": "Mexico",
-              "dish_type": "assembled",
-              "ingredients": [
-                "1 lb Ground beef",
-                "1 Onion (chopped)",
-                "2 Garlic cloves (minced)",
-                "1 tbsp Taco seasoning",
-                "Taco shells",
-                "1 cup Lettuce (shredded)",
-                "1 cup Tomato (diced)",
-                "1/2 cup Cheddar cheese (shredded)",
-                "Sour cream and salsa for topping"
-              ],
-              "steps": [
-                "Cook ground beef with onion and garlic until browned.",
-                "Add taco seasoning and a splash of water. Simmer until well combined.",
-                "Fill taco shells with beef mixture and top with lettuce, tomato, cheese, sour cream, and salsa.",
-                "Serve immediately."
-              ]
-            },
-
-            "shakshuka": {
-                "name": "Shakshuka",
-                "country": "Middle Eastern",
-                "dish_type": "simmered",
-                "ingredients": [
-                  "1 Onion (chopped)",
-                  "2 Garlic cloves (minced)",
-                  "1 Red bell pepper (diced)",
-                  "1 can Tomato sauce",
-                  "1 tsp Cumin",
-                  "1/2 tsp Paprika",
-                  "1/4 tsp Chili powder",
-                  "4 Eggs",
-                  "Salt and pepper to taste",
-                  "Fresh cilantro for garnish"
-                ],
-                "steps": [
-                  "Heat oil and cook onion, garlic, and bell pepper until softened.",
-                  "Add tomato sauce, cumin, paprika, and chili powder.",
-                  "Simmer for 10 minutes.",
-                  "Make wells in the sauce and crack eggs into them.",
-                  "Cover and cook until eggs are set.",
-                  "Garnish with cilantro and serve with bread."
-                ]
-              },
-
-              "couscous": {
-                      "name": "Couscous",
-                      "country": "Morocco",
-                      "dish_type": "steamed",
-                      "ingredients": [
-                        "1 cup Couscous",
-                        "1 cup Water",
-                        "1 tbsp Olive oil",
-                        "1/2 tsp Salt",
-                        "1/2 cup Raisins",
-                        "1/2 cup Almonds (toasted)",
-                        "1/2 cup Fresh parsley (chopped)"
-                      ],
-                      "steps": [
-                        "Bring water, olive oil, and salt to a boil.",
-                        "Add couscous and remove from heat.",
-                        "Cover and let sit for 5 minutes.",
-                        "Fluff with a fork and stir in raisins, almonds, and parsley."
-                      ]
-                    },
-
-                    "jollofRice": {
-                          "name": "Jollof Rice",
-                          "country": "Nigeria",
-                           "dish_type": "simmered",
-                          "ingredients": [
-                            "2 cups Long-grain rice",
-                            "1/4 cup Tomato paste",
-                            "1 can Diced tomatoes",
-                            "1 Onion (chopped)",
-                            "2 Garlic cloves (minced)",
-                            "1 Red bell pepper (chopped)",
-                            "1 tbsp Thyme",
-                            "1 tsp Curry powder",
-                            "2 cups Chicken broth",
-                            "Salt and pepper to taste"
-                          ],
-                          "steps": [
-                            "Cook onion, garlic, and bell pepper until softened.",
-                            "Add tomato paste, diced tomatoes, thyme, and curry powder.",
-                            "Add rice and broth, and simmer until rice is cooked."
-                          ]
-                        },
-
-                        "ceviche": {
-                          "name": "Ceviche",
-                          "country": "Peru",
-                          "dish_type": "cured",
-                          "ingredients": [
-                            "1 lb Fresh fish (cubed)",
-                            "1 cup Lime juice",
-                            "1/2 cup Red onion (chopped)",
-                            "1 Tomato (diced)",
-                            "1/2 cup Cilantro (chopped)",
-                            "1 Jalapeño (finely chopped)",
-                            "Salt and pepper to taste"
-                          ],
-                          "steps": [
-                            "Marinate fish in lime juice for 2 hours.",
-                            "Mix with onion, tomato, cilantro, and jalapeño.",
-                            "Season with salt and pepper before serving."
-                          ]
-                        },
-
-                        "chickenAdobo": {
-          "name": "Chicken Adobo",
-          "country": "Philippines",
-          "dish_type": "simmered",
-          "ingredients": [
-            "1 kg Chicken (cut into pieces)",
-            "1/2 cup Soy sauce",
-            "1/2 cup Vinegar",
-            "1/2 cup Water",
-            "1 Onion (chopped)",
-            "4 Garlic cloves (minced)",
-            "2 Bay leaves",
-            "1 tsp Black peppercorns",
-            "2 tbsp Oil"
-          ],
-          "steps": [
-            "Marinate chicken in soy sauce, vinegar, and garlic for 30 minutes.",
-            "Heat oil in a pan and cook onions until soft.",
-            "Add marinated chicken and cook until browned.",
-            "Add water, bay leaves, and peppercorns.",
-            "Simmer until chicken is tender and sauce is reduced.",
-            "Serve with rice."
-          ]
-        },
-
-        "cabbageRolls": {
-                  "name": "Cabbage Rolls",
-                  "country": "Poland",
-                  "dish_type": "baked",
-                  "ingredients": [
-                    "1 head Cabbage",
-                    "1 lb Ground beef",
-                    "1 cup Cooked rice",
-                    "1 Onion (chopped)",
-                    "1 Egg",
-                    "1 can Tomato sauce",
-                    "2 tbsp Brown sugar",
-                    "Salt and pepper to taste",
-                    "2 tbsp Olive oil"
-                  ],
-                  "steps": [
-                    "Blanch cabbage leaves in boiling water until pliable.",
-                    "Mix beef, rice, onion, and egg.",
-                    "Place filling in cabbage leaves and roll up.",
-                    "Place rolls in a baking dish.",
-                    "Mix tomato sauce with brown sugar and pour over rolls.",
-                    "Bake at 350°F (175°C) for 1 hour."
-                  ]
-                },
-
-                "beefStroganoff": {
-                  "name": "Beef Stroganoff",
-                  "country": "Russia",
-                  "dish_type": "sautéed",
-                  "ingredients": [
-                    "500g Beef strips",
-                    "1 Onion (sliced)",
-                    "2 cups Mushrooms (sliced)",
-                    "1 cup Beef broth",
-                    "1/2 cup Sour cream",
-                    "2 tbsp Olive oil",
-                    "Salt and pepper to taste",
-                    "Cooked pasta or rice (for serving)"
-                  ],
-                  "steps": [
-                    "In a pan, heat olive oil and sauté onion until soft. Add beef strips and cook until browned.",
-                    "Add mushrooms and cook for another 5 minutes.",
-                    "Pour in beef broth and simmer for 10 minutes.",
-                    "Stir in sour cream and season with salt and pepper.",
-                    "Serve over cooked pasta or rice."
-                  ]
-                },
-
-                "rakija": {
-                      "name": "Rakija",
-                      "country": "Serbia",
-                      "dish_type": "distilled",
-                      "ingredients": [
-                        "4 lbs Plums",
-                        "1 cup Sugar",
-                        "1 liter Water",
-                        "Yeast (as needed)"
-                      ],
-                      "steps": [
-                        "Mash plums and mix with sugar.",
-                        "Add water and yeast, then ferment for 2 weeks.",
-                        "Distill the mixture to produce rakija."
-                      ]
-                    },
-
-                    "kimchi": {
-                  "name": "Kimchi",
-                  "country": "South Korea",
-                  "dish_type": "fermented",
-                  "ingredients": [
-                    "1 medium Napa cabbage",
-                    "1/4 cup Sea salt",
-                    "1 tbsp Ginger (grated)",
-                    "4 Garlic cloves (minced)",
-                    "2 tbsp Fish sauce",
-                    "1 tbsp Sugar",
-                    "2 tbsp Korean red pepper flakes",
-                    "1 cup Radish (julienned)",
-                    "Green onions (chopped)"
-                  ],
-                  "steps": [
-                    "Cut cabbage into quarters and sprinkle with sea salt. Let sit for 2 hours.",
-                    "Rinse cabbage thoroughly and drain.",
-                    "Mix ginger, garlic, fish sauce, sugar, and red pepper flakes to make the paste.",
-                    "Combine paste with cabbage, radish, and green onions.",
-                    "Pack into a jar and let ferment at room temperature for 2-3 days.",
-                    "Refrigerate and serve."
-                  ]
-                },
-
-                "patatasBravas": {
-        "name": "Patatas Bravas",
-        "country": "Spain",
-         "dish_type": "fried",
-        "ingredients": [
-          "4 potatoes",
-          "1/4 cup olive oil",
-          "1 tsp paprika",
-          "1/4 tsp cayenne pepper",
-          "Salt",
-          "Garlic aioli for dipping"
-        ],
-        "steps": [
-          "Peel and cut potatoes into cubes.",
-          "Boil potatoes until slightly tender, then drain.",
-          "Heat olive oil in a pan and fry potatoes until crispy.",
-          "Sprinkle with paprika, cayenne, and salt.",
-          "Serve with garlic aioli."
-        ]
-      },
-
-      "padThai": {
-                      "name": "Pad Thai",
-                      "country": "Thailand",
-                      "dish_type": "stir-fried",
-                      "ingredients": [
-                        "8 oz Rice noodles",
-                        "1/2 lb Shrimp (peeled and deveined)",
-                        "2 Eggs",
-                        "1/2 cup Bean sprouts",
-                        "1/4 cup Peanuts (crushed)",
-                        "1/4 cup Fish sauce",
-                        "2 tbsp Tamarind paste",
-                        "2 tbsp Brown sugar",
-                        "2 Garlic cloves (minced)",
-                        "1 Red chili (sliced)",
-                        "2 Green onions (chopped)",
-                        "Lime wedges for serving"
-                      ],
-                      "steps": [
-                        "Cook rice noodles according to package instructions.",
-                        "In a pan, cook shrimp until pink and set aside.",
-                        "Scramble eggs in the same pan.",
-                        "Add garlic and chili, then stir in fish sauce, tamarind paste, and sugar.",
-                        "Add noodles, bean sprouts, and shrimp.",
-                        "Toss with peanuts and green onions.",
-                        "Serve with lime wedges."
-                      ]
-                    },
-
-                    "kebap": {
-            "name": "Kebap",
-            "country": "Turkey",
-            "dish_type": "grilled",
-            "ingredients": [
-              "500g lamb or beef (cubed)",
-              "1 onion (grated)",
-              "2 cloves garlic (minced)",
-              "1 tsp cumin",
-              "1 tsp paprika",
-              "Salt",
-              "Pepper",
-              "Skewers"
-            ],
-            "steps": [
-              "Mix meat, onion, garlic, cumin, paprika, salt, and pepper in a bowl.",
-              "Skewer the marinated meat onto skewers.",
-              "Grill over medium-high heat until cooked through.",
-              "Serve with flatbread and salad."
-            ]
-          },
-
-          "beefWellington": {
-                          "name": "Beef Wellington",
-                          "country": "United Kingdom",
-                          "dish_type": "baked",
-                          "ingredients": [
-                            "1.5 lb Beef tenderloin",
-                            "2 tbsp Olive oil",
-                            "1 cup Mushrooms (finely chopped)",
-                            "1 Onion (chopped)",
-                            "2 Garlic cloves (minced)",
-                            "2 tbsp Dijon mustard",
-                            "8 slices Prosciutto",
-                            "1 sheet Puff pastry",
-                            "1 Egg (beaten)",
-                            "Salt and pepper to taste"
-                          ],
-                          "steps": [
-                            "Sear beef in olive oil until browned on all sides.",
-                            "Cook mushrooms, onion, and garlic until moisture is evaporated.",
-                            "Spread mustard on beef and cool.",
-                            "Wrap beef in prosciutto and mushroom mixture.",
-                            "Wrap in puff pastry and brush with egg.",
-                            "Bake at 400°F (200°C) for 25 minutes."
-                          ]
-                        },
-
-                        "Fries": {
-      "name": "French Fries",
+  "recipes": {
+    "Fries": {
       "country": "USA",
+      "dish_category": "veg",
       "dish_type": "fried",
+      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/French%20Fries.jpg?alt=media&token=af19c6f7-4ab0-47fb-90ac-47f4bb6afe9c",
       "ingredients": [
         "potato",
         "oil",
         "seasoning"
       ],
+      "name": "French Fries",
       "steps": [
         "fry the potatoes in the oil",
         "season it with the seasoning"
       ]
     },
-
-    "pho": {
-              "name": "Pho",
-              "country": "Vietnam",
-              "dish_type": "simmered",
-              "ingredients": [
-                "200g Beef (thinly sliced)",
-                "1 Onion (quartered)",
-                "1 Ginger root (sliced)",
-                "2 Star anise",
-                "4 Cloves",
-                "1 Cinnamon stick",
-                "6 cups Beef broth",
-                "Rice noodles",
-                "Fresh herbs (basil, cilantro)",
-                "Bean sprouts",
-                "Lime wedges",
-                "Chili slices",
-                "Fish sauce to taste"
-              ],
-              "steps": [
-                "Char onion and ginger in a hot pan until fragrant.",
-                "Add spices and beef broth. Simmer for 30 minutes.",
-                "Strain the broth and return to pot. Add beef slices and cook briefly.",
-                "Prepare rice noodles according to package instructions.",
-                "Serve hot broth over noodles with fresh herbs, bean sprouts, lime, chili, and fish sauce."
-              ]
-            },
-
-            "pavBhaji": {
-  "name": "Pav Bhaji",
-  "country": "India",
-  "dish_type": "fried",
-  "ingredients": [
-    "4 Potatoes (boiled and mashed)",
-    "1 Onion (finely chopped)",
-    "1 Tomato (chopped)",
-    "1 Green bell pepper (chopped)",
-    "2 tbsp Pav Bhaji masala",
-    "2 tbsp Butter",
-    "4 Pav (Indian bread rolls)",
-    "Salt to taste"
-  ],
-  "steps": [
-    "Heat butter in a pan, add onions and sauté until soft and translucent.",
-    "Add tomatoes and bell peppers, cook until they soften and blend well.",
-    "Add mashed potatoes and mix everything together, ensuring no lumps.",
-    "Sprinkle pav bhaji masala and salt, and mix well. Cook for a few minutes until the flavors meld together.",
-    "Toast the pav with butter on a hot griddle until golden brown.",
-    "Serve hot pav bhaji with a dollop of butter and chopped onions."
-  ]
-},
-
-"biryani": {
-      "name": "Chicken Biryani",
+    "alooParatha": {
       "country": "India",
+      "dish_category": "veg",
+      "dish_type": "fried",
+      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/india%2FAloo%20Paratha.jpg?alt=media&token=bae81845-1ca5-4980-b592-07e0dab3e9e8",
+      "ingredients": [
+        "2 cups Wheat flour",
+        "3 Potatoes (boiled and mashed)",
+        "2 Green chilies (chopped)",
+        "1 tsp Ginger (grated)",
+        "1/2 tsp Garam masala",
+        "Butter for cooking",
+        "Salt to taste"
+      ],
+      "name": "Aloo Paratha",
+      "steps": [
+        "Knead wheat flour with water into a soft dough and set aside for 15-20 minutes.",
+        "In a bowl, mix mashed potatoes, chopped green chilies, grated ginger, garam masala, and salt.",
+        "Divide the dough into equal portions and roll each into small discs.",
+        "Place a portion of the potato mixture in the center of the disc and fold the edges to seal.",
+        "Gently roll the stuffed dough into a flat round shape using a rolling pin.",
+        "Cook the paratha on a hot griddle, applying butter on both sides, until golden brown spots appear.",
+        "Serve hot with yogurt or pickle."
+      ]
+    },
+    "applePie": {
+      "country": "USA",
+      "dish_category": "veg",
+      "dish_type": "baked",
+      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/USA%2FApple%20Pie.jpg?alt=media&token=c6ccfc8c-7a37-48a3-9e04-13ae06a84a48",
+      "ingredients": [
+        "6 apples (peeled and sliced)",
+        "1 cup sugar",
+        "2 tbsp flour",
+        "1 tsp cinnamon",
+        "1/4 tsp nutmeg",
+        "1 tbsp lemon juice",
+        "Pie crusts (for top and bottom)"
+      ],
+      "name": "Apple Pie",
+      "steps": [
+        "Preheat your oven to 350°F (175°C) to prepare for baking.",
+        "In a large mixing bowl, combine the sliced apples, sugar, flour, cinnamon, nutmeg, and lemon juice. Toss until the apples are evenly coated with the mixture.",
+        "Place the apple mixture into the bottom pie crust, spreading it out evenly.",
+        "Cover the filling with the top pie crust, ensuring to seal the edges by crimping or pressing down with a fork. Cut slits in the top crust to allow steam to escape during baking.",
+        "Bake in the preheated oven for 45-50 minutes, or until the crust is golden brown and the apples are tender.",
+        "Once baked, remove from the oven and allow to cool slightly before serving warm, optionally with ice cream or whipped cream."
+      ]
+    },
+    "arancini": {
+      "country": "Italy",
+      "dish_category": "non-veg",
+      "dish_type": "fried",
+      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/italy%2FArancini.jpg?alt=media&token=f7bf9a21-590e-4ad5-975e-d66e8ab72e8f",
+      "ingredients": [
+        "500g cooked risotto",
+        "100g mozzarella",
+        "Flour",
+        "Eggs",
+        "Breadcrumbs",
+        "Olive oil"
+      ],
+      "name": "Arancini",
+      "steps": [
+        "Take cold risotto and form small balls, stuffing each with a cube of mozzarella in the center.",
+        "Set up a breading station with bowls of flour, beaten eggs, and breadcrumbs.",
+        "Coat each ball in flour, dip in the beaten eggs, and then roll in breadcrumbs until fully covered.",
+        "Heat olive oil in a deep frying pan over medium heat.",
+        "Fry the arancini in batches until golden brown all over, about 3-4 minutes.",
+        "Drain on paper towels and serve hot."
+      ]
+    },
+    "bainganBharta": {
+      "country": "India",
+      "dish_category": "veg",
+      "dish_type": "cooked",
+      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/india%2FBaingan%20Bharta.jpg?alt=media&token=5b07459a-140b-4fe8-b0fa-20b5b61f7026",
+      "ingredients": [
+        "1 Large eggplant",
+        "1 Onion (chopped)",
+        "2 Tomatoes (chopped)",
+        "1 tsp Ginger-garlic paste",
+        "2 Green chilies",
+        "1/2 tsp Garam masala",
+        "1/2 tsp Cumin seeds",
+        "Salt to taste",
+        "Coriander for garnish"
+      ],
+      "name": "Baingan Bharta",
+      "steps": [
+        "Roast the eggplant over an open flame or in the oven until the skin is charred and the flesh softens.",
+        "Let it cool, then peel off the skin and mash the roasted eggplant flesh.",
+        "Heat oil in a pan, add cumin seeds and let them crackle.",
+        "Add chopped onions, green chilies, and ginger-garlic paste. Sauté until the onions turn golden.",
+        "Add chopped tomatoes, garam masala, and salt. Cook until the tomatoes break down and form a thick gravy.",
+        "Stir in the mashed eggplant and cook for 5 minutes until the flavors blend.",
+        "Garnish with fresh coriander and serve hot with roti."
+      ]
+    },
+    "batataVada": {
+      "country": "India",
+      "dish_category": "veg",
+      "dish_type": "fried",
+      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/india%2FBatata%20vada.jpg?alt=media&token=a1685bcc-2869-42f7-b250-89930143f9fc",
+      "ingredients": [
+        "4 medium-sized Potatoes (boiled and mashed)",
+        "2 Green chilies (finely chopped)",
+        "1 tsp Ginger-garlic paste",
+        "1/2 tsp Turmeric powder",
+        "1/2 tsp Mustard seeds",
+        "8-10 Curry leaves",
+        "1 cup Gram flour (Besan)",
+        "A pinch of Baking soda",
+        "Salt to taste",
+        "Oil for frying",
+        "1/2 tsp Red chili powder (for batter)"
+      ],
+      "name": "Batata Vada",
+      "steps": [
+        "Heat a pan with 1 tbsp oil, add mustard seeds, curry leaves, and green chilies.",
+        "Add ginger-garlic paste and sauté for a minute. Then add turmeric powder and mashed potatoes.",
+        "Mix well, season with salt, and cook for 2-3 minutes. Remove from heat and let it cool.",
+        "Make small balls from the potato mixture and set aside.",
+        "For the batter, mix gram flour, red chili powder, a pinch of baking soda, and salt with water to make a thick batter.",
+        "Heat oil in a deep pan. Dip the potato balls in the batter and deep fry until golden and crispy.",
+        "Serve hot with chutney or fried green chilies."
+      ]
+    },
+    "bbqRibs": {
+      "country": "USA",
+      "dish_category": "non-veg",
+      "dish_type": "grilled",
+      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/USA%2FBBQ%20Ribs.jpg?alt=media&token=6d483402-2dc9-49c3-8636-165f6b8703d0",
+      "ingredients": [
+        "1 rack pork ribs",
+        "1 cup BBQ sauce",
+        "1/4 cup brown sugar",
+        "1 tbsp paprika",
+        "1 tsp garlic powder",
+        "Salt",
+        "Pepper"
+      ],
+      "name": "BBQ Ribs",
+      "steps": [
+        "Preheat your oven to 300°F (150°C) to start the cooking process.",
+        "In a small bowl, combine the brown sugar, paprika, garlic powder, salt, and pepper. Mix well to form a dry rub.",
+        "Rub the mixture generously over both sides of the pork ribs, ensuring they are well coated.",
+        "Wrap the ribs tightly in aluminum foil and place them on a baking sheet. Bake in the preheated oven for 2.5 to 3 hours until tender.",
+        "Once cooked, carefully unwrap the ribs and brush them with BBQ sauce on both sides.",
+        "Transfer the ribs under the broiler for 5-10 minutes until the sauce is caramelized and bubbly.",
+        "Remove from the oven, let rest for a few minutes, then slice and serve hot."
+      ]
+    },
+    "biryani": {
+      "country": "India",
+      "dish_category": "non-veg",
       "dish_type": "layered",
+      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/india%2FChicken%20Biryani.jpg?alt=media&token=7eb03cf1-8c31-44f6-a85b-f342f1ad0384",
       "ingredients": [
         "500g Chicken",
         "2 cups Basmati rice",
@@ -727,6 +188,7 @@
         "2 tbsp Ghee",
         "Fresh coriander and mint leaves (for garnish)"
       ],
+      "name": "Chicken Biryani",
       "steps": [
         "Marinate the chicken with yogurt, biryani masala, and salt for 1 hour.",
         "Cook the rice with whole spices until 80% done and set aside.",
@@ -737,44 +199,2182 @@
         "Serve hot with raita."
       ]
     },
-
+    "biscotti": {
+      "country": "Italy",
+      "dish_category": "veg",
+      "dish_type": "baked",
+      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/italy%2FBiscotti.jpg?alt=media&token=d8b2cbde-174d-4e60-a2d4-70c37e6d256c",
+      "ingredients": [
+        "200g flour",
+        "100g sugar",
+        "2 eggs",
+        "1 tsp baking powder",
+        "50g almonds"
+      ],
+      "name": "Biscotti",
+      "steps": [
+        "In a mixing bowl, combine flour, sugar, eggs, and baking powder to form a dough.",
+        "Stir in the chopped almonds until evenly distributed.",
+        "Shape the dough into logs and place on a baking sheet lined with parchment paper.",
+        "Bake in a preheated oven at 180°C (350°F) for about 20 minutes until golden.",
+        "Remove from the oven, let cool slightly, then slice the logs and bake the slices again until crisp."
+      ]
+    },
+    "brisket": {
+      "country": "USA",
+      "dish_category": "non-veg",
+      "dish_type": "slow-cooked",
+      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/USA%2FBrisket.jpg?alt=media&token=ccaf989e-a761-4889-b3de-151f72beaf8f",
+      "ingredients": [
+        "4 lb Beef brisket",
+        "2 tbsp Olive oil",
+        "1 Onion (chopped)",
+        "2 Garlic cloves (minced)",
+        "1 cup Beef broth",
+        "1/2 cup Barbecue sauce",
+        "1 tbsp Brown sugar",
+        "1 tbsp Paprika",
+        "Salt and pepper to taste"
+      ],
+      "name": "Brisket",
+      "steps": [
+        "Rub brisket with paprika, salt, and pepper.",
+        "Heat oil in a pan and brown brisket on all sides.",
+        "Transfer to a slow cooker and add onion, garlic, broth, barbecue sauce, and brown sugar.",
+        "Cook on low for 8 hours or until tender.",
+        "Slice and serve with cooking juices."
+      ]
+    },
+    "bruschetta": {
+      "country": "Italy",
+      "dish_category": "veg",
+      "dish_type": "baked",
+      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/italy%2FBruschetta.jpg?alt=media&token=a6dc39c5-240b-44c8-91f1-cb983d97bd97",
+      "ingredients": [
+        "1 Baguette (sliced)",
+        "2 cups Cherry tomatoes (diced)",
+        "2 Garlic cloves (minced)",
+        "1/4 cup Fresh basil (chopped)",
+        "1/4 cup Olive oil",
+        "Salt and pepper to taste"
+      ],
+      "name": "Bruschetta",
+      "steps": [
+        "Toast baguette slices until crisp.",
+        "Mix tomatoes, garlic, basil, olive oil, salt, and pepper.",
+        "Top toasted baguette slices with tomato mixture.",
+        "Serve immediately."
+      ]
+    },
+    "buffaloWings": {
+      "country": "USA",
+      "dish_category": "non-veg",
+      "dish_type": "fried",
+      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/USA%2FBuffalo%20Wings.jpg?alt=media&token=069d53a7-48f4-479e-8031-223897a2d729",
+      "ingredients": [
+        "1 kg chicken wings",
+        "1/2 cup hot sauce",
+        "1/4 cup butter",
+        "1 tbsp vinegar",
+        "Salt",
+        "Pepper",
+        "Oil for frying"
+      ],
+      "name": "Buffalo Wings",
+      "steps": [
+        "Heat oil in a deep fryer or a large pot to 180°C (350°F).",
+        "While the oil is heating, rinse and pat dry the chicken wings. Season them lightly with salt and pepper.",
+        "Carefully add the wings to the hot oil in batches, ensuring not to overcrowd the pot. Fry for about 8-10 minutes or until golden brown and crispy.",
+        "Once cooked, remove the wings from the oil and drain on paper towels.",
+        "In a saucepan over low heat, melt the butter and mix in the hot sauce and vinegar until well combined.",
+        "Place the fried wings in a large bowl and pour the buffalo sauce over them. Toss until the wings are thoroughly coated.",
+        "Serve the buffalo wings hot, accompanied by celery sticks and blue cheese dressing."
+      ]
+    },
+    "burger": {
+      "country": "USA",
+      "dish_category": "non-veg",
+      "dish_type": "grilled",
+      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/USA%2FCheeseburger.jpg?alt=media&token=e20563a1-b035-4233-8068-e27b0a8150de",
+      "ingredients": [
+        "500g ground beef",
+        "4 slices of cheddar cheese",
+        "4 burger buns",
+        "Lettuce",
+        "Tomato slices",
+        "Pickles",
+        "Ketchup",
+        "Mustard",
+        "Salt",
+        "Pepper"
+      ],
+      "name": "Cheeseburger",
+      "steps": [
+        "In a bowl, season the ground beef with salt and pepper to taste, ensuring it's evenly mixed.",
+        "Divide the seasoned beef into four equal portions and shape each into a round patty, pressing them down slightly in the center.",
+        "Preheat a pan or grill over medium-high heat. Once hot, add the patties.",
+        "Cook the patties for about 3-4 minutes on one side, then flip them and cook for another 3-4 minutes, or until they reach your desired doneness.",
+        "When the patties are almost done, place a slice of cheddar cheese on each patty and cover the pan or grill to help the cheese melt.",
+        "While the cheese melts, prepare the burger buns by toasting them lightly if desired.",
+        "To assemble the burger, place the cooked patty on the bottom half of the bun, then add a layer of lettuce, a slice of tomato, pickles, ketchup, and mustard.",
+        "Top with the other half of the bun and serve immediately while hot."
+      ]
+    },
+    "butterChicken": {
+      "country": "India",
+      "dish_category": "non-veg",
+      "dish_type": "stir-fried",
+      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/india%2FButter%20Chicken.jpg?alt=media&token=f89c98d0-2c9b-4f5b-81ff-27d2f8a364f9",
+      "ingredients": [
+        "1 lb Chicken (cubed)",
+        "1 cup Yogurt",
+        "1 tbsp Ginger (minced)",
+        "1 tbsp Garlic (minced)",
+        "1 cup Tomato sauce",
+        "1/2 cup Heavy cream",
+        "2 tbsp Butter",
+        "1 tbsp Garam masala",
+        "1 tsp Cumin",
+        "Salt and pepper to taste",
+        "Fresh cilantro for garnish"
+      ],
+      "name": "Butter Chicken",
+      "steps": [
+        "Marinate chicken in yogurt, ginger, garlic, salt, and pepper.",
+        "Cook chicken in butter until browned.",
+        "Add tomato sauce, cream, and spices, and simmer until chicken is cooked through.",
+        "Garnish with cilantro before serving."
+      ]
+    },
+    "caesarSalad": {
+      "country": "USA",
+      "dish_category": "veg",
+      "dish_type": "raw",
+      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/USA%2FCaesar%20Salad.jpg?alt=media&token=a044994e-a9f0-4528-8f32-b942b46ce361",
+      "ingredients": [
+        "1 head romaine lettuce",
+        "1/4 cup grated Parmesan",
+        "1/4 cup Caesar dressing",
+        "Croutons",
+        "Salt",
+        "Pepper"
+      ],
+      "name": "Caesar Salad",
+      "steps": [
+        "Wash and chop the romaine lettuce into bite-sized pieces. Place in a large salad bowl.",
+        "Add the grated Parmesan cheese and croutons on top of the lettuce.",
+        "Drizzle the Caesar dressing over the salad. Toss gently until the lettuce and toppings are evenly coated.",
+        "Season with salt and pepper to taste, and serve immediately."
+      ]
+    },
+    "calzone": {
+      "country": "Italy",
+      "dish_category": "non-veg",
+      "dish_type": "baked",
+      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/italy%2FCalzone.jpg?alt=media&token=e1a353c7-a73e-420b-9ed9-564a2dfce380",
+      "ingredients": [
+        "Pizza dough",
+        "200g ricotta cheese",
+        "100g mozzarella",
+        "50g Parmesan cheese",
+        "Tomato sauce",
+        "Olive oil"
+      ],
+      "name": "Calzone",
+      "steps": [
+        "Preheat your oven to 200°C (400°F) to ensure it's hot enough for baking.",
+        "Roll out the pizza dough on a floured surface to your desired thickness.",
+        "Place ricotta, diced mozzarella, and grated Parmesan cheese on one half of the dough.",
+        "Fold the other half of the dough over the filling and seal the edges by pressing down firmly.",
+        "Transfer the calzone to a baking sheet lined with parchment paper, and brush the top with olive oil.",
+        "Bake in the preheated oven until golden brown, about 15-20 minutes.",
+        "Serve hot with tomato sauce on the side for dipping."
+      ]
+    },
+    "cannoli": {
+      "country": "Italy",
+      "dish_category": "veg",
+      "dish_type": "fried",
+      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/italy%2FCannoli.jpg?alt=media&token=ce7200f3-686f-4ccf-bf12-13cf54a2e790",
+      "ingredients": [
+        "1 cup Ricotta cheese",
+        "1 cup Mascarpone cheese",
+        "1 cup Powdered sugar",
+        "1 tsp Vanilla extract",
+        "1/2 cup Mini chocolate chips",
+        "Cannoli shells"
+      ],
+      "name": "Cannoli",
+      "steps": [
+        "Mix ricotta, mascarpone, powdered sugar, and vanilla.",
+        "Stir in chocolate chips.",
+        "Fill cannoli shells with the mixture.",
+        "Chill before serving."
+      ]
+    },
+    "caponata": {
+      "country": "Italy",
+      "dish_category": "veg",
+      "dish_type": "stir-fried",
+      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/italy%2FCaponata.jpg?alt=media&token=7d852d17-7841-4373-818a-eac75e85c465",
+      "ingredients": [
+        "2 Eggplants (diced)",
+        "1 Onion (chopped)",
+        "1 Bell pepper (chopped)",
+        "2 cups Tomato sauce",
+        "1/4 cup Red wine vinegar",
+        "1/4 cup Green olives (chopped)",
+        "1/4 cup Capers",
+        "2 tbsp Sugar",
+        "Salt and pepper to taste"
+      ],
+      "name": "Caponata",
+      "steps": [
+        "Sauté eggplant, onion, and bell pepper until softened.",
+        "Add tomato sauce, vinegar, olives, capers, and sugar.",
+        "Simmer for 20 minutes until flavors meld.",
+        "Season with salt and pepper.",
+        "Serve warm or cold as a side dish."
+      ]
+    },
+    "capreseSalad": {
+      "country": "Italy",
+      "dish_category": "veg",
+      "dish_type": "raw",
+      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/italy%2FCaprese%20Salad.jpg?alt=media&token=b29676e1-2ef3-4208-8a8b-05e306290860",
+      "ingredients": [
+        "4 tomatoes",
+        "200g mozzarella",
+        "Fresh basil leaves",
+        "Olive oil",
+        "Salt",
+        "Black pepper"
+      ],
+      "name": "Caprese Salad",
+      "steps": [
+        "Slice the tomatoes and mozzarella into even rounds.",
+        "On a serving plate, arrange the tomato and mozzarella slices alternately, slightly overlapping them.",
+        "Scatter fresh basil leaves over the top of the salad.",
+        "Drizzle the salad with olive oil, and season with salt and freshly ground black pepper to taste.",
+        "Serve the salad immediately as a refreshing appetizer or side dish."
+      ]
+    },
+    "carbonara": {
+      "country": "Italy",
+      "dish_category": "non-veg",
+      "dish_type": "assembled",
+      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/italy%2Fdownload.jpg?alt=media&token=70bd46b2-1b7a-4c3d-a99e-d3ec46480632",
+      "ingredients": [
+        "200g Spaghetti",
+        "100g Pancetta or bacon (diced)",
+        "2 Eggs",
+        "50g Parmesan cheese (grated)",
+        "2 Garlic cloves (minced)",
+        "Salt and black pepper to taste",
+        "Parsley for garnish"
+      ],
+      "name": "Spaghetti Carbonara",
+      "steps": [
+        "Cook spaghetti according to package instructions. Drain and set aside.",
+        "In a pan, cook the pancetta or bacon until crispy. Remove from heat.",
+        "In a bowl, whisk together eggs and Parmesan cheese.",
+        "Add garlic to the pan and sauté for 1 minute.",
+        "Add cooked spaghetti to the pan, then mix in the egg and cheese mixture quickly. The heat from the pasta will cook the eggs.",
+        "Stir in the crispy pancetta and season with salt and black pepper.",
+        "Garnish with parsley and serve immediately."
+      ]
+    },
+    "chanaMasala": {
+      "country": "India",
+      "dish_category": "veg",
+      "dish_type": "stir-fried",
+      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/india%2FChana%20Masala.jpg?alt=media&token=e3d41b6e-d09c-4919-bc45-ab875cf57ea6",
+      "ingredients": [
+        "2 cups Chickpeas (cooked)",
+        "1 Onion (chopped)",
+        "2 Garlic cloves (minced)",
+        "1 tbsp Ginger (minced)",
+        "1 can Tomato sauce",
+        "1 tbsp Garam masala",
+        "1 tsp Cumin",
+        "1 tsp Coriander",
+        "1 tsp Turmeric",
+        "Salt and pepper to taste",
+        "Fresh cilantro for garnish"
+      ],
+      "name": "Chana Masala",
+      "steps": [
+        "Cook onion, garlic, and ginger until softened.",
+        "Add tomato sauce and spices, and cook until thickened.",
+        "Add chickpeas and simmer for 10 minutes.",
+        "Garnish with cilantro before serving."
+      ]
+    },
+    "chickenSamosa": {
+      "country": "India",
+      "dish_category": "non-veg",
+      "dish_type": "fried",
+      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/india%2FChicken%20Samosa.jpg?alt=media&token=436f19ca-051b-40ef-99e4-42386adbe87d",
+      "ingredients": [
+        "1 lb Ground chicken",
+        "1 package Samosa pastry",
+        "1 Onion (chopped)",
+        "2 Garlic cloves (minced)",
+        "1 tbsp Ginger (minced)",
+        "1 tsp Cumin seeds",
+        "1 tsp Coriander powder",
+        "1 tsp Garam masala",
+        "1/2 tsp Turmeric powder",
+        "1/2 tsp Red chili powder",
+        "Salt to taste",
+        "Oil for frying"
+      ],
+      "name": "Chicken Samosa",
+      "steps": [
+        "Heat oil in a pan, cook onion, garlic, and ginger until softened.",
+        "Add ground chicken, cumin seeds, coriander powder, garam masala, turmeric powder, red chili powder, and salt. Cook until chicken is cooked through and the mixture is dry.",
+        "Allow the filling to cool.",
+        "Fill the samosa pastry with the chicken mixture and seal the edges.",
+        "Fry until golden brown.",
+        "Serve hot with chutney."
+      ]
+    },
+    "chickenTikkaMasala": {
+      "country": "India",
+      "dish_category": "non-veg",
+      "dish_type": "grilled",
+      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/india%2FChicken%20Tikka%20Masala.jpg?alt=media&token=570b76a3-aa7d-4ff2-bc6c-daff9552baa6",
+      "ingredients": [
+        "1 lb Chicken (cubed)",
+        "1/2 cup Yogurt",
+        "2 tbsp Tikka masala spice blend",
+        "2 tbsp Vegetable oil",
+        "1 Onion (chopped)",
+        "2 Garlic cloves (minced)",
+        "1 can Tomato sauce",
+        "1/2 cup Heavy cream",
+        "Salt to taste",
+        "Fresh cilantro for garnish"
+      ],
+      "name": "Chicken Tikka Masala",
+      "steps": [
+        "Marinate chicken in yogurt and tikka masala for 1 hour.",
+        "Cook chicken in oil until browned and set aside.",
+        "In the same pan, sauté onion and garlic.",
+        "Add tomato sauce and simmer for 10 minutes.",
+        "Stir in heavy cream and cooked chicken.",
+        "Season with salt and garnish with cilantro."
+      ]
+    },
     "chole_bhature": {
-  "name": "Chole Bhature",
-  "country": "India",
-  "dish_type": "fried",
-  "ingredients": [
-    "2 cups Chickpeas (soaked overnight)",
-    "1 large Onion (finely chopped)",
-    "2 Tomatoes (pureed)",
-    "2 Green chilies (slit)",
-    "1 tbsp Ginger-garlic paste",
-    "2 tbsp Chole masala",
-    "1 tsp Cumin seeds",
-    "2-3 tbsp Oil",
-    "Salt (to taste)",
-    "Fresh coriander leaves (for garnish)",
-    "4 cups All-purpose flour",
-    "1/2 cup Yogurt",
-    "1/2 tsp Baking powder",
-    "Salt (to taste)",
-    "Water (as needed)",
-    "Oil (for frying)"
-  ],
-  "steps": [
-    "In a pressure cooker, heat oil and add cumin seeds. Once they splutter, add chopped onions and fry until golden brown.",
-    "Add ginger-garlic paste and green chilies. Sauté for a minute.",
-    "Add tomato puree and cook until the oil separates. Add chole masala and salt.",
-    "Add soaked chickpeas and enough water to cover them. Pressure cook for 4-5 whistles until soft.",
-    "Once done, mash some chickpeas for a thicker gravy. Garnish with coriander leaves.",
-    "In a bowl, mix all-purpose flour, yogurt, baking powder, and salt. Knead into a soft dough with water. Let it rest for 30 minutes.",
-    "Divide the dough into small balls and roll out into circles.",
-    "Heat oil in a deep pan and fry the rolled bhature until they puff up and turn golden brown.",
-    "Serve hot with chole."
-  ]
-}
+      "country": "India",
+      "dish_category": "veg",
+      "dish_type": "fried",
+      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/india%2FChole%20Bhature.jpg?alt=media&token=a2e4b1b7-2be1-47f0-9d6d-24c9526e88d6",
+      "ingredients": [
+        "2 cups Chickpeas (soaked overnight)",
+        "1 large Onion (finely chopped)",
+        "2 Tomatoes (pureed)",
+        "2 Green chilies (slit)",
+        "1 tbsp Ginger-garlic paste",
+        "2 tbsp Chole masala",
+        "1 tsp Cumin seeds",
+        "2-3 tbsp Oil",
+        "Salt (to taste)",
+        "Fresh coriander leaves (for garnish)",
+        "4 cups All-purpose flour",
+        "1/2 cup Yogurt",
+        "1/2 tsp Baking powder",
+        "Salt (to taste)",
+        "Water (as needed)",
+        "Oil (for frying)"
+      ],
+      "name": "Chole Bhature",
+      "steps": [
+        "In a pressure cooker, heat oil and add cumin seeds. Once they splutter, add chopped onions and fry until golden brown.",
+        "Add ginger-garlic paste and green chilies. Sauté for a minute.",
+        "Add tomato puree and cook until the oil separates. Add chole masala and salt.",
+        "Add soaked chickpeas and enough water to cover them. Pressure cook for 4-5 whistles until soft.",
+        "Once done, mash some chickpeas for a thicker gravy. Garnish with coriander leaves.",
+        "In a bowl, mix all-purpose flour, yogurt, baking powder, and salt. Knead into a soft dough with water. Let it rest for 30 minutes.",
+        "Divide the dough into small balls and roll out into circles.",
+        "Heat oil in a deep pan and fry the rolled bhature until they puff up and turn golden brown.",
+        "Serve hot with chole."
+      ]
+    },
+    "dalMakhani": {
+      "country": "India",
+      "dish_category": "veg",
+      "dish_type": "stir-fried",
+      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/india%2FDal%20Makhani.jpg?alt=media&token=11b9a5b2-00a7-4bea-8487-6abbdcb72fdc",
+      "ingredients": [
+        "1 cup Black lentils (Urad dal)",
+        "1/4 cup Red kidney beans (Rajma)",
+        "1 Onion (chopped)",
+        "2 Tomatoes (chopped)",
+        "1 tsp Ginger-garlic paste",
+        "1/2 cup Fresh cream",
+        "Butter",
+        "Salt to taste"
+      ],
+      "name": "Dal Makhani",
+      "steps": [
+        "Soak black lentils and red kidney beans overnight. Cook them in a pressure cooker until soft.",
+        "Heat butter in a pan and sauté chopped onions until golden brown.",
+        "Add ginger-garlic paste and cook until the raw smell fades.",
+        "Add chopped tomatoes and cook until they break down into a gravy.",
+        "Add the cooked lentils and beans to the tomato mixture and stir well.",
+        "Simmer for 30 minutes, stirring occasionally to prevent sticking.",
+        "Stir in fresh cream, cook for a few more minutes, and serve hot."
+      ]
+    },
+    "dalTadka": {
+      "country": "India",
+      "dish_category": "veg",
+      "dish_type": "stir-fried",
+      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/india%2FDal%20Tadka.jpg?alt=media&token=27faea46-a885-4428-af2f-5f31eddabffb",
+      "ingredients": [
+        "1 cup Toor dal (split pigeon peas)",
+        "2 medium Tomatoes (chopped)",
+        "1 medium Onion (chopped)",
+        "1 tsp Cumin seeds",
+        "2-3 Garlic cloves (chopped)",
+        "1 tsp Red chili powder",
+        "1 tsp Turmeric powder",
+        "1 tsp Garam masala",
+        "Fresh coriander leaves (for garnish)",
+        "Ghee or oil for tempering"
+      ],
+      "name": "Dal Tadka",
+      "steps": [
+        "Pressure cook toor dal with turmeric powder and salt until soft.",
+        "Heat ghee and sauté cumin seeds, garlic, and onions until golden brown.",
+        "Add tomatoes and spices, and cook until the oil separates.",
+        "Pour the tempering over the cooked dal and mix well.",
+        "Garnish with coriander leaves and serve with rice or chapati."
+      ]
+    },
+    "clamChowder": {
+      "country": "USA",
+      "dish_category": "non-veg",
+      "dish_type": "stewed",
+      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/USA%2FClam%20Chowder.jpg?alt=media&token=d39381ab-c212-4221-b24e-e391bfe0058c",
+      "ingredients": [
+        "2 cups clams (chopped)",
+        "2 cups potatoes (diced)",
+        "1 onion (chopped)",
+        "2 cups milk",
+        "1/2 cup cream",
+        "2 tbsp butter",
+        "Salt",
+        "Pepper"
+      ],
+      "name": "Clam Chowder",
+      "steps": [
+        "In a large pot, melt the butter over medium heat. Add the chopped onion and sauté until soft and translucent, about 5 minutes.",
+        "Add the diced potatoes and enough water to cover them. Bring to a boil, then reduce heat to simmer until the potatoes are tender, about 15-20 minutes.",
+        "Once the potatoes are cooked, stir in the chopped clams, milk, and cream. Allow the mixture to simmer for an additional 10 minutes, stirring occasionally.",
+        "Season with salt and pepper to taste, adjusting as needed.",
+        "Serve hot, garnished with fresh herbs if desired."
+      ]
+    },
+    "coleslaw": {
+      "country": "USA",
+      "dish_category": "veg",
+      "dish_type": "raw",
+      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/USA%2FColeslaw.jpg?alt=media&token=4aec244b-fcf1-4dc3-84e4-e42539544442",
+      "ingredients": [
+        "4 cups cabbage (shredded)",
+        "1 carrot (grated)",
+        "1/2 cup mayonnaise",
+        "2 tbsp vinegar",
+        "1 tbsp sugar",
+        "Salt",
+        "Pepper"
+      ],
+      "name": "Coleslaw",
+      "steps": [
+        "In a large bowl, combine the mayonnaise, vinegar, sugar, salt, and pepper. Whisk until smooth and well blended.",
+        "Add the shredded cabbage and grated carrot to the bowl. Toss until the vegetables are evenly coated with the dressing.",
+        "Cover the bowl and chill in the refrigerator for at least 30 minutes to allow the flavors to meld.",
+        "Before serving, give the coleslaw a quick toss and adjust seasoning if needed."
+      ]
+    },
+    "cornbread": {
+      "country": "USA",
+      "dish_category": "veg",
+      "dish_type": "baked",
+      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/USA%2FCornbread.jpg?alt=media&token=21724c74-19f4-4c98-92c1-09032ec136d1",
+      "ingredients": [
+        "1 cup cornmeal",
+        "1 cup flour",
+        "1/4 cup sugar",
+        "1 tsp baking powder",
+        "1/2 tsp salt",
+        "1 cup milk",
+        "1 egg",
+        "1/4 cup butter (melted)"
+      ],
+      "name": "Cornbread",
+      "steps": [
+        "Preheat your oven to 400°F (200°C) and grease a baking pan or skillet.",
+        "In a large mixing bowl, combine the cornmeal, flour, sugar, baking powder, and salt, whisking until well mixed.",
+        "In another bowl, whisk together the milk, egg, and melted butter until combined.",
+        "Pour the wet ingredients into the dry ingredients and stir until just combined. Do not overmix; small lumps are okay.",
+        "Pour the batter into the greased baking pan and spread it evenly.",
+        "Bake for 20-25 minutes, or until the top is golden and a toothpick inserted in the center comes out clean.",
+        "Let cool slightly before slicing and serving warm."
+      ]
+    },
+    "dosa": {
+      "country": "India",
+      "dish_category": "veg",
+      "dish_type": "fried",
+      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/india%2FDosa.jpg?alt=media&token=43fb224f-e75e-45b4-be11-1126d44dc055",
+      "ingredients": [
+        "2 cups Rice",
+        "1 cup Urad dal (split black gram)",
+        "1/2 tsp Fenugreek seeds",
+        "Salt to taste",
+        "Oil for cooking"
+      ],
+      "name": "Dosa",
+      "steps": [
+        "Soak rice, urad dal, and fenugreek seeds separately for 6-8 hours.",
+        "Grind rice and dal to a smooth batter. Mix and ferment overnight.",
+        "Add salt to the fermented batter and stir well.",
+        "Heat a tawa, pour a ladleful of batter, and spread in a circular motion.",
+        "Cook until crispy and serve hot with chutney and sambar."
+      ]
+    },
+    "fettuccineAlfredo": {
+      "country": "Italy",
+      "dish_category": "veg",
+      "dish_type": "boiled",
+      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/italy%2FFettuccine%20Alfredo.jpg?alt=media&token=a7719f6d-7f08-4349-9641-7a9ddf31cc39",
+      "ingredients": [
+        "12 oz Fettuccine",
+        "1/2 cup Butter",
+        "1 cup Heavy cream",
+        "1 cup Parmesan cheese (grated)",
+        "2 Garlic cloves (minced)",
+        "Salt and pepper to taste",
+        "Fresh parsley for garnish"
+      ],
+      "name": "Fettuccine Alfredo",
+      "steps": [
+        "Cook fettuccine according to package instructions.",
+        "In a pan, melt butter and add garlic. Cook until fragrant.",
+        "Stir in heavy cream and bring to a simmer.",
+        "Add Parmesan cheese and cook until sauce is thickened.",
+        "Toss pasta in the sauce and season with salt and pepper.",
+        "Garnish with parsley and serve hot."
+      ]
+    },
+    "focaccia": {
+      "country": "Italy",
+      "dish_category": "veg",
+      "dish_type": "baked",
+      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/italy%2FFocaccia.jpg?alt=media&token=19012bf6-a811-4cac-8a9b-7c58900180ba",
+      "ingredients": [
+        "500g flour",
+        "300ml water",
+        "1 tsp salt",
+        "1 tsp sugar",
+        "Olive oil",
+        "Fresh rosemary"
+      ],
+      "name": "Focaccia",
+      "steps": [
+        "In a large bowl, mix together flour, warm water, salt, and sugar to form a soft dough.",
+        "Knead the dough on a floured surface until smooth, then let it rise in a warm place until doubled in size.",
+        "Once risen, spread the dough onto a baking sheet, dimpling the surface with your fingers.",
+        "Drizzle with olive oil, sprinkle with fresh rosemary, and let it rest for 20 minutes.",
+        "Bake in a preheated oven at 200°C (400°F) for about 20 minutes, or until golden brown."
+      ]
+    },
+    "friedChicken": {
+      "country": "USA",
+      "dish_category": "non-veg",
+      "dish_type": "fried",
+      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/USA%2FFried%20Chicken.jpg?alt=media&token=aaefb973-35f4-46e8-8eb5-b3b3d3f194b0",
+      "ingredients": [
+        "1 kg chicken pieces",
+        "2 cups buttermilk",
+        "2 cups flour",
+        "1 tsp paprika",
+        "1 tsp garlic powder",
+        "Salt",
+        "Pepper",
+        "Oil for frying"
+      ],
+      "name": "Fried Chicken",
+      "steps": [
+        "In a large bowl, combine the buttermilk, salt, and pepper. Add the chicken pieces and ensure they are well coated. Cover and marinate in the refrigerator for at least 4 hours, or overnight for best results.",
+        "In another bowl, mix the flour, paprika, garlic powder, salt, and pepper to create the coating mixture.",
+        "Once the chicken is marinated, remove it from the buttermilk and allow excess to drip off.",
+        "Coat each piece of chicken in the flour mixture, pressing down slightly to ensure it sticks.",
+        "In a deep pan, heat oil over medium-high heat until it reaches 180°C (350°F). Test with a small piece of batter; it should sizzle upon contact.",
+        "Carefully place the coated chicken pieces into the hot oil, avoiding overcrowding. Fry for about 10-15 minutes, turning occasionally, until golden brown and crispy.",
+        "Once cooked, transfer the fried chicken to a plate lined with paper towels to drain excess oil.",
+        "Serve hot with your favorite sides."
+      ]
+    },
+    "gelato": {
+      "country": "Italy",
+      "dish_category": "veg",
+      "dish_type": "frozen",
+      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/italy%2FGelato.jpg?alt=media&token=e976d1e6-76a9-46d3-a024-1ec26069de2c",
+      "ingredients": [
+        "500ml milk",
+        "200ml cream",
+        "100g sugar",
+        "4 egg yolks",
+        "Vanilla extract"
+      ],
+      "name": "Gelato",
+      "steps": [
+        "In a saucepan, heat the milk and cream together over medium heat until warm but not boiling.",
+        "In a separate bowl, whisk the egg yolks with sugar until pale and creamy.",
+        "Slowly pour the warm milk mixture into the egg yolks, whisking constantly to temper the eggs.",
+        "Return the mixture to the saucepan and cook over low heat, stirring constantly until thickened and it coats the back of a spoon.",
+        "Remove from heat and stir in vanilla extract. Allow to cool before chilling in the refrigerator.",
+        "Once chilled, churn the mixture in an ice cream maker according to the manufacturer's instructions."
+      ]
+    },
+    "gnocchi": {
+      "country": "Italy",
+      "dish_category": "veg",
+      "dish_type": "boiled",
+      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/italy%2FPotato%20Gnocchi.jpg?alt=media&token=ca0584af-3e01-42a9-b37f-44073036e045",
+      "ingredients": [
+        "1 kg Potatoes",
+        "1 1/2 cups All-purpose flour",
+        "1 Egg",
+        "1/2 tsp Salt",
+        "1/4 tsp Nutmeg",
+        "Butter and sage for serving"
+      ],
+      "name": "Potato Gnocchi",
+      "steps": [
+        "Boil potatoes until tender, then mash.",
+        "Mix with flour, egg, salt, and nutmeg to form dough.",
+        "Roll into logs, cut into pieces, and press with a fork.",
+        "Cook gnocchi in boiling water until they float.",
+        "Toss with melted butter and sage."
+      ]
+    },
+    "gnocchiAllaSorrentina": {
+      "country": "Italy",
+      "dish_category": "veg",
+      "dish_type": "baked",
+      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/italy%2FGnocchi%20alla%20Sorrentina.jpg?alt=media&token=f91347c6-6917-4d22-8d89-2ea7d3cb25d9",
+      "ingredients": [
+        "500g gnocchi",
+        "200g tomato sauce",
+        "100g mozzarella",
+        "50g Parmesan cheese",
+        "Fresh basil",
+        "Olive oil"
+      ],
+      "name": "Gnocchi alla Sorrentina",
+      "steps": [
+        "Cook the gnocchi in a large pot of salted boiling water. The gnocchi are ready when they float to the surface.",
+        "In a separate pan, heat the tomato sauce over medium heat. Once the gnocchi are cooked, transfer them to the pan with the tomato sauce.",
+        "Stir gently to coat the gnocchi with the sauce, then transfer the mixture to a baking dish.",
+        "Top the gnocchi with slices of mozzarella and grated Parmesan cheese.",
+        "Bake in a preheated oven at 200°C (400°F) until the cheese is melted and the top is golden and bubbly.",
+        "Garnish with fresh basil leaves and serve hot."
+      ]
+    },
+    "gobiManchurian": {
+      "country": "India",
+      "dish_category": "veg",
+      "dish_type": "fried",
+      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/india%2FGobi%20Manchurian.jpg?alt=media&token=25f3f9f2-cb94-485f-a4f6-de5c47ff8f5a",
+      "ingredients": [
+        "1 medium Cauliflower (cut into florets)",
+        "1/2 cup Corn flour",
+        "1/2 cup All-purpose flour",
+        "1 tbsp Soy sauce",
+        "2 tbsp Tomato ketchup",
+        "1 tsp Red chili sauce",
+        "1 tsp Vinegar",
+        "2 Green chilies (chopped)",
+        "1 tbsp Ginger-garlic paste",
+        "Salt to taste",
+        "Oil for frying"
+      ],
+      "name": "Gobi Manchurian",
+      "steps": [
+        "Make a batter with corn flour, all-purpose flour, salt, and water. Dip the cauliflower florets in the batter and deep fry until golden.",
+        "In a separate pan, heat oil and sauté green chilies and ginger-garlic paste.",
+        "Add soy sauce, ketchup, red chili sauce, and vinegar. Cook for 2 minutes.",
+        "Toss the fried cauliflower florets in the sauce and mix well.",
+        "Serve hot, garnished with spring onions."
+      ]
+    },
+    "hotDog": {
+      "country": "USA",
+      "dish_category": "non-veg",
+      "dish_type": "grilled",
+      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/USA%2FHot%20Dog.jpg?alt=media&token=46519dd9-9504-423f-9ff9-e68ad099ce28",
+      "ingredients": [
+        "4 hot dog sausages",
+        "4 hot dog buns",
+        "Ketchup",
+        "Mustard",
+        "Relish",
+        "Onion (chopped)"
+      ],
+      "name": "Hot Dog",
+      "steps": [
+        "Begin by boiling or grilling the hot dog sausages according to package instructions until they are heated through and cooked properly.",
+        "While the sausages are cooking, prepare the hot dog buns by placing them on a plate.",
+        "Once the sausages are done, carefully place each sausage into a hot dog bun.",
+        "Top each hot dog with a generous squeeze of ketchup, mustard, and your choice of relish.",
+        "For added flavor, sprinkle some chopped onions on top.",
+        "Serve immediately while hot, along with your favorite sides."
+      ]
+    },
+    
+    "idli": {
+      "country": "India",
+      "dish_category": "veg",
+      "dish_type": "steamed",
+      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/india%2FIdli.jpg?alt=media&token=21d2dfd7-58a4-459c-b0b8-3e8be858601b",
+      "ingredients": [
+        "2 cups Rice",
+        "1 cup Urad dal (split black gram)",
+        "1/2 tsp Fenugreek seeds",
+        "Salt to taste",
+        "Water for steaming"
+      ],
+      "name": "Idli",
+      "steps": [
+        "Soak rice, urad dal, and fenugreek seeds for 6-8 hours.",
+        "Grind the rice and dal to a smooth batter. Ferment overnight.",
+        "Add salt to the batter and pour into greased idli molds.",
+        "Steam for 10-12 minutes until soft and fluffy.",
+        "Serve hot with chutney and sambar."
+      ]
+    },
+    "jalebi": {
+      "country": "India",
+      "dish_category": "veg",
+      "dish_type": "fried",
+      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/india%2FJalebi.jpg?alt=media&token=b1fec0f3-ce11-4cbd-83c6-8c0809d25c6a",
+      "ingredients": [
+        "1 cup All-purpose flour",
+        "1 tbsp Corn flour",
+        "1/2 tsp Baking powder",
+        "1 cup Sugar",
+        "1/2 cup Water",
+        "1/2 tsp Saffron strands",
+        "Ghee for frying"
+      ],
+      "name": "Jalebi",
+      "steps": [
+        "Prepare the batter by mixing flour, corn flour, baking powder, and water. Let it ferment for 6 hours.",
+        "Make sugar syrup by boiling sugar, water, and saffron.",
+        "Heat ghee in a pan and pour the batter in a spiral shape using a piping bag.",
+        "Fry until golden and dip in sugar syrup for a few seconds.",
+        "Serve hot."
+      ]
+    },
+    "kheer": {
+      "country": "India",
+      "dish_category": "veg",
+      "dish_type": "boiled",
+      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/india%2FKheer.jpg?alt=media&token=dfe936ad-6977-43b8-9f85-0f339a44b938",
+      "ingredients": [
+        "1 liter Milk",
+        "1/4 cup Rice",
+        "1/4 cup Sugar",
+        "1/4 cup Cashews (chopped)",
+        "1/4 cup Almonds (chopped)",
+        "1/4 tsp Cardamom powder"
+      ],
+      "name": "Kheer",
+      "steps": [
+        "Boil milk in a large pot. Add washed rice and cook on low heat for 30 minutes.",
+        "Add sugar and stir until it dissolves.",
+        "Add chopped cashews, almonds, and cardamom powder.",
+        "Cook for another 10 minutes, stirring frequently.",
+        "Serve hot or chilled."
+      ]
+    },
+    "lasagnaBolognese": {
+      "country": "Italy",
+      "dish_category": "non-veg",
+      "dish_type": "baked",
+      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/italy%2FLasagna%20Bolognese.jpg?alt=media&token=f5e7763f-8007-485b-a4ef-5ca7f8ed4995",
+      "ingredients": [
+        "Lasagna sheets",
+        "500g ground beef",
+        "1 onion",
+        "500g tomato sauce",
+        "Béchamel sauce",
+        "200g mozzarella",
+        "Parmesan cheese",
+        "Olive oil"
+      ],
+      "name": "Lasagna Bolognese",
+      "steps": [
+        "Prepare the Bolognese sauce by sautéing a chopped onion in olive oil until soft. Add the ground beef and cook until browned, then stir in the tomato sauce.",
+        "In a baking dish, layer lasagna sheets, followed by a layer of Bolognese sauce, then a layer of béchamel sauce, and finally a layer of sliced mozzarella.",
+        "Repeat the layering process until all ingredients are used, ending with a final layer of béchamel and a generous topping of grated Parmesan cheese.",
+        "Bake the lasagna in a preheated oven at 180°C (350°F) for about 40 minutes, or until the top is golden brown and bubbly.",
+        "Allow the lasagna to rest for a few minutes before serving."
+      ]
+    },
+    "mutterPaneer": {
+      "country": "India",
+      "dish_category": "veg",
+      "dish_type": "stir-fried",
+      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/india%2FMutter%20Paneer.jpg?alt=media&token=44ed6b2a-eb7b-493e-a893-758cb672efcf",
+      "ingredients": [
+        "200g Paneer (cubed)",
+        "1 cup Green peas",
+        "1 Onion (chopped)",
+        "2 Tomatoes (pureed)",
+        "1 tsp Ginger-garlic paste",
+        "1 tsp Garam masala",
+        "Salt to taste"
+      ],
+      "name": "Mutter Paneer",
+      "steps": [
+        "Heat oil in a pan and sauté onions until they turn golden brown.",
+        "Add ginger-garlic paste and cook until the raw smell disappears.",
+        "Add pureed tomatoes and cook until the oil separates.",
+        "Add green peas, garam masala, and salt. Stir and cook until the peas are tender.",
+        "Add paneer cubes and stir gently. Simmer for 5 minutes until the paneer absorbs the flavors.",
+        "Serve hot with rice or roti."
+      ]
+    },
+    "muttonSamosa": {
+      "country": "India",
+      "dish_category": "non-veg",
+      "dish_type": "fried",
+      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/india%2FMutton%20Samosa.jpg?alt=media&token=3fb6a392-e0d4-491d-b6d1-28ba72e7d641",
+      "ingredients": [
+        "1 lb Ground mutton",
+        "1 package Samosa pastry",
+        "1 Onion (chopped)",
+        "2 Garlic cloves (minced)",
+        "1 tbsp Ginger (minced)",
+        "1 tsp Cumin seeds",
+        "1 tsp Coriander powder",
+        "1 tsp Garam masala",
+        "1/2 tsp Turmeric powder",
+        "1/2 tsp Red chili powder",
+        "Salt to taste",
+        "Oil for frying"
+      ],
+      "name": "Mutton Samosa",
+      "steps": [
+        "Heat oil in a pan, cook onion, garlic, and ginger until softened.",
+        "Add ground mutton, cumin seeds, coriander powder, garam masala, turmeric powder, red chili powder, and salt. Cook until mutton is browned and cooked through.",
+        "Allow the filling to cool.",
+        "Fill the samosa pastry with the mutton mixture and seal the edges.",
+        "Fry until golden brown.",
+        "Serve hot with chutney."
+      ]
+    },
+    "paneerButterMasala": {
+      "country": "India",
+      "dish_category": "veg",
+      "dish_type": "cooked",
+      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/india%2FPaneer%20Butter%20Masala.jpg?alt=media&token=648e76e1-30ac-449e-8ea5-b6c6c28ab82f",
+      "ingredients": [
+        "200g Paneer (cubed)",
+        "2 Tomatoes (pureed)",
+        "1 Onion (finely chopped)",
+        "1 tsp Ginger-garlic paste",
+        "2 tbsp Butter",
+        "1 tsp Red chili powder",
+        "1/2 tsp Turmeric powder",
+        "1/2 tsp Garam masala",
+        "1/4 cup Fresh cream",
+        "Salt to taste",
+        "Coriander for garnish"
+      ],
+      "name": "Paneer Butter Masala",
+      "steps": [
+        "Heat butter in a pan and sauté onions until golden.",
+        "Add ginger-garlic paste and cook until the raw smell disappears.",
+        "Add pureed tomatoes and cook until the oil separates from the masala.",
+        "Add red chili powder, turmeric powder, garam masala, and salt. Cook for another 2-3 minutes.",
+        "Add the cubed paneer and stir gently to coat the paneer with the masala.",
+        "Pour in fresh cream and simmer on low heat for 5 minutes.",
+        "Garnish with fresh coriander leaves and serve hot with naan or rice."
+      ]
+    },
+    "paniPuri": {
+      "country": "India",
+      "dish_category": "veg",
+      "dish_type": "fried",
+      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/india%2FPani%20Puri.jpg?alt=media&token=0a571d0c-6efe-40d8-87a3-594138854a3c",
+      "ingredients": [
+        "Puri shells",
+        "1/2 cup Tamarind chutney",
+        "1/2 cup Mint water",
+        "1 cup Boiled potatoes (mashed)",
+        "1/2 cup Boiled chickpeas",
+        "Chopped onions and coriander"
+      ],
+      "name": "Pani Puri",
+      "steps": [
+        "Gently crack a small hole in each puri shell.",
+        "Fill the puris with mashed potatoes and boiled chickpeas.",
+        "Add tamarind chutney and mint water to each puri according to taste.",
+        "Top with chopped onions and coriander for garnish.",
+        "Serve immediately for the best crunch."
+      ]
+    },
+    "panzanella": {
+      "country": "Italy",
+      "dish_category": "veg",
+      "dish_type": "stir-fried",
+      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/italy%2FPanzanella.jpg?alt=media&token=9be8e36d-f57f-4bcf-8407-87f5aeadea31",
+      "ingredients": [
+        "4 cups Cubed stale bread",
+        "2 Tomatoes (chopped)",
+        "1 Cucumber (diced)",
+        "1 Red onion (sliced)",
+        "1/4 cup Olive oil",
+        "2 tbsp Red wine vinegar",
+        "Fresh basil leaves",
+        "Salt and pepper to taste"
+      ],
+      "name": "Panzanella",
+      "steps": [
+        "Toast bread cubes in olive oil.",
+        "Combine bread, tomatoes, cucumber, and onion.",
+        "Whisk olive oil and vinegar and toss with salad.",
+        "Garnish with basil, salt, and pepper."
+      ]
+    },
+    "pastaPesto": {
+      "country": "Italy",
+      "dish_category": "veg",
+      "dish_type": "boiled",
+      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/italy%2FPasta%20al%20Pesto.jpg?alt=media&token=467a3bbd-c3f6-4f39-bca3-eeb0e4496d20",
+      "ingredients": [
+        "400g pasta",
+        "100g fresh basil",
+        "50g pine nuts",
+        "50g Parmesan cheese",
+        "1 garlic clove",
+        "Olive oil",
+        "Salt"
+      ],
+      "name": "Pasta al Pesto",
+      "steps": [
+        "Cook the pasta in a large pot of salted boiling water according to package instructions. Drain and set aside.",
+        "In a food processor, blend fresh basil, pine nuts, minced garlic, and grated Parmesan cheese until finely chopped.",
+        "With the processor running, slowly add olive oil until the mixture becomes a smooth paste. Season with salt to taste.",
+        "Toss the cooked pasta with the pesto sauce until well coated, and serve immediately."
+      ]
+    },
+    "pastaPrimavera": {
+      "country": "Italy",
+      "dish_category": "veg",
+      "dish_type": "boiled",
+      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/italy%2FPasta%20Primavera.jpg?alt=media&token=0c7ff25b-e1b2-4f65-81d8-4bb970ce9dbb",
+      "ingredients": [
+        "400g pasta",
+        "1 zucchini",
+        "1 carrot",
+        "1 bell pepper",
+        "200g cherry tomatoes",
+        "Olive oil",
+        "Parmesan cheese",
+        "Salt"
+      ],
+      "name": "Pasta Primavera",
+      "steps": [
+        "Cook the pasta in a large pot of salted boiling water according to package instructions. Drain and set aside.",
+        "In a large skillet, heat olive oil over medium heat and sauté sliced zucchini, carrot, and bell pepper until tender.",
+        "Add halved cherry tomatoes to the skillet and cook until softened.",
+        "Toss the cooked pasta with the sautéed vegetables and season with salt to taste.",
+        "Serve hot, topped with freshly grated Parmesan cheese."
+      ]
+    },
+    "pavBhaji": {
+      "country": "India",
+      "dish_category": "veg",
+      "dish_type": "fried",
+      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/india%2FPav%20Bhaji.jpg?alt=media&token=86b9feb9-cde9-46ec-b34c-962b2e4ea757",
+      "ingredients": [
+        "4 Potatoes (boiled and mashed)",
+        "1 Onion (finely chopped)",
+        "1 Tomato (chopped)",
+        "1 Green bell pepper (chopped)",
+        "2 tbsp Pav Bhaji masala",
+        "2 tbsp Butter",
+        "4 Pav (Indian bread rolls)",
+        "Salt to taste"
+      ],
+      "name": "Pav Bhaji",
+      "steps": [
+        "Heat butter in a pan, add onions and sauté until soft and translucent.",
+        "Add tomatoes and bell peppers, cook until they soften and blend well.",
+        "Add mashed potatoes and mix everything together, ensuring no lumps.",
+        "Sprinkle pav bhaji masala and salt, and mix well. Cook for a few minutes until the flavors meld together.",
+        "Toast the pav with butter on a hot griddle until golden brown.",
+        "Serve hot pav bhaji with a dollop of butter and chopped onions."
+      ]
+    },
+    "poha": {
+      "country": "India",
+      "dish_category": "veg",
+      "dish_type": "steamed",
+      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/india%2FPoha.jpg?alt=media&token=4a96f0c8-622c-485d-8c12-c086bad32ff4",
+      "ingredients": [
+        "2 cups Flattened rice (Poha)",
+        "1 Onion (chopped)",
+        "1 Green chili (chopped)",
+        "1 tsp Mustard seeds",
+        "8-10 Curry leaves",
+        "1/2 tsp Turmeric powder",
+        "Salt to taste",
+        "Coriander for garnish"
+      ],
+      "name": "Poha",
+      "steps": [
+        "Rinse poha in water and drain well. Set aside for 5 minutes to soften.",
+        "Heat oil in a pan, add mustard seeds, and let them splutter.",
+        "Add curry leaves, chopped onions, and green chilies. Sauté until the onions become translucent.",
+        "Sprinkle turmeric powder and add the drained poha. Mix well and season with salt.",
+        "Cook for 2-3 minutes on low heat, stirring occasionally.",
+        "Garnish with fresh coriander and serve hot."
+      ]
+    },
+    "polloAllaCacciatora": {
+      "country": "Italy",
+      "dish_category": "non-veg",
+      "dish_type": "stewed",
+      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/italy%2FPollo%20alla%20Cacciatora.jpg?alt=media&token=07e9440d-5b6f-4f29-95cc-1941fde978f7",
+      "ingredients": [
+        "4 chicken thighs",
+        "1 onion",
+        "2 carrots",
+        "200ml white wine",
+        "400g tomatoes",
+        "1 garlic clove",
+        "Olive oil",
+        "Fresh rosemary",
+        "Salt"
+      ],
+      "name": "Pollo alla Cacciatora",
+      "steps": [
+        "In a large skillet, sauté the chicken thighs in olive oil over medium heat until golden brown on all sides. Remove and set aside.",
+        "In the same skillet, add chopped onion, diced carrots, and minced garlic, cooking until softened.",
+        "Deglaze the pan with white wine, scraping up any browned bits from the bottom.",
+        "Add the chopped tomatoes and fresh rosemary to the skillet, stirring to combine.",
+        "Return the chicken to the pan, cover, and simmer for about 30 minutes, or until the chicken is cooked through and tender."
+      ]
+    },
+    "potatoSalad": {
+      "country": "USA",
+      "dish_category": "veg",
+      "dish_type": "boiled",
+      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/USA%2FPotato%20Salad.jpg?alt=media&token=7c13b84a-0fd8-4d17-b030-ddad721d12ad",
+      "ingredients": [
+        "4 cups Potatoes (cubed)",
+        "1/2 cup Mayonnaise",
+        "2 tbsp Dijon mustard",
+        "1/4 cup Red onion (chopped)",
+        "2 Celery stalks (chopped)",
+        "Salt and pepper to taste",
+        "2 tbsp Fresh parsley (chopped)"
+      ],
+      "name": "Potato Salad",
+      "steps": [
+        "Boil potatoes until tender. Drain and cool.",
+        "Mix mayonnaise and mustard in a bowl.",
+        "Add potatoes, red onion, celery, salt, and pepper.",
+        "Gently toss to combine.",
+        "Garnish with parsley before serving."
+      ]
+    },
+    "ribollita": {
+      "country": "Italy",
+      "dish_category": "veg",
+      "dish_type": "stewed",
+      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/italy%2FRibollita.jpg?alt=media&token=631efea3-2ee4-4683-a42d-57fc54b9604b",
+      "ingredients": [
+        "1 onion",
+        "2 carrots",
+        "2 celery stalks",
+        "1 can cannellini beans",
+        "Kale",
+        "Stale bread",
+        "Olive oil",
+        "Vegetable stock"
+      ],
+      "name": "Ribollita",
+      "steps": [
+        "In a large pot, heat olive oil and sauté chopped onion, carrots, and celery until softened.",
+        "Add drained cannellini beans, chopped kale, and vegetable stock, stirring to combine.",
+        "Simmer for about 30 minutes until the vegetables are tender.",
+        "Tear stale bread into pieces and stir into the soup to thicken.",
+        "Serve hot, drizzled with olive oil."
+      ]
+    },
+    "risotto": {
+      "country": "Italy",
+      "dish_category": "veg",
+      "dish_type": "stir-fried",
+      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/italy%2FRisotto.jpg?alt=media&token=e1919563-208d-41ac-a438-cdba7c9320f9",
+      "ingredients": [
+        "1 1/2 cups Arborio rice",
+        "1 Onion (chopped)",
+        "2 Garlic cloves (minced)",
+        "4 cups Chicken or vegetable broth",
+        "1 cup White wine",
+        "1/2 cup Parmesan cheese (grated)",
+        "2 tbsp Olive oil",
+        "Salt and pepper to taste",
+        "Fresh parsley for garnish"
+      ],
+      "name": "Risotto",
+      "steps": [
+        "Heat olive oil in a pan and sauté onion and garlic.",
+        "Add rice and cook until lightly toasted.",
+        "Pour in wine and cook until absorbed.",
+        "Add broth gradually, stirring frequently, until rice is tender.",
+        "Stir in Parmesan cheese and season with salt and pepper.",
+        "Garnish with parsley and serve hot."
+      ]
+    },
+    "risottoMilanese": {
+      "country": "Italy",
+      "dish_category": "non-veg",
+      "dish_type": "steamed",
+      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/italy%2FRisotto%20alla%20Milanese.jpg?alt=media&token=01ef0787-2e47-4f9a-bc63-61a3579e4460",
+      "ingredients": [
+        "300g arborio rice",
+        "1L chicken stock",
+        "1 small onion",
+        "50g butter",
+        "1 pinch saffron threads",
+        "50g grated Parmesan",
+        "Salt"
+      ],
+      "name": "Risotto alla Milanese",
+      "steps": [
+        "Sauté the onion in butter over medium heat until it becomes soft and translucent.",
+        "Add the arborio rice to the pan and toast it for a couple of minutes, stirring constantly.",
+        "Gradually add the chicken stock to the rice, one ladle at a time, stirring continuously until the stock is absorbed.",
+        "Once the rice is creamy and tender, stir in the saffron threads to give the risotto its distinctive color and flavor.",
+        "Mix in the grated Parmesan cheese, adjust the seasoning with salt, and serve immediately."
+      ]
+    },
+    "risottoMushroom": {
+      "country": "Italy",
+      "dish_category": "veg",
+      "dish_type": "stir-fried",
+      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/italy%2FRisotto%20with%20Mushrooms.jpg?alt=media&token=00730e0c-354b-4367-af4a-4753c94323a5",
+      "ingredients": [
+        "1 1/2 cups Arborio rice",
+        "1/2 lb Mushrooms (sliced)",
+        "1 Onion (chopped)",
+        "1/2 cup White wine",
+        "4 cups Chicken broth",
+        "1/2 cup Parmesan cheese (grated)",
+        "2 tbsp Butter",
+        "2 tbsp Olive oil",
+        "Salt and pepper to taste"
+      ],
+      "name": "Risotto with Mushrooms",
+      "steps": [
+        "Cook mushrooms in olive oil and set aside.",
+        "In the same pan, cook onion until translucent.",
+        "Add rice and cook for 2 minutes.",
+        "Pour in wine and stir until absorbed.",
+        "Add broth gradually, stirring constantly, until rice is creamy.",
+        "Stir in mushrooms, Parmesan, and butter.",
+        "Season with salt and pepper."
+      ]
+    },
+    "saltimbocca": {
+      "country": "Italy",
+      "dish_category": "non-veg",
+      "dish_type": "fried",
+      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/italy%2FSaltimbocca.jpg?alt=media&token=0e594429-b84d-4bc1-8453-a19270396435",
+      "ingredients": [
+        "4 veal cutlets",
+        "4 slices prosciutto",
+        "Fresh sage",
+        "White wine",
+        "Butter",
+        "Olive oil"
+      ],
+      "name": "Saltimbocca",
+      "steps": [
+        "Place a slice of prosciutto and a fresh sage leaf on each veal cutlet, securing them with toothpicks.",
+        "In a skillet, heat olive oil and butter over medium-high heat, and cook the veal cutlets until browned on both sides.",
+        "Remove the veal from the pan and deglaze with white wine, scraping up any bits stuck to the pan.",
+        "Reduce the wine until slightly thickened, then return the veal to the pan, cooking for an additional minute.",
+        "Serve immediately, drizzled with the reduced sauce."
+      ]
+    },
+    "samosaChaat": {
+      "country": "India",
+      "dish_category": "veg",
+      "dish_type": "fried",
+      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/india%2FSamosa%20Chaat.jpg?alt=media&token=33198bee-e3a8-4312-b2fa-0b1f0f06a6e9",
+      "ingredients": [
+        "4 Vegetable samosas (store-bought or homemade)",
+        "1/2 cup Yogurt",
+        "1/4 cup Tamarind chutney",
+        "1/4 cup Green chutney",
+        "1/2 cup Sev (crunchy gram noodles)",
+        "Chopped onions and coriander"
+      ],
+      "name": "Samosa Chaat",
+      "steps": [
+        "Break the samosas into bite-sized pieces and place them on a serving plate.",
+        "Drizzle yogurt evenly over the samosa pieces.",
+        "Top with tamarind chutney and green chutney to taste.",
+        "Sprinkle sev, chopped onions, and fresh coriander over the chaat.",
+        "Serve immediately to enjoy the crispy textures."
+      ]
+    },
+    "spaghettiPuttanesca": {
+      "country": "Italy",
+      "dish_category": "veg",
+      "dish_type": "boiled",
+      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/italy%2FSpaghetti%20alla%20Puttanesca.jpg?alt=media&token=c5be4390-3bfc-4c45-83a6-6cd8c30491bb",
+      "ingredients": [
+        "400g spaghetti",
+        "2 garlic cloves",
+        "100g olives",
+        "50g capers",
+        "200g tomatoes",
+        "Olive oil",
+        "Chili flakes",
+        "Salt"
+      ],
+      "name": "Spaghetti alla Puttanesca",
+      "steps": [
+        "Cook the spaghetti in a large pot of salted boiling water according to the package instructions until al dente.",
+        "Meanwhile, heat olive oil in a pan and sauté the minced garlic until fragrant.",
+        "Add the chopped tomatoes, olives, capers, and a pinch of chili flakes to the pan, stirring to combine.",
+        "Once the spaghetti is cooked, drain it and add it to the pan with the sauce.",
+        "Toss the spaghetti in the sauce until well coated, and serve immediately, garnished with fresh basil if desired."
+      ]
+    },
+    "spaghettiVongole": {
+      "country": "Italy",
+      "dish_category": "non-veg",
+      "dish_type": "boiled",
+      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/italy%2FSpaghetti%20alle%20Vongole.jpg?alt=media&token=4460b255-644e-4ad4-973d-e80d4388fe7e",
+      "ingredients": [
+        "400g spaghetti",
+        "500g clams",
+        "2 garlic cloves",
+        "Olive oil",
+        "White wine",
+        "Fresh parsley",
+        "Salt"
+      ],
+      "name": "Spaghetti alle Vongole",
+      "steps": [
+        "Cook the spaghetti in a large pot of salted boiling water until al dente. Drain and set aside.",
+        "In a large skillet, heat olive oil over medium heat and sauté minced garlic until fragrant.",
+        "Add the clams and pour in white wine. Cover the skillet and cook until the clams open, about 5-7 minutes.",
+        "Discard any clams that do not open. Toss the cooked spaghetti in the skillet with the clams.",
+        "Garnish with chopped fresh parsley and serve immediately."
+      ]
+    },
+    "stracciatellaSoup": {
+      "country": "Italy",
+      "dish_category": "non-veg",
+      "dish_type": "steamed",
+      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/italy%2FStracciatella%20Soup.jpg?alt=media&token=c31219e2-00a7-45d6-9cf2-c07b84b027c3",
+      "ingredients": [
+        "1L chicken broth",
+        "2 eggs",
+        "50g Parmesan cheese",
+        "Parsley",
+        "Salt",
+        "Black pepper"
+      ],
+      "name": "Stracciatella Soup",
+      "steps": [
+        "In a pot, bring the chicken broth to a boil over medium heat.",
+        "In a bowl, beat the eggs together with grated Parmesan cheese.",
+        "Slowly drizzle the egg mixture into the boiling broth while stirring gently to create ribbons.",
+        "Season the soup with salt, black pepper, and chopped parsley before serving."
+      ]
+    },
+    "stuffedBellPeppers": {
+      "country": "USA",
+      "dish_category": "veg",
+      "dish_type": "baked",
+      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/USA%2FStuffed%20Bell%20Peppers.jpg?alt=media&token=434f5ec0-619e-4338-b4e1-e759a6957b31",
+      "ingredients": [
+        "4 Bell peppers",
+        "1 lb Ground beef",
+        "1 cup Cooked rice",
+        "1 Onion (chopped)",
+        "1 can Tomato sauce",
+        "1 cup Shredded cheese",
+        "2 Garlic cloves (minced)",
+        "1 tsp Italian seasoning",
+        "Salt and pepper to taste"
+      ],
+      "name": "Stuffed Bell Peppers",
+      "steps": [
+        "Preheat oven to 375°F (190°C).",
+        "Cut tops off peppers and remove seeds.",
+        "Cook ground beef, onion, and garlic until browned.",
+        "Mix with rice, tomato sauce, and Italian seasoning.",
+        "Stuff peppers with mixture and top with cheese.",
+        "Bake for 30 minutes."
+      ]
+    },
+    "tiramisu": {
+      "country": "Italy",
+      "dish_category": "veg",
+      "dish_type": "baked",
+      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/italy%2FTiramisu.jpg?alt=media&token=084ce82f-6dad-4295-b839-18917e5e09ba",
+      "ingredients": [
+        "6 Egg yolks",
+        "3/4 cup Sugar",
+        "1 cup Mascarpone cheese",
+        "1 cup Heavy cream",
+        "1 cup Strong brewed coffee (cooled)",
+        "1/4 cup Coffee liqueur",
+        "24 Ladyfingers",
+        "Cocoa powder for dusting"
+      ],
+      "name": "Tiramisu",
+      "steps": [
+        "Beat egg yolks and sugar until thick and pale.",
+        "Fold in mascarpone cheese.",
+        "Whip cream until stiff peaks form and fold into mascarpone mixture.",
+        "Combine coffee and liqueur and dip ladyfingers.",
+        "Layer ladyfingers and mascarpone mixture in a dish.",
+        "Dust with cocoa powder and refrigerate for at least 4 hours."
+      ]
+    },
+    "vegetableSamosa": {
+      "country": "India",
+      "dish_category": "veg",
+      "dish_type": "fried",
+      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/india%2FVegetable%20Samosa.jpg?alt=media&token=212e367f-9106-4337-a223-09a7dc560ed6",
+      "ingredients": [
+        "1 package Samosa pastry",
+        "2 cups Potatoes (boiled and mashed)",
+        "1/2 cup Green peas",
+        "1 Onion (chopped)",
+        "2 Garlic cloves (minced)",
+        "1 tsp Cumin seeds",
+        "1 tsp Coriander seeds",
+        "1/2 tsp Turmeric powder",
+        "1 tsp Garam masala",
+        "Salt to taste",
+        "Oil for frying"
+      ],
+      "name": "Vegetable Samosa",
+      "steps": [
+        "Heat oil in a pan, cook cumin seeds, garlic, and onion until softened.",
+        "Add potatoes, green peas, coriander seeds, turmeric powder, garam masala, and salt. Cook for a few minutes.",
+        "Allow the filling to cool.",
+        "Fill the samosa pastry with the mixture and seal the edges.",
+        "Fry until golden brown.",
+        "Serve hot with chutney."
+      ]
+    },
+    "macaroniAndCheese": {
+      "country": "USA",
+      "dish_category": "veg",
+      "dish_type": "baked",
+      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/USA%2FMacaroni%20and%20Cheese.jpg?alt=media&token=65d81be1-fea5-49c1-91a6-466ae240855c",
+      "ingredients": [
+        "2 cups elbow macaroni",
+        "2 cups milk",
+        "1/4 cup butter",
+        "2 cups cheddar cheese (shredded)",
+        "1/4 cup flour",
+        "Salt",
+        "Pepper"
+      ],
+      "name": "Macaroni and Cheese",
+      "steps": [
+        "In a large pot of boiling salted water, cook the elbow macaroni according to package instructions until al dente. Drain and set aside.",
+        "In a medium saucepan, melt the butter over medium heat. Add the flour and whisk continuously for about 1-2 minutes to create a roux.",
+        "Gradually add the milk to the roux while continuing to whisk to prevent lumps. Cook until the mixture thickens and starts to bubble, about 5-7 minutes.",
+        "Once thickened, remove the saucepan from heat and stir in the shredded cheddar cheese until melted and smooth.",
+        "Combine the cooked macaroni with the cheese sauce, stirring until all the pasta is well coated.",
+        "Season with salt and pepper to taste. Serve hot, optionally topped with additional cheese or breadcrumbs."
+      ]
+    },
+    "margheritaPizza": {
+      "country": "Italy",
+      "dish_category": "veg",
+      "dish_type": "baked",
+      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/italy%2FMargherita%20Pizza.jpg?alt=media&token=d246d780-282f-4a4b-9747-23325b5ef141",
+      "ingredients": [
+        "Pizza dough",
+        "200g tomato sauce",
+        "200g fresh mozzarella cheese",
+        "Fresh basil leaves",
+        "2 tbsp olive oil",
+        "Salt"
+      ],
+      "name": "Margherita Pizza",
+      "steps": [
+        "Preheat your oven to 250°C (480°F) to ensure it's hot enough to cook the pizza quickly and evenly.",
+        "Spread a thin layer of tomato sauce evenly over the pizza dough, leaving a small border around the edges.",
+        "Slice the fresh mozzarella cheese and distribute it evenly on top of the tomato sauce.",
+        "Drizzle the pizza with olive oil and sprinkle a pinch of salt to enhance the flavors.",
+        "Place the pizza in the oven and bake for 10-12 minutes, or until the crust is golden and the cheese is melted and bubbly.",
+        "Once baked, remove the pizza from the oven and top it with fresh basil leaves before serving hot."
+      ]
+    },
+    "meatloaf": {
+      "country": "USA",
+      "dish_category": "non-veg",
+      "dish_type": "baked",
+      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/USA%2FMeatloaf.jpg?alt=media&token=fc9f665a-3d25-4eab-87b3-7be8b1159c4f",
+      "ingredients": [
+        "500g ground beef",
+        "1 onion (chopped)",
+        "1 egg",
+        "1/2 cup breadcrumbs",
+        "1/4 cup ketchup",
+        "Salt",
+        "Pepper"
+      ],
+      "name": "Meatloaf",
+      "steps": [
+        "Preheat your oven to 350°F (175°C) to prepare for baking.",
+        "In a large bowl, combine the ground beef, chopped onion, egg, breadcrumbs, ketchup, salt, and pepper. Mix gently until all ingredients are well incorporated.",
+        "Transfer the mixture to a baking dish and shape it into a loaf, smoothing the top and sides.",
+        "Optional: Spread additional ketchup on top of the meatloaf for extra flavor.",
+        "Bake in the preheated oven for about 1 hour, or until the internal temperature reaches 160°F (70°C).",
+        "Once cooked, remove from the oven and let it rest for a few minutes before slicing. Serve warm with your favorite sides."
+      ]
+    },
+    "minestroneSoup": {
+      "country": "Italy",
+      "dish_category": "veg",
+      "dish_type": "steamed",
+      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/italy%2FMinestrone%20Soup.jpg?alt=media&token=5f038c07-b562-4cd2-8425-4c15ec4785da",
+      "ingredients": [
+        "1 onion",
+        "2 carrots",
+        "2 celery stalks",
+        "2 potatoes",
+        "200g beans",
+        "200g tomatoes",
+        "Pasta",
+        "Olive oil",
+        "Vegetable stock"
+      ],
+      "name": "Minestrone Soup",
+      "steps": [
+        "Heat olive oil in a large pot and sauté the chopped onions, carrots, and celery until they begin to soften.",
+        "Add the diced potatoes, beans, and chopped tomatoes to the pot, stirring to combine.",
+        "Pour in enough vegetable stock to cover the vegetables, bring to a boil, then reduce the heat and simmer for about 30 minutes.",
+        "During the last 10 minutes of cooking, add a handful of pasta to the soup and cook until the pasta is tender.",
+        "Season the soup to taste with salt and pepper before serving."
+      ]
+    },
+    "ossoBuco": {
+      "country": "Italy",
+      "dish_category": "non-veg",
+      "dish_type": "stewed",
+      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/italy%2FOsso%20Buco.jpg?alt=media&token=14cf9c81-d508-4a16-b23d-168851090257",
+      "ingredients": [
+        "4 veal shanks",
+        "1 onion",
+        "2 carrots",
+        "2 celery stalks",
+        "200ml white wine",
+        "400g tomatoes",
+        "Olive oil",
+        "Salt",
+        "Black pepper",
+        "Gremolata (parsley, garlic, lemon zest)"
+      ],
+      "name": "Osso Buco",
+      "steps": [
+        "Heat olive oil in a large pan and sear the veal shanks on all sides until browned. Remove from the pan and set aside.",
+        "In the same pan, sauté the chopped onions, carrots, and celery until soft.",
+        "Deglaze the pan with white wine, scraping up any browned bits from the bottom.",
+        "Add the chopped tomatoes to the pan, then return the veal shanks to the pan, ensuring they are partially submerged in the sauce.",
+        "Cover the pan and simmer on low heat for about 2 hours, or until the veal is tender and falling off the bone.",
+        "Before serving, top the osso buco with a sprinkling of gremolata for a burst of fresh flavor."
+      ]
+    },
+    "palakPaneer": {
+      "country": "India",
+      "dish_category": "veg",
+      "dish_type": "cooked",
+      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/india%2FPalak%20Paneer.jpg?alt=media&token=e8070b26-9730-4c2f-bffe-a9d8c8206c28",
+      "ingredients": [
+        "200g Paneer (cubed)",
+        "2 cups Spinach (blanched and pureed)",
+        "1 Onion (chopped)",
+        "1 Tomato (chopped)",
+        "1 tsp Ginger-garlic paste",
+        "1/2 tsp Garam masala",
+        "Salt to taste"
+      ],
+      "name": "Palak Paneer",
+      "steps": [
+        "Heat oil in a pan and sauté onions until golden brown.",
+        "Add ginger-garlic paste and cook until the raw smell goes away.",
+        "Add chopped tomatoes and cook until soft and mushy.",
+        "Pour in the spinach puree and cook for 5 minutes on medium heat.",
+        "Add paneer cubes, garam masala, and salt. Stir well and cook for another 5 minutes.",
+        "Serve hot with rice or naan."
+      ]
+    },
+    "pancakes": {
+      "country": "USA",
+      "dish_category": "veg",
+      "dish_type": "fried",
+      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/USA%2FPancakes.jpg?alt=media&token=f509cd49-fbe8-4093-a44e-facf880178a6",
+      "ingredients": [
+        "1 cup flour",
+        "1 tbsp sugar",
+        "1 tsp baking powder",
+        "1/2 tsp baking soda",
+        "1 cup buttermilk",
+        "1 egg",
+        "2 tbsp melted butter",
+        "Pinch of salt"
+      ],
+      "name": "Pancakes",
+      "steps": [
+        "In a large mixing bowl, whisk together the flour, sugar, baking powder, baking soda, and salt until well combined.",
+        "In another bowl, combine the buttermilk, egg, and melted butter. Whisk until smooth.",
+        "Pour the wet ingredients into the dry ingredients, mixing gently until just combined. Be careful not to overmix; it's okay if the batter is a bit lumpy.",
+        "Preheat a non-stick skillet or griddle over medium heat. Lightly grease with oil or cooking spray if needed.",
+        "Pour a small amount of batter onto the skillet to form a pancake. Cook until bubbles form on the surface, about 2-3 minutes.",
+        "Flip the pancake and cook for another 1-2 minutes, or until golden brown.",
+        "Repeat with the remaining batter, adjusting the heat as necessary. Serve hot with syrup, butter, or your favorite toppings."
+      ]
+    },
+    "pastaCarbonara": {
+      "country": "Italy",
+      "dish_category": "non-veg",
+      "dish_type": "boiled",
+      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/italy%2FPasta%20Carbonara.jpg?alt=media&token=2381e99c-d5fd-4d7b-88e1-d654fc4ce156",
+      "ingredients": [
+        "12 oz Spaghetti",
+        "1/2 cup Pancetta (diced)",
+        "2 Garlic cloves (minced)",
+        "3 Eggs",
+        "1 cup Parmesan cheese (grated)",
+        "Salt and pepper to taste",
+        "2 tbsp Olive oil",
+        "Fresh parsley for garnish"
+      ],
+      "name": "Pasta Carbonara",
+      "steps": [
+        "Cook spaghetti according to package instructions.",
+        "In a pan, cook pancetta in olive oil until crispy.",
+        "Add garlic and cook for 1 minute.",
+        "Beat eggs and mix with Parmesan cheese.",
+        "Toss hot pasta with pancetta and garlic.",
+        "Remove from heat and mix in egg mixture.",
+        "Season with salt and pepper, garnish with parsley."
+      ]
+    },
+    "rajmaChawal": {
+      "country": "India",
+      "dish_category": "veg",
+      "dish_type": "cooked",
+      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/india%2FRajma%20Chawal.jpg?alt=media&token=3050c1ab-f1a0-444b-8d86-80db66843fdd",
+      "ingredients": [
+        "1 cup Kidney beans (Rajma)",
+        "1 Onion (chopped)",
+        "2 Tomatoes (chopped)",
+        "1 tsp Ginger-garlic paste",
+        "1/2 tsp Cumin seeds",
+        "1 tsp Garam masala",
+        "Salt to taste",
+        "Cooked rice"
+      ],
+      "name": "Rajma Chawal",
+      "steps": [
+        "Soak rajma overnight, then cook in a pressure cooker until soft.",
+        "Heat oil in a pan, add cumin seeds and let them crackle.",
+        "Add chopped onions and ginger-garlic paste, sauté until golden brown.",
+        "Add chopped tomatoes and cook until they break down into a thick sauce.",
+        "Add cooked rajma, garam masala, and salt. Simmer for 10-15 minutes, stirring occasionally.",
+        "Serve hot with steamed rice."
+      ]
+    },
+    "ravioli": {
+      "country": "Italy",
+      "dish_category": "non-veg",
+      "dish_type": "boiled",
+      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/italy%2FRavioli.jpg?alt=media&token=a455d499-a51f-4f07-87ed-a18473e32d75",
+      "ingredients": [
+        "Pasta dough",
+        "200g ricotta cheese",
+        "100g spinach",
+        "50g Parmesan cheese",
+        "Olive oil"
+      ],
+      "name": "Ravioli",
+      "steps": [
+        "Roll out the pasta dough on a floured surface until thin.",
+        "Cut the dough into squares, about 5cm by 5cm.",
+        "In a bowl, mix together ricotta, chopped spinach, and grated Parmesan.",
+        "Place a small amount of filling in the center of each square.",
+        "Moisten the edges of the dough with water, fold over, and seal tightly.",
+        "Boil the ravioli in salted water until they float, about 3-4 minutes.",
+        "Serve with a drizzle of olive oil or your choice of sauce."
+      ]
+    },
+    "roganJosh": {
+      "country": "India",
+      "dish_category": "non-veg",
+      "dish_type": "cooked",
+      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/india%2FRogan%20Josh.jpg?alt=media&token=74f9b588-d75c-447a-9e9a-dc5d58005d3a",
+      "ingredients": [
+        "500g Mutton (bone-in)",
+        "2 Onions (sliced)",
+        "1 tbsp Ginger-garlic paste",
+        "1 cup Yogurt",
+        "1 tsp Red chili powder",
+        "1/2 tsp Turmeric powder",
+        "1 tsp Garam masala",
+        "1 tbsp Ghee",
+        "Salt to taste"
+      ],
+      "name": "Rogan Josh",
+      "steps": [
+        "Heat ghee in a pan and fry onions until golden brown.",
+        "Add ginger-garlic paste and cook until the raw smell disappears.",
+        "Add mutton pieces and sear until they turn brown on all sides.",
+        "Whisk yogurt and add it to the pan, stirring constantly to avoid curdling.",
+        "Add red chili powder, turmeric powder, garam masala, and salt. Stir well to coat the mutton.",
+        "Add enough water to cover the mutton and bring to a boil.",
+        "Lower the heat and let it simmer until the mutton is tender and the gravy thickens.",
+        "Serve hot with rice or roti."
+      ]
+    },
+    "zucchiniBread": {
+      "country": "USA",
+      "dish_category": "veg",
+      "dish_type": "baked",
+      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/USA%2FZucchini%20Bread.jpg?alt=media&token=0b3630b9-db03-4d58-8c1e-cf120524dc20",
+      "ingredients": [
+        "1 1/2 cups All-purpose flour",
+        "1/2 tsp Baking powder",
+        "1/2 tsp Baking soda",
+        "1/2 tsp Salt",
+        "1/2 tsp Cinnamon",
+        "1/2 cup Sugar",
+        "1/2 cup Brown sugar",
+        "1/2 cup Vegetable oil",
+        "2 Eggs",
+        "1 cup Grated zucchini"
+      ],
+      "name": "Zucchini Bread",
+      "steps": [
+        "Preheat oven to 350°F (175°C) and grease a loaf pan.",
+        "Mix flour, baking powder, baking soda, salt, and cinnamon.",
+        "In another bowl, whisk sugar, brown sugar, oil, and eggs.",
+        "Stir in zucchini and then mix with dry ingredients.",
+        "Pour batter into loaf pan and bake for 60 minutes.",
+        "Cool before slicing."
+      ]
+    },
+    "zuppaToscana": {
+      "country": "Italy",
+      "dish_category": "non-veg",
+      "dish_type": "stewed",
+      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/italy%2FZuppa%20Toscana.jpg?alt=media&token=57b210f2-4942-475e-8699-cee9e05ac3ed",
+      "ingredients": [
+        "500g Italian sausage",
+        "4 potatoes",
+        "1 onion",
+        "200g kale",
+        "1L chicken broth",
+        "Cream",
+        "Olive oil"
+      ],
+      "name": "Zuppa Toscana",
+      "steps": [
+        "In a large pot, cook the Italian sausage over medium heat until browned. Remove and set aside.",
+        "In the same pot, add diced onion and chopped potatoes, sautéing in olive oil until the onion is translucent.",
+        "Pour in the chicken broth and bring to a boil. Reduce heat and simmer until the potatoes are tender.",
+        "Stir in the cooked sausage and chopped kale, cooking until the kale is wilted.",
+        "Add cream to the soup, stirring to combine, and heat through before serving."
+      ]
+    },
 
+    "alfajores": {
+      "country": "Argentina",
+      "dish_category": "non-veg",
+      "dish_type": "baked",
+      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/remaining%2023-2-25%20test%2FAlfajores.jpg?alt=media&token=470a99c4-17fa-4557-8c07-8380be337a40",
+
+      "ingredients": [
+        "2 cups cornstarch",
+        "1 cup all-purpose flour",
+        "1/2 cup butter (softened)",
+        "1/2 cup sugar",
+        "1 egg yolk",
+        "1/2 teaspoon vanilla extract",
+        "Dulce de leche (for filling)",
+        "Powdered sugar (for dusting)"
+      ],
+      "name": "Alfajores",
+      "steps": [
+        "Preheat oven to 350°F (180°C).",
+        "In a large bowl, beat together the butter and sugar until light and fluffy. Add the egg yolk and vanilla, and mix until combined.",
+        "Gradually add the cornstarch and flour, mixing until a soft dough forms.",
+        "Roll out the dough on a floured surface to about 1/4-inch thickness. Cut into small circles using a cookie cutter.",
+        "Place the cookies on a baking sheet lined with parchment paper and bake for 10-12 minutes or until the edges are lightly golden.",
+        "Let the cookies cool completely, then sandwich together with dulce de leche.",
+        "Dust with powdered sugar before serving."
+      ]
+    },
+    "carbonada": {
+      "country": "Argentina",
+      "dish_category": "non-veg",
+      "dish_type": "stewed",
+      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/remaining%2023-2-25%20test%2FCarbonada.jpg?alt=media&token=190e414e-0c9c-4024-a64a-ffc1311cd6b7",
+      "ingredients": [
+        "500g beef (cubed)",
+        "1 large potato (diced)",
+        "1 sweet potato (diced)",
+        "1 ear of corn (cut into chunks)",
+        "1 large onion (chopped)",
+        "1 red bell pepper (chopped)",
+        "1 can peaches (drained and cut into slices)",
+        "1 bay leaf",
+        "Salt and pepper to taste",
+        "1 liter beef broth"
+      ],
+      "name": "Carbonada",
+      "steps": [
+        "In a large pot, sauté the onion and bell pepper until softened.",
+        "Add the cubed beef and brown on all sides.",
+        "Add the diced potato, sweet potato, corn, and bay leaf. Pour in the beef broth and bring to a simmer.",
+        "Lower the heat and cook for about 1 hour, stirring occasionally, until the beef is tender and the vegetables are cooked through.",
+        "Add the peach slices in the last 10 minutes of cooking.",
+        "Adjust seasoning with salt and pepper, and serve the carbonada hot."
+      ]
+    },
+
+
+    "anzacBiscuits": {
+      "country": "Australia",
+      "dish_category": "veg",
+      "dish_type": "baked",
+      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/remaining%2023-2-25%20test%2FANZAC%20Biscuits.jpg?alt=media&token=8f9d7a17-18c3-487b-8b3d-24ed15383134",
+      "ingredients": [
+        "1 cup Rolled oats",
+        "1 cup Flour",
+        "1 cup Desiccated coconut",
+        "1/2 cup Sugar",
+        "125g Butter",
+        "2 tbsp Golden syrup",
+        "1 tsp Baking soda",
+        "2 tbsp Boiling water"
+      ],
+      "name": "ANZAC Biscuits",
+      "steps": [
+        "Preheat oven to 160°C (320°F).",
+        "In a bowl, combine oats, flour, coconut, and sugar.",
+        "Melt butter and golden syrup together. Dissolve baking soda in boiling water and add to butter mixture.",
+        "Stir the wet ingredients into the dry ingredients.",
+        "Roll spoonfuls of the mixture into balls and place on a baking tray. Flatten slightly.",
+        "Bake for 15-18 minutes until golden."
+      ]
+    },
+
+
+    "appleCrumble": {
+      "country": "Australia",
+      "dish_category": "veg",
+      "dish_type": "baked",
+      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/remaining%2023-2-25%20test%2FApple%20Crumble.jpg?alt=media&token=1d7dec03-d044-4ffb-8f68-71d925e60d9c",
+      "ingredients": [
+        "4 Apples (peeled and sliced)",
+        "1/2 cup Sugar",
+        "1 tsp Cinnamon",
+        "1 cup Oats",
+        "1/2 cup Flour",
+        "1/2 cup Butter (melted)",
+        "1/4 cup Brown sugar"
+      ],
+      "name": "Apple Crumble",
+      "steps": [
+        "Preheat the oven to 180°C (350°F).",
+        "In a baking dish, mix apples with sugar and cinnamon.",
+        "In a bowl, combine oats, flour, melted butter, and brown sugar to form a crumbly mixture.",
+        "Spread the crumble over the apples and bake for 30-35 minutes until golden."
+      ]
+    },
+
+
+    "poutine": {
+      "country": "Canada",
+      "dish_category": "non-veg",
+      "dish_type": "assembled",
+      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/remaining%2023-2-25%20test%2FPoutine.jpg?alt=media&token=d9df0bdb-2b1d-4dcc-b475-8ed3003ef280",
+      "ingredients": [
+        "4 cups Frozen French fries",
+        "2 cups Beef gravy",
+        "1 cup Cheese curds",
+        "Salt and pepper to taste"
+      ],
+      "name": "Poutine",
+      "steps": [
+        "Cook French fries according to package instructions.",
+        "Heat beef gravy until hot.",
+        "Place fries on a plate and top with cheese curds.",
+        "Pour hot gravy over the fries and cheese.",
+        "Serve immediately."
+      ]
+    },
+
+
+    "chiliOilWontons": {
+      "country": "China",
+      "dish_category": "non-veg",
+      "dish_type": "boiled",
+      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/remaining%2023-2-25%20test%2FChili%20Oil%20Wontons.jpg?alt=media&token=bc26041f-4ce5-438a-a804-aa674fc34ed1",
+      "ingredients": [
+        "200g Ground pork",
+        "50g Shrimp (chopped)",
+        "1 tbsp Soy sauce",
+        "1 tbsp Sesame oil",
+        "1 Garlic clove (minced)",
+        "1 Green onion (chopped)",
+        "Wonton wrappers",
+        "Chili oil (for serving)",
+        "Salt to taste"
+      ],
+      "name": "Chili Oil Wontons",
+      "steps": [
+        "In a bowl, mix pork, shrimp, soy sauce, sesame oil, garlic, and green onion.",
+        "Place a small amount of filling in the center of each wonton wrapper and fold to seal.",
+        "Boil the wontons in water for 4-5 minutes until cooked.",
+        "Serve with a generous drizzle of chili oil."
+      ]
+    },
+    
+    "chineseBroccoliWithOysterSauce": {
+      "country": "China",
+      "dish_category": "veg",
+      "dish_type": "steamed",
+      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/remaining%2023-2-25%20test%2FChinese%20Broccoli%20with%20Oyster%20Sauce.jpg?alt=media&token=28c74f69-1419-4fb0-95c5-b2f1885bc75b",
+      "ingredients": [
+        "200g Chinese broccoli (gai lan)",
+        "2 tbsp Oyster sauce",
+        "1 tbsp Soy sauce",
+        "1 tsp Sugar",
+        "1 tbsp Sesame oil"
+      ],
+      "name": "Chinese Broccoli with Oyster Sauce",
+      "steps": [
+        "Blanch Chinese broccoli in boiling water for 2-3 minutes, then drain.",
+        "In a small pan, heat sesame oil, oyster sauce, soy sauce, and sugar until combined.",
+        "Pour the sauce over the broccoli and serve hot."
+      ]
+    },
+
+
+    "crepes": {
+      "country": "France",
+      "dish_category": "veg",
+      "dish_type": "fried",
+      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/remaining%2023-2-25%20test%2FCrepes.jpg?alt=media&token=b1366bb1-7759-49aa-b9b8-797502e77ad8",
+      "ingredients": [
+        "1 cup Flour",
+        "2 Eggs",
+        "1 cup Milk",
+        "2 tbsp Melted butter",
+        "1 tbsp Sugar",
+        "1/4 tsp Salt",
+        "Butter for cooking"
+      ],
+      "name": "Crepes",
+      "steps": [
+        "Mix flour, eggs, milk, melted butter, sugar, and salt until smooth.",
+        "Heat a non-stick skillet and lightly grease with butter.",
+        "Pour a small amount of batter into the pan and swirl to coat.",
+        "Cook until edges are golden, then flip and cook the other side."
+      ]
+    },
+
+
+    "croissant": {
+      "country": "France",
+      "dish_category": "veg",
+      "dish_type": "baked",
+      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/remaining%2023-2-25%20test%2FCroissant.jpg?alt=media&token=5c89ca31-e57b-4a01-93b7-bca0e07b6ef6",
+      "ingredients": [
+        "2 1/4 cups All-purpose flour",
+        "1/2 cup Warm milk",
+        "1/4 cup Sugar",
+        "1/4 cup Butter",
+        "1 tbsp Yeast",
+        "1 tsp Salt",
+        "1 Egg (for egg wash)",
+        "1/2 cup Butter (for laminating)"
+      ],
+      "name": "Croissant",
+      "steps": [
+        "Mix flour, sugar, and yeast. Add warm milk and melted butter, then knead into a dough.",
+        "Let the dough rise until doubled in size.",
+        "Roll out dough and fold in chilled butter. Roll and fold several times to create layers.",
+        "Cut into triangles, roll up, and shape into croissants.",
+        "Let rise again and brush with egg wash.",
+        "Bake at 375°F (190°C) for 15-20 minutes until golden brown.",
+        "Cool before serving."
+      ]
+    },
+
+
+    "chickenSchnitzel": {
+      "country": "Germany",
+      "dish_category": "non-veg",
+      "dish_type": "fried",
+      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/remaining%2023-2-25%20test%2FChicken%20Schnitzel.jpg?alt=media&token=260e688a-1eb6-4828-8299-adab9f7b80a9",
+      "ingredients": [
+        "4 Chicken breasts (pounded thin)",
+        "1 cup Flour",
+        "2 Eggs (beaten)",
+        "1 cup Bread crumbs",
+        "1/4 cup Olive oil",
+        "Salt and pepper to taste",
+        "Lemon wedges for serving"
+      ],
+      "name": "Chicken Schnitzel",
+      "steps": [
+        "Season chicken with salt and pepper.",
+        "Dredge in flour, then egg, then bread crumbs.",
+        "Heat oil in a pan and cook chicken until golden and cooked through.",
+        "Serve with lemon wedges."
+      ]
+    },
+
+    
+    "sauerbraten": {
+      "country": "Germany",
+      "dish_category": "non-veg",
+      "dish_type": "stewed",
+      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/remaining%2023-2-25%20test%2FSauerbraten.jpg?alt=media&token=fe68a23d-228c-4aef-a1b3-431f8ec6447e",
+      "ingredients": [
+        "2 lb Beef roast",
+        "1 cup Red wine vinegar",
+        "1 cup Water",
+        "1 Onion (chopped)",
+        "2 Garlic cloves (minced)",
+        "2 Carrots (sliced)",
+        "2 Bay leaves",
+        "1 tbsp Brown sugar",
+        "1 tbsp Juniper berries",
+        "Salt and pepper to taste"
+      ],
+      "name": "Sauerbraten",
+      "steps": [
+        "Marinate beef in vinegar, water, onion, garlic, carrots, bay leaves, sugar, and juniper berries for 3 days.",
+        "Remove beef and brown in a pan.",
+        "Add marinade and simmer for 2 hours.",
+        "Season with salt and pepper before serving."
+      ]
+    },
+
+
+    "moussaka": {
+      "country": "Greece",
+      "dish_category": "non-veg",
+      "dish_type": "baked",
+      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/remaining%2023-2-25%20test%2FMoussaka.jpg?alt=media&token=27fdd904-e260-49f8-b54d-a6a6b36a5957",
+      "ingredients": [
+        "2 Eggplants (sliced and salted)",
+        "1 lb Ground lamb",
+        "1 Onion (chopped)",
+        "2 Garlic cloves (minced)",
+        "1 can Tomato sauce",
+        "1/2 cup Red wine",
+        "1/2 tsp Cinnamon",
+        "1/2 tsp Nutmeg",
+        "2 cups Bechamel sauce",
+        "Olive oil",
+        "Salt and pepper to taste"
+      ],
+      "name": "Moussaka",
+      "steps": [
+        "Fry eggplant slices in olive oil and set aside.",
+        "Cook lamb with onion and garlic, then add tomato sauce, wine, cinnamon, and nutmeg.",
+        "Layer eggplant and lamb mixture in a baking dish.",
+        "Top with bechamel sauce and bake at 350°F (175°C) for 45 minutes."
+      ]
+    },
+
+
+    "goulash": {
+      "country": "Hungary",
+      "dish_category": "non-veg",
+      "dish_type": "stewed",
+      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/remaining%2023-2-25%20test%2FGoulash.jpg?alt=media&token=b9b43463-a426-42ed-b391-734f29151856",
+      "ingredients": [
+        "1 lb Beef (cubed)",
+        "1 Onion (chopped)",
+        "2 Garlic cloves (minced)",
+        "1 Red bell pepper (diced)",
+        "1 cup Tomato sauce",
+        "2 cups Beef broth",
+        "1 tbsp Paprika",
+        "1 tbsp Caraway seeds",
+        "Salt and pepper to taste",
+        "2 tbsp Vegetable oil"
+      ],
+      "name": "Goulash",
+      "steps": [
+        "Heat oil and brown beef cubes.",
+        "Add onion, garlic, and bell pepper and cook until softened.",
+        "Stir in paprika and caraway seeds.",
+        "Add tomato sauce and beef broth.",
+        "Simmer for 1 hour until beef is tender.",
+        "Season with salt and pepper."
+      ]
+    },
+
+
+    "satay": {
+      "country": "Indonesia",
+      "dish_category": "non-veg",
+      "dish_type": "grilled",
+      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/remaining%2023-2-25%20test%2FSatay.jpg?alt=media&token=188eb755-ae8d-4977-ae20-14dd2b54b837",
+      "ingredients": [
+        "500g chicken or pork, sliced into strips",
+        "2 tablespoons soy sauce",
+        "2 tablespoons peanut butter",
+        "1 tablespoon sugar",
+        "1 tablespoon curry powder",
+        "1 tablespoon vegetable oil",
+        "wooden skewers, soaked in water"
+      ],
+      "name": "Satay",
+      "steps": [
+        "in a bowl, mix soy sauce, peanut butter, sugar, curry powder, and vegetable oil to make a marinade.",
+        "add the meat to the marinade and let it sit for at least 30 minutes.",
+        "thread the marinated meat onto the soaked skewers.",
+        "grill the skewers over medium heat until cooked through, about 5-7 minutes.",
+        "serve with peanut sauce for dipping."
+      ]
+    },
+
+
+    "ramen": {
+      "country": "Japan",
+      "dish_category": "non-veg",
+      "dish_type": "boiled",
+      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/remaining%2023-2-25%20test%2FRamen.jpg?alt=media&token=860eee10-8ba6-4bce-93b8-76239cb8ba34",
+      "ingredients": [
+        "4 cups Chicken broth",
+        "2 packs Ramen noodles",
+        "1 cup Sliced mushrooms",
+        "1 cup Spinach",
+        "2 Garlic cloves (minced)",
+        "1 tbsp Soy sauce",
+        "1 tbsp Miso paste",
+        "1 tbsp Sesame oil",
+        "1 Green onion (sliced)",
+        "1 Soft-boiled egg (for topping)",
+        "Nori sheets (for garnish)"
+      ],
+      "name": "Ramen",
+      "steps": [
+        "Heat sesame oil and cook garlic until fragrant.",
+        "Add broth, soy sauce, and miso paste.",
+        "Simmer for 10 minutes.",
+        "Add mushrooms and cook until tender.",
+        "Cook ramen noodles according to package instructions.",
+        "Divide noodles into bowls, pour broth over them, and top with spinach, green onion, egg, and nori."
+      ]
+    },
+
+
+    "sabaShioyaki": {
+      "country": "Japan",
+      "dish_category": "non-veg",
+      "dish_type": "grilled",
+      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/remaining%2023-2-25%20test%2FSaba%20Shioyaki.jpg?alt=media&token=624a8297-2e33-46da-be8e-08928caef80e",
+      "ingredients": [
+        "2 saba (mackerel) fillets",
+        "Salt",
+        "Lemon (for garnish)",
+        "Shredded daikon (for serving)"
+      ],
+      "name": "Saba Shioyaki",
+      "steps": [
+        "Sprinkle salt on the saba fillets and let sit for 15 minutes.",
+        "Preheat a grill or broiler.",
+        "Grill fillets skin-side down for about 5-7 minutes until cooked through.",
+        "Serve with lemon and shredded daikon."
+      ]
+    },
+
+
+    "tabbouleh": {
+      "country": "Lebanon",
+      "dish_category": "veg",
+      "dish_type": "raw",
+      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/remaining%2023-2-25%20test%2FTabbouleh.jpg?alt=media&token=14c6e7b7-1be7-4b1c-b36f-d40bf338deb4",
+      "ingredients": [
+        "1 cup Bulgur wheat",
+        "1 cup Parsley (chopped)",
+        "1/2 cup Mint (chopped)",
+        "1 Tomato (diced)",
+        "1 Cucumber (diced)",
+        "1/4 cup Lemon juice",
+        "1/4 cup Olive oil",
+        "Salt and pepper to taste"
+      ],
+      "name": "Tabbouleh",
+      "steps": [
+        "Soak bulgur in water until tender.",
+        "Mix with parsley, mint, tomato, and cucumber.",
+        "Add lemon juice, olive oil, salt, and pepper."
+      ]
+    },
+
+
+    "shawarma": {
+      "country": "Lebanon",
+      "dish_category": "non-veg",
+      "dish_type": "grilled",
+      "image": "https://firebasestorage.googleapis.com/v0/b/deliciousdiscoveries04.firebasestorage.app/o/remaining%2023-2-25%20test%2FShawarma.jpg?alt=media&token=6143e527-2584-40f5-ab94-84e65cdf6862",
+      "ingredients": [
+        "500g Chicken breast (sliced)",
+        "1/2 cup Yogurt",
+        "2 tbsp Shawarma spice mix",
+        "2 tbsp Lemon juice",
+        "2 Garlic cloves (minced)",
+        "1/4 cup Olive oil",
+        "Pita bread",
+        "Tahini sauce",
+        "Pickles and vegetables for garnish"
+      ],
+      "name": "Shawarma",
+      "steps": [
+        "Marinate chicken in yogurt, shawarma spice mix, lemon juice, garlic, and olive oil for at least 2 hours.",
+        "Grill or pan-fry chicken until fully cooked.",
+        "Serve in pita bread with tahini sauce, pickles, and vegetables."
+      ]
+    }
 
 
     }
-
 }

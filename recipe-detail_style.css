@@ -216,3 +216,9 @@ a:hover {
     margin-bottom: 15px;
     line-height: 1.8;
 }
+
+.download-button {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}

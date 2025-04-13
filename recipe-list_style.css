@@ -167,9 +167,10 @@ ul.recipe-list li:hover {
 #recipe-detail{
   margin-top: 300px;
 }
-/* Style for both dropdowns */
+/* Style for all dropdowns */
 select#dish-type-dropdown,
-select#veg-type-dropdown {
+select#veg-type-dropdown,
+select#meal-category-dropdown {
   position: relative; /* Position relative for absolute info box */
   margin-top: 10px;
   padding: 10px;
@@ -191,15 +192,18 @@ select#veg-type-dropdown {
 
 select#dish-type-dropdown:hover,
 select#veg-type-dropdown:hover,
+select#meal-category-dropdown:hover,
 select#dish-type-dropdown:focus,
-select#veg-type-dropdown:focus {
+select#veg-type-dropdown:focus,
+select#meal-category-dropdown:focus {
   border-color: #e67300; /* Darker orange on hover */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Slight shadow on hover */
   outline: none; /* Remove default focus outline */
 }
 
 select#dish-type-dropdown:focus,
-select#veg-type-dropdown:focus {
+select#veg-type-dropdown:focus,
+select#meal-category-dropdown:focus {
   box-shadow: 0 0 5px rgba(214, 100, 0, 0.5); /* Focus outline effect */
 }
 
