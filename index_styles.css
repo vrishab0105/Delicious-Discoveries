@@ -110,14 +110,27 @@ body, html {
  .image-container {
   flex: 1;
   position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .image-container img {
   width: 100%;
   height: 100%;
   object-fit: cover;
- 
-} 
+}
+
+.image-container .smaller-image {
+  max-width: 900px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.image-container .smaller-image:hover {
+  transform: scale(1.08);
+}
 
 .emoji {
   font-size: 1.2em;
