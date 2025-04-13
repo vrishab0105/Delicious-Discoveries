@@ -1,28 +1,26 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Country Recipe Search</title>
+    <link rel="stylesheet" href="navbar.css">
     <link rel="stylesheet" href="country-search_style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pirata+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <nav class="navbar">
-            <div id="name">
-                <img src="" alt="Logo" id="navbar-logo">
-                Delicious Discoveries
-            </div>
-            <div class="nav-center">
-                <a href="#" onclick="navigateTo('index.html')">Home</a>
-                <a href="#" onclick="navigateTo('about.html')">About</a>
-            </div>
-        </nav>
+        <!-- Navbar will be loaded here by include-navbar.js -->
     </header>
 
     <main>
-        <h1>Recipe Finder by Country</h1>
+        <div class="page-title">
+            <h1>Recipe Finder by Country</h1>
+            <p>Explore traditional dishes from around the world!</p>
+        </div>
+        
         <!-- Updated to have an empty container for dynamically generated buttons -->
         <section class="country-buttons">
             <!-- Country buttons will be dynamically generated here -->
@@ -39,6 +37,7 @@
         </section>
     </main>
 
+    <script src="include-navbar.js"></script>
     <script type="module" src="country-search_script.js"></script>
     <script src="navigation.js" type="module"></script>
 </body>

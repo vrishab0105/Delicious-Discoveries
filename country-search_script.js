@@ -1,5 +1,5 @@
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.13.1/firebase-app.js";
-import { getDatabase, ref, query, orderByChild, get } from "https://www.gstatic.com/firebasejs/10.13.1/firebase-database.js";
+import { getDatabase, ref, query, orderByChild, get, equalTo } from "https://www.gstatic.com/firebasejs/10.13.1/firebase-database.js";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
@@ -93,19 +93,19 @@ function displayCountryButtons(countries, container) {
         container.appendChild(button);
     });
 }
+
 async function loadRecipesByCountry(country) {
     const recipeList = document.getElementById('recipe-list');
-    recipeList.innerHTML = ''; // Clear previous results
+    recipeList.innerHTML = '<p>Loading recipes...</p>'; // Show loading message
 
     const dbRef = ref(db, 'recipes');
-    const countryQuery = query(dbRef, orderByChild('country'));
+    // Use equalTo to filter directly by country - this leverages your Firebase index
+    const countryQuery = query(dbRef, orderByChild('country'), equalTo(country));
 
     try {
         const snapshot = await get(countryQuery);
         if (snapshot.exists()) {
-            const recipes = Object.entries(snapshot.val()).filter(
-                ([, recipe]) => recipe.country === country
-            );
+            const recipes = Object.entries(snapshot.val());
 
             // Store recipes for filtering
             window.currentRecipes = recipes;
@@ -138,6 +138,7 @@ function displayRecipes(recipes) {
         recipeItem.className = 'recipe-item';
         recipeItem.innerHTML = `
             <h2>${recipe.name}</h2>
+            <p>${recipe.description || 'Experience the unique flavors of this traditional dish!'}</p>
             <a href="recipe-detail.html?recipeId=${encodeURIComponent(key)}" class="recipe-link">View Recipe</a>
         `;
         recipeList.appendChild(recipeItem);

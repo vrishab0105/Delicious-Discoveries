@@ -3,26 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Recipe App</title>
+    <title>Recipe List - Delicious Discoveries</title>
+    <link rel="stylesheet" href="navbar.css">
     <link rel="stylesheet" href="recipe-list_style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
 </head>
 <body>
 
     <header>
-        <nav class="navbar">
-            <div id="name">
-                <img src="" alt="Logo" id="navbar-logo">
-                Delicious Discoveries
-            </div>
-            <div class="nav-center">
-                <a href="#" onclick="navigateTo('index.html')">Home</a>
-                <a href="#" onclick="navigateTo('about.html')">About</a>
-            </div>
-        </nav>
     </header>
 
     <div class="container">
-        <h1>Recipe List</h1>
+        <h1>Recipe Collection</h1>
         <!-- Search Container -->
         <div id="search-container">
             <button id="search-dish-btn" class="btn">Search for a Dish</button>
@@ -61,6 +55,7 @@
         <ul class="recipe-list" id="recipe-list" style="display: none;"></ul> <!-- Hide list by default -->
     </div>
 
+    <script src="include-navbar.js"></script>
     <script src="recipe-list_script.js" type="module"></script>
     <script src="navigation.js" type="module"></script>
 </body>
