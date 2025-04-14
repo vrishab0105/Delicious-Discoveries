@@ -1,37 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Reverse Dish Search</title>
-    <link rel="stylesheet" href="navbar.css">
-    <link rel="stylesheet" href="reverse-image-search_style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Pirata+One&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reverse Dish Search</title>
+  <link rel="stylesheet" href="navbar.css">
+  <link rel="stylesheet" href="reverse-image-search_style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pirata+One&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <!-- Navbar will be loaded here by include-navbar.js -->
-    </header>
-      
-    <div class="container">
-        <h1>Reverse Image Search</h1>
-        <p>Upload a photo of a dish, and we'll identify it for you and find similar recipes!</p>
-        <div class="upload-container">
-            <input type="file" id="imageInput" accept="image/*">
-            <button id="searchButton">Identify Dish</button>
-        </div>
-        <div id="result" class="result">
-            <p>Upload an image to see the dish name</p>
-        </div>
-        <h2>Similar Recipes</h2>
-        <ul id="similarDishesList"></ul>
-    </div>
+  <!-- Google Translate Element (Language Functionality) -->
+  <div id="google_translate_element"></div>
+
+  <header>
+    <!-- Navbar will be loaded here by include-navbar.js -->
+  </header>
     
-    <script src="include-navbar.js"></script>
-    <script src="reverse-image-search_script.js" type="module"></script>
+  <div class="container">
+    <h1>Reverse Image Search</h1>
+    <p>Upload a photo of a dish, and we'll identify it for you and find similar recipes!</p>
+    <div class="upload-container">
+      <input type="file" id="imageInput" accept="image/*">
+      <button id="searchButton">Identify Dish</button>
+    </div>
+    <div id="result" class="result">
+      <p>Upload an image to see the dish name</p>
+    </div>
+    <h2>Similar Recipes</h2>
+    <ul id="similarDishesList"></ul>
+  </div>
+    
+  <script src="include-navbar.js"></script>
+  <script src="reverse-image-search_script.js" type="module"></script>
+
+  <!-- Google Translate Script -->
+  <script type="text/javascript">
+    function googleTranslateElementInit() {
+      new google.translate.TranslateElement({
+        pageLanguage: 'en',
+        includedLanguages: 'en,hi,mr,gu,ml,te,kn,pa,ta,ne',
+        layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+      }, 'google_translate_element');
+    }
+  </script>
+  <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 </body>
 </html>

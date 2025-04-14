@@ -1,40 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AI Recipe Assistant - Delicious Discoveries</title>
-    <link rel="stylesheet" href="navbar.css">
-    <link rel="stylesheet" href="ai-recipe_style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Pirata+One&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Recipe Assistant - Delicious Discoveries</title>
+  <link rel="stylesheet" href="navbar.css">
+  <link rel="stylesheet" href="ai-recipe_style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pirata+One&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <!-- Navbar will be loaded here by include-navbar.js -->
-    </header>
+  <!-- Google Translate Element (Language Functionality) -->
+  <div id="google_translate_element"></div>
+
+  <header>
+    <!-- Navbar will be loaded here by include-navbar.js -->
+  </header>
       
-    <div class="container">
-        <h1>AI Recipe Assistant</h1>
-        <div class="input-section">
-            <input type="text" id="dishInput" placeholder="Enter the name of a dish...">
-            <button id="getRecipeButton">Get Recipe</button>
-        </div>
-        <div id="loadingIndicator" class="loading-indicator hidden">
-            Generating recipe...
-        </div>
-        <div id="recipeResult" class="recipe-result"></div>
-        <div class="download-section hidden" id="downloadSection">
-            <button id="downloadButton" class="download-btn">Download Recipe as PDF</button>
-        </div>
+  <div class="container">
+    <h1>AI Recipe Assistant</h1>
+    <div class="input-section">
+      <input type="text" id="dishInput" placeholder="Enter the name of a dish...">
+      <button id="getRecipeButton">Get Recipe</button>
     </div>
+    <div id="loadingIndicator" class="loading-indicator hidden">
+      Generating recipe...
+    </div>
+    <div id="recipeResult" class="recipe-result"></div>
+    <div class="download-section hidden" id="downloadSection">
+      <button id="downloadButton" class="download-btn">Download Recipe as PDF</button>
+    </div>
+  </div>
     
-    <!-- Add jsPDF library -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
-    <script src="include-navbar.js"></script>
-    <script src="ai-recipe_script.js"></script>
+  <!-- Add jsPDF library -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  <script src="include-navbar.js"></script>
+  <script src="ai-recipe_script.js"></script>
+    
+  <!-- Google Translate Script -->
+  <script type="text/javascript">
+    function googleTranslateElementInit() {
+      new google.translate.TranslateElement({
+        pageLanguage: 'en',
+        includedLanguages: 'en,hi,mr,gu,ml,te,kn,pa,ta,ne',
+        layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+      }, 'google_translate_element');
+    }
+  </script>
+  <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 </body>
 </html>

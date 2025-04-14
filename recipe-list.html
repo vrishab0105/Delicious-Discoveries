@@ -1,62 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Recipe List - Delicious Discoveries</title>
-    <link rel="stylesheet" href="navbar.css">
-    <link rel="stylesheet" href="recipe-list_style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recipe List - Delicious Discoveries</title>
+  <link rel="stylesheet" href="navbar.css">
+  <link rel="stylesheet" href="recipe-list_style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
 </head>
 <body>
+  <!-- Google Translate Element (Language Functionality) -->
+  <div id="google_translate_element"></div>
 
-    <header>
-    </header>
+  <header>
+    <!-- Navbar will be loaded here by include-navbar.js -->
+  </header>
 
-    <div class="container">
-        <h1>Recipe Collection</h1>
-        <!-- Search Container -->
-        <div id="search-container">
-            <button id="search-dish-btn" class="btn">Search for a Dish</button>
-            <div id="search-input-container" style="display: none;">
-                <input type="text" id="search-term" placeholder="Enter dish name">
-                <button id="search-recipe-btn" class="btn">Search</button>
-            </div>
+  <div class="container">
+    <h1>Recipe Collection</h1>
+    <!-- Search Container -->
+    <div id="search-container">
+      <button id="search-dish-btn" class="btn">Search for a Dish</button>
+      <div id="search-input-container" style="display: none;">
+        <input type="text" id="search-term" placeholder="Enter dish name">
+        <button id="search-recipe-btn" class="btn">Search</button>
+      </div>
 
-           <!-- Dish Type Dropdown with info icon -->
-            <div class="dropdown-container">
-              <select id="dish-type-dropdown" style="display: none;"></select>
-              <i class="info-icon" id="dish-info">i</i>
-              <div class="info-box" id="dish-info-box">Select the type of dish based on its cooking method.(e.g., Fried, Boiled, Steamed, Raw, etc)</div>
-            </div>
+      <!-- Dish Type Dropdown with info icon -->
+      <div class="dropdown-container">
+        <select id="dish-type-dropdown" style="display: none;"></select>
+        <i class="info-icon" id="dish-info">i</i>
+        <div class="info-box" id="dish-info-box">Select the type of dish based on its cooking method.(e.g., Fried, Boiled, Steamed, Raw, etc)</div>
+      </div>
 
-            <!-- Veg Type Dropdown with info icon -->
-            <div class="dropdown-container">
-              <select id="veg-type-dropdown" style="display: none;">
-                  <option value="">None</option>
-                  <option value="veg">Veg</option>
-                  <option value="non-veg">Non-Veg</option>
-              </select>
-              <i class="info-icon" id="veg-info">i</i>
-              <div class="info-box" id="veg-info-box">Filter dishes by vegetarian or non-vegetarian category.</div>
-            </div>
+      <!-- Veg Type Dropdown with info icon -->
+      <div class="dropdown-container">
+        <select id="veg-type-dropdown" style="display: none;">
+          <option value="">None</option>
+          <option value="veg">Veg</option>
+          <option value="non-veg">Non-Veg</option>
+        </select>
+        <i class="info-icon" id="veg-info">i</i>
+        <div class="info-box" id="veg-info-box">Filter dishes by vegetarian or non-vegetarian category.</div>
+      </div>
 
-            <!-- Meal Category Dropdown with info icon -->
-            <div class="dropdown-container">
-              <select id="meal-category-dropdown" style="display: none;"></select>
-              <i class="info-icon" id="meal-info">i</i>
-              <div class="info-box" id="meal-info-box">Filter dishes by meal category (e.g., Breakfast, Lunch, Dinner, Dessert, etc).</div>
-            </div>
+      <!-- Meal Category Dropdown with info icon -->
+      <div class="dropdown-container">
+        <select id="meal-category-dropdown" style="display: none;"></select>
+        <i class="info-icon" id="meal-info">i</i>
+        <div class="info-box" id="meal-info-box">Filter dishes by meal category (e.g., Breakfast, Lunch, Dinner, Dessert, etc).</div>
+      </div>
 
-            <button id="show-all-btn" class="btn" style="display: none;">Show All Dishes</button>
-        </div>
-        <ul class="recipe-list" id="recipe-list" style="display: none;"></ul> <!-- Hide list by default -->
+      <button id="show-all-btn" class="btn" style="display: none;">Show All Dishes</button>
     </div>
+    <ul class="recipe-list" id="recipe-list" style="display: none;"></ul> <!-- Hide list by default -->
+  </div>
 
-    <script src="include-navbar.js"></script>
-    <script src="recipe-list_script.js" type="module"></script>
-    <script src="navigation.js" type="module"></script>
+  <script src="include-navbar.js"></script>
+  <script src="recipe-list_script.js" type="module"></script>
+  <script src="navigation.js" type="module"></script>
+
+  <!-- Google Translate Script -->
+  <script type="text/javascript">
+    function googleTranslateElementInit() {
+      new google.translate.TranslateElement({
+        pageLanguage: 'en',
+        includedLanguages: 'en,hi,mr,gu,ml,te,kn,pa,ta,ne',
+        layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+      }, 'google_translate_element');
+    }
+  </script>
+  <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 </body>
 </html>
