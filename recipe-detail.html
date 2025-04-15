@@ -29,5 +29,19 @@
     <script type="module" src="recipe-detail_script.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+
+    <!-- Navigation function -->
+    <script>
+        function navigateTo(page) {
+            window.location.href = page;
+        }
+
+        // Example function to download PDF
+        function downloadPDF() {
+            const doc = new jsPDF();
+            doc.text('Recipe Details', 10, 10);
+            doc.save('recipe-detail.pdf');
+        }
+    </script>
 </body>
 </html>
