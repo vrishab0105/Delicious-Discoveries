@@ -14,9 +14,6 @@
 </head>
 <body>
 
-  <!-- Google Translate Element (positioned by navbar.css) -->
-  <div id="google_translate_element"></div>
-
   <!-- Header for navbar -->
   <header>
     <!-- Navbar will be loaded here by include-navbar.js -->
@@ -108,18 +105,5 @@
   <script src="include-navbar.js"></script>
   <script src="navigation.js" type="module"></script>
   <script src="index_script.js" type="module"></script>
-
-  <!-- Google Translate Script -->
-  <script type="text/javascript">
-    function googleTranslateElementInit() {
-      new google.translate.TranslateElement({
-        pageLanguage: 'en',
-        includedLanguages: 'en,hi,mr,gu,ml,te,kn,pa,ta,ne',
-        layout: google.translate.TranslateElement.InlineLayout.SIMPLE
-      }, 'google_translate_element');
-    }
-  </script>
-  <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-
 </body>
 </html>
