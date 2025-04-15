@@ -129,5 +129,32 @@ body {
   font-size: 14px;
 }
 
+/* Handle Google Translate bar appearance */
+header, .navbar {
+  transition: top 0.3s ease;
+}
+
+body.translate-active header,
+body.translate-active .navbar {
+  top: 40px; /* Move down when translate bar is active */
+}
+
+body.translate-active {
+  padding-top: 110px; /* Increased padding to accommodate for translate bar */
+}
+
+body:not(.translate-active) header,
+body:not(.translate-active) .navbar {
+  top: 0;
+}
+
+body:not(.translate-active) {
+  padding-top: 70px;
+}
+
+/* Hide Google's top bar that appears after translation */
+.goog-te-banner-frame.skiptranslate {
+  display: none !important;
+}
 
 /* end of CSS added by Ganesh */
