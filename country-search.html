@@ -1,59 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Country Recipe Search</title>
-  <link rel="stylesheet" href="navbar.css">
-  <link rel="stylesheet" href="country-search_style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Pirata+One&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Country Recipe Search</title>
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="country-search_style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pirata+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
 </head>
 <body>
-  <!-- Google Translate Element (Language Functionality) -->
-  <div id="google_translate_element"></div>
+    <header>
+        <!-- Navbar will be loaded here by include-navbar.js -->
+    </header>
 
-  <header>
-    <!-- Navbar will be loaded here by include-navbar.js -->
-  </header>
+    <main>
+        <div class="page-title">
+            <h1>Recipe Finder by Country</h1>
+            <p>Explore traditional dishes from around the world!</p>
+        </div>
+        
+        <!-- Updated to have an empty container for dynamically generated buttons -->
+        <section class="country-buttons">
+            <!-- Country buttons will be dynamically generated here -->
+        </section>
 
-  <main>
-    <div class="page-title">
-      <h1>Recipe Finder by Country</h1>
-      <p>Explore traditional dishes from around the world!</p>
-    </div>
-    
-    <!-- Updated to have an empty container for dynamically generated buttons -->
-    <section class="country-buttons">
-      <!-- Country buttons will be dynamically generated here -->
-    </section>
+        <section id="search-container" style="display: none;">
+            <input type="text" id="search-term" placeholder="Enter dish name">
+            <button id="search-recipe-btn">Search for a Dish</button>
+            <button id="show-all-btn">Show All Dishes</button>
+        </section>
 
-    <section id="search-container" style="display: none;">
-      <input type="text" id="search-term" placeholder="Enter dish name">
-      <button id="search-recipe-btn">Search for a Dish</button>
-      <button id="show-all-btn">Show All Dishes</button>
-    </section>
+        <section id="recipe-list">
+            <!-- Recipe list will be populated here -->
+        </section>
+    </main>
 
-    <section id="recipe-list">
-      <!-- Recipe list will be populated here -->
-    </section>
-  </main>
-
-  <script src="include-navbar.js"></script>
-  <script type="module" src="country-search_script.js"></script>
-  <script src="navigation.js" type="module"></script>
-
-  <!-- Google Translate Script -->
-  <script type="text/javascript">
-    function googleTranslateElementInit() {
-      new google.translate.TranslateElement({
-        pageLanguage: 'en',
-        includedLanguages: 'en,hi,mr,gu,ml,te,kn,pa,ta,ne',
-        layout: google.translate.TranslateElement.InlineLayout.SIMPLE
-      }, 'google_translate_element');
-    }
-  </script>
-  <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script src="include-navbar.js"></script>
+    <script type="module" src="country-search_script.js"></script>
+    <script src="navigation.js" type="module"></script>
 </body>
 </html>

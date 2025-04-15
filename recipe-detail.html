@@ -1,62 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Recipe Detail</title>
-  <link rel="stylesheet" href="navbar.css">
-  <link rel="stylesheet" href="recipe-detail_style.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Pirata+One&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Detail</title>
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="recipe-detail_style.css">
+    <link rel="stylesheet" href="navbar.css"> <!-- Including the navbar.css file -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pirata+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
 </head>
 <body>
-  <!-- Google Translate Element (Language Functionality) -->
-  <div id="google_translate_element"></div>
-
-  <header>
-    <!-- Navbar will be loaded here by include-navbar.js -->
-  </header>
-
-  <div class="container" id="recipe-detail">
-    <h1>Recipe Detail</h1>
-    <div id="recipe-content">
-      <!-- Recipe details will be injected here -->
+    <header>
+        <!-- Navbar will be loaded here by include-navbar.js -->
+    </header>
+    
+    <div class="container" id="recipe-detail">
+        <h1>Recipe Detail</h1>
+        <div id="recipe-content">
+            <!-- Recipe details will be injected here -->
+        </div>
+        <button onclick="downloadPDF()" class="button download-button">Download PDF</button>
     </div>
-    <button onclick="downloadPDF()" class="button download-button">Download PDF</button>
-  </div>
+    
+    <script src="include-navbar.js"></script>
+    <script type="module" src="recipe-detail_script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
 
-  <script src="include-navbar.js"></script>
-  <script type="module" src="recipe-detail_script.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <!-- Google Translate Script -->
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'en',
+                includedLanguages: 'en,hi,mr,gu,ml,te,kn,pa,ta,ne',
+                layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+            }, 'google_translate_element');
+        }
+    </script>
+    <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
-  <!-- Google Translate Script -->
-  <script type="text/javascript">
-    function googleTranslateElementInit() {
-      new google.translate.TranslateElement({
-        pageLanguage: 'en',
-        includedLanguages: 'en,hi,mr,gu,ml,te,kn,pa,ta,ne',
-        layout: google.translate.TranslateElement.InlineLayout.SIMPLE
-      }, 'google_translate_element');
-    }
-  </script>
-  <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <!-- Navigation function -->
+    <script>
+        function navigateTo(page) {
+            window.location.href = page;
+        }
 
-  <!-- Navigation function and PDF Download script -->
-  <script>
-    function navigateTo(page) {
-      window.location.href = page;
-    }
-
-    // Example function to download PDF
-    function downloadPDF() {
-      const doc = new jsPDF();
-      doc.text('Recipe Details', 10, 10);
-      doc.save('recipe-detail.pdf');
-    }
-  </script>
+        // Example function to download PDF
+        function downloadPDF() {
+            const doc = new jsPDF();
+            doc.text('Recipe Details', 10, 10);
+            doc.save('recipe-detail.pdf');
+        }
+    </script>
 </body>
 </html>
