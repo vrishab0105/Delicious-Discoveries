@@ -27,8 +27,8 @@ document.addEventListener('DOMContentLoaded', function () {
     const loginPage = document.getElementById('login-page');
 
     // Hardcoded credentials
-    const username = "Recipe";
-    const password = "Admin";
+    const username = "u";
+    const password = "p";
 
     // Handle login form submission
     loginForm.addEventListener('submit', (event) => {
