@@ -158,19 +158,22 @@ ul.recipe-list li:hover {
   background-color: rgba(0, 0, 0, 0.8);
   justify-content: center;
   align-items: center;
+  overflow-y: auto; /* Enable scrolling if needed */
 }
 
 .add-recipe-content {
   background-color: #fff;
-  margin: 20px;
-  padding: 40px;
+  margin: 20px auto;
+  padding: 40px 40px 70px 40px; /* Increased bottom padding to ensure space for buttons */
   width: 90%;
   max-width: 600px;
+  max-height: 80vh; /* Limit maximum height */
   border-radius: 12px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
   text-align: left;
   animation: fadeIn 0.3s ease;
   position: relative;
+  overflow-y: auto; /* Enable scrolling within the modal */
 }
 
 .add-recipe-content h2 {
@@ -211,7 +214,11 @@ ul.recipe-list li:hover {
 .btn-group {
   display: flex;
   justify-content: space-between;
-  margin-top: 10px;
+  margin-top: 20px;
+  position: sticky; /* Make button group stick to bottom */
+  bottom: 10px;
+  background-color: #fff; /* Match the modal background */
+  padding-top: 10px;
 }
 
 .btn-group button {
@@ -272,23 +279,49 @@ ul.recipe-list li:hover {
   
   .add-recipe-content {
     width: 95%;
-    padding: 25px;
+    padding: 25px 25px 80px 25px; /* Increased bottom padding for mobile */
+    margin: 10px auto;
+    max-height: 85vh; /* Slightly larger for mobile */
   }
-
-  .add-recipe-content h2 {
-    font-size: 24px;
-  }
-
+  
   .btn-group {
     flex-direction: column;
+    position: sticky;
+    bottom: 10px;
+    z-index: 10;
   }
   
   .btn-group button {
     margin: 5px 0;
+    padding: 15px; /* Larger touch target */
   }
   
   .login-content {
     width: 90%;
     max-width: 350px;
+  }
+}
+
+/* Add media query for extra small screens */
+@media (max-height: 600px) {
+  .add-recipe-content {
+    max-height: 90vh;
+    padding: 20px 20px 70px 20px;
+    margin: 5px auto;
+  }
+  
+  .add-recipe-content h2 {
+    font-size: 22px;
+    margin-bottom: 15px;
+  }
+  
+  .add-recipe-content label {
+    margin-bottom: 5px;
+  }
+  
+  .add-recipe-content input,
+  .add-recipe-content textarea {
+    margin-bottom: 12px;
+    padding: 8px;
   }
 }
