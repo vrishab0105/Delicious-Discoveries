@@ -110,6 +110,69 @@ ul.recipe-list li:hover {
   background-color: rgba(0, 0, 0, 0.8);
 }
 
+/* Info icon and box styles */
+.info-icon {
+  display: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #057464;
+  color: white;
+  text-align: center;
+  line-height: 20px;
+  font-style: normal;
+  font-weight: bold;
+  cursor: pointer;
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+.info-box {
+  display: none; /* Hide by default */
+  position: absolute;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 15px;
+  z-index: 100;
+  width: 250px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  font-size: 14px;
+  top: 0;
+  left: 100%;
+  margin-left: 10px;
+}
+
+.dropdown-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+/* Show info boxes when they have the active class */
+.info-box.active {
+  display: block;
+}
+
+/* Style for dropdowns */
+select#dish-type-dropdown,
+select#veg-type-dropdown,
+select#meal-category-dropdown {
+  display: none;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  background-color: white;
+  width: 200px;
+  font-size: 16px;
+  margin-right: 10px;
+  appearance: none;
+  background-image: url('data:image/svg+xml;utf8,<svg fill="black" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z"/><path d="M0 0h24v24H0z" fill="none"/></svg>');
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
   .container {

@@ -299,27 +299,62 @@ document.addEventListener('DOMContentLoaded', async function () {
         filterRecipes();
     });
 
-    // Hover effect for dish info icon
-    dishInfoIcon.addEventListener('mouseover', () => {
-        dishInfoBox.style.display = 'block';
-    });
-    dishInfoIcon.addEventListener('mouseout', () => {
-        dishInfoBox.style.display = 'none';
+    // Click event for dish info icon - replace hover events with click toggle
+    dishInfoIcon.addEventListener('click', () => {
+        // Close other info boxes first
+        dishInfoBox.classList.toggle('active');
+        vegInfoBox.classList.remove('active');
+        mealInfoBox.classList.remove('active');
     });
 
-    // Hover effect for veg info icon
-    vegInfoIcon.addEventListener('mouseover', () => {
-        vegInfoBox.style.display = 'block';
-    });
-    vegInfoIcon.addEventListener('mouseout', () => {
-        vegInfoBox.style.display = 'none';
+    // Click event for veg info icon
+    vegInfoIcon.addEventListener('click', () => {
+        // Close other info boxes first
+        vegInfoBox.classList.toggle('active');
+        dishInfoBox.classList.remove('active');
+        mealInfoBox.classList.remove('active');
     });
     
-    // Hover effect for meal info icon
-    mealInfoIcon.addEventListener('mouseover', () => {
-        mealInfoBox.style.display = 'block';
+    // Click event for meal info icon
+    mealInfoIcon.addEventListener('click', () => {
+        // Close other info boxes first
+        mealInfoBox.classList.toggle('active');
+        dishInfoBox.classList.remove('active');
+        vegInfoBox.classList.remove('active');
     });
-    mealInfoIcon.addEventListener('mouseout', () => {
-        mealInfoBox.style.display = 'none';
+    
+    // Close info boxes when clicking elsewhere on the document
+    document.addEventListener('click', (event) => {
+        if (!event.target.classList.contains('info-icon')) {
+            dishInfoBox.classList.remove('active');
+            vegInfoBox.classList.remove('active');
+            mealInfoBox.classList.remove('active');
+        }
+    });
+    
+    // Stop propagation to prevent document click from closing the box when clicking the box itself
+    dishInfoBox.addEventListener('click', (event) => {
+        event.stopPropagation();
+    });
+    
+    vegInfoBox.addEventListener('click', (event) => {
+        event.stopPropagation();
+    });
+    
+    mealInfoBox.addEventListener('click', (event) => {
+        event.stopPropagation();
+    });
+
+    // Also stop propagation on info icon clicks to prevent immediate closure
+    dishInfoIcon.addEventListener('click', (event) => {
+        event.stopPropagation();
+    });
+    
+    vegInfoIcon.addEventListener('click', (event) => {
+        event.stopPropagation();
+    });
+    
+    mealInfoIcon.addEventListener('click', (event) => {
+        event.stopPropagation();
     });
 });
