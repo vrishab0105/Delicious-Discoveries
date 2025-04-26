@@ -186,6 +186,9 @@ document.addEventListener('DOMContentLoaded', async function () {
     const vegInfoBox = document.getElementById('veg-info-box');
     const mealInfoIcon = document.getElementById('meal-info');
     const mealInfoBox = document.getElementById('meal-info-box');
+    
+    // Add compact layout class initially since filters are hidden by default
+    document.querySelector('.container').classList.add('compact-layout');
 
     // Show search input and dropdowns when clicking the search button
     searchButton.addEventListener('click', () => {
@@ -198,6 +201,8 @@ document.addEventListener('DOMContentLoaded', async function () {
         dishInfoIcon.style.display = 'block';
         vegInfoIcon.style.display = 'block';
         mealInfoIcon.style.display = 'block'; // Show meal info icon
+        // Remove compact layout class when showing filters
+        document.querySelector('.container').classList.remove('compact-layout');
     });
 
     // Show all recipes and hide search input
@@ -211,6 +216,8 @@ document.addEventListener('DOMContentLoaded', async function () {
         dishInfoIcon.style.display = 'none';
         vegInfoIcon.style.display = 'none';
         mealInfoIcon.style.display = 'none'; // Hide meal info icon
+        // Add compact layout class when hiding filters
+        document.querySelector('.container').classList.add('compact-layout');
         fetchAllRecipes();
     });
 

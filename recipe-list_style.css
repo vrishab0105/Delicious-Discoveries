@@ -41,6 +41,17 @@ body {
   align-items: center;
 }
 
+/* Compact layout when filters are hidden */
+.compact-layout #search-container {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  gap: 10px;
+}
+
+.compact-layout #recipe-list {
+  margin-top: 10px;
+}
+
 /* Button Styles */
 .btn {
   padding: 12px 24px;
