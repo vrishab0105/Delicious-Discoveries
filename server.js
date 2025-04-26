@@ -68,6 +68,31 @@ app.get('/api/config', (req, res) => {
   }
 });
 
+// API endpoint to serve OpenAI API key
+app.get('/api/openai-key', (req, res) => {
+  try {
+    console.log('OpenAI API key endpoint accessed');
+    
+    if (!process.env.OPENAI_API_KEY) {
+      console.error('Missing OPENAI_API_KEY environment variable');
+      return res.status(500).json({ 
+        error: 'Server configuration error',
+        message: 'Missing OpenAI API key configuration'
+      });
+    }
+    
+    // Set CORS headers for API endpoint
+    res.setHeader('Access-Control-Allow-Origin', '*');
+    res.setHeader('Access-Control-Allow-Methods', 'GET,OPTIONS');
+    res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
+    
+    res.json({ apiKey: process.env.OPENAI_API_KEY });
+  } catch (error) {
+    console.error('Error serving OpenAI API key:', error);
+    res.status(500).json({ error: 'Failed to retrieve OpenAI API key' });
+  }
+});
+
 // Serve HTML files
 app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname, 'index.html'));

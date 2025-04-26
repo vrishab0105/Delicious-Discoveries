@@ -2,15 +2,19 @@ let OPENAI_API_KEY;
 
 async function loadApiKey() {
     try {
-        const response = await fetch('key.json');
+        const response = await fetch('/api/openai-key');
         if (!response.ok) {
-            throw new Error('API key file not found');
+            throw new Error(`HTTP error! status: ${response.status}`);
         }
-        const config = await response.json();
-        OPENAI_API_KEY = config.OPENAI_API_KEY;
+        const data = await response.json();
+        OPENAI_API_KEY = data.apiKey;
+        
+        if (!OPENAI_API_KEY) {
+            throw new Error('API key not found in server response');
+        }
     } catch (error) {
         console.error('Error loading API key:', error);
-        document.getElementById('recipeResult').innerText = 'Error: Could not load API key';
+        document.getElementById('recipeResult').innerText = 'Error: Could not load API key from server';
     }
 }
 
