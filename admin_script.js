@@ -1,48 +1,99 @@
 // Import Firebase functions you need
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.13.2/firebase-app.js";
-import { getDatabase, ref, onValue, set } from "https://www.gstatic.com/firebasejs/10.13.2/firebase-database.js";
+import { getDatabase, ref, onValue, set, get } from "https://www.gstatic.com/firebasejs/10.13.2/firebase-database.js";
 import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.13.2/firebase-analytics.js";
 
-// Your web app's Firebase configuration
-const firebaseConfig = {
-    apiKey: "AIzaSyASQtEDg7g5koc-H-d6W1kGcW0k-vE-TSY",
-    authDomain: "deliciousdiscoveries04.firebaseapp.com",
-    projectId: "deliciousdiscoveries04",
-    storageBucket: "deliciousdiscoveries04.appspot.com",
-    messagingSenderId: "699923003257",
-    appId: "1:699923003257:web:e2800b973a35db246ee1a8",
-    measurementId: "G-BDWV430X2H",
-    databaseURL: "https://deliciousdiscoveries04.firebaseio.com"
-};
+let app;
+let database;
+let analytics;
 
-// Initialize Firebase
-const app = initializeApp(firebaseConfig);
-const analytics = getAnalytics(app);
-const database = getDatabase(app);
+// Function to initialize Firebase
+async function initializeFirebase() {
+    try {
+        // Always use absolute path for API endpoint
+        const configEndpoint = '/api/config';
+        console.log('Fetching Firebase config from:', configEndpoint);
+        
+        const response = await fetch(configEndpoint);
+        
+        if (!response.ok) {
+            throw new Error(`HTTP error! Status: ${response.status}`);
+        }
+        
+        const data = await response.json();
+        
+        if (!data || !data.firebaseConfig) {
+            throw new Error('Invalid configuration received from server');
+        }
+        
+        console.log('Firebase config received successfully');
+        
+        // Initialize Firebase with the config from server
+        app = initializeApp(data.firebaseConfig);
+        database = getDatabase(app);
+        analytics = getAnalytics(app);
+        console.log('Firebase initialized successfully');
+        return true; // Return true to indicate successful initialization
+    } catch (error) {
+        console.error('Error fetching Firebase config:', error);
+        return false; // Return false to indicate failed initialization
+    }
+}
 
 // Handle login functionality
-document.addEventListener('DOMContentLoaded', function () {
+document.addEventListener('DOMContentLoaded', async function () {
     const loginForm = document.getElementById('login-form');
     const mainContent = document.getElementById('main-content');
     const loginPage = document.getElementById('login-page');
-
-    // Hardcoded credentials
-    const username = "u";
-    const password = "p";
+    
+    // Initialize Firebase before login to enable credential checking
+    const initialized = await initializeFirebase();
+    
+    if (!initialized) {
+        // Show error message if Firebase initialization fails
+        const loginContent = document.querySelector('.login-content');
+        const errorMsg = document.createElement('div');
+        errorMsg.textContent = 'Authentication service unavailable. Please try again later.';
+        errorMsg.style.color = 'red';
+        errorMsg.style.marginTop = '10px';
+        loginContent.appendChild(errorMsg);
+        return;
+    }
 
     // Handle login form submission
-    loginForm.addEventListener('submit', (event) => {
+    loginForm.addEventListener('submit', async (event) => {
         event.preventDefault();
         const enteredUsername = document.getElementById('username').value;
         const enteredPassword = document.getElementById('password').value;
-
-        // Check credentials
-        if (enteredUsername === username && enteredPassword === password) {
-            loginPage.style.display = 'none'; // Hide login page
-            mainContent.style.display = 'block'; // Show main content
-            loadRecipes(); // Call function to load recipes
-        } else {
-            alert('Incorrect username or password. Please try again.');
+        
+        try {
+            // Reference to the users node in Firebase
+            const usersRef = ref(database, 'users');
+            const snapshot = await get(usersRef);
+            
+            if (!snapshot.exists()) {
+                alert('User authentication system is not configured. Please contact the administrator.');
+                return;
+            }
+            
+            const users = snapshot.val();
+            let isAuthenticated = false;
+            
+            // Check if the entered username exists and password matches
+            if (users[enteredUsername] && users[enteredUsername].password === enteredPassword) {
+                isAuthenticated = true;
+            }
+            
+            if (isAuthenticated) {
+                loginPage.style.display = 'none'; // Hide login page
+                mainContent.style.display = 'block'; // Show main content
+                loadRecipes(); // Call function to load recipes
+            } else {
+                alert('Incorrect username or password. Please try again.');
+            }
+        } catch (error) {
+            console.error('Authentication error:', error);
+            alert('Authentication failed. Please try again later.');
         }
     });
 
