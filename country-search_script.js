@@ -1,22 +1,56 @@
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.13.1/firebase-app.js";
 import { getDatabase, ref, query, orderByChild, get, equalTo } from "https://www.gstatic.com/firebasejs/10.13.1/firebase-database.js";
 
-// Your web app's Firebase configuration
-const firebaseConfig = {
-   apiKey: "AIzaSyASQtEDg7g5koc-H-d6W1kGcW0k-vE-TSY",
-   authDomain: "deliciousdiscoveries04.firebaseapp.com",
-   projectId: "deliciousdiscoveries04",
-   storageBucket: "deliciousdiscoveries04.appspot.com",
-   messagingSenderId: "699923003257",
-   appId: "1:699923003257:web:e2800b973a35db246ee1a8",
-   measurementId: "G-BDWV430X2H",
-   databaseURL: "https://deliciousdiscoveries04.firebaseio.com"
-};
+let app;
+let db;
 
-initializeApp(firebaseConfig);
-const db = getDatabase();
+// Function to initialize Firebase
+async function initializeFirebase() {
+    try {
+        // Always use absolute path for API endpoint
+        const configEndpoint = '/api/config';
+        console.log('Fetching Firebase config from:', configEndpoint);
+        
+        const response = await fetch(configEndpoint);
+        
+        if (!response.ok) {
+            throw new Error(`HTTP error! Status: ${response.status}`);
+        }
+        
+        const data = await response.json();
+        
+        if (!data || !data.firebaseConfig) {
+            throw new Error('Invalid configuration received from server');
+        }
+        
+        console.log('Firebase config received successfully');
+        
+        // Initialize Firebase with the config from server
+        app = initializeApp(data.firebaseConfig);
+        db = getDatabase(app);
+        console.log('Firebase initialized successfully');
+        return true; // Return true to indicate successful initialization
+    } catch (error) {
+        console.error('Error fetching Firebase config:', error);
+        return false; // Return false to indicate failed initialization
+    }
+}
 
 document.addEventListener('DOMContentLoaded', async () => {
+    // Initialize Firebase first
+    const initialized = await initializeFirebase();
+    if (!initialized) {
+        console.error("Firebase initialization failed. Country search functionality will not work.");
+        // Display an error message to the user
+        const countryButtonsContainer = document.querySelector('.country-buttons');
+        const recipeList = document.getElementById('recipe-list');
+        if (countryButtonsContainer && recipeList) {
+            countryButtonsContainer.innerHTML = '<p class="error-message">Country data is currently unavailable.</p>';
+            recipeList.innerHTML = '<p class="error-message">Recipe data is currently unavailable. Please try again later.</p>';
+        }
+        return;
+    }
+    
     const countryButtonsContainer = document.querySelector('.country-buttons');
     const searchContainer = document.getElementById('search-container');
     const recipeList = document.getElementById('recipe-list');

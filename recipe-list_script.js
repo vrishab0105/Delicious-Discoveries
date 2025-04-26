@@ -3,22 +3,42 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/10.13.2/fireba
 import { getDatabase, ref, onValue, query, orderByChild, equalTo, get, child } from "https://www.gstatic.com/firebasejs/10.13.2/firebase-database.js";
 import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.13.2/firebase-analytics.js";
 
-// Your web app's Firebase configuration
-const firebaseConfig = {
-    apiKey: "AIzaSyASQtEDg7g5koc-H-d6W1kGcW0k-vE-TSY",
-    authDomain: "deliciousdiscoveries04.firebaseapp.com",
-    projectId: "deliciousdiscoveries04",
-    storageBucket: "deliciousdiscoveries04.appspot.com",
-    messagingSenderId: "699923003257",
-    appId: "1:699923003257:web:e2800b973a35db246ee1a8",
-    measurementId: "G-BDWV430X2H",
-    databaseURL: "https://deliciousdiscoveries04.firebaseio.com"
-};
+let app;
+let database;
+let analytics;
 
-// Initialize Firebase
-const app = initializeApp(firebaseConfig);
-const analytics = getAnalytics(app);
-const database = getDatabase(app);
+// Function to initialize Firebase
+async function initializeFirebase() {
+    try {
+        // Always use absolute path for API endpoint
+        const configEndpoint = '/api/config';
+        console.log('Fetching Firebase config from:', configEndpoint);
+        
+        const response = await fetch(configEndpoint);
+        
+        if (!response.ok) {
+            throw new Error(`HTTP error! Status: ${response.status}`);
+        }
+        
+        const data = await response.json();
+        
+        if (!data || !data.firebaseConfig) {
+            throw new Error('Invalid configuration received from server');
+        }
+        
+        console.log('Firebase config received successfully');
+        
+        // Initialize Firebase with the config from server
+        app = initializeApp(data.firebaseConfig);
+        database = getDatabase(app);
+        analytics = getAnalytics(app);
+        console.log('Firebase initialized successfully');
+        return true; // Return true to indicate successful initialization
+    } catch (error) {
+        console.error('Error fetching Firebase config:', error);
+        return false; // Return false to indicate failed initialization
+    }
+}
 
 // Function to display recipes
 function displayRecipes(recipes) {
@@ -134,10 +154,22 @@ function populateMealCategoryDropdown(mealCategories) {
     });
 }
 
-// Initial fetch of all recipes
-fetchAllRecipes();
+document.addEventListener('DOMContentLoaded', async function () {
+    // Initialize Firebase first
+    const initialized = await initializeFirebase();
+    if (!initialized) {
+        console.error("Firebase initialization failed. Recipe list functionality will not work.");
+        // Display an error message to the user
+        const recipeList = document.getElementById('recipe-list');
+        if (recipeList) {
+            recipeList.innerHTML = '<p class="error-message">Recipe data is currently unavailable. Please try again later.</p>';
+        }
+        return;
+    }
 
-document.addEventListener('DOMContentLoaded', function () {
+    // Initial fetch of all recipes
+    fetchAllRecipes();
+    
     const searchButton = document.getElementById('search-dish-btn');
     const showAllButton = document.getElementById('show-all-btn');
     const searchInputContainer = document.getElementById('search-input-container');
