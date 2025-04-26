@@ -26,6 +26,15 @@ header {
   box-sizing: border-box; /* Ensures padding is included in height */
 }
 
+/* Add brand link styling */
+.brand-link {
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
 #name {
   font-size: 20px;
   font-weight: bold;
@@ -193,11 +202,12 @@ body:not(.translate-active) {
     width: 100%;
     background: linear-gradient(180deg, #87a1cc 0%, #a8c0e6 100%);
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center; /* Changed from flex-start to center */
     transform: translateX(-100%);
     transition: transform 0.3s ease;
     z-index: 990;
-    padding-top: 20px;
+    padding-top: 0; /* Removed top padding */
+    gap: 20px; /* Added gap between navigation items */
   }
   
   body.translate-active .nav-center {
@@ -210,27 +220,27 @@ body:not(.translate-active) {
   }
   
   .nav-center a {
-    margin: 8px 0; /* Reduced from 15px to 8px for closer spacing */
+    margin: 5px 0; /* Reduced margin for tighter spacing */
     width: 80%;
-    padding: 12px 0; /* Slightly reduced padding */
+    padding: 12px 0;
     justify-content: center;
-    font-size: 18px; /* Keeping consistent font size */
+    font-size: 18px;
   }
   
   .nav-center a::after {
     bottom: 5px;
   }
   
-  /* Add a subtle visual separation between menu items */
+  /* Removed the border between menu items for cleaner look */
   .nav-center a:not(:last-child) {
-    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
-    padding-bottom: 15px;
+    border-bottom: none; /* Removed the separator */
+    padding-bottom: 5px; /* Reduced padding */
   }
   
   /* Better positioning for mobile menu items */
   .nav-center {
-    align-items: center; /* Center items horizontally */
-    padding-top: 40px; /* Give more space at the top */
+    align-items: center;
+    padding-top: 0; /* Removed extra spacing at top */
   }
   
   #google_translate_element {

@@ -41,6 +41,17 @@ body {
   align-items: center;
 }
 
+/* Compact layout when filters are hidden */
+.compact-layout #search-container {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  gap: 10px;
+}
+
+.compact-layout #recipe-list {
+  margin-top: 10px;
+}
+
 /* Button Styles */
 .btn {
   padding: 12px 24px;
@@ -125,6 +136,7 @@ ul.recipe-list li:hover {
   cursor: pointer;
   margin-left: 10px;
   font-size: 14px;
+  flex-shrink: 0; /* Prevent icon from shrinking on mobile */
 }
 
 .info-box {
@@ -148,6 +160,7 @@ ul.recipe-list li:hover {
   display: flex;
   align-items: center;
   margin-bottom: 15px;
+  flex-wrap: nowrap; /* Prevent wrapping on small screens */
 }
 
 /* Show info boxes when they have the active class */
@@ -183,8 +196,10 @@ select#meal-category-dropdown {
   
   .info-box {
     right: 0;
+    left: auto; /* Override default left positioning */
     top: 30px;
-    width: 100%;
+    width: calc(100% - 20px); /* Slightly narrower than container */
+    max-width: 280px; /* Maximum width on mobile */
   }
   
   select#dish-type-dropdown,
@@ -238,26 +253,38 @@ select#meal-category-dropdown {
   }
   
   .info-icon {
-    width: 16px;
-    height: 16px;
-    line-height: 16px;
-    font-size: 12px;
+    width: 24px; /* Increase size on mobile */
+    height: 24px;
+    line-height: 24px;
+    font-size: 14px;
+    margin-left: 8px;
+    display: flex; /* Use flexbox for better alignment */
+    align-items: center;
+    justify-content: center;
   }
   
   .info-box {
     padding: 10px;
     font-size: 12px;
-    width: 180px;
+    width: calc(100% - 20px);
+    max-width: 250px;
+    left: auto;
+    right: 0;
+    position: absolute;
   }
   
-  /* Stack the dropdown containers vertically */
-  #search-container {
-    gap: 10px;
-  }
-  
-  #search-input-container {
-    flex-direction: column;
+  .dropdown-container {
+    margin-bottom: 16px; /* Increase space between dropdowns */
     width: 100%;
+    justify-content: space-between;
+  }
+  
+  select#dish-type-dropdown,
+  select#veg-type-dropdown,
+  select#meal-category-dropdown {
+    flex: 1; /* Let select take available space */
+    margin-right: 8px; /* Smaller margin to info icon */
+    min-width: 0; /* Allow select to shrink if needed */
   }
 }
 
@@ -275,5 +302,17 @@ select#meal-category-dropdown {
   ul.recipe-list li {
     padding: 12px 15px;
     font-size: 15px;
+  }
+  
+  .info-icon {
+    width: 24px; /* Keep it reasonably sized even on smallest screens */
+    height: 24px;
+    margin-left: 5px;
+  }
+  
+  .info-box {
+    max-width: 200px;
+    font-size: 11px;
+    padding: 8px;
   }
 }
