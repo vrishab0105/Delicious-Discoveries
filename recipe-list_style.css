@@ -112,118 +112,6 @@ ul.recipe-list li:hover {
 
 /* Responsive Design */
 @media (max-width: 768px) {
-  .modal-content, .add-recipe-content {
-      width: 95%;
-  }
-}
-
-
-#recipe-detail{
-  margin-top: 300px;
-}
-/* Style for all dropdowns */
-select#dish-type-dropdown,
-select#veg-type-dropdown,
-select#meal-category-dropdown {
-  position: relative; /* Position relative for absolute info box */
-  margin-top: 10px;
-  padding: 12px;
-  background-color: white;
-  color: #057464;
-  border: 2px solid #a8c0e6;
-  border-radius: 8px;
-  width: 80%;
-  max-width: 300px;
-  font-size: 16px;
-  appearance: none;
-  background-image: url('data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjMDU3NDY0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNCAxNCI+PHBhdGggZD0iTTAgMkw3IDdsNy01eiIvPjwvc3ZnPg==');
-  background-repeat: no-repeat;
-  background-position: right 10px center;
-  background-size: 12px;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  display: none; /* Hidden by default */
-  box-shadow: 0 2px 5px rgba(0,0,0,0.08);
-}
-
-select#dish-type-dropdown:hover,
-select#veg-type-dropdown:hover,
-select#meal-category-dropdown:hover,
-select#dish-type-dropdown:focus,
-select#veg-type-dropdown:focus,
-select#meal-category-dropdown:focus {
-  border-color: #057464;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  outline: none;
-}
-
-select#dish-type-dropdown:focus,
-select#veg-type-dropdown:focus,
-select#meal-category-dropdown:focus {
-  box-shadow: 0 0 5px rgba(214, 100, 0, 0.5); /* Focus outline effect */
-}
-
-/* Adjust dropdown arrow position on smaller screens */
-@media (max-width: 768px) {
-  select#dish-type-dropdown,
-  select#veg-type-dropdown {
-    width: 100%; /* Full width on smaller devices */
-  }
-}
-
-/* Info icon styles */
-.info-icon {
-  display: none;        /* Make it visible */
-  margin-left: 8px;      /* Adjust margin to position it */
-  font-size: 14px;
-  color: #057464;
-  cursor: pointer;
-  border: 1px solid #057464;
-  border-radius: 50%;
-  width: 18px;
-  height: 18px;
-  text-align: center;
-  line-height: 18px;
-  background-color: white;
-  transition: all 0.3s ease;
-}
-
-/* Adjust dropdown container */
-.dropdown-container {
-  display: flex;          /* Align items in a row */
-  align-items: center;    /* Center items vertically */
-  justify-content: center;
-  width: 100%;
-  position: relative;
-}
-
-
-.info-icon:hover {
-  background-color: #057464;
-  color: white;
-  border-color: #057464;
-}
-
-/* Info box styles */
-.info-box {
-  display: none;
-  position: absolute;
-  right: -220px;
-  top: 0;
-  background-color: white;
-  color: #333;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 8px;
-  width: 204px;
-  margin-top: 5px;
-  font-size: 14px;
-  z-index: 1000;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
-}
-
-/* Responsive Design */
-@media (max-width: 768px) {
   .container {
     margin: 60px 15px;
     padding: 20px;
@@ -243,21 +131,86 @@ select#meal-category-dropdown:focus {
   }
 }
 
-/* Improved responsive design */
-@media (min-width: 1200px) {
+/* Enhanced Mobile Optimization */
+@media (max-width: 480px) {
   .container {
-    max-width: 1200px; /* Even wider on very large screens */
+    margin: 50px 10px 30px;
+    padding: 15px;
+    border-radius: 10px;
+  }
+  
+  h1 {
+    font-size: 1.8rem;
+    margin-bottom: 25px;
+  }
+  
+  #search-term {
+    font-size: 14px;
+    padding: 10px 12px;
+  }
+  
+  .btn {
+    padding: 10px 18px;
+    font-size: 14px;
+    width: 100%;
+    margin-bottom: 5px;
+  }
+  
+  ul.recipe-list li {
+    padding: 14px 18px;
+    font-size: 16px;
+    margin: 8px 0;
+  }
+  
+  select#dish-type-dropdown,
+  select#veg-type-dropdown,
+  select#meal-category-dropdown {
+    padding: 10px;
+    font-size: 14px;
+    background-position: right 8px center;
+  }
+  
+  .dropdown-container {
+    margin-bottom: 12px;
+  }
+  
+  .info-icon {
+    width: 16px;
+    height: 16px;
+    line-height: 16px;
+    font-size: 12px;
+  }
+  
+  .info-box {
+    padding: 10px;
+    font-size: 12px;
+    width: 180px;
+  }
+  
+  /* Stack the dropdown containers vertically */
+  #search-container {
+    gap: 10px;
+  }
+  
+  #search-input-container {
+    flex-direction: column;
+    width: 100%;
   }
 }
 
-/* Search Input Styling */
-#search-term {
-  width: 100%;
-  max-width: 500px; /* Increased from default */
-  padding: 12px 15px;
-  border: 2px solid #a8c0e6;
-  border-radius: 8px;
-  font-size: 16px;
-  transition: all 0.3s ease;
-  box-shadow: inset 0 1px 3px rgba(0,0,0,0.1);
+/* Small Phone Optimization */
+@media (max-width: 320px) {
+  .container {
+    padding: 12px;
+    margin-top: 45px;
+  }
+  
+  h1 {
+    font-size: 1.6rem;
+  }
+  
+  ul.recipe-list li {
+    padding: 12px 15px;
+    font-size: 15px;
+  }
 }

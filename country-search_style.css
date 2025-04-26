@@ -198,3 +198,55 @@ footer {
         font-size: 2.2em;
     }
 }
+
+/* Enhanced Mobile Styles */
+@media (max-width: 480px) {
+    .country-buttons {
+        margin: 1rem 0.5rem;
+        padding: 5px;
+    }
+    
+    .country-buttons button {
+        padding: 0.7rem 1rem;
+        margin: 0.3rem;
+        font-size: 0.85rem;
+        border-radius: 8px;
+        width: calc(50% - 10px); /* Two buttons per row with spacing */
+        min-width: 120px;
+    }
+    
+    .page-title {
+        padding: 15px 20px 5px;
+    }
+    
+    .page-title h1 {
+        font-size: 1.8em;
+        margin-bottom: 5px;
+    }
+    
+    .page-title p {
+        font-size: 1em;
+    }
+    
+    #search-container {
+        margin: 1rem auto;
+        padding: 0 10px;
+    }
+    
+    .recipe-item {
+        padding: 1.2rem;
+    }
+    
+    .recipe-item h2 {
+        font-size: 1.3rem;
+    }
+    
+    .recipe-item p {
+        font-size: 0.9rem;
+    }
+    
+    .recipe-item a {
+        padding: 0.6rem 1.2rem;
+        font-size: 0.9rem;
+    }
+}

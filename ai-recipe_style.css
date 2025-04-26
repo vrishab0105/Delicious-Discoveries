@@ -140,3 +140,49 @@ h1 {
         width: 100%;
     }
 }
+
+/* Enhanced mobile styling */
+@media (max-width: 480px) {
+    body {
+        padding-top: 60px; /* Slightly reduce top padding for small screens */
+    }
+    
+    .container {
+        width: 92%;
+        padding: 15px;
+        margin: 20px auto;
+    }
+    
+    h1 {
+        font-size: 2rem;
+        margin-bottom: 20px;
+    }
+    
+    #dishInput {
+        padding: 12px;
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+    
+    #getRecipeButton {
+        padding: 12px 20px;
+        font-size: 15px;
+    }
+    
+    .recipe-result {
+        padding: 15px;
+        font-size: 15px;
+        line-height: 1.6;
+    }
+    
+    .download-btn {
+        padding: 12px 20px;
+        font-size: 15px;
+        width: 100%;
+    }
+    
+    .loading-indicator {
+        padding: 15px;
+        font-size: 16px;
+    }
+}
