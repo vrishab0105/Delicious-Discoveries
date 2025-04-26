@@ -1,6 +1,6 @@
 
 /node_modules
 ~$list of countrie.xlsx
-key.json
 .DS_Store
 .env
+/.vscode
