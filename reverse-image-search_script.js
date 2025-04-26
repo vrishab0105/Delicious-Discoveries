@@ -2,42 +2,71 @@
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.13.2/firebase-app.js";
 import { getDatabase, ref, onValue } from "https://www.gstatic.com/firebasejs/10.13.2/firebase-database.js";
 
-// Your web app's Firebase configuration
-const firebaseConfig = {
-    apiKey: "AIzaSyASQtEDg7g5koc-H-d6W1kGcW0k-vE-TSY",
-    authDomain: "deliciousdiscoveries04.firebaseapp.com",
-    projectId: "deliciousdiscoveries04",
-    storageBucket: "deliciousdiscoveries04.appspot.com",
-    messagingSenderId: "699923003257",
-    appId: "1:699923003257:web:e2800b973a35db246ee1a8",
-    measurementId: "G-BDWV430X2H",
-    databaseURL: "https://deliciousdiscoveries04.firebaseio.com"
-};
+let app;
+let database;
+let OPENAI_API_KEY;
 
-// Initialize Firebase
-const app = initializeApp(firebaseConfig);
-const database = getDatabase(app);
+// Function to initialize Firebase
+async function initializeFirebase() {
+    try {
+        const response = await fetch('/api/config');
+        
+        if (!response.ok) {
+            throw new Error(`HTTP error! Status: ${response.status}`);
+        }
+        
+        const data = await response.json();
+        
+        if (!data || !data.firebaseConfig) {
+            throw new Error('Invalid configuration received from server');
+        }
+        
+        // Initialize Firebase with the config from server
+        app = initializeApp(data.firebaseConfig);
+        database = getDatabase(app);
+        console.log('Firebase initialized successfully');
+        return true;
+    } catch (error) {
+        console.error('Error fetching Firebase config:', error);
+        document.getElementById('result').innerText = 'Error: Could not load Firebase configuration from server';
+        return false;
+    }
+}
+
+// Function to load OpenAI API key
+async function loadApiKey() {
+    try {
+        const response = await fetch('/api/openai-key');
+        if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+        }
+        const data = await response.json();
+        OPENAI_API_KEY = data.apiKey;
+        
+        if (!OPENAI_API_KEY) {
+            throw new Error('API key not found in server response');
+        }
+        return true;
+    } catch (error) {
+        console.error('Error loading API key:', error);
+        document.getElementById('result').innerText = 'Error: Could not load API key from server';
+        return false;
+    }
+}
+
+// Initialize Firebase and API key on page load
+document.addEventListener('DOMContentLoaded', async () => {
+    await Promise.all([initializeFirebase(), loadApiKey()]);
+});
 
 document.getElementById('searchButton').addEventListener('click', async () => {
-    let OPENAI_API_KEY;
-
-    // Try to load API key from config.json
-    try {
-        const responseConfig = await fetch('key.json');
-        if (!responseConfig.ok) {
-            throw new Error('API key file not found');
+    if (!app || !database || !OPENAI_API_KEY) {
+        // Try to initialize if they're not already initialized
+        const initialized = await Promise.all([initializeFirebase(), loadApiKey()]);
+        if (!initialized[0] || !initialized[1]) {
+            document.getElementById('result').innerText = 'Error: Failed to initialize services. Please try again later.';
+            return;
         }
-
-        const config = await responseConfig.json();
-        OPENAI_API_KEY = config.OPENAI_API_KEY;
-
-        if (!OPENAI_API_KEY) {
-            throw new Error('API key not found in key.json');
-        }
-    } catch (error) {
-        console.error('Error loading API key:', error.message);
-        document.getElementById('result').innerText = 'Error: API key not found or key.json missing';
-        return;
     }
 
     const imageInput = document.getElementById('imageInput');
