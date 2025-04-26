@@ -210,14 +210,27 @@ body:not(.translate-active) {
   }
   
   .nav-center a {
-    margin: 15px 0;
+    margin: 8px 0; /* Reduced from 15px to 8px for closer spacing */
     width: 80%;
-    padding: 15px 0;
+    padding: 12px 0; /* Slightly reduced padding */
     justify-content: center;
+    font-size: 18px; /* Keeping consistent font size */
   }
   
   .nav-center a::after {
     bottom: 5px;
+  }
+  
+  /* Add a subtle visual separation between menu items */
+  .nav-center a:not(:last-child) {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    padding-bottom: 15px;
+  }
+  
+  /* Better positioning for mobile menu items */
+  .nav-center {
+    align-items: center; /* Center items horizontally */
+    padding-top: 40px; /* Give more space at the top */
   }
   
   #google_translate_element {
