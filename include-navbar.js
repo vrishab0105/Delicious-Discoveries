@@ -11,12 +11,58 @@ document.addEventListener('DOMContentLoaded', function() {
       
       // Load Google Translate script after navbar is loaded
       loadGoogleTranslateScript();
+      
+      // Add mobile menu toggle functionality after navbar is loaded
+      setupMobileMenu();
     })
     .catch(error => console.error('Error loading navbar:', error));
 
   // Start monitoring for Google Translate bar
   monitorTranslateBar();
 });
+
+// Function to setup mobile menu functionality
+function setupMobileMenu() {
+  const mobileMenuToggle = document.getElementById('mobile-menu-toggle');
+  const navCenter = document.querySelector('.nav-center');
+  
+  if (mobileMenuToggle && navCenter) {
+    // Toggle menu on button click
+    mobileMenuToggle.addEventListener('click', function() {
+      navCenter.classList.toggle('active');
+      
+      // Toggle hamburger to X animation
+      const spans = mobileMenuToggle.querySelectorAll('span');
+      if (spans.length === 3) {
+        if (navCenter.classList.contains('active')) {
+          spans[0].style.transform = 'rotate(45deg) translate(5px, 6px)';
+          spans[1].style.opacity = '0';
+          spans[2].style.transform = 'rotate(-45deg) translate(5px, -6px)';
+        } else {
+          spans[0].style.transform = 'none';
+          spans[1].style.opacity = '1';
+          spans[2].style.transform = 'none';
+        }
+      }
+    });
+    
+    // Close menu when a link is clicked
+    const navLinks = navCenter.querySelectorAll('a');
+    navLinks.forEach(link => {
+      link.addEventListener('click', function() {
+        navCenter.classList.remove('active');
+        
+        // Reset hamburger icon
+        const spans = mobileMenuToggle.querySelectorAll('span');
+        if (spans.length === 3) {
+          spans[0].style.transform = 'none';
+          spans[1].style.opacity = '1';
+          spans[2].style.transform = 'none';
+        }
+      });
+    });
+  }
+}
 
 // Function to load Google Translate script
 function loadGoogleTranslateScript() {

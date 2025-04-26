@@ -199,3 +199,54 @@ p {
         max-width: 100%;
     }
 }
+
+/* Additional Mobile Responsiveness */
+@media (max-width: 480px) {
+    .about-container {
+        padding: 15px;
+        margin: 20px 10px;
+    }
+    
+    h1 {
+        font-size: 2rem;
+    }
+    
+    h2 {
+        font-size: 1.5rem;
+        margin-top: 30px;
+    }
+    
+    .intro {
+        font-size: 1rem;
+        margin-bottom: 30px;
+    }
+    
+    .team-container {
+        gap: 15px;
+    }
+    
+    .student-card {
+        padding: 15px;
+        width: 100%;
+        max-width: none;
+    }
+    
+    .student-photo, .special-thanks img {
+        width: 100px;
+        height: 100px;
+    }
+    
+    .special-thanks {
+        padding: 20px;
+        margin-top: 30px;
+    }
+    
+    .github-link {
+        padding: 6px 12px;
+        font-size: 0.85rem;
+    }
+    
+    h3 {
+        font-size: 1.2rem;
+    }
+}

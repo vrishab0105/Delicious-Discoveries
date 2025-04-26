@@ -212,3 +212,58 @@ a:hover {
         max-width: 100%;
     }
 }
+
+/* Enhanced mobile styling */
+@media (max-width: 480px) {
+    body {
+        padding-top: 60px;
+    }
+    
+    .container {
+        margin: 10px;
+        padding: 15px;
+        border-radius: 10px;
+    }
+    
+    h1 {
+        font-size: 1.8rem;
+        margin-bottom: 15px;
+    }
+    
+    h2 {
+        font-size: 1.5rem;
+        margin-bottom: 15px;
+    }
+    
+    .recipe-details p {
+        font-size: 1rem;
+        margin-bottom: 10px;
+    }
+    
+    .ingredients, .steps {
+        padding: 15px;
+        margin-top: 20px;
+    }
+    
+    .ingredients h3, .steps h3 {
+        font-size: 1.3rem;
+        margin-bottom: 10px;
+    }
+    
+    .ingredients ul li, .steps ol li {
+        font-size: 1rem;
+        margin-bottom: 8px;
+        line-height: 1.5;
+    }
+    
+    .button {
+        padding: 10px 16px;
+        font-size: 1rem;
+        width: 100%;
+        max-width: none;
+    }
+    
+    #recipe-detail {
+        margin-top: 60px;
+    }
+}
