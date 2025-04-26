@@ -22,10 +22,3 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }, 100); // Small delay to ensure navbar has loaded
 });
-
-// Set the logo source dynamically based on the current location
-document.addEventListener('DOMContentLoaded', () => {
-    const logoImage = document.getElementById('navbar-logo');
-    // Directly using the relative path
-    logoImage.src = 'photos/logo.jpeg'; // Update this path if necessary
-});
