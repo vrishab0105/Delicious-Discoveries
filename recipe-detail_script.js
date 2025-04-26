@@ -1,21 +1,40 @@
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.13.1/firebase-app.js";
 import { getDatabase, ref, get } from "https://www.gstatic.com/firebasejs/10.13.1/firebase-database.js";
 
-// Your web app's Firebase configuration
-const firebaseConfig = {
-   apiKey: "AIzaSyASQtEDg7g5koc-H-d6W1kGcW0k-vE-TSY",
-   authDomain: "deliciousdiscoveries04.firebaseapp.com",
-   projectId: "deliciousdiscoveries04",
-   storageBucket: "deliciousdiscoveries04.appspot.com",
-   messagingSenderId: "699923003257",
-   appId: "1:699923003257:web:e2800b973a35db246ee1a8",
-   measurementId: "G-BDWV430X2H",
-   databaseURL: "https://deliciousdiscoveries04.firebaseio.com" // Add correct database URL
-};
+let app;
+let db;
 
-// Initialize Firebase
-initializeApp(firebaseConfig);
-const db = getDatabase();
+// Function to initialize Firebase
+async function initializeFirebase() {
+    try {
+        // Always use absolute path for API endpoint
+        const configEndpoint = '/api/config';
+        console.log('Fetching Firebase config from:', configEndpoint);
+        
+        const response = await fetch(configEndpoint);
+        
+        if (!response.ok) {
+            throw new Error(`HTTP error! Status: ${response.status}`);
+        }
+        
+        const data = await response.json();
+        
+        if (!data || !data.firebaseConfig) {
+            throw new Error('Invalid configuration received from server');
+        }
+        
+        console.log('Firebase config received successfully');
+        
+        // Initialize Firebase with the config from server
+        app = initializeApp(data.firebaseConfig);
+        db = getDatabase(app);
+        console.log('Firebase initialized successfully');
+        return true; // Return true to indicate successful initialization
+    } catch (error) {
+        console.error('Error fetching Firebase config:', error);
+        return false; // Return false to indicate failed initialization
+    }
+}
 
 // Helper function to capitalize the first letter of each word
 function capitalizeFirstLetter(str) {
@@ -32,6 +51,15 @@ window.navigateTo = function(page) {
 
 // Load recipe details when the page is loaded
 document.addEventListener('DOMContentLoaded', async () => {
+    // Initialize Firebase first
+    const initialized = await initializeFirebase();
+    if (!initialized) {
+        console.error("Firebase initialization failed. Recipe details cannot be loaded.");
+        document.getElementById('recipe-content').innerHTML = 
+            '<p>Error: Unable to connect to the database. Please try again later.</p>';
+        return;
+    }
+    
     const urlParams = new URLSearchParams(window.location.search);
     const recipeId = urlParams.get('recipeId');
 
