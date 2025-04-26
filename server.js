@@ -16,6 +16,9 @@ app.use(express.static(__dirname));
 // Explicitly serve files from the photos directory
 app.use('/photos', express.static(path.join(__dirname, 'photos')));
 
+// Explicitly serve files from the dishes directory
+app.use('/dishes', express.static(path.join(__dirname, 'dishes')));
+
 // API endpoint to serve Firebase config
 app.get('/api/config', (req, res) => {
   try {
@@ -83,10 +86,37 @@ app.get('/ai-recipe', (req, res) => {
 }
 );
 
+// Add routes for additional HTML files
+app.get('/country-search', (req, res) => {
+  res.sendFile(path.join(__dirname, 'country-search.html'));
+});
+
+app.get('/ingredients', (req, res) => {
+  res.sendFile(path.join(__dirname, 'ingredients.html'));
+});
+
+app.get('/recipe-detail', (req, res) => {
+  res.sendFile(path.join(__dirname, 'recipe-detail.html'));
+});
+
+app.get('/recipe-list', (req, res) => {
+  res.sendFile(path.join(__dirname, 'recipe-list.html'));
+});
+
+app.get('/reverse-image-search', (req, res) => {
+  res.sendFile(path.join(__dirname, 'reverse-image-search.html'));
+});
+
 // Add a specific route to handle image requests
 app.get('/photos/:filename', (req, res) => {
   const filename = req.params.filename;
   res.sendFile(path.join(__dirname, 'photos', filename));
+});
+
+// Add a specific route to handle dishes file requests
+app.get('/dishes/:filename', (req, res) => {
+  const filename = req.params.filename;
+  res.sendFile(path.join(__dirname, 'dishes', filename));
 });
 
 // Catch-all route to handle SPA routing and direct requests to CSS/JS files
@@ -96,6 +126,9 @@ app.get('*', (req, res) => {
     res.sendFile(path.join(__dirname, req.path));
   } else if (req.path.startsWith('/photos/') && (req.path.endsWith('.gif') || req.path.endsWith('.png') || req.path.endsWith('.jpg') || req.path.endsWith('.jpeg'))) {
     // Handle image files specifically
+    res.sendFile(path.join(__dirname, req.path));
+  } else if (req.path.startsWith('/dishes/') && (req.path.endsWith('.gif') || req.path.endsWith('.png') || req.path.endsWith('.jpg') || req.path.endsWith('.jpeg'))) {
+    // Handle dish image files specifically
     res.sendFile(path.join(__dirname, req.path));
   } else {
     res.sendFile(path.join(__dirname, 'homepage.html'));
