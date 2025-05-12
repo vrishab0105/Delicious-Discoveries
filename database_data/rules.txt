@@ -1,0 +1,9 @@
+{
+  "rules": {
+    ".read": true,
+    ".write": true,
+    "recipes": {
+      ".indexOn": ["name", "country","meal_category","dish_category","dish_type"]
+    }
+  }
+}
