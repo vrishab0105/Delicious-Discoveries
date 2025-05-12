@@ -102,6 +102,43 @@ OPENAI_API_KEY=your_openai_api_key_here
 PORT=3000
 ```
 
+### Database Setup
+
+To duplicate the database for your own use, follow these steps:
+
+1. **Create Firebase Database**
+   - Create a new Firebase project at https://console.firebase.google.com/
+   - Set up a Realtime Database (not Firestore)
+   - Choose "Start in test mode" initially
+
+2. **Import Database Data**
+   - Download the JSON data from `/database_data/database.json`
+   - In the Firebase console, navigate to Realtime Database
+   - Click the three dots menu (⋮) and select "Import JSON"
+   - Upload the `database.json` file
+   - Wait for the import to complete
+
+3. **Set Database Rules**
+   - In the Firebase console, go to the "Rules" tab of your Realtime Database
+   - Replace the default rules with the content from `/database_data/rules.txt`
+   - Click "Publish" to apply the rules
+
+4. **Set Up Storage for Images**
+   - Create a Storage bucket in your Firebase project
+   - Upload all images from the images folder to your Storage bucket
+   - Make sure to maintain the folder structure (e.g., india/, USA/, italy/, etc.)
+
+5. **Update Image URLs in Database**
+   - After uploading images, you'll need to update all image URLs in the database
+   - For each image reference in the database, replace the old Storage URL with your new one
+   - You can do this manually through the Firebase console or with a script
+   - The URL format will be: `https://firebasestorage.googleapis.com/v0/b/YOUR_PROJECT_ID.appspot.com/o/PATH_TO_IMAGE?alt=media&token=GENERATED_TOKEN`
+
+6. **Update Firebase Config**
+   - After setting up the database and storage, update your `.env` file with the new Firebase configuration details
+
+> **Note:** Make sure your Storage bucket permissions allow read access for your application users.
+
 ## 📦 Project Structure
 
 - `server.js` - Express server entry point
